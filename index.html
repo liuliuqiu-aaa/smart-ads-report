@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智能托管广告 - 报告中心</title>
+<style>
+  :root {
+    --bg: #0f1117; --card: #1a1d27; --border: #2a2d3a;
+    --text: #e1e4ed; --text2: #8b8fa3; --accent: #6366f1;
+    --green: #22c55e; --red: #ef4444; --yellow: #f59e0b;
+    --blue: #3b82f6; --orange: #f97316;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,'PingFang SC','Microsoft YaHei',sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
+
+  .header { background:linear-gradient(135deg,#1e1b4b,#312e81); padding:24px 32px; border-bottom:1px solid var(--border); }
+  .header h1 { font-size:22px; font-weight:600; }
+  .header .subtitle { color:var(--text2); font-size:14px; margin-top:4px; }
+  .header .product-info { display:flex; gap:12px; margin-top:12px; flex-wrap:wrap; }
+  .header .tag { background:rgba(255,255,255,0.1); padding:4px 12px; border-radius:6px; font-size:13px; }
+  .header .date-nav { display:flex; align-items:center; gap:12px; margin-top:12px; }
+  .header .date-nav select { background:rgba(255,255,255,0.1); color:var(--text); border:1px solid rgba(255,255,255,0.2); padding:6px 12px; border-radius:6px; font-size:13px; }
+
+  .tabs { display:flex; background:var(--card); border-bottom:1px solid var(--border); padding:0 32px; gap:0; overflow-x:auto; }
+  .tab { padding:14px 24px; cursor:pointer; font-size:14px; color:var(--text2); border-bottom:2px solid transparent; white-space:nowrap; transition:all .2s; user-select:none; }
+  .tab:hover { color:var(--text); }
+  .tab.active { color:var(--accent); border-bottom-color:var(--accent); font-weight:500; }
+
+  .container { max-width:1200px; margin:0 auto; padding:24px 32px; }
+  .section { display:none; }
+  .section.active { display:block; }
+  .loading { text-align:center; padding:60px; color:var(--text2); font-size:16px; }
+
+  .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:24px; margin-bottom:20px; }
+  .card h2 { font-size:17px; margin-bottom:16px; display:flex; align-items:center; gap:8px; }
+  .card h3 { font-size:15px; margin:16px 0 12px; color:var(--text2); }
+
+  .stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:12px; }
+  .stat-box { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:8px; padding:14px; text-align:center; }
+  .stat-box .label { font-size:12px; color:var(--text2); }
+  .stat-box .value { font-size:22px; font-weight:700; margin-top:4px; }
+  .stat-box .change { font-size:12px; margin-top:2px; }
+  .up { color:var(--red); }
+  .down { color:var(--green); }
+
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  th { text-align:left; padding:10px 12px; background:rgba(255,255,255,0.04); color:var(--text2); font-weight:500; border-bottom:1px solid var(--border); white-space:nowrap; }
+  td { padding:10px 12px; border-bottom:1px solid var(--border); }
+  tr:hover td { background:rgba(99,102,241,0.05); }
+
+  .badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:600; }
+  .badge-green { background:rgba(34,197,94,0.15); color:var(--green); }
+  .badge-red { background:rgba(239,68,68,0.15); color:var(--red); }
+  .badge-yellow { background:rgba(245,158,11,0.15); color:var(--yellow); }
+  .badge-blue { background:rgba(59,130,246,0.15); color:var(--blue); }
+  .badge-gray { background:rgba(139,143,163,0.15); color:var(--text2); }
+
+  .status-success { color:var(--green); }
+  .status-exist { color:var(--text2); }
+
+  .campaign-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:16px; }
+  .campaign-card { background:rgba(255,255,255,0.02); border:1px solid var(--border); border-radius:10px; padding:18px; }
+  .campaign-card .name { font-size:13px; font-weight:600; margin-bottom:8px; }
+  .campaign-card .meta { font-size:12px; color:var(--text2); margin-bottom:12px; }
+  .campaign-card .mini-grid { display:grid; grid-template-columns:1fr 1fr; gap:6px; }
+  .campaign-card .mini-stat { font-size:12px; }
+  .campaign-card .mini-stat span { color:var(--text2); }
+
+  .layer-header { display:flex; align-items:center; gap:8px; margin:20px 0 10px; font-size:15px; font-weight:600; }
+  .layer-count { font-size:13px; color:var(--text2); font-weight:400; }
+
+  .anomaly { background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.2); border-radius:8px; padding:14px 16px; margin-bottom:10px; display:flex; gap:10px; align-items:flex-start; }
+  .anomaly .icon { font-size:18px; flex-shrink:0; }
+  .anomaly .text { font-size:13px; }
+
+  .action-summary { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:20px; }
+  .action-chip { display:flex; align-items:center; gap:6px; background:rgba(255,255,255,0.04); border:1px solid var(--border); border-radius:8px; padding:8px 14px; font-size:13px; }
+  .action-chip .num { font-size:20px; font-weight:700; }
+
+  .result-bar { display:flex; height:8px; border-radius:4px; overflow:hidden; margin:12px 0; }
+  .result-bar .seg { height:100%; }
+  .result-bar .seg-ok { background:var(--green); }
+  .result-bar .seg-exist { background:var(--text2); }
+  .result-bar .seg-fail { background:var(--red); }
+
+  .footer { text-align:center; padding:24px; color:var(--text2); font-size:12px; border-top:1px solid var(--border); margin-top:40px; }
+
+  @media (max-width:768px) {
+    .container { padding:16px; }
+    .header { padding:16px; }
+    .tabs { padding:0 16px; }
+    .tab { padding:12px 16px; font-size:13px; }
+    .stat-grid { grid-template-columns:repeat(2,1fr); }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 智能托管广告 — 报告中心</h1>
+  <div class="subtitle">Smart Ads Agent Report Dashboard</div>
+  <div id="productInfo" class="product-info"></div>
+  <div class="date-nav">
+    <span style="font-size:13px;color:var(--text2);">📅 报告日期:</span>
+    <select id="dateSelect" onchange="loadReport(this.value)"></select>
+  </div>
+</div>
+
+<div class="tabs">
+  <div class="tab active" onclick="switchTab('overview',this)">📋 整体概览</div>
+  <div class="tab" onclick="switchTab('analysis',this)">📈 智能分析报告</div>
+  <div class="tab" onclick="switchTab('actions',this)">🎯 操作指示清单</div>
+  <div class="tab" onclick="switchTab('execlog',this)">✅ 执行结果</div>
+</div>
+
+<div class="container">
+  <div id="loadingMsg" class="loading">加载数据中...</div>
+
+  <div id="overview" class="section"></div>
+  <div id="analysis" class="section"></div>
+  <div id="actions" class="section"></div>
+  <div id="execlog" class="section"></div>
+</div>
+
+<div class="footer">
+  Smart Ads Agent · 智能托管广告系统 · 数据每日自动更新
+</div>
+
+<script>
+let DATA = null;
+
+function switchTab(id, el) {
+  document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  if (el) el.classList.add('active');
+  document.getElementById(id).classList.add('active');
+}
+
+function acosColor(acos, target) {
+  if (acos === 0) return '';
+  if (acos <= target) return 'color:var(--green)';
+  if (acos <= target * 1.5) return 'color:var(--yellow)';
+  return 'color:var(--red)';
+}
+
+function acosBadge(acos) {
+  if (acos <= 20) return `<span class="badge badge-green">${acos}%</span>`;
+  if (acos <= 40) return `<span class="badge badge-yellow">${acos}%</span>`;
+  return `<span class="badge badge-red">${acos}%</span>`;
+}
+
+function fmt(n) { return typeof n === 'number' ? n.toLocaleString() : n; }
+function fmtD(n) { return typeof n === 'number' ? '$' + n.toFixed(2) : n; }
+
+function renderOverview(d) {
+  const s7 = d.summary.last7days, sy = d.summary.yesterday;
+  const target = d.product.targetAcos;
+  return `
+    <div class="card">
+      <h2>📊 整体表现 — 最近7天</h2>
+      <div class="stat-grid">
+        <div class="stat-box"><div class="label">ACOS</div><div class="value" style="${acosColor(s7.acos,target)}">${s7.acos}%</div><div class="change ${s7.acos>target?'up':'down'}">⚠️ ${s7.acos>target?'超目标'+(s7.acos-target).toFixed(1)+'%':'已达目标'}</div></div>
+        <div class="stat-box"><div class="label">总花费</div><div class="value">${fmtD(s7.spend)}</div><div class="change">日均 ${fmtD(s7.spend/7)}</div></div>
+        <div class="stat-box"><div class="label">总订单</div><div class="value">${s7.orders}</div><div class="change">销量 ${s7.salesVolume}件</div></div>
+        <div class="stat-box"><div class="label">总销售额</div><div class="value">${fmtD(s7.salesAmount)}</div><div class="change">日均 ${fmtD(s7.salesAmount/7)}</div></div>
+        <div class="stat-box"><div class="label">ROAS</div><div class="value">${s7.roas}</div><div class="change">每$1→$${s7.roas}销售</div></div>
+        <div class="stat-box"><div class="label">总曝光</div><div class="value">${fmt(s7.impressions)}</div><div class="change">CTR ${s7.ctr}%</div></div>
+        <div class="stat-box"><div class="label">总点击</div><div class="value">${fmt(s7.clicks)}</div><div class="change">CPC ${fmtD(s7.cpc)}</div></div>
+        <div class="stat-box"><div class="label">日预算合计</div><div class="value">${fmtD(d.summary.totalDailyBudget)}</div><div class="change">上限 $${d.product.budgetLimit}</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>📊 昨天表现</h2>
+      <div class="stat-grid">
+        <div class="stat-box"><div class="label">ACOS</div><div class="value" style="${acosColor(sy.acos,target)}">${sy.acos}%</div></div>
+        <div class="stat-box"><div class="label">花费</div><div class="value">${fmtD(sy.spend)}</div></div>
+        <div class="stat-box"><div class="label">订单</div><div class="value">${sy.orders}</div></div>
+        <div class="stat-box"><div class="label">销售额</div><div class="value">${fmtD(sy.salesAmount)}</div></div>
+        <div class="stat-box"><div class="label">曝光</div><div class="value">${fmt(sy.impressions)}</div></div>
+        <div class="stat-box"><div class="label">点击</div><div class="value">${fmt(sy.clicks)}</div><div class="change">CTR ${sy.ctr}%</div></div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>📦 ${d.campaigns.length}个广告活动概览</h2>
+      <div class="campaign-grid">
+        ${d.campaigns.map(c => `
+          <div class="campaign-card">
+            <div class="name">${c.name}</div>
+            <div class="meta">ID: ${c.id} | 预算: $${c.budget}/日 | ${c.targetingCount}个${c.targetingType}</div>
+            <div class="mini-grid">
+              <div class="mini-stat"><span>7天ACOS:</span> <strong style="${acosColor(c.last7days.acos,target)}">${c.last7days.acos}%</strong></div>
+              <div class="mini-stat"><span>昨天ACOS:</span> <strong style="${acosColor(c.yesterday.acos,target)}">${c.yesterday.acos}%</strong></div>
+              <div class="mini-stat"><span>7天花费:</span> ${fmtD(c.last7days.spend)}</div>
+              <div class="mini-stat"><span>昨天花费:</span> ${fmtD(c.yesterday.spend)}</div>
+              <div class="mini-stat"><span>7天订单:</span> ${c.last7days.orders}单</div>
+              <div class="mini-stat"><span>昨天订单:</span> ${c.yesterday.orders}单</div>
+              <div class="mini-stat"><span>7天销售:</span> ${fmtD(c.last7days.salesAmount)}</div>
+              <div class="mini-stat"><span>昨天销售:</span> ${fmtD(c.yesterday.salesAmount)}</div>
+            </div>
+          </div>
+        `).join('')}
+      </div>
+    </div>`;
+}
+
+function renderKeywordTable(keywords, showSuggestion) {
+  if (showSuggestion) {
+    return `<table><tr><th>关键词</th><th>竞价</th><th>曝光</th><th>点击</th><th>花费</th><th>订单</th><th>建议</th></tr>
+      ${keywords.map(k=>`<tr><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmt(k.impressions)}</td><td>${k.clicks}</td><td>${fmtD(k.spend)}</td><td>${k.orders}</td><td><span class="badge badge-gray">${k.suggestion}</span></td></tr>`).join('')}</table>`;
+  }
+  return `<table><tr><th>关键词</th><th>竞价</th><th>曝光</th><th>点击</th><th>花费</th><th>订单</th><th>销售额</th><th>ACOS</th><th>CVR</th></tr>
+    ${keywords.map(k=>`<tr ${k.acos>40?'style="background:rgba(239,68,68,0.06)"':''}><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmt(k.impressions)}</td><td>${k.clicks}</td><td>${k.spend>50?'<strong>':''}${fmtD(k.spend)}${k.spend>50?'</strong>':''}</td><td>${k.orders}</td><td>${fmtD(k.sales)}</td><td>${acosBadge(k.acos)}</td><td>${k.cvr}%</td></tr>`).join('')}</table>`;
+}
+
+function renderAnalysis(d) {
+  const kl = d.keywordLayers;
+  return `
+    <div class="card">
+      <h2>🔍 核心诊断</h2>
+      ${d.diagnosis.map(a=>`<div class="anomaly"><div class="icon">${a.icon}</div><div class="text">${a.text}</div></div>`).join('')}
+    </div>
+    <div class="card">
+      <h2>📊 活动#1 关键词分层分析（30天）</h2>
+      <div class="layer-header">🟢 优质词 (ACOS <20%) <span class="layer-count">— ${kl.excellent.length}个关键词</span></div>
+      ${renderKeywordTable(kl.excellent)}
+      <p style="font-size:12px;color:var(--text2);margin-top:6px;">*CVR>100% = 广告归因窗口延迟</p>
+      <div class="layer-header">🟡 潜力词 (ACOS 20-30%) <span class="layer-count">— ${kl.potential.length}个关键词</span></div>
+      ${renderKeywordTable(kl.potential)}
+      <div class="layer-header">🔴 亏损词 (ACOS >30%) <span class="layer-count">— ${kl.losing.length}个关键词，占总花费70%！</span></div>
+      ${renderKeywordTable(kl.losing)}
+      <div class="layer-header">⚪ 零转化/低量词 <span class="layer-count">— ${kl.lowVolume.length}个关键词</span></div>
+      ${renderKeywordTable(kl.lowVolume, true)}
+    </div>
+    <div class="card">
+      <h2>📊 活动#2 自动投放分层分析</h2>
+      <table><tr><th>投放类型</th><th>竞价</th><th>ACOS</th><th>建议</th></tr>
+        ${d.autoTargeting.map(t=>`<tr><td>${t.type}</td><td>${fmtD(t.bid)}</td><td>${t.acos!==null?acosBadge(t.acos):'<span class="badge badge-gray">—</span>'}</td><td>${t.action}</td></tr>`).join('')}
+      </table>
+    </div>
+    <div class="card">
+      <h2>🎯 预期效果</h2>
+      <div class="stat-grid">
+        <div class="stat-box"><div class="label">当前ACOS</div><div class="value up">${d.forecast.currentAcos}%</div></div>
+        <div class="stat-box"><div class="label">→ 短期(3-5天)</div><div class="value" style="color:var(--yellow)">${d.forecast.shortTerm}</div></div>
+        <div class="stat-box"><div class="label">→ 中期(2周)</div><div class="value" style="color:var(--green)">${d.forecast.midTerm}</div></div>
+        <div class="stat-box"><div class="label">当前日均订单</div><div class="value">${d.forecast.currentDailyOrders}单</div></div>
+        <div class="stat-box"><div class="label">→ 预期日均订单</div><div class="value" style="color:var(--green)">~${d.forecast.expectedDailyOrders}单</div></div>
+        <div class="stat-box"><div class="label">日预算</div><div class="value">$${d.forecast.budgetBefore}→$${d.forecast.budgetAfter}</div></div>
+      </div>
+    </div>`;
+}
+
+function renderActions(d) {
+  const a = d.actions;
+  return `
+    <div class="card">
+      <h2>📋 操作摘要</h2>
+      <div class="action-summary">
+        <div class="action-chip"><div class="num" style="color:var(--red)">${a.summary.bidDown}</div> 降竞价 (P0止血)</div>
+        <div class="action-chip"><div class="num" style="color:var(--blue)">${a.summary.budgetAdjust}</div> 预算调整 (P1重分配)</div>
+        <div class="action-chip"><div class="num" style="color:var(--green)">${a.summary.bidUp}</div> 提竞价 (P2加注)</div>
+        <div class="action-chip"><div class="num" style="color:var(--accent)">${a.summary.newKeyword}</div> 新增关键词 (P3拓展)</div>
+        <div class="action-chip"><div class="num">${a.summary.total}</div> 总计</div>
+      </div>
+    </div>
+    <div class="card">
+      <h2>🔴 P0 止血 — 竞价下调</h2>
+      <table><tr><th>#</th><th>广告活动</th><th>关键词</th><th>匹配</th><th>当前</th><th>目标</th><th>降幅</th><th>原因</th></tr>
+        ${a.bidDown.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.from)}</td><td><strong>${fmtD(r.to)}</strong></td><td>${r.change}</td><td>${r.reason}</td></tr>`).join('')}
+      </table>
+    </div>
+    <div class="card">
+      <h2>📈 P1 预算重新分配</h2>
+      <table><tr><th>#</th><th>广告活动</th><th>当前</th><th>目标</th><th>调幅</th><th>逻辑</th></tr>
+        ${a.budgetAdjust.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>$${r.from}/天</td><td><strong>$${r.to}/天</strong></td><td>${r.change}</td><td>${r.reason}</td></tr>`).join('')}
+      </table>
+    </div>
+    <div class="card">
+      <h2>🟢 P2 加注赢家 — 竞价上调</h2>
+      <table><tr><th>#</th><th>广告活动</th><th>关键词</th><th>匹配</th><th>当前</th><th>目标</th><th>涨幅</th><th>ACOS</th></tr>
+        ${a.bidUp.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.from)}</td><td><strong>${fmtD(r.to)}</strong></td><td>${r.change}</td><td>${r.acos}%</td></tr>`).join('')}
+      </table>
+    </div>
+    <div class="card">
+      <h2>🆕 P3 新增精准关键词</h2>
+      <table><tr><th>#</th><th>关键词</th><th>匹配</th><th>竞价</th><th>目标活动</th><th>逻辑</th></tr>
+        ${a.newKeywords.map(r=>`<tr><td>${r.seq}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.bid)}</td><td>${r.campaign}</td><td>${r.reason}</td></tr>`).join('')}
+      </table>
+    </div>`;
+}
+
+function renderExeclog(d) {
+  const e = d.execution;
+  const okPct = (e.success/e.total*100).toFixed(1);
+  const exPct = (e.existed/e.total*100).toFixed(1);
+  return `
+    <div class="card">
+      <h2>✅ 执行摘要</h2>
+      <div style="font-size:13px;color:var(--text2);margin-bottom:12px;">执行时间: ${new Date(e.startTime).toLocaleString('zh-CN')} ~ ${new Date(e.endTime).toLocaleTimeString('zh-CN')} | ${e.method}</div>
+      <div class="stat-grid" style="grid-template-columns:repeat(4,1fr);">
+        <div class="stat-box"><div class="label">总操作</div><div class="value">${e.total}</div></div>
+        <div class="stat-box"><div class="label">✅ 成功</div><div class="value status-success">${e.success}</div></div>
+        <div class="stat-box"><div class="label">⚠️ 已存在</div><div class="value status-exist">${e.existed}</div></div>
+        <div class="stat-box"><div class="label">❌ 失败</div><div class="value" style="color:${e.failed>0?'var(--red)':'var(--green)'}">${e.failed}</div></div>
+      </div>
+      <div class="result-bar">
+        <div class="seg seg-ok" style="width:${okPct}%"></div>
+        <div class="seg seg-exist" style="width:${exPct}%"></div>
+        ${e.failed>0?`<div class="seg seg-fail" style="width:${(e.failed/e.total*100).toFixed(1)}%"></div>`:''}
+      </div>
+      <div style="display:flex;gap:16px;font-size:12px;color:var(--text2);">
+        <span>🟢 成功 ${okPct}%</span> <span>⚪ 已存在 ${exPct}%</span> <span>🔴 失败 ${e.failed>0?(e.failed/e.total*100).toFixed(1):'0'}%</span>
+      </div>
+    </div>
+    <div class="card">
+      <h2>📋 全部执行记录</h2>
+      <table><tr><th>#</th><th>类型</th><th>目标</th><th>调整前</th><th>调整后</th><th>状态</th></tr>
+        ${e.results.map(r=>{
+          let typeLabel = {'bidDown':'⬇️ 降竞价','bidUp':'⬆️ 提竞价','budget':'📊 预算','newKeyword':'🆕 新增'}[r.type]||r.type;
+          let target = r.keyword || r.campaign || '';
+          let from = r.from !== undefined ? (r.type==='budget'?'$'+r.from+'/天':fmtD(r.from)) : '—';
+          let to = r.to !== undefined ? (r.type==='budget'?'$'+r.to+'/天':fmtD(r.to)) : (r.bid?fmtD(r.bid):'—');
+          let status = r.status==='success'?'<span class="status-success">✅ 成功</span>':r.status==='existed'?'<span class="status-exist">⚠️ 已存在</span>':'<span style="color:var(--red)">❌ 失败</span>';
+          return `<tr><td>${r.seq}</td><td>${typeLabel}</td><td>${target}</td><td>${from}</td><td>${to}</td><td>${status}</td></tr>`;
+        }).join('')}
+      </table>
+    </div>
+    <div class="card">
+      <h2>💰 预算变化汇总</h2>
+      <table><tr><th>活动</th><th>调整前</th><th>调整后</th><th>变化</th></tr>
+        ${e.budgetChanges.map(b=>`<tr><td>${b.campaign}</td><td>$${b.before}/天</td><td>$${b.after}/天</td><td style="color:${b.change>0?'var(--red)':b.change<0?'var(--green)':'var(--text2)'};">${b.change>0?'+':''}${b.change===0?'不变':'$'+b.change}</td></tr>`).join('')}
+        <tr style="font-weight:700;"><td>总计</td><td>$${e.budgetChanges.reduce((s,b)=>s+b.before,0).toFixed(1)}/天</td><td>$${e.budgetChanges.reduce((s,b)=>s+b.after,0).toFixed(1)}/天</td><td>+$${e.budgetChanges.reduce((s,b)=>s+b.change,0).toFixed(1)}</td></tr>
+      </table>
+    </div>`;
+}
+
+function renderAll(d) {
+  DATA = d;
+  document.getElementById('loadingMsg').style.display = 'none';
+
+  // Header
+  const p = d.product;
+  document.getElementById('productInfo').innerHTML = `
+    <span class="tag">🏷 ${p.title}</span>
+    <span class="tag">ASIN: ${p.mainAsin}</span>
+    <span class="tag">💰 ${p.price}</span>
+    <span class="tag">🎯 目标ACOS ≤${p.targetAcos}%</span>
+    <span class="tag">⭐ ${p.rating} (${p.reviews}条)</span>
+  `;
+
+  // Render tabs
+  document.getElementById('overview').innerHTML = renderOverview(d);
+  document.getElementById('analysis').innerHTML = renderAnalysis(d);
+  document.getElementById('actions').innerHTML = renderActions(d);
+  document.getElementById('execlog').innerHTML = renderExeclog(d);
+
+  // Show first tab
+  document.getElementById('overview').classList.add('active');
+}
+
+async function loadReport(date) {
+  const file = date ? `data/report-${date}.json` : 'data/report-latest.json';
+  try {
+    const resp = await fetch(file + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('Not found');
+    const data = await resp.json();
+    renderAll(data);
+  } catch(e) {
+    document.getElementById('loadingMsg').innerHTML = '❌ 加载数据失败: ' + e.message;
+    document.getElementById('loadingMsg').style.display = 'block';
+  }
+}
+
+async function init() {
+  // Load available dates from index
+  try {
+    const resp = await fetch('data/dates.json?t=' + Date.now());
+    if (resp.ok) {
+      const dates = await resp.json();
+      const sel = document.getElementById('dateSelect');
+      dates.forEach(d => {
+        const opt = document.createElement('option');
+        opt.value = d;
+        opt.textContent = d;
+        sel.appendChild(opt);
+      });
+    }
+  } catch(e) {
+    // No dates index, just use latest
+    const sel = document.getElementById('dateSelect');
+    const opt = document.createElement('option');
+    opt.value = '';
+    opt.textContent = '最新';
+    sel.appendChild(opt);
+  }
+  loadReport('');
+}
+
+init();
+</script>
+</body>
+</html>
