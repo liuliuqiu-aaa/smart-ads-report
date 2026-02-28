@@ -241,7 +241,7 @@ function renderAnalysis(d) {
     <div class="card">
       <h2>🎯 预期效果</h2>
       <div class="stat-grid">
-        <div class="stat-box"><div class="label">当前ACOS</div><div class="value up">${d.forecast.currentAcos}%</div></div>
+        <div class="stat-box"><div class="label">当前ACOS</div><div class="value up">${d.forecast.currentAcos||d.forecast.currentAcos7d||'—'}%</div></div>
         <div class="stat-box"><div class="label">→ 短期(3-5天)</div><div class="value" style="color:var(--yellow)">${d.forecast.shortTerm}</div></div>
         <div class="stat-box"><div class="label">→ 中期(2周)</div><div class="value" style="color:var(--green)">${d.forecast.midTerm}</div></div>
         <div class="stat-box"><div class="label">当前日均订单</div><div class="value">${d.forecast.currentDailyOrders}单</div></div>
@@ -252,87 +252,114 @@ function renderAnalysis(d) {
 }
 
 function renderActions(d) {
-  const a = d.actions;
+  const a = d.actions || {};
+  const summary = a.summary || {};
+  const bidDown = a.bidDown || [];
+  const budgetAdjust = a.budgetAdjust || [];
+  const bidUp = a.bidUp || [];
+  const newKeywords = a.newKeywords || [];
+  const pauseOps = a.pause || [];
   return `
     <div class="card">
       <h2>📋 操作摘要</h2>
       <div class="action-summary">
-        <div class="action-chip"><div class="num" style="color:var(--red)">${a.summary.bidDown}</div> 降竞价 (P0止血)</div>
-        <div class="action-chip"><div class="num" style="color:var(--blue)">${a.summary.budgetAdjust}</div> 预算调整 (P1重分配)</div>
-        <div class="action-chip"><div class="num" style="color:var(--green)">${a.summary.bidUp}</div> 提竞价 (P2加注)</div>
-        <div class="action-chip"><div class="num" style="color:var(--accent)">${a.summary.newKeyword}</div> 新增关键词 (P3拓展)</div>
-        <div class="action-chip"><div class="num">${a.summary.total}</div> 总计</div>
+        <div class="action-chip"><div class="num" style="color:var(--red)">${summary.bidDown||0}</div> 降竞价 (P0止血)</div>
+        <div class="action-chip"><div class="num" style="color:var(--blue)">${summary.budgetAdjust||0}</div> 预算调整 (P1重分配)</div>
+        <div class="action-chip"><div class="num" style="color:var(--green)">${summary.bidUp||0}</div> 提竞价 (P2加注)</div>
+        <div class="action-chip"><div class="num" style="color:var(--orange)">${summary.pause||0}</div> 暂停投放</div>
+        <div class="action-chip"><div class="num" style="color:var(--accent)">${summary.newKeyword||0}</div> 新增关键词 (P3拓展)</div>
+        <div class="action-chip"><div class="num">${summary.total||0}</div> 总计</div>
       </div>
     </div>
-    <div class="card">
+    ${bidDown.length ? `<div class="card">
       <h2>🔴 P0 止血 — 竞价下调</h2>
       <table><tr><th>#</th><th>广告活动</th><th>关键词</th><th>匹配</th><th>当前</th><th>目标</th><th>降幅</th><th>原因</th></tr>
-        ${a.bidDown.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.from)}</td><td><strong>${fmtD(r.to)}</strong></td><td>${r.change}</td><td>${r.reason}</td></tr>`).join('')}
+        ${bidDown.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.from)}</td><td><strong>${fmtD(r.to)}</strong></td><td>${r.change}</td><td>${r.reason}</td></tr>`).join('')}
       </table>
-    </div>
-    <div class="card">
+    </div>` : ''}
+    ${pauseOps.length ? `<div class="card">
+      <h2>⏸️ 暂停投放</h2>
+      <table><tr><th>#</th><th>广告活动</th><th>投放</th><th>匹配</th><th>当前竞价</th><th>原因</th></tr>
+        ${pauseOps.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.currentBid)}</td><td>${r.reason}</td></tr>`).join('')}
+      </table>
+    </div>` : ''}
+    ${budgetAdjust.length ? `<div class="card">
       <h2>📈 P1 预算重新分配</h2>
       <table><tr><th>#</th><th>广告活动</th><th>当前</th><th>目标</th><th>调幅</th><th>逻辑</th></tr>
-        ${a.budgetAdjust.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>$${r.from}/天</td><td><strong>$${r.to}/天</strong></td><td>${r.change}</td><td>${r.reason}</td></tr>`).join('')}
+        ${budgetAdjust.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>$${r.from}/天</td><td><strong>$${r.to}/天</strong></td><td>${r.change}</td><td>${r.reason}</td></tr>`).join('')}
       </table>
-    </div>
-    <div class="card">
+    </div>` : ''}
+    ${bidUp.length ? `<div class="card">
       <h2>🟢 P2 加注赢家 — 竞价上调</h2>
       <table><tr><th>#</th><th>广告活动</th><th>关键词</th><th>匹配</th><th>当前</th><th>目标</th><th>涨幅</th><th>ACOS</th></tr>
-        ${a.bidUp.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.from)}</td><td><strong>${fmtD(r.to)}</strong></td><td>${r.change}</td><td>${r.acos}%</td></tr>`).join('')}
+        ${bidUp.map(r=>`<tr><td>${r.seq}</td><td>${r.campaign}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.from)}</td><td><strong>${fmtD(r.to)}</strong></td><td>${r.change}</td><td>${r.acos!=null?r.acos+'%':'—'}</td></tr>`).join('')}
       </table>
-    </div>
-    <div class="card">
+    </div>` : ''}
+    ${newKeywords.length ? `<div class="card">
       <h2>🆕 P3 新增精准关键词</h2>
       <table><tr><th>#</th><th>关键词</th><th>匹配</th><th>竞价</th><th>目标活动</th><th>逻辑</th></tr>
-        ${a.newKeywords.map(r=>`<tr><td>${r.seq}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.bid)}</td><td>${r.campaign}</td><td>${r.reason}</td></tr>`).join('')}
+        ${newKeywords.map(r=>`<tr><td>${r.seq}</td><td>${r.keyword}</td><td>${r.match}</td><td>${fmtD(r.bid)}</td><td>${r.campaign}</td><td>${r.reason}</td></tr>`).join('')}
       </table>
-    </div>`;
+    </div>` : ''}`;
 }
 
 function renderExeclog(d) {
-  const e = d.execution;
-  const okPct = (e.success/e.total*100).toFixed(1);
-  const exPct = (e.existed/e.total*100).toFixed(1);
+  const e = d.execution || {};
+  if (!e.status && !e.total) {
+    return `<div class="card"><h2>✅ 执行结果</h2><p style="color:var(--text2);">暂无执行数据</p></div>`;
+  }
+  const total = e.totalOps || e.total || 0;
+  const success = e.successOps || e.success || 0;
+  const existed = e.existed || 0;
+  const failed = e.failedOps || e.failed || 0;
+  const okPct = total > 0 ? (success/total*100).toFixed(1) : '0';
+  const exPct = total > 0 ? (existed/total*100).toFixed(1) : '0';
+  const failPct = total > 0 ? (failed/total*100).toFixed(1) : '0';
+  const execTime = e.executedAt || e.startTime || '';
+  const endTime = e.endTime || '';
+  const method = e.method || 'EIP Browser';
+  const operations = e.operations || e.results || [];
+  const budgetChanges = e.budgetChanges || [];
+
   return `
     <div class="card">
       <h2>✅ 执行摘要</h2>
-      <div style="font-size:13px;color:var(--text2);margin-bottom:12px;">执行时间: ${new Date(e.startTime).toLocaleString('zh-CN')} ~ ${new Date(e.endTime).toLocaleTimeString('zh-CN')} | ${e.method}</div>
+      <div style="font-size:13px;color:var(--text2);margin-bottom:12px;">执行时间: ${execTime ? new Date(execTime).toLocaleString('zh-CN') : '—'}${endTime ? ' ~ ' + new Date(endTime).toLocaleTimeString('zh-CN') : ''} | ${method}</div>
       <div class="stat-grid" style="grid-template-columns:repeat(4,1fr);">
-        <div class="stat-box"><div class="label">总操作</div><div class="value">${e.total}</div></div>
-        <div class="stat-box"><div class="label">✅ 成功</div><div class="value status-success">${e.success}</div></div>
-        <div class="stat-box"><div class="label">⚠️ 已存在</div><div class="value status-exist">${e.existed}</div></div>
-        <div class="stat-box"><div class="label">❌ 失败</div><div class="value" style="color:${e.failed>0?'var(--red)':'var(--green)'}">${e.failed}</div></div>
+        <div class="stat-box"><div class="label">总操作</div><div class="value">${total}</div></div>
+        <div class="stat-box"><div class="label">✅ 成功</div><div class="value status-success">${success}</div></div>
+        <div class="stat-box"><div class="label">⚠️ 已存在</div><div class="value status-exist">${existed}</div></div>
+        <div class="stat-box"><div class="label">❌ 失败</div><div class="value" style="color:${failed>0?'var(--red)':'var(--green)'}">${failed}</div></div>
       </div>
       <div class="result-bar">
         <div class="seg seg-ok" style="width:${okPct}%"></div>
         <div class="seg seg-exist" style="width:${exPct}%"></div>
-        ${e.failed>0?`<div class="seg seg-fail" style="width:${(e.failed/e.total*100).toFixed(1)}%"></div>`:''}
+        ${failed>0?`<div class="seg seg-fail" style="width:${failPct}%"></div>`:''}
       </div>
       <div style="display:flex;gap:16px;font-size:12px;color:var(--text2);">
-        <span>🟢 成功 ${okPct}%</span> <span>⚪ 已存在 ${exPct}%</span> <span>🔴 失败 ${e.failed>0?(e.failed/e.total*100).toFixed(1):'0'}%</span>
+        <span>🟢 成功 ${okPct}%</span> <span>⚪ 已存在 ${exPct}%</span> <span>🔴 失败 ${failed>0?failPct:'0'}%</span>
       </div>
     </div>
-    <div class="card">
+    ${operations.length ? `<div class="card">
       <h2>📋 全部执行记录</h2>
       <table><tr><th>#</th><th>类型</th><th>目标</th><th>调整前</th><th>调整后</th><th>状态</th></tr>
-        ${e.results.map(r=>{
-          let typeLabel = {'bidDown':'⬇️ 降竞价','bidUp':'⬆️ 提竞价','budget':'📊 预算','newKeyword':'🆕 新增'}[r.type]||r.type;
-          let target = r.keyword || r.campaign || '';
-          let from = r.from !== undefined ? (r.type==='budget'?'$'+r.from+'/天':fmtD(r.from)) : '—';
-          let to = r.to !== undefined ? (r.type==='budget'?'$'+r.to+'/天':fmtD(r.to)) : (r.bid?fmtD(r.bid):'—');
+        ${operations.map(r=>{
+          let typeLabel = {'bidDown':'⬇️ 降竞价','bidUp':'⬆️ 提竞价','budget':'📊 预算','budgetDown':'📉 预算下调','budgetUp':'📈 预算上调','pause':'⏸️ 暂停','newKeyword':'🆕 新增'}[r.type]||r.type;
+          let target = r.target || r.keyword || r.campaign || '';
+          let from = r.from !== undefined ? (r.type.includes('budget')?'$'+r.from+'/天':fmtD(r.from)) : (r.currentBid?fmtD(r.currentBid):'—');
+          let to = r.to !== undefined ? (r.type.includes('budget')?'$'+r.to+'/天':fmtD(r.to)) : (r.type==='pause'?'暂停':r.bid?fmtD(r.bid):'—');
           let status = r.status==='success'?'<span class="status-success">✅ 成功</span>':r.status==='existed'?'<span class="status-exist">⚠️ 已存在</span>':'<span style="color:var(--red)">❌ 失败</span>';
           return `<tr><td>${r.seq}</td><td>${typeLabel}</td><td>${target}</td><td>${from}</td><td>${to}</td><td>${status}</td></tr>`;
         }).join('')}
       </table>
-    </div>
-    <div class="card">
+    </div>` : ''}
+    ${budgetChanges.length ? `<div class="card">
       <h2>💰 预算变化汇总</h2>
       <table><tr><th>活动</th><th>调整前</th><th>调整后</th><th>变化</th></tr>
-        ${e.budgetChanges.map(b=>`<tr><td>${b.campaign}</td><td>$${b.before}/天</td><td>$${b.after}/天</td><td style="color:${b.change>0?'var(--red)':b.change<0?'var(--green)':'var(--text2)'};">${b.change>0?'+':''}${b.change===0?'不变':'$'+b.change}</td></tr>`).join('')}
-        <tr style="font-weight:700;"><td>总计</td><td>$${e.budgetChanges.reduce((s,b)=>s+b.before,0).toFixed(1)}/天</td><td>$${e.budgetChanges.reduce((s,b)=>s+b.after,0).toFixed(1)}/天</td><td>+$${e.budgetChanges.reduce((s,b)=>s+b.change,0).toFixed(1)}</td></tr>
+        ${budgetChanges.map(b=>`<tr><td>${b.campaign}</td><td>$${b.before}/天</td><td>$${b.after}/天</td><td style="color:${b.change>0?'var(--red)':b.change<0?'var(--green)':'var(--text2)'};">${b.change>0?'+':''}${b.change===0?'不变':'$'+b.change}</td></tr>`).join('')}
+        <tr style="font-weight:700;"><td>总计</td><td>$${budgetChanges.reduce((s,b)=>s+b.before,0).toFixed(1)}/天</td><td>$${budgetChanges.reduce((s,b)=>s+b.after,0).toFixed(1)}/天</td><td>+$${budgetChanges.reduce((s,b)=>s+b.change,0).toFixed(1)}</td></tr>
       </table>
-    </div>`;
+    </div>` : ''}`;
 }
 
 function renderAll(d) {
@@ -346,7 +373,7 @@ function renderAll(d) {
     <span class="tag">ASIN: ${p.mainAsin}</span>
     <span class="tag">💰 ${p.price}</span>
     <span class="tag">🎯 目标ACOS ≤${p.targetAcos}%</span>
-    <span class="tag">⭐ ${p.rating} (${p.reviews}条)</span>
+    ${p.rating ? `<span class="tag">⭐ ${p.rating} (${p.reviews||0}条)</span>` : ''}
   `;
 
   // Render tabs

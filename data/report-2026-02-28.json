@@ -495,7 +495,8 @@
     "currentDailyOrders": 6.4,
     "expectedDailyOrders": 7,
     "budgetBefore": 70,
-    "budgetAfter": 65
+    "budgetAfter": 65,
+    "currentAcos": 20.53
   },
   "actions": {
     "summary": {
@@ -600,7 +601,8 @@
         "from": 0.85,
         "to": 0.95,
         "change": "+12%",
-        "reason": "ACOS 4.29%极优，提竞价获取更多曝光"
+        "reason": "ACOS 4.29%极优，提竞价获取更多曝光",
+        "acos": 4.29
       },
       {
         "seq": 9,
@@ -612,7 +614,8 @@
         "from": 0.9,
         "to": 1.0,
         "change": "+11%",
-        "reason": "ACOS 7.82%优质，继续提升"
+        "reason": "ACOS 7.82%优质，继续提升",
+        "acos": 7.82
       }
     ]
   },
