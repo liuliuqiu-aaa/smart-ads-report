@@ -734,5 +734,129 @@
       }
     ],
     "newKeywords": []
+  },
+  "execution": {
+    "executedAt": "2026-03-02T19:16:00+08:00",
+    "endTime": "2026-03-02T19:25:00+08:00",
+    "status": "completed",
+    "method": "EIP Browser",
+    "totalOps": 11,
+    "successOps": 10,
+    "existed": 1,
+    "failedOps": 0,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "关联商品 (自动投放)",
+        "from": 0.4,
+        "to": 0.28,
+        "status": "success"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "light weight hoodie (手动广泛)",
+        "from": 1.0,
+        "to": 0.7,
+        "status": "success"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "coofandy hoodie (手动广泛)",
+        "from": 0.4,
+        "to": 0.3,
+        "status": "success"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "hooded sweatshirt (手动广泛)",
+        "from": 0.35,
+        "to": 0.21,
+        "status": "success"
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "Men Fashion Hoodies (品类投放)",
+        "from": 0.6,
+        "to": 0.52,
+        "status": "success"
+      },
+      {
+        "seq": 6,
+        "type": "pause",
+        "target": "紧密匹配 (自动投放)",
+        "currentBid": 0.28,
+        "status": "existed"
+      },
+      {
+        "seq": 7,
+        "type": "pause",
+        "target": "pullover hoodies (手动广泛)",
+        "currentBid": 0.15,
+        "status": "success"
+      },
+      {
+        "seq": 8,
+        "type": "bidUp",
+        "target": "fashion hoodies (手动广泛)",
+        "from": 0.85,
+        "to": 1.0,
+        "status": "success"
+      },
+      {
+        "seq": 9,
+        "type": "bidUp",
+        "target": "宽泛匹配 (自动投放)",
+        "from": 0.3,
+        "to": 0.36,
+        "status": "success"
+      },
+      {
+        "seq": 10,
+        "type": "budgetDown",
+        "target": "Campaign #2 自动投放",
+        "from": 18,
+        "to": 15,
+        "status": "success"
+      },
+      {
+        "seq": 11,
+        "type": "budgetDown",
+        "target": "Campaign #3 商品投放",
+        "from": 15,
+        "to": 13,
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "#1 手动关键词广泛",
+        "before": 20,
+        "after": 20,
+        "change": 0
+      },
+      {
+        "campaign": "#2 自动投放",
+        "before": 18,
+        "after": 15,
+        "change": -3
+      },
+      {
+        "campaign": "#3 商品投放扩展",
+        "before": 15,
+        "after": 13,
+        "change": -2
+      },
+      {
+        "campaign": "#4 品类投放",
+        "before": 20,
+        "after": 20,
+        "change": 0
+      }
+    ]
   }
 }
