@@ -448,7 +448,8 @@
       "salesVolume": 6,
       "sales": 107.94,
       "acos": 18.09,
-      "action": "保持$0.55，ACOS 18.09%达标"
+      "action": "保持$0.55，ACOS 18.09%达标",
+      "status": null
     },
     {
       "type": "紧密匹配",
@@ -460,7 +461,8 @@
       "salesVolume": 1,
       "sales": 22.55,
       "acos": 92.15,
-      "action": "暂停投放：ACOS从40.71%恶化至92.15%，降价至$0.28后仍无改善"
+      "action": "暂停投放：ACOS从40.71%恶化至92.15%，降价至$0.28后仍无改善",
+      "status": null
     },
     {
       "type": "宽泛匹配",
@@ -472,7 +474,8 @@
       "salesVolume": 3,
       "sales": 53.97,
       "acos": 19.33,
-      "action": "保持$0.30，ACOS 19.33%已达标"
+      "action": "保持$0.30，ACOS 19.33%已达标",
+      "status": null
     },
     {
       "type": "同类商品",
@@ -484,7 +487,8 @@
       "salesVolume": 0,
       "sales": 0,
       "acos": null,
-      "action": "降竞价至$0.20，花费低但零转化"
+      "action": "降竞价至$0.20，花费低但零转化",
+      "status": null
     }
   ],
   "forecast": {
@@ -617,7 +621,8 @@
         "reason": "ACOS 7.82%优质，继续提升",
         "acos": 7.82
       }
-    ]
+    ],
+    "newKeywords": []
   },
   "execution": {
     "executedAt": "2026-02-28T23:05:00+08:00",
@@ -704,6 +709,8 @@
       "campaign3": 15,
       "campaign4": 28,
       "total": 71
-    }
+    },
+    "existed": 0,
+    "method": "EIP Browser"
   }
 }

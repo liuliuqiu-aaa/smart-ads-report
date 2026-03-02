@@ -245,19 +245,14 @@ function renderAnalysis(d) {
     </div>
     <div class="card">
       <h2>📊 活动#2 自动投放分层分析</h2>
-      ${(()=>{
-        const at = d.autoTargeting;
-        const rows = Array.isArray(at) ? at : (at && Array.isArray(at.targets) ? at.targets : []);
-        const summaryText = (!Array.isArray(at) && at && at.summary) ? `<p style="font-size:13px;color:var(--text2);margin-bottom:12px;">${at.summary}</p>` : '';
-        return summaryText + `<table><tr><th>投放类型</th><th>竞价</th><th>ACOS</th><th>建议</th></tr>
-          ${rows.map(t=>`<tr><td>${t.type}${t.status?' <span class="badge badge-gray">'+t.status+'</span>':''}</td><td>${t.bid!=null?fmtD(t.bid):'—'}</td><td>${t.acos!=null?acosBadge(t.acos):'<span class="badge badge-gray">—</span>'}</td><td>${t.action||t.note||'—'}</td></tr>`).join('')}
-        </table>`;
-      })()}
+      <table><tr><th>投放类型</th><th>竞价</th><th>ACOS</th><th>建议</th></tr>
+        ${(d.autoTargeting||[]).map(t=>`<tr><td>${t.type}${t.status?' <span class="badge badge-gray">'+t.status+'</span>':''}</td><td>${t.bid!=null?fmtD(t.bid):'—'}</td><td>${t.acos!=null?acosBadge(t.acos):'<span class="badge badge-gray">—</span>'}</td><td>${t.action||'—'}</td></tr>`).join('')}
+      </table>
     </div>
     <div class="card">
       <h2>🎯 预期效果</h2>
       <div class="stat-grid">
-        <div class="stat-box"><div class="label">当前ACOS</div><div class="value up">${d.forecast.currentAcos||d.forecast.currentAcos7d||'—'}%</div></div>
+        <div class="stat-box"><div class="label">当前ACOS</div><div class="value up">${d.forecast.currentAcos||'—'}%</div></div>
         <div class="stat-box"><div class="label">→ 短期(3-5天)</div><div class="value" style="color:var(--yellow)">${d.forecast.shortTerm}</div></div>
         <div class="stat-box"><div class="label">→ 中期(2周)</div><div class="value" style="color:var(--green)">${d.forecast.midTerm}</div></div>
         <div class="stat-box"><div class="label">当前日均订单</div><div class="value">${d.forecast.currentDailyOrders}单</div></div>
@@ -269,31 +264,22 @@ function renderAnalysis(d) {
 
 function renderActions(d) {
   const a = d.actions || {};
-  // Handle both formats: {summary:{bidDown:N,...}, bidDown:[...]} vs {bidDown:N, ...} vs {bidDown:[...]}
-  const getArr = (key) => { const v = a[key]; return Array.isArray(v) ? v : []; };
-  const getCount = (key) => { const v = a[key]; return typeof v === 'number' ? v : (Array.isArray(v) ? v.length : 0); };
   const summary = a.summary || {};
-  const bidDown = getArr('bidDown');
-  const budgetAdjust = getArr('budgetAdjust');
-  const bidUp = getArr('bidUp');
-  const newKeywords = getArr('newKeywords') || getArr('newKeyword');
-  const pauseOps = getArr('pause');
-  const cBidDown = summary.bidDown ?? getCount('bidDown');
-  const cBudget = summary.budgetAdjust ?? getCount('budgetAdjust');
-  const cBidUp = summary.bidUp ?? getCount('bidUp');
-  const cPause = summary.pause ?? getCount('pause');
-  const cNew = summary.newKeyword ?? getCount('newKeywords') || getCount('newKeyword');
-  const cTotal = summary.total ?? a.total ?? (cBidDown+cBudget+cBidUp+cPause+cNew);
+  const bidDown = a.bidDown || [];
+  const budgetAdjust = a.budgetAdjust || [];
+  const bidUp = a.bidUp || [];
+  const newKeywords = a.newKeywords || [];
+  const pauseOps = a.pause || [];
   return `
     <div class="card">
       <h2>📋 操作摘要</h2>
       <div class="action-summary">
-        <div class="action-chip"><div class="num" style="color:var(--red)">${cBidDown}</div> 降竞价 (P0止血)</div>
-        <div class="action-chip"><div class="num" style="color:var(--blue)">${cBudget}</div> 预算调整 (P1重分配)</div>
-        <div class="action-chip"><div class="num" style="color:var(--green)">${cBidUp}</div> 提竞价 (P2加注)</div>
-        <div class="action-chip"><div class="num" style="color:var(--orange)">${cPause}</div> 暂停投放</div>
-        <div class="action-chip"><div class="num" style="color:var(--accent)">${cNew}</div> 新增关键词 (P3拓展)</div>
-        <div class="action-chip"><div class="num">${cTotal}</div> 总计</div>
+        <div class="action-chip"><div class="num" style="color:var(--red)">${summary.bidDown||0}</div> 降竞价 (P0止血)</div>
+        <div class="action-chip"><div class="num" style="color:var(--blue)">${summary.budgetAdjust||0}</div> 预算调整 (P1重分配)</div>
+        <div class="action-chip"><div class="num" style="color:var(--green)">${summary.bidUp||0}</div> 提竞价 (P2加注)</div>
+        <div class="action-chip"><div class="num" style="color:var(--orange)">${summary.pause||0}</div> 暂停投放</div>
+        <div class="action-chip"><div class="num" style="color:var(--accent)">${summary.newKeyword||0}</div> 新增关键词 (P3拓展)</div>
+        <div class="action-chip"><div class="num">${summary.total||0}</div> 总计</div>
       </div>
     </div>
     ${bidDown.length ? `<div class="card">
@@ -330,20 +316,20 @@ function renderActions(d) {
 
 function renderExeclog(d) {
   const e = d.execution || {};
-  if (!e.status && !e.total) {
-    return `<div class="card"><h2>✅ 执行结果</h2><p style="color:var(--text2);">暂无执行数据</p></div>`;
+  if (!e.status) {
+    return `<div class="card"><h2>✅ 执行结果</h2><p style="color:var(--text2);">暂无执行数据（尚未执行或数据缺失）</p></div>`;
   }
-  const total = e.totalOps || e.total || 0;
-  const success = e.successOps || e.success || 0;
+  const total = e.totalOps || 0;
+  const success = e.successOps || 0;
   const existed = e.existed || 0;
-  const failed = e.failedOps || e.failed || 0;
+  const failed = e.failedOps || 0;
   const okPct = total > 0 ? (success/total*100).toFixed(1) : '0';
   const exPct = total > 0 ? (existed/total*100).toFixed(1) : '0';
   const failPct = total > 0 ? (failed/total*100).toFixed(1) : '0';
-  const execTime = e.executedAt || e.startTime || '';
+  const execTime = e.executedAt || '';
   const endTime = e.endTime || '';
   const method = e.method || 'EIP Browser';
-  const operations = e.operations || e.results || [];
+  const operations = e.operations || [];
   const budgetChanges = e.budgetChanges || [];
 
   return `
