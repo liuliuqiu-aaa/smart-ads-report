@@ -205,12 +205,19 @@ function renderOverview(d) {
 }
 
 function renderKeywordTable(keywords, showSuggestion) {
+  if (!keywords || !keywords.length) return '<p style="color:var(--text2);font-size:13px;">暂无数据</p>';
+  const hasDetail = keywords[0].impressions != null;
   if (showSuggestion) {
-    return `<table><tr><th>关键词</th><th>竞价</th><th>曝光</th><th>点击</th><th>花费</th><th>订单</th><th>建议</th></tr>
-      ${keywords.map(k=>`<tr><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmt(k.impressions)}</td><td>${k.clicks}</td><td>${fmtD(k.spend)}</td><td>${k.orders}</td><td><span class="badge badge-gray">${k.suggestion}</span></td></tr>`).join('')}</table>`;
+    const hdrs = hasDetail ? '<th>曝光</th><th>点击</th>' : '';
+    return `<table><tr><th>关键词</th><th>竞价</th>${hdrs}<th>花费</th><th>订单</th><th>建议</th></tr>
+      ${keywords.map(k=>`<tr><td>${k.keyword}</td><td>${fmtD(k.bid)}</td>${hasDetail?`<td>${fmt(k.impressions)}</td><td>${k.clicks}</td>`:''}<td>${fmtD(k.spend)}</td><td>${k.orders}</td><td><span class="badge badge-gray">${k.suggestion||k.note||'—'}</span></td></tr>`).join('')}</table>`;
   }
-  return `<table><tr><th>关键词</th><th>竞价</th><th>曝光</th><th>点击</th><th>花费</th><th>订单</th><th>销售额</th><th>ACOS</th><th>CVR</th></tr>
-    ${keywords.map(k=>`<tr ${k.acos>40?'style="background:rgba(239,68,68,0.06)"':''}><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmt(k.impressions)}</td><td>${k.clicks}</td><td>${k.spend>50?'<strong>':''}${fmtD(k.spend)}${k.spend>50?'</strong>':''}</td><td>${k.orders}</td><td>${fmtD(k.sales)}</td><td>${acosBadge(k.acos)}</td><td>${k.cvr}%</td></tr>`).join('')}</table>`;
+  if (hasDetail) {
+    return `<table><tr><th>关键词</th><th>竞价</th><th>曝光</th><th>点击</th><th>花费</th><th>订单</th><th>销售额</th><th>ACOS</th><th>CVR</th></tr>
+      ${keywords.map(k=>`<tr ${k.acos>40?'style="background:rgba(239,68,68,0.06)"':''}><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmt(k.impressions)}</td><td>${k.clicks}</td><td>${k.spend>50?'<strong>':''}${fmtD(k.spend)}${k.spend>50?'</strong>':''}</td><td>${k.orders}</td><td>${fmtD(k.sales)}</td><td>${acosBadge(k.acos)}</td><td>${k.cvr}%</td></tr>`).join('')}</table>`;
+  }
+  return `<table><tr><th>关键词</th><th>竞价</th><th>花费</th><th>订单</th><th>ACOS</th><th>备注</th></tr>
+    ${keywords.map(k=>`<tr ${k.acos>40?'style="background:rgba(239,68,68,0.06)"':''}><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmtD(k.spend)}</td><td>${k.orders}</td><td>${k.acos!=null?acosBadge(k.acos):'—'}</td><td>${k.note||'—'}</td></tr>`).join('')}</table>`;
 }
 
 function renderAnalysis(d) {
@@ -218,7 +225,11 @@ function renderAnalysis(d) {
   return `
     <div class="card">
       <h2>🔍 核心诊断</h2>
-      ${d.diagnosis.map(a=>`<div class="anomaly"><div class="icon">${a.icon}</div><div class="text">${a.text}</div></div>`).join('')}
+      ${d.diagnosis.map(a=>{
+        const icon = a.icon || ({critical:'🚨',warning:'⚠️',info:'ℹ️',positive:'✅'}[a.level]||'📌');
+        const text = a.text || a.message || '';
+        return `<div class="anomaly"><div class="icon">${icon}</div><div class="text">${text}</div></div>`;
+      }).join('')}
     </div>
     <div class="card">
       <h2>📊 活动#1 关键词分层分析（30天）</h2>
@@ -258,22 +269,31 @@ function renderAnalysis(d) {
 
 function renderActions(d) {
   const a = d.actions || {};
+  // Handle both formats: {summary:{bidDown:N,...}, bidDown:[...]} vs {bidDown:N, ...} vs {bidDown:[...]}
+  const getArr = (key) => { const v = a[key]; return Array.isArray(v) ? v : []; };
+  const getCount = (key) => { const v = a[key]; return typeof v === 'number' ? v : (Array.isArray(v) ? v.length : 0); };
   const summary = a.summary || {};
-  const bidDown = a.bidDown || [];
-  const budgetAdjust = a.budgetAdjust || [];
-  const bidUp = a.bidUp || [];
-  const newKeywords = a.newKeywords || [];
-  const pauseOps = a.pause || [];
+  const bidDown = getArr('bidDown');
+  const budgetAdjust = getArr('budgetAdjust');
+  const bidUp = getArr('bidUp');
+  const newKeywords = getArr('newKeywords') || getArr('newKeyword');
+  const pauseOps = getArr('pause');
+  const cBidDown = summary.bidDown ?? getCount('bidDown');
+  const cBudget = summary.budgetAdjust ?? getCount('budgetAdjust');
+  const cBidUp = summary.bidUp ?? getCount('bidUp');
+  const cPause = summary.pause ?? getCount('pause');
+  const cNew = summary.newKeyword ?? getCount('newKeywords') || getCount('newKeyword');
+  const cTotal = summary.total ?? a.total ?? (cBidDown+cBudget+cBidUp+cPause+cNew);
   return `
     <div class="card">
       <h2>📋 操作摘要</h2>
       <div class="action-summary">
-        <div class="action-chip"><div class="num" style="color:var(--red)">${summary.bidDown||0}</div> 降竞价 (P0止血)</div>
-        <div class="action-chip"><div class="num" style="color:var(--blue)">${summary.budgetAdjust||0}</div> 预算调整 (P1重分配)</div>
-        <div class="action-chip"><div class="num" style="color:var(--green)">${summary.bidUp||0}</div> 提竞价 (P2加注)</div>
-        <div class="action-chip"><div class="num" style="color:var(--orange)">${summary.pause||0}</div> 暂停投放</div>
-        <div class="action-chip"><div class="num" style="color:var(--accent)">${summary.newKeyword||0}</div> 新增关键词 (P3拓展)</div>
-        <div class="action-chip"><div class="num">${summary.total||0}</div> 总计</div>
+        <div class="action-chip"><div class="num" style="color:var(--red)">${cBidDown}</div> 降竞价 (P0止血)</div>
+        <div class="action-chip"><div class="num" style="color:var(--blue)">${cBudget}</div> 预算调整 (P1重分配)</div>
+        <div class="action-chip"><div class="num" style="color:var(--green)">${cBidUp}</div> 提竞价 (P2加注)</div>
+        <div class="action-chip"><div class="num" style="color:var(--orange)">${cPause}</div> 暂停投放</div>
+        <div class="action-chip"><div class="num" style="color:var(--accent)">${cNew}</div> 新增关键词 (P3拓展)</div>
+        <div class="action-chip"><div class="num">${cTotal}</div> 总计</div>
       </div>
     </div>
     ${bidDown.length ? `<div class="card">
