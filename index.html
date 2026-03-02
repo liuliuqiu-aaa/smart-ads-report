@@ -234,9 +234,14 @@ function renderAnalysis(d) {
     </div>
     <div class="card">
       <h2>📊 活动#2 自动投放分层分析</h2>
-      <table><tr><th>投放类型</th><th>竞价</th><th>ACOS</th><th>建议</th></tr>
-        ${d.autoTargeting.map(t=>`<tr><td>${t.type}</td><td>${fmtD(t.bid)}</td><td>${t.acos!==null?acosBadge(t.acos):'<span class="badge badge-gray">—</span>'}</td><td>${t.action}</td></tr>`).join('')}
-      </table>
+      ${(()=>{
+        const at = d.autoTargeting;
+        const rows = Array.isArray(at) ? at : (at && Array.isArray(at.targets) ? at.targets : []);
+        const summaryText = (!Array.isArray(at) && at && at.summary) ? `<p style="font-size:13px;color:var(--text2);margin-bottom:12px;">${at.summary}</p>` : '';
+        return summaryText + `<table><tr><th>投放类型</th><th>竞价</th><th>ACOS</th><th>建议</th></tr>
+          ${rows.map(t=>`<tr><td>${t.type}${t.status?' <span class="badge badge-gray">'+t.status+'</span>':''}</td><td>${t.bid!=null?fmtD(t.bid):'—'}</td><td>${t.acos!=null?acosBadge(t.acos):'<span class="badge badge-gray">—</span>'}</td><td>${t.action||t.note||'—'}</td></tr>`).join('')}
+        </table>`;
+      })()}
     </div>
     <div class="card">
       <h2>🎯 预期效果</h2>
