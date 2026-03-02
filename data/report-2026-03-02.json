@@ -734,5 +734,32 @@
       }
     ],
     "newKeywords": []
+  },
+  "execution": {
+    "executedAt": "2026-03-02T19:25:00+08:00",
+    "totalActions": 11,
+    "success": 10,
+    "failed": 0,
+    "skipped": 1,
+    "details": {
+      "bidDown": {
+        "total": 5,
+        "success": 5
+      },
+      "bidUp": {
+        "total": 2,
+        "success": 2
+      },
+      "pause": {
+        "total": 2,
+        "success": 1,
+        "skipped": 1,
+        "note": "304644557767741 already paused"
+      },
+      "budgetAdjust": {
+        "total": 2,
+        "success": 2
+      }
+    }
   }
 }
