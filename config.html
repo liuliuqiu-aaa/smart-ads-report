@@ -315,31 +315,60 @@ const GOALS = {
   'clearance': { icon:'📦', label:'清仓回收', color:'var(--yellow)' }
 };
 
-function init() {
-  const saved = localStorage.getItem('smart-ads-groups-v2');
-  if (saved) try { config = JSON.parse(saved); } catch(e) {}
-  if (window.__CONFIG__) config = window.__CONFIG__;
+async function init() {
+  // Load from API first, fallback to localStorage
+  try {
+    const resp = await fetch('/api/config?t=' + Date.now());
+    if (resp.ok) {
+      const data = await resp.json();
+      if (data.groups) config = data;
+    }
+  } catch(e) {
+    const saved = localStorage.getItem('smart-ads-groups-v2');
+    if (saved) try { config = JSON.parse(saved); } catch(e2) {}
+  }
   render();
 }
 
-function save() {
+async function save() {
   config.updatedAt = new Date().toISOString();
+  // Save to localStorage as backup
   localStorage.setItem('smart-ads-groups-v2', JSON.stringify(config));
-  // Signal for external pickup
-  document.title = 'CONFIG_UPDATED:' + Date.now();
-  setTimeout(() => { document.title = '智能托管广告 - 托管组配置'; }, 500);
-  showSaveStatus();
+  showSaveStatus('saving');
+  // Save to server (auto-sync to file)
+  try {
+    const resp = await fetch('/api/config', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(config)
+    });
+    const result = await resp.json();
+    if (result.ok) {
+      showSaveStatus('saved');
+    } else {
+      showSaveStatus('error');
+    }
+  } catch(e) {
+    console.error('Save failed:', e);
+    showSaveStatus('error');
+  }
   render();
 }
 
-function showSaveStatus() {
+function showSaveStatus(state) {
   const el = document.getElementById('saveStatus');
-  el.className = 'save-status saving';
-  el.textContent = '⏳ 保存中...';
-  setTimeout(() => {
+  if (state === 'saving') {
+    el.className = 'save-status saving';
+    el.textContent = '⏳ 保存中...';
+  } else if (state === 'saved') {
     el.className = 'save-status saved';
-    el.textContent = '✓ 已保存';
-  }, 600);
+    el.textContent = '✓ 已同步到工作流';
+  } else if (state === 'error') {
+    el.className = 'save-status';
+    el.style.background = 'rgba(239,68,68,.12)';
+    el.style.color = 'var(--red)';
+    el.textContent = '❌ 同步失败（已保存本地）';
+  }
 }
 
 function render() {

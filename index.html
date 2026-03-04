@@ -185,7 +185,17 @@ const GOALS = {
 };
 
 // ===== Group Management =====
-function loadGroups() {
+async function loadGroups() {
+  // Load from API first, fallback to localStorage
+  try {
+    const resp = await fetch('/api/config?t=' + Date.now());
+    if (resp.ok) {
+      const cfg = await resp.json();
+      groups = (cfg.groups || []).filter(g => g.enabled);
+      return groups;
+    }
+  } catch(e) {}
+  // Fallback
   const saved = localStorage.getItem('smart-ads-groups-v2');
   if (saved) {
     try {
@@ -540,8 +550,8 @@ function renderAll(d) {
 }
 
 // ===== Init =====
-function init() {
-  loadGroups();
+async function init() {
+  await loadGroups();
   if (groups.length) {
     // Check URL hash for group id
     const hash = location.hash.replace('#','');
