@@ -254,20 +254,16 @@ function switchGroup(groupId) {
 async function loadDatesForGroup(groupId) {
   const sel = document.getElementById('dateSelect');
   sel.innerHTML = '';
-  // Try group-specific dates first, fallback to global
-  const paths = [`data/${groupId}/dates.json`, 'data/dates.json'];
   let dates = null;
-  for (const p of paths) {
-    try {
-      const r = await fetch(p + '?t=' + Date.now());
-      if (r.ok) { dates = await r.json(); break; }
-    } catch(e) {}
-  }
+  try {
+    const r = await fetch(`data/${groupId}/dates.json?t=${Date.now()}`);
+    if (r.ok) dates = await r.json();
+  } catch(e) {}
   if (dates && dates.length) {
     dates.forEach(d => { const o = document.createElement('option'); o.value = d; o.textContent = d; sel.appendChild(o); });
     loadReport(groupId, dates[0]);
   } else {
-    const o = document.createElement('option'); o.value = ''; o.textContent = '最新'; sel.appendChild(o);
+    const o = document.createElement('option'); o.value = ''; o.textContent = '暂无数据'; sel.appendChild(o);
     loadReport(groupId, '');
   }
 }
@@ -280,10 +276,10 @@ async function loadReport(groupId, date) {
     document.getElementById(id).classList.remove('active');
   });
 
-  // Try multiple paths: group-specific first, then legacy flat
+  // Only load from group-specific directory
   const candidates = date
-    ? [`data/${groupId}/report-${date}.json`, `data/report-${date}.json`]
-    : [`data/${groupId}/report-latest.json`, 'data/report-latest.json'];
+    ? [`data/${groupId}/report-${date}.json`]
+    : [`data/${groupId}/report-latest.json`];
 
   let data = null;
   for (const file of candidates) {
