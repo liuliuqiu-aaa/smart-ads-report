@@ -383,6 +383,7 @@ function render() {
           <div class="meta-item"><div class="k">SPU</div><div class="v">${h(g.product?.spu||'-')}</div></div>
           <div class="meta-item"><div class="k">账号 / 站点</div><div class="v">${h(acct)} / ${h(site)}</div></div>
           <div class="meta-item"><div class="k">售价</div><div class="v">${g.product?.price?'$'+g.product.price:'-'}</div></div>
+          <div class="meta-item"><div class="k">宏观目标</div><div class="v" style="color:${goal.color}">${goal.icon} ${goal.label}</div></div>
           <div class="meta-item"><div class="k">目标 ACOS</div><div class="v">≤ ${g.targetAcos||20}%</div></div>
           <div class="meta-item"><div class="k">预算上限</div><div class="v">$${g.budgetLimit||300}/天</div></div>
           <div class="meta-item"><div class="k">竞价上限</div><div class="v">$${g.bidLimit||2}</div></div>
