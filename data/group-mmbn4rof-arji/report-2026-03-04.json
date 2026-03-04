@@ -1,0 +1,1861 @@
+{
+  "reportDate": "2026-03-04",
+  "dataDate": "2026-03-04",
+  "generatedAt": "2026-03-04T09:53:25.344359+00:00",
+  "product": {
+    "name": "COOFANDY Mens Long Sleeve Polo Knit Polo Sweater Collared Pullover Casual Golf Polo Sweate",
+    "spu": "AMJ010001",
+    "asin": "B0FB4XTP58",
+    "price": 19.99,
+    "account": "AM00147",
+    "site": "US",
+    "stage": "growth",
+    "amazonUrl": "https://www.amazon.com/dp/B0FB8FRB3X?th=1&psc=1"
+  },
+  "summary": {
+    "seventh": {
+      "impressions": 30803,
+      "clicks": 109,
+      "spend": 53.010000000000005,
+      "orders": 17,
+      "sales": 503.39,
+      "acos": 10.53,
+      "cvr": 15.6,
+      "cpc": 0.49,
+      "ctr": 0.35
+    },
+    "yesterday": {
+      "impressions": 7773,
+      "clicks": 19,
+      "spend": 9.46,
+      "orders": 2,
+      "sales": 32.489999999999995,
+      "acos": 29.12,
+      "cvr": 10.53,
+      "cpc": 0.5,
+      "ctr": 0.24
+    },
+    "macroGoal": "boost-sales",
+    "macroGoalLabel": "📈 推动增长",
+    "targetAcos": 20,
+    "effectiveAcosConstraint": 20
+  },
+  "campaigns": [
+    {
+      "name": "#1 自动投放",
+      "campaignId": "400641453145004",
+      "type": "auto",
+      "budget": 5,
+      "seventh": {
+        "impressions": 18639,
+        "clicks": 53,
+        "spend": 25.76,
+        "orders": 4,
+        "sales": 78.47,
+        "acos": 32.83,
+        "cvr": 7.55
+      },
+      "yesterday": {
+        "impressions": 4990,
+        "clicks": 6,
+        "spend": 2.96,
+        "orders": 1,
+        "sales": 12.5,
+        "acos": 23.68,
+        "cvr": 16.67
+      }
+    },
+    {
+      "name": "#2 ZTJ010001_B_L-130-2-",
+      "campaignId": "415285089257642",
+      "type": "manual",
+      "budget": 3,
+      "seventh": {
+        "impressions": 8308,
+        "clicks": 34,
+        "spend": 16.44,
+        "orders": 10,
+        "sales": 369.95,
+        "acos": 4.44,
+        "cvr": 29.41
+      },
+      "yesterday": {
+        "impressions": 1815,
+        "clicks": 6,
+        "spend": 3.04,
+        "orders": 0,
+        "sales": 0,
+        "acos": 0,
+        "cvr": 0
+      }
+    },
+    {
+      "name": "#3 ZTJ010001_B_L-130-2-",
+      "campaignId": "550212093559706",
+      "type": "manual",
+      "budget": 2,
+      "seventh": {
+        "impressions": 3856,
+        "clicks": 22,
+        "spend": 10.81,
+        "orders": 3,
+        "sales": 54.97,
+        "acos": 19.67,
+        "cvr": 13.64
+      },
+      "yesterday": {
+        "impressions": 968,
+        "clicks": 7,
+        "spend": 3.46,
+        "orders": 1,
+        "sales": 19.99,
+        "acos": 17.31,
+        "cvr": 14.29
+      }
+    }
+  ],
+  "diagnosis": [
+    {
+      "icon": "✅",
+      "text": "7天整体ACOS 10.53%在目标范围内"
+    },
+    {
+      "icon": "🚨",
+      "text": "亏损投放(17个)远多于优质投放(5个),整体效率堪忧"
+    },
+    {
+      "icon": "💡",
+      "text": "119个投放曝光不足,考虑提竞价或优化关键词"
+    },
+    {
+      "icon": "📊",
+      "text": "7天日均2.4单,日均花费$7.57"
+    }
+  ],
+  "keywordLayers": {
+    "excellent": [
+      {
+        "keyword": "coofandy knit polo",
+        "match": "广泛",
+        "bid": 0.52,
+        "impressions": 2287,
+        "clicks": 8,
+        "spend": 4.16,
+        "orders": 2,
+        "sales": 33.03,
+        "acos": 12.59,
+        "cvr": 25,
+        "note": ""
+      },
+      {
+        "keyword": "mens casual sweaters",
+        "match": "广泛",
+        "bid": 0.48,
+        "impressions": 748,
+        "clicks": 4,
+        "spend": 1.92,
+        "orders": 3,
+        "sales": 44.97,
+        "acos": 4.27,
+        "cvr": 75,
+        "note": ""
+      },
+      {
+        "keyword": "sweater polo men",
+        "match": "广泛",
+        "bid": 0.48,
+        "impressions": 105,
+        "clicks": 3,
+        "spend": 1.44,
+        "orders": 5,
+        "sales": 291.95,
+        "acos": 0.49,
+        "cvr": 166.67,
+        "note": ""
+      },
+      {
+        "keyword": "collared sweater men",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 336,
+        "clicks": 2,
+        "spend": 1,
+        "orders": 1,
+        "sales": 19.99,
+        "acos": 5,
+        "cvr": 50,
+        "note": ""
+      },
+      {
+        "keyword": "mens sweater with collar",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 412,
+        "clicks": 1,
+        "spend": 0.5,
+        "orders": 1,
+        "sales": 19.99,
+        "acos": 2.5,
+        "cvr": 100,
+        "note": ""
+      }
+    ],
+    "potential": [
+      {
+        "keyword": "宽泛匹配  自动",
+        "match": "自动",
+        "bid": 0,
+        "impressions": 3826,
+        "clicks": 38,
+        "spend": 18.87,
+        "orders": 4,
+        "sales": 78.47,
+        "acos": 24.05,
+        "cvr": 10.53,
+        "note": ""
+      }
+    ],
+    "losing": [
+      {
+        "keyword": "同类商品  自动",
+        "match": "自动",
+        "bid": 0,
+        "impressions": 14376,
+        "clicks": 12,
+        "spend": 5.48,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "men's collared shirts",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 297,
+        "clicks": 4,
+        "spend": 2,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "sweater with collar men",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 407,
+        "clicks": 3,
+        "spend": 1.5,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "long sleeve polo shirts for men",
+        "match": "广泛",
+        "bid": 0.48,
+        "impressions": 115,
+        "clicks": 3,
+        "spend": 1.44,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "mens full sleeve t shirts",
+        "match": "广泛",
+        "bid": 0.48,
+        "impressions": 104,
+        "clicks": 3,
+        "spend": 1.44,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "collared sweater",
+        "match": "广泛",
+        "bid": 0.48,
+        "impressions": 213,
+        "clicks": 3,
+        "spend": 1.44,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "紧密匹配  自动",
+        "match": "自动",
+        "bid": 0,
+        "impressions": 411,
+        "clicks": 3,
+        "spend": 1.41,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "men sweater",
+        "match": "广泛",
+        "bid": 0.45,
+        "impressions": 467,
+        "clicks": 3,
+        "spend": 1.35,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "mens long sleeve sweater polo",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 445,
+        "clicks": 2,
+        "spend": 1,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "mens collared sweaters",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 407,
+        "clicks": 2,
+        "spend": 1,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "long sleeve knit polo",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 171,
+        "clicks": 2,
+        "spend": 1,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "coofandy knit polo shirts for men",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 218,
+        "clicks": 1,
+        "spend": 0.5,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "brown collared shirt men",
+        "match": "广泛",
+        "bid": 0.49,
+        "impressions": 109,
+        "clicks": 1,
+        "spend": 0.49,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "polo men's long sleeve",
+        "match": "广泛",
+        "bid": 0.48,
+        "impressions": 730,
+        "clicks": 1,
+        "spend": 0.48,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "mens polo shirts",
+        "match": "广泛",
+        "bid": 0.48,
+        "impressions": 151,
+        "clicks": 1,
+        "spend": 0.48,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "mens dress polo",
+        "match": "广泛",
+        "bid": 0.5,
+        "impressions": 257,
+        "clicks": 1,
+        "spend": 0.47,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "coofandy polo",
+        "match": "广泛",
+        "bid": 0.46,
+        "impressions": 504,
+        "clicks": 1,
+        "spend": 0.46,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      }
+    ],
+    "lowVolume": [
+      {
+        "keyword": "关联商品  自动",
+        "bid": 0,
+        "impressions": 33,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "polo shirts men",
+        "bid": 0.47,
+        "impressions": 627,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens polo",
+        "bid": 0.44,
+        "impressions": 356,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "red sweater men",
+        "bid": 0.51,
+        "impressions": 299,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "us polo assn men shirts",
+        "bid": 0.5,
+        "impressions": 152,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "camisas polo para hombre",
+        "bid": 0.45,
+        "impressions": 147,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens shirts long sleeve",
+        "bid": 0.45,
+        "impressions": 141,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve polo for men",
+        "bid": 0.48,
+        "impressions": 113,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve shirts for men",
+        "bid": 0.45,
+        "impressions": 88,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men shirts casual",
+        "bid": 0.48,
+        "impressions": 70,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens long sleeve shirt",
+        "bid": 0.45,
+        "impressions": 58,
+        "clicks": 2,
+        "spend": 0.9,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens casual long sleeve polo",
+        "bid": 0.48,
+        "impressions": 53,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve polo shirts for men",
+        "bid": 0.45,
+        "impressions": 49,
+        "clicks": 1,
+        "spend": 0.45,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens half zip sweater",
+        "bid": 0.46,
+        "impressions": 25,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men's pullover sweaters",
+        "bid": 0.45,
+        "impressions": 24,
+        "clicks": 1,
+        "spend": 0.45,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knit shirt",
+        "bid": 0.46,
+        "impressions": 22,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "coofandy long sleeve polo shirts for men",
+        "bid": 0.46,
+        "impressions": 20,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "wool sweater men",
+        "bid": 0.47,
+        "impressions": 16,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "collared shirt men",
+        "bid": 0.45,
+        "impressions": 16,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men long sleeve shirt",
+        "bid": 0.45,
+        "impressions": 13,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knit shirts",
+        "bid": 0.46,
+        "impressions": 10,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "coofandy long sleeve polo sweater",
+        "bid": 0.48,
+        "impressions": 7,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens polo shirts",
+        "bid": 0.45,
+        "impressions": 7,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "golf shirts for men",
+        "bid": 0.45,
+        "impressions": 6,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve polo cotton",
+        "bid": 0.48,
+        "impressions": 4,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "golf polos for men",
+        "bid": 0.45,
+        "impressions": 4,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "polo shirts for men",
+        "bid": 0.44,
+        "impressions": 2,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens casual shirts long sleeve",
+        "bid": 0.46,
+        "impressions": 2,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "coofandy long sleeve shirts for men",
+        "bid": 0.45,
+        "impressions": 2,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men's great sweaters",
+        "bid": 0.45,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens burgundy sweater",
+        "bid": 0.42,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "full sleeve polo t-shirts men",
+        "bid": 0.46,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "brown long sleeve polo men",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "coofandy shirts for men long sleeve",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "shirts for men long sleeve",
+        "bid": 0.28,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens long sleeve golf shirts with collar",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeved polo shirt mens",
+        "bid": 0.41,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve polo men",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens polo shirts long sleeve",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens polo long sleeve",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "men's long sleeve polo shirts",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "men long sleeve polo",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "long sleeve polo shirt men",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "long sleeve polo",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "long sleeve mens polo shirts",
+        "bid": 0.46,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knit polo long sleeve",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve polo shirts men",
+        "bid": 0.4,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit polo long sleeve men",
+        "bid": 0.46,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men long sleeve polo",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens polo shirts long sleeve",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "polo shirts for men long sleeve",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men's long sleeve polo shirts",
+        "bid": 0.42,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens long sleeve polo shirt",
+        "bid": 0.46,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens long sleeve polo",
+        "bid": 0.37,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "coofandy mens knit polo shirts long sleeve",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens long sleeve polo sweater",
+        "bid": 0.44,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve polo shirt men",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens polo long sleeve",
+        "bid": 0.42,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men long sleeve polo shirts",
+        "bid": 0.45,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "casual shirts men",
+        "bid": 0.42,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "non button polo long sleeve mens cotton",
+        "bid": 0.3,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit polo long sleeve men",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "long sleeve mens polo shirts",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "coofandy long sleeve polo shirts for men",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens long sleeve polo",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens long sleeve polo shirts",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "men long sleeve polo shirts",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens long sleeve polo shirts with collar",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "polo shirts for men long sleeve",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens knit polo long sleeve",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "coofandy mens knit polo shirts long sleeve",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens long sleeve polo shirt",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens long sleeve polo sweater",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "long sleeve polo shirts men",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "polo long sleeve shirts for men",
+        "bid": 0.99,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "men knit polo shirt",
+        "bid": 0.5,
+        "impressions": 251,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens knit polo",
+        "bid": 0.47,
+        "impressions": 199,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit polo shirt men",
+        "bid": 0.5,
+        "impressions": 178,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "black collared sweater men",
+        "bid": 0.49,
+        "impressions": 101,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens black collared sweater",
+        "bid": 0.49,
+        "impressions": 80,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knit long sleeve shirt",
+        "bid": 0.48,
+        "impressions": 66,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve collar shirts for men",
+        "bid": 0.49,
+        "impressions": 59,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "collared shirts for men",
+        "bid": 0.49,
+        "impressions": 27,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men's long sleeve collared shirts",
+        "bid": 0.48,
+        "impressions": 22,
+        "clicks": 1,
+        "spend": 0.48,
+        "orders": 1,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens long sleeve polos with collar",
+        "bid": 0.46,
+        "impressions": 22,
+        "clicks": 1,
+        "spend": 0.46,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knit sweater",
+        "bid": 0.43,
+        "impressions": 22,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knit sweater polo",
+        "bid": 0.48,
+        "impressions": 19,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens collar sweater",
+        "bid": 0.48,
+        "impressions": 13,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve knit polo shirts for men",
+        "bid": 0.48,
+        "impressions": 11,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve knitted polo shirts for men",
+        "bid": 0.48,
+        "impressions": 7,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "coofandy knit polo",
+        "bid": 0.43,
+        "impressions": 6,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve knitted polo",
+        "bid": 0.48,
+        "impressions": 6,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "collared sweater for men",
+        "bid": 0.49,
+        "impressions": 4,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men's knit shirts long sleeve",
+        "bid": 0.44,
+        "impressions": 4,
+        "clicks": 1,
+        "spend": 0.44,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knitted polo long sleeve",
+        "bid": 0.48,
+        "impressions": 2,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit long sleeve polo men",
+        "bid": 0.48,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knitted polo men",
+        "bid": 0.44,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit polo shirts for men",
+        "bid": 0.48,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "mens knit polo shirts",
+        "bid": 0.48,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "corduroy mens shirt",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "men's corduroy shirt",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "corduroy mens shirt",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens corduroy shirt",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "corduroy shirts men",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens corduroy shirt",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "corduroy shirts men",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "corduroy shirt men",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "corduroy button up shirt women",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens collared shirts",
+        "bid": 0.42,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "collared sweaters for men",
+        "bid": 0.49,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "long sleeve knitted polo men",
+        "bid": 0.47,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knitted polo shirts for men",
+        "bid": 0.43,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit long sleeve polo",
+        "bid": 0.48,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit polo sweater men",
+        "bid": 0.48,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit polo men long sleeve",
+        "bid": 0.48,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "knit polo long sleeve",
+        "bid": 0.42,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "men's corduroy shirt",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "corduroy shirt men",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "corduroy button up shirt women",
+        "bid": 1.17,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      }
+    ]
+  },
+  "autoTargeting": [
+    {
+      "type": "同类商品",
+      "bid": 0,
+      "impressions": 14376,
+      "clicks": 12,
+      "spend": 5.48,
+      "orders": 0,
+      "sales": 0,
+      "acos": null,
+      "action": "降至$0.02",
+      "status": null
+    },
+    {
+      "type": "宽泛匹配",
+      "bid": 0,
+      "impressions": 3826,
+      "clicks": 38,
+      "spend": 18.87,
+      "orders": 4,
+      "sales": 78.47,
+      "acos": 24.05,
+      "action": "降至$0.02",
+      "status": null
+    },
+    {
+      "type": "紧密匹配",
+      "bid": 0,
+      "impressions": 411,
+      "clicks": 3,
+      "spend": 1.41,
+      "orders": 0,
+      "sales": 0,
+      "acos": null,
+      "action": "保持$0.00",
+      "status": null
+    },
+    {
+      "type": "关联商品",
+      "bid": 0,
+      "impressions": 33,
+      "clicks": 0,
+      "spend": 0,
+      "orders": 0,
+      "sales": 0,
+      "acos": null,
+      "action": "保持$0.00",
+      "status": null
+    }
+  ],
+  "forecast": {
+    "currentAcos": 10.53,
+    "currentAcosYd": 29.12,
+    "shortTerm": "18-11%",
+    "midTerm": "18-22%",
+    "currentDailyOrders": 2.4,
+    "expectedDailyOrders": 2.6,
+    "budgetBefore": 10,
+    "budgetAfter": 9
+  },
+  "actions": {
+    "summary": {
+      "bidDown": 9,
+      "bidUp": 5,
+      "budgetAdjust": 1,
+      "pause": 0,
+      "newKeyword": 10,
+      "newProductTarget": 0,
+      "negative": 0,
+      "total": 25
+    },
+    "bidDown": [
+      {
+        "seq": 1,
+        "campaign": "#3 ZTJ010001_B_L-130-2-",
+        "campaignId": "550212093559706",
+        "keyword": "men's collared shirts",
+        "match": "广泛",
+        "from": 0.5,
+        "to": 0.3,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$2.0,零转化",
+        "targetId": "438097142348525"
+      },
+      {
+        "seq": 2,
+        "campaign": "#3 ZTJ010001_B_L-130-2-",
+        "campaignId": "550212093559706",
+        "keyword": "sweater with collar men",
+        "match": "广泛",
+        "from": 0.5,
+        "to": 0.3,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.5,零转化",
+        "targetId": "482069876112752"
+      },
+      {
+        "seq": 3,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "campaignId": "415285089257642",
+        "keyword": "long sleeve polo shirts for men",
+        "match": "广泛",
+        "from": 0.48,
+        "to": 0.29,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.44,零转化",
+        "targetId": "557882362627614"
+      },
+      {
+        "seq": 4,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "campaignId": "415285089257642",
+        "keyword": "mens full sleeve t shirts",
+        "match": "广泛",
+        "from": 0.48,
+        "to": 0.29,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.44,零转化",
+        "targetId": "523771775823682"
+      },
+      {
+        "seq": 5,
+        "campaign": "#3 ZTJ010001_B_L-130-2-",
+        "campaignId": "550212093559706",
+        "keyword": "collared sweater",
+        "match": "广泛",
+        "from": 0.48,
+        "to": 0.29,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.44,零转化",
+        "targetId": "328345245171986"
+      },
+      {
+        "seq": 6,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "campaignId": "415285089257642",
+        "keyword": "men sweater",
+        "match": "广泛",
+        "from": 0.45,
+        "to": 0.27,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.35,零转化",
+        "targetId": "348759948425567"
+      },
+      {
+        "seq": 7,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "campaignId": "415285089257642",
+        "keyword": "mens long sleeve sweater polo",
+        "match": "广泛",
+        "from": 0.5,
+        "to": 0.3,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.0,零转化",
+        "targetId": "344491192071588"
+      },
+      {
+        "seq": 8,
+        "campaign": "#3 ZTJ010001_B_L-130-2-",
+        "campaignId": "550212093559706",
+        "keyword": "mens collared sweaters",
+        "match": "广泛",
+        "from": 0.5,
+        "to": 0.3,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.0,零转化",
+        "targetId": "381800313986471"
+      },
+      {
+        "seq": 9,
+        "campaign": "#3 ZTJ010001_B_L-130-2-",
+        "campaignId": "550212093559706",
+        "keyword": "long sleeve knit polo",
+        "match": "广泛",
+        "from": 0.5,
+        "to": 0.3,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.0,零转化",
+        "targetId": "435610901030771"
+      }
+    ],
+    "bidUp": [
+      {
+        "seq": 10,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "campaignId": "415285089257642",
+        "keyword": "sweater polo men",
+        "match": "广泛",
+        "from": 0.48,
+        "to": 0.55,
+        "change": "+15%",
+        "reason": "优质词ACOS 0.49%,5单,提竞价获取更多流量",
+        "targetId": "481484151824260"
+      },
+      {
+        "seq": 11,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "campaignId": "415285089257642",
+        "keyword": "mens casual sweaters",
+        "match": "广泛",
+        "from": 0.48,
+        "to": 0.55,
+        "change": "+15%",
+        "reason": "优质词ACOS 4.27%,3单,提竞价获取更多流量",
+        "targetId": "401590823090647"
+      },
+      {
+        "seq": 12,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "campaignId": "415285089257642",
+        "keyword": "coofandy knit polo",
+        "match": "广泛",
+        "from": 0.52,
+        "to": 0.6,
+        "change": "+15%",
+        "reason": "优质词ACOS 12.59%,2单,提竞价获取更多流量",
+        "targetId": "395278924568282"
+      },
+      {
+        "seq": 13,
+        "campaign": "#3 ZTJ010001_B_L-130-2-",
+        "campaignId": "550212093559706",
+        "keyword": "mens sweater with collar",
+        "match": "广泛",
+        "from": 0.5,
+        "to": 0.57,
+        "change": "+14%",
+        "reason": "优质词ACOS 2.5%,1单,提竞价获取更多流量",
+        "targetId": "449834789867347"
+      },
+      {
+        "seq": 14,
+        "campaign": "#3 ZTJ010001_B_L-130-2-",
+        "campaignId": "550212093559706",
+        "keyword": "collared sweater men",
+        "match": "广泛",
+        "from": 0.5,
+        "to": 0.57,
+        "change": "+14%",
+        "reason": "优质词ACOS 5.0%,1单,提竞价获取更多流量",
+        "targetId": "428767562688252"
+      }
+    ],
+    "budgetAdjust": [
+      {
+        "seq": 15,
+        "campaign": "#1 自动投放",
+        "campaignId": "400641453145004",
+        "from": 5,
+        "to": 4,
+        "change": "-20%",
+        "reason": "ACOS 32.83%严重超标,缩减预算止血"
+      }
+    ],
+    "pause": [],
+    "newKeywords": [
+      {
+        "seq": 16,
+        "keyword": "mens purple sweater",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 自动投放",
+        "reason": "搜索词ACOS 6%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 17,
+        "keyword": "mens sweaters big and tall",
+        "match": "精准",
+        "bid": 0.52,
+        "campaign": "#1 自动投放",
+        "reason": "搜索词ACOS 3%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 18,
+        "keyword": "mens lightweight sweater",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 自动投放",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 19,
+        "keyword": "big and tall sweater lightweight",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 自动投放",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 20,
+        "keyword": "mens red sweater",
+        "match": "精准",
+        "bid": 0.52,
+        "campaign": "#1 自动投放",
+        "reason": "搜索词ACOS 3%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 21,
+        "keyword": "b0d4m6jbm2",
+        "match": "精准",
+        "bid": 0.39,
+        "campaign": "#1 自动投放",
+        "reason": "搜索词ACOS 1%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 22,
+        "keyword": "mens polo sweaters",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 自动投放",
+        "reason": "搜索词ACOS 3%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 23,
+        "keyword": "polo sweaters for men",
+        "match": "精准",
+        "bid": 0.52,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "reason": "搜索词ACOS 2%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 24,
+        "keyword": "polo sweater men",
+        "match": "精准",
+        "bid": 0.48,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 25,
+        "keyword": "mens casual sweater",
+        "match": "精准",
+        "bid": 0.48,
+        "campaign": "#2 ZTJ010001_B_L-130-2-",
+        "reason": "搜索词ACOS 1%≤目标20%,3单,建议精确匹配"
+      }
+    ]
+  },
+  "execution": {
+    "status": "completed",
+    "executedAt": "2026-03-04T10:02:00.554Z",
+    "totalActions": 15,
+    "successCount": 15,
+    "failedCount": 0,
+    "failedActions": []
+  }
+}

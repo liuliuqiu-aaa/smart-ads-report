@@ -1,0 +1,767 @@
+{
+  "reportDate": "2026-03-04",
+  "dataDate": "2026-03-04",
+  "generatedAt": "2026-03-04T09:53:25.359036+00:00",
+  "product": {
+    "name": "COOFANDY Mens Casual Button Down Shirt Summer Beach Shirts Lightweight Hoodie Sun Protection Coverup for Travel Vacation",
+    "spu": "ADJ000082",
+    "asin": "B0G91TF3N2",
+    "price": 19.99,
+    "account": "AM00147",
+    "site": "US",
+    "stage": "launch",
+    "amazonUrl": "https://www.amazon.com/dp/B0G91JTPH3?th=1&psc=1"
+  },
+  "summary": {
+    "seventh": {
+      "impressions": 98837,
+      "clicks": 398,
+      "spend": 422.66,
+      "orders": 51,
+      "sales": 1129.53,
+      "acos": 37.42,
+      "cvr": 12.81,
+      "cpc": 1.06,
+      "ctr": 0.4
+    },
+    "yesterday": {
+      "impressions": 15932,
+      "clicks": 64,
+      "spend": 69.78,
+      "orders": 5,
+      "sales": 99.94999999999999,
+      "acos": 69.81,
+      "cvr": 7.81,
+      "cpc": 1.09,
+      "ctr": 0.4
+    },
+    "macroGoal": "boost-sales",
+    "macroGoalLabel": "📈 推动增长",
+    "targetAcos": 25,
+    "effectiveAcosConstraint": 25
+  },
+  "campaigns": [
+    {
+      "name": "#1 ZDJ000082-123-3-CML-",
+      "campaignId": "479008051757777",
+      "type": "manual",
+      "budget": 30,
+      "seventh": {
+        "impressions": 38624,
+        "clicks": 159,
+        "spend": 182.18,
+        "orders": 21,
+        "sales": 483.33,
+        "acos": 37.69,
+        "cvr": 13.21
+      },
+      "yesterday": {
+        "impressions": 5575,
+        "clicks": 27,
+        "spend": 30.64,
+        "orders": 1,
+        "sales": 19.99,
+        "acos": 153.28,
+        "cvr": 3.7
+      }
+    },
+    {
+      "name": "#2 自动投放",
+      "campaignId": "368893969861779",
+      "type": "auto",
+      "budget": 20,
+      "seventh": {
+        "impressions": 31628,
+        "clicks": 128,
+        "spend": 119.9,
+        "orders": 16,
+        "sales": 366.34,
+        "acos": 32.73,
+        "cvr": 12.5
+      },
+      "yesterday": {
+        "impressions": 7373,
+        "clicks": 19,
+        "spend": 18.64,
+        "orders": 2,
+        "sales": 39.98,
+        "acos": 46.62,
+        "cvr": 10.53
+      }
+    },
+    {
+      "name": "#3 ZDJ000082-123-3-CML-",
+      "campaignId": "422036852572102",
+      "type": "manual",
+      "budget": 20,
+      "seventh": {
+        "impressions": 28585,
+        "clicks": 111,
+        "spend": 120.58,
+        "orders": 14,
+        "sales": 279.86,
+        "acos": 43.09,
+        "cvr": 12.61
+      },
+      "yesterday": {
+        "impressions": 2984,
+        "clicks": 18,
+        "spend": 20.5,
+        "orders": 2,
+        "sales": 39.98,
+        "acos": 51.28,
+        "cvr": 11.11
+      }
+    }
+  ],
+  "diagnosis": [
+    {
+      "icon": "🚨",
+      "text": "7天整体ACOS 37.42%超过有效约束25%,需要优化"
+    },
+    {
+      "icon": "⚠️",
+      "text": "昨日ACOS 69.81%异常偏高,需关注"
+    },
+    {
+      "icon": "🚨",
+      "text": "亏损投放(9个)远多于优质投放(3个),整体效率堪忧"
+    },
+    {
+      "icon": "📊",
+      "text": "7天日均7.3单,日均花费$60.38"
+    }
+  ],
+  "keywordLayers": {
+    "excellent": [
+      {
+        "keyword": "button down shirt men",
+        "match": "广泛",
+        "bid": 1.1,
+        "impressions": 2062,
+        "clicks": 10,
+        "spend": 11,
+        "orders": 2,
+        "sales": 49.98,
+        "acos": 22.01,
+        "cvr": 20,
+        "note": ""
+      },
+      {
+        "keyword": "mens beach shirts",
+        "match": "关键词投放-",
+        "bid": 1.16,
+        "impressions": 176,
+        "clicks": 2,
+        "spend": 2.32,
+        "orders": 1,
+        "sales": 18.99,
+        "acos": 12.22,
+        "cvr": 50,
+        "note": ""
+      },
+      {
+        "keyword": "mens beach shirts",
+        "match": "广泛",
+        "bid": 1.1,
+        "impressions": 390,
+        "clicks": 2,
+        "spend": 2.2,
+        "orders": 1,
+        "sales": 19.99,
+        "acos": 11.01,
+        "cvr": 50,
+        "note": ""
+      }
+    ],
+    "potential": [
+      {
+        "keyword": "linen shirts for men",
+        "match": "精准",
+        "bid": 1.2,
+        "impressions": 28544,
+        "clicks": 119,
+        "spend": 138.07,
+        "orders": 16,
+        "sales": 379.88,
+        "acos": 36.35,
+        "cvr": 13.45,
+        "note": ""
+      },
+      {
+        "keyword": "宽泛匹配  自动",
+        "match": "自动",
+        "bid": 0,
+        "impressions": 11386,
+        "clicks": 74,
+        "spend": 74.74,
+        "orders": 10,
+        "sales": 246.4,
+        "acos": 30.33,
+        "cvr": 13.51,
+        "note": ""
+      },
+      {
+        "keyword": "mens summer shirts",
+        "match": "广泛",
+        "bid": 1.16,
+        "impressions": 4651,
+        "clicks": 21,
+        "spend": 23.86,
+        "orders": 4,
+        "sales": 78.96,
+        "acos": 30.22,
+        "cvr": 19.05,
+        "note": ""
+      },
+      {
+        "keyword": "同类商品  自动",
+        "match": "自动",
+        "bid": 0,
+        "impressions": 11871,
+        "clicks": 25,
+        "spend": 15.02,
+        "orders": 3,
+        "sales": 59.97,
+        "acos": 25.05,
+        "cvr": 12,
+        "note": ""
+      },
+      {
+        "keyword": "mens shirts casual",
+        "match": "广泛",
+        "bid": 1.16,
+        "impressions": 2712,
+        "clicks": 9,
+        "spend": 10.44,
+        "orders": 2,
+        "sales": 38.98,
+        "acos": 26.78,
+        "cvr": 22.22,
+        "note": ""
+      },
+      {
+        "keyword": "linen shirts for men",
+        "match": "关键词投放-",
+        "bid": 1.15,
+        "impressions": 1053,
+        "clicks": 5,
+        "spend": 5.75,
+        "orders": 1,
+        "sales": 19.99,
+        "acos": 28.76,
+        "cvr": 20,
+        "note": ""
+      }
+    ],
+    "losing": [
+      {
+        "keyword": "linen shirts for men",
+        "match": "广泛",
+        "bid": 1.13,
+        "impressions": 9034,
+        "clicks": 35,
+        "spend": 38.36,
+        "orders": 4,
+        "sales": 83.46,
+        "acos": 45.96,
+        "cvr": 11.43,
+        "note": ""
+      },
+      {
+        "keyword": "紧密匹配  自动",
+        "match": "自动",
+        "bid": 0,
+        "impressions": 8193,
+        "clicks": 30,
+        "spend": 31.14,
+        "orders": 3,
+        "sales": 59.97,
+        "acos": 51.93,
+        "cvr": 10,
+        "note": ""
+      },
+      {
+        "keyword": "beach shirts for men",
+        "match": "广泛",
+        "bid": 1.15,
+        "impressions": 2848,
+        "clicks": 27,
+        "spend": 29.51,
+        "orders": 4,
+        "sales": 72.96,
+        "acos": 40.45,
+        "cvr": 14.81,
+        "note": ""
+      },
+      {
+        "keyword": "mens long sleeve button down shirts",
+        "match": "广泛",
+        "bid": 1.1,
+        "impressions": 6709,
+        "clicks": 16,
+        "spend": 15.77,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "mens shirts casual stylish",
+        "match": "广泛",
+        "bid": 1.16,
+        "impressions": 4677,
+        "clicks": 12,
+        "spend": 12.6,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "casual shirts for men",
+        "match": "广泛",
+        "bid": 1.16,
+        "impressions": 1638,
+        "clicks": 5,
+        "spend": 5.76,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "summer shirts for men",
+        "match": "广泛",
+        "bid": 1.1,
+        "impressions": 1917,
+        "clicks": 5,
+        "spend": 5.01,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "casual shirts for men",
+        "match": "关键词投放-",
+        "bid": 1.16,
+        "impressions": 146,
+        "clicks": 1,
+        "spend": 1.16,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "mens casual shirts",
+        "match": "广泛",
+        "bid": 1.15,
+        "impressions": 318,
+        "clicks": 1,
+        "spend": 0.95,
+        "orders": 0,
+        "sales": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      }
+    ],
+    "lowVolume": [
+      {
+        "keyword": "关联商品  自动",
+        "bid": 0,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "beach shirts for men",
+        "bid": 1.16,
+        "impressions": 274,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "button down shirt men",
+        "bid": 1.1,
+        "impressions": 67,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens shirts casual",
+        "bid": 1.16,
+        "impressions": 34,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens casual shirts",
+        "bid": 1.16,
+        "impressions": 13,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "summer shirts for men",
+        "bid": 1.16,
+        "impressions": 12,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens long sleeve button down shirts",
+        "bid": 1.1,
+        "impressions": 4,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens summer shirts",
+        "bid": 1.1,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      },
+      {
+        "keyword": "mens shirts casual stylish",
+        "bid": 1.1,
+        "impressions": 0,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "保持观察"
+      }
+    ]
+  },
+  "autoTargeting": [
+    {
+      "type": "同类商品",
+      "bid": 0,
+      "impressions": 11871,
+      "clicks": 25,
+      "spend": 15.02,
+      "orders": 3,
+      "sales": 59.97,
+      "acos": 25.05,
+      "action": "降至$0.02",
+      "status": null
+    },
+    {
+      "type": "宽泛匹配",
+      "bid": 0,
+      "impressions": 11386,
+      "clicks": 74,
+      "spend": 74.74,
+      "orders": 10,
+      "sales": 246.4,
+      "acos": 30.33,
+      "action": "降至$0.02",
+      "status": null
+    },
+    {
+      "type": "紧密匹配",
+      "bid": 0,
+      "impressions": 8193,
+      "clicks": 30,
+      "spend": 31.14,
+      "orders": 3,
+      "sales": 59.97,
+      "acos": 51.93,
+      "action": "降至$0.02",
+      "status": null
+    },
+    {
+      "type": "关联商品",
+      "bid": 0,
+      "impressions": 0,
+      "clicks": 0,
+      "spend": 0,
+      "orders": 0,
+      "sales": 0,
+      "acos": null,
+      "action": "保持$0.00",
+      "status": null
+    }
+  ],
+  "forecast": {
+    "currentAcos": 37.42,
+    "currentAcosYd": 69.81,
+    "shortTerm": "34-37%",
+    "midTerm": "23-27%",
+    "currentDailyOrders": 7.3,
+    "expectedDailyOrders": 8,
+    "budgetBefore": 70,
+    "budgetAfter": 60
+  },
+  "actions": {
+    "summary": {
+      "bidDown": 7,
+      "bidUp": 3,
+      "budgetAdjust": 2,
+      "pause": 0,
+      "newKeyword": 10,
+      "newProductTarget": 0,
+      "negative": 2,
+      "total": 24
+    },
+    "bidDown": [
+      {
+        "seq": 1,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "campaignId": "479008051757777",
+        "keyword": "linen shirts for men",
+        "match": "广泛",
+        "from": 1.13,
+        "to": 0.85,
+        "change": "-25%",
+        "reason": "ACOS 45.96%花费$38.36,4单",
+        "targetId": "455866694726518"
+      },
+      {
+        "seq": 2,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "beach shirts for men",
+        "match": "广泛",
+        "from": 1.15,
+        "to": 0.86,
+        "change": "-25%",
+        "reason": "ACOS 40.45%花费$29.51,4单",
+        "targetId": "378616482240805"
+      },
+      {
+        "seq": 3,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "mens long sleeve button down shirts",
+        "match": "广泛",
+        "from": 1.1,
+        "to": 0.66,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$15.77,零转化",
+        "targetId": "424500522155412"
+      },
+      {
+        "seq": 4,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "mens shirts casual stylish",
+        "match": "广泛",
+        "from": 1.16,
+        "to": 0.7,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$12.6,零转化",
+        "targetId": "301867006073806"
+      },
+      {
+        "seq": 5,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "casual shirts for men",
+        "match": "广泛",
+        "from": 1.16,
+        "to": 0.7,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$5.76,零转化",
+        "targetId": "296379727250991"
+      },
+      {
+        "seq": 6,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "summer shirts for men",
+        "match": "广泛",
+        "from": 1.1,
+        "to": 0.66,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$5.01,零转化",
+        "targetId": "562435733385993"
+      },
+      {
+        "seq": 7,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "casual shirts for men",
+        "match": "广泛",
+        "from": 1.16,
+        "to": 0.7,
+        "change": "-40%",
+        "reason": "ACOS 0%花费$1.16,零转化",
+        "targetId": "508609649388911"
+      }
+    ],
+    "bidUp": [
+      {
+        "seq": 8,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "button down shirt men",
+        "match": "广泛",
+        "from": 1.1,
+        "to": 1.26,
+        "change": "+15%",
+        "reason": "优质词ACOS 22.01%,2单,提竞价获取更多流量",
+        "targetId": "468054773551148"
+      },
+      {
+        "seq": 9,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "mens beach shirts",
+        "match": "广泛",
+        "from": 1.1,
+        "to": 1.26,
+        "change": "+15%",
+        "reason": "优质词ACOS 11.01%,1单,提竞价获取更多流量",
+        "targetId": "449409101183526"
+      },
+      {
+        "seq": 10,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "keyword": "mens beach shirts",
+        "match": "广泛",
+        "from": 1.16,
+        "to": 1.33,
+        "change": "+15%",
+        "reason": "优质词ACOS 12.22%,1单,提竞价获取更多流量",
+        "targetId": "458632690716712"
+      }
+    ],
+    "budgetAdjust": [
+      {
+        "seq": 11,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "campaignId": "479008051757777",
+        "from": 30,
+        "to": 24,
+        "change": "-20%",
+        "reason": "ACOS 37.69%严重超标,缩减预算止血"
+      },
+      {
+        "seq": 12,
+        "campaign": "#3 ZDJ000082-123-3-CML-",
+        "campaignId": "422036852572102",
+        "from": 20,
+        "to": 16,
+        "change": "-20%",
+        "reason": "ACOS 43.09%严重超标,缩减预算止血"
+      }
+    ],
+    "pause": [],
+    "newKeywords": [
+      {
+        "seq": 13,
+        "keyword": "white linen shirt men",
+        "match": "精准",
+        "bid": 1.13,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "reason": "搜索词ACOS 17%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 14,
+        "keyword": "linen shirts men",
+        "match": "精准",
+        "bid": 1.2,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "reason": "搜索词ACOS 6%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 15,
+        "keyword": "100% linen shirts for men",
+        "match": "精准",
+        "bid": 1.15,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "reason": "搜索词ACOS 6%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 16,
+        "keyword": "mens linen shirts long sleeve",
+        "match": "精准",
+        "bid": 1.13,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "reason": "搜索词ACOS 6%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 17,
+        "keyword": "thick linen shirt",
+        "match": "精准",
+        "bid": 1.13,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "reason": "搜索词ACOS 6%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 18,
+        "keyword": "linen raw edge shirt men",
+        "match": "精准",
+        "bid": 1.13,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "reason": "搜索词ACOS 6%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 19,
+        "keyword": "lino shirts for men",
+        "match": "精准",
+        "bid": 1.13,
+        "campaign": "#1 ZDJ000082-123-3-CML-",
+        "reason": "搜索词ACOS 4%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 20,
+        "keyword": "100% linen shirt",
+        "match": "精准",
+        "bid": 1,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 2%≤目标25%,2单,建议精确匹配"
+      },
+      {
+        "seq": 21,
+        "keyword": "mens jacket",
+        "match": "精准",
+        "bid": 1.02,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 7%≤目标25%,1单,建议精确匹配"
+      },
+      {
+        "seq": 22,
+        "keyword": "long sleeve linen shirt men",
+        "match": "精准",
+        "bid": 1.05,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 11%≤目标25%,1单,建议精确匹配"
+      }
+    ]
+  },
+  "execution": {
+    "status": "completed",
+    "executedAt": "2026-03-04T10:02:00.554Z",
+    "totalActions": 12,
+    "successCount": 12,
+    "failedCount": 0,
+    "failedActions": []
+  }
+}
