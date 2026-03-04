@@ -505,7 +505,7 @@ function renderActions(d) {
 function renderExeclog(d) {
   const e = d.execution || {};
   if (!e.status) return `<div class="card"><h2>✅ 执行结果</h2><p style="color:var(--text2);">暂无执行数据</p></div>`;
-  const total = e.totalOps||0, success = e.successOps||0, existed = e.existed||0, failed = e.failedOps||0;
+  const total = e.totalOps||e.totalActions||0, success = e.successOps||e.successCount||0, existed = e.existed||0, failed = e.failedOps||e.failedCount||0;
   const okPct = total>0?(success/total*100).toFixed(1):'0';
   const exPct = total>0?(existed/total*100).toFixed(1):'0';
   const failPct = total>0?(failed/total*100).toFixed(1):'0';

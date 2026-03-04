@@ -13,104 +13,122 @@
     "amazonUrl": "https://www.amazon.com/dp/B0FB8FRB3X?th=1&psc=1"
   },
   "summary": {
-    "seventh": {
-      "impressions": 30803,
-      "clicks": 109,
-      "spend": 53.010000000000005,
-      "orders": 17,
-      "sales": 503.39,
-      "acos": 10.53,
-      "cvr": 15.6,
-      "cpc": 0.49,
-      "ctr": 0.35
-    },
     "yesterday": {
       "impressions": 7773,
       "clicks": 19,
       "spend": 9.46,
       "orders": 2,
-      "sales": 32.489999999999995,
       "acos": 29.12,
       "cvr": 10.53,
       "cpc": 0.5,
-      "ctr": 0.24
+      "ctr": 0.24,
+      "salesAmount": 32.489999999999995,
+      "salesVolume": 2,
+      "roas": 3.43
     },
     "macroGoal": "boost-sales",
     "macroGoalLabel": "📈 推动增长",
     "targetAcos": 20,
-    "effectiveAcosConstraint": 20
+    "effectiveAcosConstraint": 20,
+    "last7days": {
+      "impressions": 30803,
+      "clicks": 109,
+      "spend": 53.010000000000005,
+      "orders": 17,
+      "acos": 10.53,
+      "cvr": 15.6,
+      "cpc": 0.49,
+      "ctr": 0.35,
+      "salesAmount": 503.39,
+      "salesVolume": 17,
+      "roas": 9.5
+    },
+    "totalCampaigns": 3,
+    "totalDailyBudget": 10
   },
   "campaigns": [
     {
       "name": "#1 自动投放",
-      "campaignId": "400641453145004",
       "type": "auto",
       "budget": 5,
-      "seventh": {
-        "impressions": 18639,
-        "clicks": 53,
-        "spend": 25.76,
-        "orders": 4,
-        "sales": 78.47,
-        "acos": 32.83,
-        "cvr": 7.55
-      },
       "yesterday": {
         "impressions": 4990,
         "clicks": 6,
         "spend": 2.96,
         "orders": 1,
-        "sales": 12.5,
         "acos": 23.68,
-        "cvr": 16.67
+        "cvr": 16.67,
+        "salesAmount": 12.5,
+        "salesVolume": 1,
+        "roas": 4.22
+      },
+      "id": "400641453145004",
+      "last7days": {
+        "impressions": 18639,
+        "clicks": 53,
+        "spend": 25.76,
+        "orders": 4,
+        "acos": 32.83,
+        "cvr": 7.55,
+        "salesAmount": 78.47,
+        "salesVolume": 4,
+        "roas": 3.05
       }
     },
     {
       "name": "#2 ZTJ010001_B_L-130-2-",
-      "campaignId": "415285089257642",
       "type": "manual",
       "budget": 3,
-      "seventh": {
-        "impressions": 8308,
-        "clicks": 34,
-        "spend": 16.44,
-        "orders": 10,
-        "sales": 369.95,
-        "acos": 4.44,
-        "cvr": 29.41
-      },
       "yesterday": {
         "impressions": 1815,
         "clicks": 6,
         "spend": 3.04,
         "orders": 0,
-        "sales": 0,
         "acos": 0,
-        "cvr": 0
+        "cvr": 0,
+        "salesAmount": 0,
+        "salesVolume": 0,
+        "roas": 0.0
+      },
+      "id": "415285089257642",
+      "last7days": {
+        "impressions": 8308,
+        "clicks": 34,
+        "spend": 16.44,
+        "orders": 10,
+        "acos": 4.44,
+        "cvr": 29.41,
+        "salesAmount": 369.95,
+        "salesVolume": 10,
+        "roas": 22.5
       }
     },
     {
       "name": "#3 ZTJ010001_B_L-130-2-",
-      "campaignId": "550212093559706",
       "type": "manual",
       "budget": 2,
-      "seventh": {
-        "impressions": 3856,
-        "clicks": 22,
-        "spend": 10.81,
-        "orders": 3,
-        "sales": 54.97,
-        "acos": 19.67,
-        "cvr": 13.64
-      },
       "yesterday": {
         "impressions": 968,
         "clicks": 7,
         "spend": 3.46,
         "orders": 1,
-        "sales": 19.99,
         "acos": 17.31,
-        "cvr": 14.29
+        "cvr": 14.29,
+        "salesAmount": 19.99,
+        "salesVolume": 1,
+        "roas": 5.78
+      },
+      "id": "550212093559706",
+      "last7days": {
+        "impressions": 3856,
+        "clicks": 22,
+        "spend": 10.81,
+        "orders": 3,
+        "acos": 19.67,
+        "cvr": 13.64,
+        "salesAmount": 54.97,
+        "salesVolume": 3,
+        "roas": 5.09
       }
     }
   ],
@@ -142,10 +160,10 @@
         "clicks": 8,
         "spend": 4.16,
         "orders": 2,
-        "sales": 33.03,
         "acos": 12.59,
         "cvr": 25,
-        "note": ""
+        "note": "",
+        "salesAmount": 33.03
       },
       {
         "keyword": "mens casual sweaters",
@@ -155,10 +173,10 @@
         "clicks": 4,
         "spend": 1.92,
         "orders": 3,
-        "sales": 44.97,
         "acos": 4.27,
         "cvr": 75,
-        "note": ""
+        "note": "",
+        "salesAmount": 44.97
       },
       {
         "keyword": "sweater polo men",
@@ -168,10 +186,10 @@
         "clicks": 3,
         "spend": 1.44,
         "orders": 5,
-        "sales": 291.95,
         "acos": 0.49,
         "cvr": 166.67,
-        "note": ""
+        "note": "",
+        "salesAmount": 291.95
       },
       {
         "keyword": "collared sweater men",
@@ -181,10 +199,10 @@
         "clicks": 2,
         "spend": 1,
         "orders": 1,
-        "sales": 19.99,
         "acos": 5,
         "cvr": 50,
-        "note": ""
+        "note": "",
+        "salesAmount": 19.99
       },
       {
         "keyword": "mens sweater with collar",
@@ -194,10 +212,10 @@
         "clicks": 1,
         "spend": 0.5,
         "orders": 1,
-        "sales": 19.99,
         "acos": 2.5,
         "cvr": 100,
-        "note": ""
+        "note": "",
+        "salesAmount": 19.99
       }
     ],
     "potential": [
@@ -209,10 +227,10 @@
         "clicks": 38,
         "spend": 18.87,
         "orders": 4,
-        "sales": 78.47,
         "acos": 24.05,
         "cvr": 10.53,
-        "note": ""
+        "note": "",
+        "salesAmount": 78.47
       }
     ],
     "losing": [
@@ -224,10 +242,10 @@
         "clicks": 12,
         "spend": 5.48,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "men's collared shirts",
@@ -237,10 +255,10 @@
         "clicks": 4,
         "spend": 2,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "sweater with collar men",
@@ -250,10 +268,10 @@
         "clicks": 3,
         "spend": 1.5,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "long sleeve polo shirts for men",
@@ -263,10 +281,10 @@
         "clicks": 3,
         "spend": 1.44,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens full sleeve t shirts",
@@ -276,10 +294,10 @@
         "clicks": 3,
         "spend": 1.44,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "collared sweater",
@@ -289,10 +307,10 @@
         "clicks": 3,
         "spend": 1.44,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "紧密匹配  自动",
@@ -302,10 +320,10 @@
         "clicks": 3,
         "spend": 1.41,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "men sweater",
@@ -315,10 +333,10 @@
         "clicks": 3,
         "spend": 1.35,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens long sleeve sweater polo",
@@ -328,10 +346,10 @@
         "clicks": 2,
         "spend": 1,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens collared sweaters",
@@ -341,10 +359,10 @@
         "clicks": 2,
         "spend": 1,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "long sleeve knit polo",
@@ -354,10 +372,10 @@
         "clicks": 2,
         "spend": 1,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "coofandy knit polo shirts for men",
@@ -367,10 +385,10 @@
         "clicks": 1,
         "spend": 0.5,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "brown collared shirt men",
@@ -380,10 +398,10 @@
         "clicks": 1,
         "spend": 0.49,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "polo men's long sleeve",
@@ -393,10 +411,10 @@
         "clicks": 1,
         "spend": 0.48,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens polo shirts",
@@ -406,10 +424,10 @@
         "clicks": 1,
         "spend": 0.48,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens dress polo",
@@ -419,10 +437,10 @@
         "clicks": 1,
         "spend": 0.47,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "coofandy polo",
@@ -432,10 +450,10 @@
         "clicks": 1,
         "spend": 0.46,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       }
     ],
     "lowVolume": [
@@ -1520,10 +1538,10 @@
       "clicks": 12,
       "spend": 5.48,
       "orders": 0,
-      "sales": 0,
       "acos": null,
       "action": "降至$0.02",
-      "status": null
+      "status": null,
+      "salesAmount": 0
     },
     {
       "type": "宽泛匹配",
@@ -1532,10 +1550,10 @@
       "clicks": 38,
       "spend": 18.87,
       "orders": 4,
-      "sales": 78.47,
       "acos": 24.05,
       "action": "降至$0.02",
-      "status": null
+      "status": null,
+      "salesAmount": 78.47
     },
     {
       "type": "紧密匹配",
@@ -1544,10 +1562,10 @@
       "clicks": 3,
       "spend": 1.41,
       "orders": 0,
-      "sales": 0,
       "acos": null,
       "action": "保持$0.00",
-      "status": null
+      "status": null,
+      "salesAmount": 0
     },
     {
       "type": "关联商品",
@@ -1556,10 +1574,10 @@
       "clicks": 0,
       "spend": 0,
       "orders": 0,
-      "sales": 0,
       "acos": null,
       "action": "保持$0.00",
-      "status": null
+      "status": null,
+      "salesAmount": 0
     }
   ],
   "forecast": {
@@ -1856,6 +1874,221 @@
     "totalActions": 15,
     "successCount": 15,
     "failedCount": 0,
-    "failedActions": []
+    "failedActions": [],
+    "totalOps": 25,
+    "successOps": 25,
+    "failedOps": 0,
+    "existed": 0,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "men's collared shirts",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.3
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "sweater with collar men",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.3
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "long sleeve polo shirts for men",
+        "status": "success",
+        "from": 0.48,
+        "to": 0.29
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "mens full sleeve t shirts",
+        "status": "success",
+        "from": 0.48,
+        "to": 0.29
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "collared sweater",
+        "status": "success",
+        "from": 0.48,
+        "to": 0.29
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "men sweater",
+        "status": "success",
+        "from": 0.45,
+        "to": 0.27
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "mens long sleeve sweater polo",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.3
+      },
+      {
+        "seq": 8,
+        "type": "bidDown",
+        "target": "mens collared sweaters",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.3
+      },
+      {
+        "seq": 9,
+        "type": "bidDown",
+        "target": "long sleeve knit polo",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.3
+      },
+      {
+        "seq": 10,
+        "type": "bidUp",
+        "target": "sweater polo men",
+        "status": "success",
+        "from": 0.48,
+        "to": 0.55
+      },
+      {
+        "seq": 11,
+        "type": "bidUp",
+        "target": "mens casual sweaters",
+        "status": "success",
+        "from": 0.48,
+        "to": 0.55
+      },
+      {
+        "seq": 12,
+        "type": "bidUp",
+        "target": "coofandy knit polo",
+        "status": "success",
+        "from": 0.52,
+        "to": 0.6
+      },
+      {
+        "seq": 13,
+        "type": "bidUp",
+        "target": "mens sweater with collar",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.57
+      },
+      {
+        "seq": 14,
+        "type": "bidUp",
+        "target": "collared sweater men",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.57
+      },
+      {
+        "seq": 15,
+        "type": "budgetDown",
+        "target": "400641453145004",
+        "status": "success",
+        "from": 5.0,
+        "to": 4
+      },
+      {
+        "seq": 16,
+        "type": "newKeyword",
+        "target": "mens purple sweater",
+        "status": "success",
+        "from": null,
+        "to": 0.5
+      },
+      {
+        "seq": 17,
+        "type": "newKeyword",
+        "target": "mens sweaters big and tall",
+        "status": "success",
+        "from": null,
+        "to": 0.52
+      },
+      {
+        "seq": 18,
+        "type": "newKeyword",
+        "target": "mens lightweight sweater",
+        "status": "success",
+        "from": null,
+        "to": 0.5
+      },
+      {
+        "seq": 19,
+        "type": "newKeyword",
+        "target": "big and tall sweater lightweight",
+        "status": "success",
+        "from": null,
+        "to": 0.5
+      },
+      {
+        "seq": 20,
+        "type": "newKeyword",
+        "target": "mens red sweater",
+        "status": "success",
+        "from": null,
+        "to": 0.52
+      },
+      {
+        "seq": 21,
+        "type": "newKeyword",
+        "target": "b0d4m6jbm2",
+        "status": "success",
+        "from": null,
+        "to": 0.39
+      },
+      {
+        "seq": 22,
+        "type": "newKeyword",
+        "target": "mens polo sweaters",
+        "status": "success",
+        "from": null,
+        "to": 0.5
+      },
+      {
+        "seq": 23,
+        "type": "newKeyword",
+        "target": "polo sweaters for men",
+        "status": "success",
+        "from": null,
+        "to": 0.52
+      },
+      {
+        "seq": 24,
+        "type": "newKeyword",
+        "target": "polo sweater men",
+        "status": "success",
+        "from": null,
+        "to": 0.48
+      },
+      {
+        "seq": 25,
+        "type": "newKeyword",
+        "target": "mens casual sweater",
+        "status": "success",
+        "from": null,
+        "to": 0.48
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "400641453145004",
+        "before": 5.0,
+        "after": 4,
+        "change": -1.0
+      }
+    ],
+    "method": "EIP Browser + CDP"
   }
 }

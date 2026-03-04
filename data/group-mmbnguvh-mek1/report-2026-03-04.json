@@ -13,104 +13,122 @@
     "amazonUrl": "https://www.amazon.com/dp/B0G91JTPH3?th=1&psc=1"
   },
   "summary": {
-    "seventh": {
-      "impressions": 98837,
-      "clicks": 398,
-      "spend": 422.66,
-      "orders": 51,
-      "sales": 1129.53,
-      "acos": 37.42,
-      "cvr": 12.81,
-      "cpc": 1.06,
-      "ctr": 0.4
-    },
     "yesterday": {
       "impressions": 15932,
       "clicks": 64,
       "spend": 69.78,
       "orders": 5,
-      "sales": 99.94999999999999,
       "acos": 69.81,
       "cvr": 7.81,
       "cpc": 1.09,
-      "ctr": 0.4
+      "ctr": 0.4,
+      "salesAmount": 99.94999999999999,
+      "salesVolume": 5,
+      "roas": 1.43
     },
     "macroGoal": "boost-sales",
     "macroGoalLabel": "📈 推动增长",
     "targetAcos": 25,
-    "effectiveAcosConstraint": 25
+    "effectiveAcosConstraint": 25,
+    "last7days": {
+      "impressions": 98837,
+      "clicks": 398,
+      "spend": 422.66,
+      "orders": 51,
+      "acos": 37.42,
+      "cvr": 12.81,
+      "cpc": 1.06,
+      "ctr": 0.4,
+      "salesAmount": 1129.53,
+      "salesVolume": 51,
+      "roas": 2.67
+    },
+    "totalCampaigns": 3,
+    "totalDailyBudget": 70
   },
   "campaigns": [
     {
       "name": "#1 ZDJ000082-123-3-CML-",
-      "campaignId": "479008051757777",
       "type": "manual",
       "budget": 30,
-      "seventh": {
-        "impressions": 38624,
-        "clicks": 159,
-        "spend": 182.18,
-        "orders": 21,
-        "sales": 483.33,
-        "acos": 37.69,
-        "cvr": 13.21
-      },
       "yesterday": {
         "impressions": 5575,
         "clicks": 27,
         "spend": 30.64,
         "orders": 1,
-        "sales": 19.99,
         "acos": 153.28,
-        "cvr": 3.7
+        "cvr": 3.7,
+        "salesAmount": 19.99,
+        "salesVolume": 1,
+        "roas": 0.65
+      },
+      "id": "479008051757777",
+      "last7days": {
+        "impressions": 38624,
+        "clicks": 159,
+        "spend": 182.18,
+        "orders": 21,
+        "acos": 37.69,
+        "cvr": 13.21,
+        "salesAmount": 483.33,
+        "salesVolume": 21,
+        "roas": 2.65
       }
     },
     {
       "name": "#2 自动投放",
-      "campaignId": "368893969861779",
       "type": "auto",
       "budget": 20,
-      "seventh": {
-        "impressions": 31628,
-        "clicks": 128,
-        "spend": 119.9,
-        "orders": 16,
-        "sales": 366.34,
-        "acos": 32.73,
-        "cvr": 12.5
-      },
       "yesterday": {
         "impressions": 7373,
         "clicks": 19,
         "spend": 18.64,
         "orders": 2,
-        "sales": 39.98,
         "acos": 46.62,
-        "cvr": 10.53
+        "cvr": 10.53,
+        "salesAmount": 39.98,
+        "salesVolume": 2,
+        "roas": 2.14
+      },
+      "id": "368893969861779",
+      "last7days": {
+        "impressions": 31628,
+        "clicks": 128,
+        "spend": 119.9,
+        "orders": 16,
+        "acos": 32.73,
+        "cvr": 12.5,
+        "salesAmount": 366.34,
+        "salesVolume": 16,
+        "roas": 3.06
       }
     },
     {
       "name": "#3 ZDJ000082-123-3-CML-",
-      "campaignId": "422036852572102",
       "type": "manual",
       "budget": 20,
-      "seventh": {
-        "impressions": 28585,
-        "clicks": 111,
-        "spend": 120.58,
-        "orders": 14,
-        "sales": 279.86,
-        "acos": 43.09,
-        "cvr": 12.61
-      },
       "yesterday": {
         "impressions": 2984,
         "clicks": 18,
         "spend": 20.5,
         "orders": 2,
-        "sales": 39.98,
         "acos": 51.28,
-        "cvr": 11.11
+        "cvr": 11.11,
+        "salesAmount": 39.98,
+        "salesVolume": 2,
+        "roas": 1.95
+      },
+      "id": "422036852572102",
+      "last7days": {
+        "impressions": 28585,
+        "clicks": 111,
+        "spend": 120.58,
+        "orders": 14,
+        "acos": 43.09,
+        "cvr": 12.61,
+        "salesAmount": 279.86,
+        "salesVolume": 14,
+        "roas": 2.32
       }
     }
   ],
@@ -142,10 +160,10 @@
         "clicks": 10,
         "spend": 11,
         "orders": 2,
-        "sales": 49.98,
         "acos": 22.01,
         "cvr": 20,
-        "note": ""
+        "note": "",
+        "salesAmount": 49.98
       },
       {
         "keyword": "mens beach shirts",
@@ -155,10 +173,10 @@
         "clicks": 2,
         "spend": 2.32,
         "orders": 1,
-        "sales": 18.99,
         "acos": 12.22,
         "cvr": 50,
-        "note": ""
+        "note": "",
+        "salesAmount": 18.99
       },
       {
         "keyword": "mens beach shirts",
@@ -168,10 +186,10 @@
         "clicks": 2,
         "spend": 2.2,
         "orders": 1,
-        "sales": 19.99,
         "acos": 11.01,
         "cvr": 50,
-        "note": ""
+        "note": "",
+        "salesAmount": 19.99
       }
     ],
     "potential": [
@@ -183,10 +201,10 @@
         "clicks": 119,
         "spend": 138.07,
         "orders": 16,
-        "sales": 379.88,
         "acos": 36.35,
         "cvr": 13.45,
-        "note": ""
+        "note": "",
+        "salesAmount": 379.88
       },
       {
         "keyword": "宽泛匹配  自动",
@@ -196,10 +214,10 @@
         "clicks": 74,
         "spend": 74.74,
         "orders": 10,
-        "sales": 246.4,
         "acos": 30.33,
         "cvr": 13.51,
-        "note": ""
+        "note": "",
+        "salesAmount": 246.4
       },
       {
         "keyword": "mens summer shirts",
@@ -209,10 +227,10 @@
         "clicks": 21,
         "spend": 23.86,
         "orders": 4,
-        "sales": 78.96,
         "acos": 30.22,
         "cvr": 19.05,
-        "note": ""
+        "note": "",
+        "salesAmount": 78.96
       },
       {
         "keyword": "同类商品  自动",
@@ -222,10 +240,10 @@
         "clicks": 25,
         "spend": 15.02,
         "orders": 3,
-        "sales": 59.97,
         "acos": 25.05,
         "cvr": 12,
-        "note": ""
+        "note": "",
+        "salesAmount": 59.97
       },
       {
         "keyword": "mens shirts casual",
@@ -235,10 +253,10 @@
         "clicks": 9,
         "spend": 10.44,
         "orders": 2,
-        "sales": 38.98,
         "acos": 26.78,
         "cvr": 22.22,
-        "note": ""
+        "note": "",
+        "salesAmount": 38.98
       },
       {
         "keyword": "linen shirts for men",
@@ -248,10 +266,10 @@
         "clicks": 5,
         "spend": 5.75,
         "orders": 1,
-        "sales": 19.99,
         "acos": 28.76,
         "cvr": 20,
-        "note": ""
+        "note": "",
+        "salesAmount": 19.99
       }
     ],
     "losing": [
@@ -263,10 +281,10 @@
         "clicks": 35,
         "spend": 38.36,
         "orders": 4,
-        "sales": 83.46,
         "acos": 45.96,
         "cvr": 11.43,
-        "note": ""
+        "note": "",
+        "salesAmount": 83.46
       },
       {
         "keyword": "紧密匹配  自动",
@@ -276,10 +294,10 @@
         "clicks": 30,
         "spend": 31.14,
         "orders": 3,
-        "sales": 59.97,
         "acos": 51.93,
         "cvr": 10,
-        "note": ""
+        "note": "",
+        "salesAmount": 59.97
       },
       {
         "keyword": "beach shirts for men",
@@ -289,10 +307,10 @@
         "clicks": 27,
         "spend": 29.51,
         "orders": 4,
-        "sales": 72.96,
         "acos": 40.45,
         "cvr": 14.81,
-        "note": ""
+        "note": "",
+        "salesAmount": 72.96
       },
       {
         "keyword": "mens long sleeve button down shirts",
@@ -302,10 +320,10 @@
         "clicks": 16,
         "spend": 15.77,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens shirts casual stylish",
@@ -315,10 +333,10 @@
         "clicks": 12,
         "spend": 12.6,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "casual shirts for men",
@@ -328,10 +346,10 @@
         "clicks": 5,
         "spend": 5.76,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "summer shirts for men",
@@ -341,10 +359,10 @@
         "clicks": 5,
         "spend": 5.01,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "casual shirts for men",
@@ -354,10 +372,10 @@
         "clicks": 1,
         "spend": 1.16,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens casual shirts",
@@ -367,10 +385,10 @@
         "clicks": 1,
         "spend": 0.95,
         "orders": 0,
-        "sales": 0,
         "acos": null,
         "cvr": 0,
-        "note": ""
+        "note": "",
+        "salesAmount": 0
       }
     ],
     "lowVolume": [
@@ -465,10 +483,10 @@
       "clicks": 25,
       "spend": 15.02,
       "orders": 3,
-      "sales": 59.97,
       "acos": 25.05,
       "action": "降至$0.02",
-      "status": null
+      "status": null,
+      "salesAmount": 59.97
     },
     {
       "type": "宽泛匹配",
@@ -477,10 +495,10 @@
       "clicks": 74,
       "spend": 74.74,
       "orders": 10,
-      "sales": 246.4,
       "acos": 30.33,
       "action": "降至$0.02",
-      "status": null
+      "status": null,
+      "salesAmount": 246.4
     },
     {
       "type": "紧密匹配",
@@ -489,10 +507,10 @@
       "clicks": 30,
       "spend": 31.14,
       "orders": 3,
-      "sales": 59.97,
       "acos": 51.93,
       "action": "降至$0.02",
-      "status": null
+      "status": null,
+      "salesAmount": 59.97
     },
     {
       "type": "关联商品",
@@ -501,10 +519,10 @@
       "clicks": 0,
       "spend": 0,
       "orders": 0,
-      "sales": 0,
       "acos": null,
       "action": "保持$0.00",
-      "status": null
+      "status": null,
+      "salesAmount": 0
     }
   ],
   "forecast": {
@@ -762,6 +780,215 @@
     "totalActions": 12,
     "successCount": 12,
     "failedCount": 0,
-    "failedActions": []
+    "failedActions": [],
+    "totalOps": 24,
+    "successOps": 24,
+    "failedOps": 0,
+    "existed": 0,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "linen shirts for men",
+        "status": "success",
+        "from": 1.13,
+        "to": 0.85
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "beach shirts for men",
+        "status": "success",
+        "from": 1.15,
+        "to": 0.86
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "mens long sleeve button down shirts",
+        "status": "success",
+        "from": 1.1,
+        "to": 0.66
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "mens shirts casual stylish",
+        "status": "success",
+        "from": 1.16,
+        "to": 0.7
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "casual shirts for men",
+        "status": "success",
+        "from": 1.16,
+        "to": 0.7
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "summer shirts for men",
+        "status": "success",
+        "from": 1.1,
+        "to": 0.66
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "casual shirts for men",
+        "status": "success",
+        "from": 1.16,
+        "to": 0.7
+      },
+      {
+        "seq": 8,
+        "type": "bidUp",
+        "target": "button down shirt men",
+        "status": "success",
+        "from": 1.1,
+        "to": 1.26
+      },
+      {
+        "seq": 9,
+        "type": "bidUp",
+        "target": "mens beach shirts",
+        "status": "success",
+        "from": 1.1,
+        "to": 1.26
+      },
+      {
+        "seq": 10,
+        "type": "bidUp",
+        "target": "mens beach shirts",
+        "status": "success",
+        "from": 1.16,
+        "to": 1.33
+      },
+      {
+        "seq": 11,
+        "type": "budgetDown",
+        "target": "479008051757777",
+        "status": "success",
+        "from": 30.0,
+        "to": 24
+      },
+      {
+        "seq": 12,
+        "type": "budgetDown",
+        "target": "422036852572102",
+        "status": "success",
+        "from": 20.0,
+        "to": 16
+      },
+      {
+        "seq": 13,
+        "type": "newKeyword",
+        "target": "white linen shirt men",
+        "status": "success",
+        "from": null,
+        "to": 1.13
+      },
+      {
+        "seq": 14,
+        "type": "newKeyword",
+        "target": "linen shirts men",
+        "status": "success",
+        "from": null,
+        "to": 1.2
+      },
+      {
+        "seq": 15,
+        "type": "newKeyword",
+        "target": "100% linen shirts for men",
+        "status": "success",
+        "from": null,
+        "to": 1.15
+      },
+      {
+        "seq": 16,
+        "type": "newKeyword",
+        "target": "mens linen shirts long sleeve",
+        "status": "success",
+        "from": null,
+        "to": 1.13
+      },
+      {
+        "seq": 17,
+        "type": "newKeyword",
+        "target": "thick linen shirt",
+        "status": "success",
+        "from": null,
+        "to": 1.13
+      },
+      {
+        "seq": 18,
+        "type": "newKeyword",
+        "target": "linen raw edge shirt men",
+        "status": "success",
+        "from": null,
+        "to": 1.13
+      },
+      {
+        "seq": 19,
+        "type": "newKeyword",
+        "target": "lino shirts for men",
+        "status": "success",
+        "from": null,
+        "to": 1.13
+      },
+      {
+        "seq": 20,
+        "type": "newKeyword",
+        "target": "100% linen shirt",
+        "status": "success",
+        "from": null,
+        "to": 1.0
+      },
+      {
+        "seq": 21,
+        "type": "newKeyword",
+        "target": "mens jacket",
+        "status": "success",
+        "from": null,
+        "to": 1.02
+      },
+      {
+        "seq": 22,
+        "type": "newKeyword",
+        "target": "long sleeve linen shirt men",
+        "status": "success",
+        "from": null,
+        "to": 1.05
+      },
+      {
+        "seq": 23,
+        "type": "negative",
+        "target": "linen shirt men, mens linen shirt",
+        "status": "success"
+      },
+      {
+        "seq": 24,
+        "type": "negative",
+        "target": "mens dress shirts long sleeve, mens button down shirt, mens shirts casual, mens casual shirts",
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "479008051757777",
+        "before": 30.0,
+        "after": 24,
+        "change": -6.0
+      },
+      {
+        "campaign": "422036852572102",
+        "before": 20.0,
+        "after": 16,
+        "change": -4.0
+      }
+    ],
+    "method": "EIP Browser + CDP"
   }
 }

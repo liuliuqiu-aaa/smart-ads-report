@@ -13,128 +13,150 @@
     "amazonUrl": "https://www.amazon.com/dp/B0FCYLJH34"
   },
   "summary": {
-    "seventh": {
-      "impressions": 102553.0,
-      "clicks": 751.0,
-      "spend": 404.78999999999996,
-      "orders": 78.0,
-      "sales": 2034.0,
-      "acos": 19.9,
-      "cvr": 10.39,
-      "cpc": 0.54,
-      "ctr": 0.73
-    },
     "yesterday": {
-      "impressions": 13918.0,
-      "clicks": 111.0,
+      "impressions": 13918,
+      "clicks": 111,
       "spend": 58.28,
-      "orders": 12.0,
-      "sales": 222.88,
+      "orders": 12,
       "acos": 26.15,
       "cvr": 10.81,
       "cpc": 0.53,
-      "ctr": 0.8
+      "ctr": 0.8,
+      "salesAmount": 222.88,
+      "salesVolume": 12,
+      "roas": 3.82
     },
     "macroGoal": "boost-sales",
     "macroGoalLabel": "📈 推动增长",
     "targetAcos": 20,
-    "effectiveAcosConstraint": 20.0
+    "effectiveAcosConstraint": 20,
+    "last7days": {
+      "impressions": 102553,
+      "clicks": 751,
+      "spend": 404.78999999999996,
+      "orders": 78,
+      "acos": 19.9,
+      "cvr": 10.39,
+      "cpc": 0.54,
+      "ctr": 0.73,
+      "salesAmount": 2034,
+      "salesVolume": 78,
+      "roas": 5.02
+    },
+    "totalCampaigns": 4,
+    "totalDailyBudget": 65
   },
   "campaigns": [
     {
       "name": "#1 手动关键词(广泛)",
-      "campaignId": "333903452360072",
       "type": "manual",
-      "budget": 8.0,
-      "seventh": {
-        "impressions": 23940,
-        "clicks": 117,
-        "spend": 81.54,
-        "orders": 14,
-        "sales": 286.85,
-        "acos": 28.43,
-        "cvr": 11.97
-      },
+      "budget": 8,
       "yesterday": {
         "impressions": 3246,
         "clicks": 9,
         "spend": 8.27,
         "orders": 0,
-        "sales": 0.0,
         "acos": 0,
-        "cvr": 0.0
+        "cvr": 0,
+        "salesAmount": 0,
+        "salesVolume": 0,
+        "roas": 0.0
+      },
+      "id": "333903452360072",
+      "last7days": {
+        "impressions": 23940,
+        "clicks": 117,
+        "spend": 81.54,
+        "orders": 14,
+        "acos": 28.43,
+        "cvr": 11.97,
+        "salesAmount": 286.85,
+        "salesVolume": 14,
+        "roas": 3.52
       }
     },
     {
       "name": "#2 自动投放",
-      "campaignId": "510273719211911",
       "type": "auto",
-      "budget": 12.0,
-      "seventh": {
-        "impressions": 44666,
-        "clicks": 206,
-        "spend": 83.77,
-        "orders": 16,
-        "sales": 311.38,
-        "acos": 26.9,
-        "cvr": 7.77
-      },
+      "budget": 12,
       "yesterday": {
         "impressions": 3157,
         "clicks": 21,
         "spend": 6.12,
         "orders": 7,
-        "sales": 130.93,
         "acos": 4.67,
-        "cvr": 33.33
+        "cvr": 33.33,
+        "salesAmount": 130.93,
+        "salesVolume": 7,
+        "roas": 21.39
+      },
+      "id": "510273719211911",
+      "last7days": {
+        "impressions": 44666,
+        "clicks": 206,
+        "spend": 83.77,
+        "orders": 16,
+        "acos": 26.9,
+        "cvr": 7.77,
+        "salesAmount": 311.38,
+        "salesVolume": 16,
+        "roas": 3.72
       }
     },
     {
       "name": "#3 商品投放",
-      "campaignId": "476971790430984",
       "type": "manual",
-      "budget": 13.0,
-      "seventh": {
-        "impressions": 8313,
-        "clicks": 129,
-        "spend": 78.09,
-        "orders": 17,
-        "sales": 579.68,
-        "acos": 13.47,
-        "cvr": 13.18
-      },
+      "budget": 13,
       "yesterday": {
         "impressions": 1200,
         "clicks": 20,
         "spend": 12.26,
         "orders": 1,
-        "sales": 17.99,
         "acos": 68.15,
-        "cvr": 5.0
+        "cvr": 5,
+        "salesAmount": 17.99,
+        "salesVolume": 1,
+        "roas": 1.47
+      },
+      "id": "476971790430984",
+      "last7days": {
+        "impressions": 8313,
+        "clicks": 129,
+        "spend": 78.09,
+        "orders": 17,
+        "acos": 13.47,
+        "cvr": 13.18,
+        "salesAmount": 579.68,
+        "salesVolume": 17,
+        "roas": 7.42
       }
     },
     {
       "name": "#4 商品投放",
-      "campaignId": "367851579653868",
       "type": "manual",
-      "budget": 32.0,
-      "seventh": {
-        "impressions": 25634,
-        "clicks": 299,
-        "spend": 161.39,
-        "orders": 31,
-        "sales": 856.09,
-        "acos": 18.85,
-        "cvr": 10.37
-      },
+      "budget": 32,
       "yesterday": {
         "impressions": 6315,
         "clicks": 61,
         "spend": 31.63,
         "orders": 4,
-        "sales": 73.96,
         "acos": 42.77,
-        "cvr": 6.56
+        "cvr": 6.56,
+        "salesAmount": 73.96,
+        "salesVolume": 4,
+        "roas": 2.34
+      },
+      "id": "367851579653868",
+      "last7days": {
+        "impressions": 25634,
+        "clicks": 299,
+        "spend": 161.39,
+        "orders": 31,
+        "acos": 18.85,
+        "cvr": 10.37,
+        "salesAmount": 856.09,
+        "salesVolume": 31,
+        "roas": 5.3
       }
     }
   ],
@@ -162,10 +184,10 @@
         "clicks": 298,
         "spend": 160.87,
         "orders": 30,
-        "sales": 838.1,
         "acos": 19.19,
         "cvr": 10.07,
-        "note": ""
+        "note": "",
+        "salesAmount": 838.1
       },
       {
         "keyword": "宽泛匹配  自动",
@@ -175,23 +197,23 @@
         "clicks": 91,
         "spend": 29.07,
         "orders": 11,
-        "sales": 214.87,
         "acos": 13.53,
         "cvr": 12.09,
-        "note": ""
+        "note": "",
+        "salesAmount": 214.87
       },
       {
         "keyword": "fashion hoodies",
         "match": "广泛",
-        "bid": 1.0,
+        "bid": 1,
         "impressions": 3508,
         "clicks": 12,
         "spend": 10.86,
         "orders": 3,
-        "sales": 55.97,
         "acos": 19.4,
-        "cvr": 25.0,
-        "note": ""
+        "cvr": 25,
+        "note": "",
+        "salesAmount": 55.97
       },
       {
         "keyword": "B09C5CX942",
@@ -201,10 +223,10 @@
         "clicks": 10,
         "spend": 6.6,
         "orders": 2,
-        "sales": 35.98,
         "acos": 18.34,
-        "cvr": 20.0,
-        "note": ""
+        "cvr": 20,
+        "note": "",
+        "salesAmount": 35.98
       },
       {
         "keyword": "B0B921Y6LY",
@@ -214,10 +236,10 @@
         "clicks": 10,
         "spend": 6.08,
         "orders": 2,
-        "sales": 35.98,
         "acos": 16.9,
-        "cvr": 20.0,
-        "note": ""
+        "cvr": 20,
+        "note": "",
+        "salesAmount": 35.98
       },
       {
         "keyword": "B0DT9MZNL9",
@@ -227,10 +249,10 @@
         "clicks": 9,
         "spend": 5.44,
         "orders": 7,
-        "sales": 377.79,
         "acos": 1.44,
         "cvr": 77.78,
-        "note": ""
+        "note": "",
+        "salesAmount": 377.79
       },
       {
         "keyword": "coofandy sweatshirt",
@@ -240,10 +262,10 @@
         "clicks": 6,
         "spend": 5.11,
         "orders": 2,
-        "sales": 37.98,
         "acos": 13.45,
         "cvr": 33.33,
-        "note": ""
+        "note": "",
+        "salesAmount": 37.98
       },
       {
         "keyword": "B0B4Z1D9G9",
@@ -253,10 +275,10 @@
         "clicks": 6,
         "spend": 3.84,
         "orders": 1,
-        "sales": 19.99,
         "acos": 19.21,
         "cvr": 16.67,
-        "note": ""
+        "note": "",
+        "salesAmount": 19.99
       },
       {
         "keyword": "B0991PTKSL",
@@ -266,10 +288,10 @@
         "clicks": 2,
         "spend": 1.26,
         "orders": 1,
-        "sales": 17.99,
-        "acos": 7.0,
-        "cvr": 50.0,
-        "note": ""
+        "acos": 7,
+        "cvr": 50,
+        "note": "",
+        "salesAmount": 17.99
       },
       {
         "keyword": "B0CJ9CSHG1",
@@ -279,10 +301,10 @@
         "clicks": 2,
         "spend": 1.1,
         "orders": 1,
-        "sales": 19.99,
         "acos": 5.5,
-        "cvr": 50.0,
-        "note": ""
+        "cvr": 50,
+        "note": "",
+        "salesAmount": 19.99
       },
       {
         "keyword": "coofandy hoodie",
@@ -292,10 +314,10 @@
         "clicks": 2,
         "spend": 0.94,
         "orders": 1,
-        "sales": 24.99,
         "acos": 3.76,
-        "cvr": 50.0,
-        "note": ""
+        "cvr": 50,
+        "note": "",
+        "salesAmount": 24.99
       }
     ],
     "potential": [
@@ -307,10 +329,10 @@
         "clicks": 44,
         "spend": 26.7,
         "orders": 5,
-        "sales": 109.94,
         "acos": 24.29,
         "cvr": 11.36,
-        "note": ""
+        "note": "",
+        "salesAmount": 109.94
       },
       {
         "keyword": "coofandy hoodie",
@@ -320,10 +342,10 @@
         "clicks": 14,
         "spend": 11.31,
         "orders": 2,
-        "sales": 39.98,
         "acos": 28.29,
         "cvr": 14.29,
-        "note": ""
+        "note": "",
+        "salesAmount": 39.98
       }
     ],
     "losing": [
@@ -335,10 +357,10 @@
         "clicks": 104,
         "spend": 50.76,
         "orders": 4,
-        "sales": 73.96,
         "acos": 68.63,
         "cvr": 3.85,
-        "note": ""
+        "note": "",
+        "salesAmount": 73.96
       },
       {
         "keyword": "light weight hoodie",
@@ -348,10 +370,10 @@
         "clicks": 8,
         "spend": 7.28,
         "orders": 1,
-        "sales": 17.99,
         "acos": 40.47,
         "cvr": 12.5,
-        "note": ""
+        "note": "",
+        "salesAmount": 17.99
       },
       {
         "keyword": "B0DFPY4Z1Y",
@@ -361,10 +383,10 @@
         "clicks": 11,
         "spend": 6.36,
         "orders": 1,
-        "sales": 17.99,
         "acos": 35.35,
         "cvr": 9.09,
-        "note": ""
+        "note": "",
+        "salesAmount": 17.99
       },
       {
         "keyword": "B0F99GHYK8",
@@ -374,10 +396,10 @@
         "clicks": 9,
         "spend": 5.49,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B0CKX2MMZ9",
@@ -387,10 +409,10 @@
         "clicks": 9,
         "spend": 5.4,
         "orders": 1,
-        "sales": 17.99,
         "acos": 30.02,
         "cvr": 11.11,
-        "note": ""
+        "note": "",
+        "salesAmount": 17.99
       },
       {
         "keyword": "B0BZ4FR1KS",
@@ -400,10 +422,10 @@
         "clicks": 8,
         "spend": 4.94,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B0DT9K9QBF",
@@ -413,10 +435,10 @@
         "clicks": 7,
         "spend": 4.27,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B08HCH1YBY",
@@ -426,10 +448,10 @@
         "clicks": 6,
         "spend": 3.5,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B0FJMNJMHZ",
@@ -439,10 +461,10 @@
         "clicks": 5,
         "spend": 3.25,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B0FKRX5DWX",
@@ -452,10 +474,10 @@
         "clicks": 4,
         "spend": 2.68,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B0DT9MWRGN",
@@ -465,10 +487,10 @@
         "clicks": 4,
         "spend": 2.44,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "coofandy hoodies",
@@ -478,10 +500,10 @@
         "clicks": 3,
         "spend": 1.78,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "light blue hoodies",
@@ -491,10 +513,10 @@
         "clicks": 2,
         "spend": 1.56,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens cotton hoodies pullover",
@@ -504,10 +526,10 @@
         "clicks": 2,
         "spend": 1.44,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "mens casual hoodies pullover",
@@ -517,10 +539,10 @@
         "clicks": 2,
         "spend": 1.4,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "dark gray hoodie men",
@@ -530,10 +552,10 @@
         "clicks": 2,
         "spend": 1.39,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "navy blue sweatshirt men",
@@ -543,10 +565,10 @@
         "clicks": 2,
         "spend": 1.38,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B0FJBZT57X",
@@ -556,10 +578,10 @@
         "clicks": 2,
         "spend": 1.18,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "B0F6M8CNHH",
@@ -569,10 +591,10 @@
         "clicks": 2,
         "spend": 1.12,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "athletic sweatshirt",
@@ -582,10 +604,10 @@
         "clicks": 1,
         "spend": 0.7,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       },
       {
         "keyword": "gray hoodie men",
@@ -595,10 +617,10 @@
         "clicks": 1,
         "spend": 0.7,
         "orders": 0,
-        "sales": 0.0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
+        "cvr": 0,
+        "note": "",
+        "salesAmount": 0
       }
     ],
     "lowVolume": [
@@ -607,7 +629,7 @@
         "bid": 0.72,
         "impressions": 563,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -616,7 +638,7 @@
         "bid": 0.54,
         "impressions": 414,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -625,7 +647,7 @@
         "bid": 0.73,
         "impressions": 335,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -634,7 +656,7 @@
         "bid": 0.71,
         "impressions": 63,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -661,7 +683,7 @@
         "bid": 0.4,
         "impressions": 38,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -679,7 +701,7 @@
         "bid": 0.4,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -688,7 +710,7 @@
         "bid": 0.65,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -697,7 +719,7 @@
         "bid": 0.6,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -706,7 +728,7 @@
         "bid": 0.6,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -715,7 +737,7 @@
         "bid": 0.65,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -724,7 +746,7 @@
         "bid": 0.6,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -733,7 +755,7 @@
         "bid": 0,
         "impressions": 136,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -742,7 +764,7 @@
         "bid": 0,
         "impressions": 131,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -751,7 +773,7 @@
         "bid": 0,
         "impressions": 114,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -787,7 +809,7 @@
         "bid": 0,
         "impressions": 68,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -814,7 +836,7 @@
         "bid": 0,
         "impressions": 53,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -832,7 +854,7 @@
         "bid": 0,
         "impressions": 48,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -859,7 +881,7 @@
         "bid": 0,
         "impressions": 45,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -868,7 +890,7 @@
         "bid": 0,
         "impressions": 44,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -895,7 +917,7 @@
         "bid": 0,
         "impressions": 34,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -904,7 +926,7 @@
         "bid": 0,
         "impressions": 33,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -913,7 +935,7 @@
         "bid": 0,
         "impressions": 33,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -922,7 +944,7 @@
         "bid": 0,
         "impressions": 32,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -940,7 +962,7 @@
         "bid": 0,
         "impressions": 29,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -949,7 +971,7 @@
         "bid": 0,
         "impressions": 28,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -958,7 +980,7 @@
         "bid": 0,
         "impressions": 27,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -967,7 +989,7 @@
         "bid": 0,
         "impressions": 27,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -976,7 +998,7 @@
         "bid": 0,
         "impressions": 22,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -994,7 +1016,7 @@
         "bid": 0,
         "impressions": 19,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1003,7 +1025,7 @@
         "bid": 0,
         "impressions": 16,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1012,7 +1034,7 @@
         "bid": 0,
         "impressions": 15,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1021,7 +1043,7 @@
         "bid": 0,
         "impressions": 14,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1030,7 +1052,7 @@
         "bid": 0,
         "impressions": 13,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1039,7 +1061,7 @@
         "bid": 0,
         "impressions": 13,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1048,7 +1070,7 @@
         "bid": 0,
         "impressions": 11,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1057,7 +1079,7 @@
         "bid": 0,
         "impressions": 11,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1066,7 +1088,7 @@
         "bid": 0,
         "impressions": 8,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1075,7 +1097,7 @@
         "bid": 0,
         "impressions": 8,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1084,7 +1106,7 @@
         "bid": 0,
         "impressions": 6,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1093,7 +1115,7 @@
         "bid": 0,
         "impressions": 6,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1102,7 +1124,7 @@
         "bid": 0,
         "impressions": 5,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1111,7 +1133,7 @@
         "bid": 0,
         "impressions": 4,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1120,7 +1142,7 @@
         "bid": 0,
         "impressions": 4,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1129,7 +1151,7 @@
         "bid": 0,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1138,7 +1160,7 @@
         "bid": 0,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1147,7 +1169,7 @@
         "bid": 0,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1156,7 +1178,7 @@
         "bid": 0,
         "impressions": 2,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1165,7 +1187,7 @@
         "bid": 0,
         "impressions": 2,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1174,7 +1196,7 @@
         "bid": 0,
         "impressions": 1,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1183,7 +1205,7 @@
         "bid": 0,
         "impressions": 1,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1192,7 +1214,7 @@
         "bid": 0,
         "impressions": 1,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1201,7 +1223,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1210,7 +1232,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1219,7 +1241,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1228,7 +1250,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1237,7 +1259,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1246,7 +1268,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1255,7 +1277,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1264,7 +1286,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       }
@@ -1278,10 +1300,10 @@
       "clicks": 104,
       "spend": 50.76,
       "orders": 4,
-      "sales": 73.96,
       "acos": 68.63,
       "action": "降至$0.02",
-      "status": null
+      "status": null,
+      "salesAmount": 73.96
     },
     {
       "type": "宽泛匹配",
@@ -1290,10 +1312,10 @@
       "clicks": 91,
       "spend": 29.07,
       "orders": 11,
-      "sales": 214.87,
       "acos": 13.53,
       "action": "保持$0.00",
-      "status": null
+      "status": null,
+      "salesAmount": 214.87
     }
   ],
   "forecast": {
@@ -1303,8 +1325,8 @@
     "midTerm": "18-22%",
     "currentDailyOrders": 11.1,
     "expectedDailyOrders": 12.2,
-    "budgetBefore": 65.0,
-    "budgetAfter": 68.0
+    "budgetBefore": 65,
+    "budgetAfter": 68
   },
   "actions": {
     "summary": {
@@ -1410,7 +1432,7 @@
         "campaignId": "333903452360072",
         "keyword": "fashion hoodies",
         "match": "广泛",
-        "from": 1.0,
+        "from": 1,
         "to": 1.15,
         "change": "+15%",
         "reason": "优质词ACOS 19.4%,3单,提竞价获取更多流量",
@@ -1446,7 +1468,7 @@
         "seq": 11,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "from": 13.0,
+        "from": 13,
         "to": 16,
         "change": "+23%",
         "reason": "ACOS 13.47%表现优秀,日花费接近预算上限,建议提升"
@@ -1535,5 +1557,202 @@
         "reason": "搜索词ACOS 6%≤目标20%,1单,建议精确匹配"
       }
     ]
+  },
+  "execution": {
+    "status": "completed",
+    "executedAt": "2026-03-04T10:02:00.554Z",
+    "totalActions": 11,
+    "successCount": 11,
+    "failedCount": 0,
+    "failedActions": [],
+    "totalOps": 22,
+    "successOps": 22,
+    "failedOps": 0,
+    "existed": 0,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "light weight hoodie",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.33
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "coofandy hoodies",
+        "status": "success",
+        "from": 0.73,
+        "to": 0.44
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "light blue hoodies",
+        "status": "success",
+        "from": 0.5,
+        "to": 0.3
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "mens cotton hoodies pullover",
+        "status": "success",
+        "from": 0.72,
+        "to": 0.43
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "mens casual hoodies pullover",
+        "status": "success",
+        "from": 0.12,
+        "to": 0.07
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "dark gray hoodie men",
+        "status": "success",
+        "from": 0.71,
+        "to": 0.43
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "navy blue sweatshirt men",
+        "status": "success",
+        "from": 0.69,
+        "to": 0.41
+      },
+      {
+        "seq": 8,
+        "type": "bidUp",
+        "target": "fashion hoodies",
+        "status": "success",
+        "from": 1.0,
+        "to": 1.15
+      },
+      {
+        "seq": 9,
+        "type": "bidUp",
+        "target": "coofandy sweatshirt",
+        "status": "success",
+        "from": 1.3,
+        "to": 1.49
+      },
+      {
+        "seq": 10,
+        "type": "bidUp",
+        "target": "coofandy hoodie",
+        "status": "success",
+        "from": 0.84,
+        "to": 0.97
+      },
+      {
+        "seq": 11,
+        "type": "budgetUp",
+        "target": "476971790430984",
+        "status": "success",
+        "from": 13.0,
+        "to": 16
+      },
+      {
+        "seq": 12,
+        "type": "newKeyword",
+        "target": "hoodie",
+        "status": "success",
+        "from": null,
+        "to": 0.86
+      },
+      {
+        "seq": 13,
+        "type": "newKeyword",
+        "target": "hoodies",
+        "status": "success",
+        "from": null,
+        "to": 0.89
+      },
+      {
+        "seq": 14,
+        "type": "newKeyword",
+        "target": "mens hoodies pullover",
+        "status": "success",
+        "from": null,
+        "to": 0.52
+      },
+      {
+        "seq": 15,
+        "type": "newKeyword",
+        "target": "black hoodie men",
+        "status": "success",
+        "from": null,
+        "to": 0.6
+      },
+      {
+        "seq": 16,
+        "type": "newKeyword",
+        "target": "100% cotton hoodie men",
+        "status": "success",
+        "from": null,
+        "to": 0.52
+      },
+      {
+        "seq": 17,
+        "type": "newKeyword",
+        "target": "mens athletic hoodie",
+        "status": "success",
+        "from": null,
+        "to": 0.75
+      },
+      {
+        "seq": 18,
+        "type": "newKeyword",
+        "target": "mens large light weight hoodie",
+        "status": "success",
+        "from": null,
+        "to": 0.78
+      },
+      {
+        "seq": 19,
+        "type": "newKeyword",
+        "target": "reebok hoodie men",
+        "status": "success",
+        "from": null,
+        "to": 0.6
+      },
+      {
+        "seq": 20,
+        "type": "newKeyword",
+        "target": "dark red hoodie men",
+        "status": "success",
+        "from": null,
+        "to": 0.34
+      },
+      {
+        "seq": 21,
+        "type": "newKeyword",
+        "target": "hoodies for men",
+        "status": "success",
+        "from": null,
+        "to": 0.48
+      },
+      {
+        "seq": 22,
+        "type": "negative",
+        "target": "b0cgmcktzd, b0fjl5xpk5",
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "476971790430984",
+        "before": 13.0,
+        "after": 16,
+        "change": 3.0
+      }
+    ],
+    "method": "EIP Browser + CDP"
   }
 }
