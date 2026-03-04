@@ -1,0 +1,85 @@
+{
+  "version": 2,
+  "updatedAt": "2026-03-04T14:23:17.147122",
+  "groups": [
+    {
+      "id": "group-hoodie-core",
+      "name": "AMJ010095智能托管组",
+      "enabled": true,
+      "product": {
+        "name": "COOFANDY Men Casual Pullover Hoodie",
+        "spu": "AMJ010095",
+        "asin": "B0FCYLJH34",
+        "price": 17.99,
+        "account": "AM00147",
+        "site": "US",
+        "stage": "growth",
+        "amazonUrl": "https://www.amazon.com/dp/B0FCYLJH34"
+      },
+      "macroGoal": "boost-sales",
+      "targetAcos": 20,
+      "budgetLimit": 300,
+      "bidLimit": 2,
+      "campaignIds": [
+        "333903452360072",
+        "510273719211911",
+        "476971790430984",
+        "367851579653868"
+      ],
+      "notes": "- 自动同步测试",
+      "createdAt": "2026-01-19T15:02:35+08:00"
+    },
+    {
+      "id": "group-mmbn4rof-arji",
+      "name": "AMJ010001智能托管组",
+      "enabled": true,
+      "product": {
+        "name": "COOFANDY Mens Long Sleeve Polo Knit Polo Sweater Collared Pullover Casual Golf Polo Sweate",
+        "spu": "AMJ010001",
+        "asin": "B0FB4XTP58",
+        "price": 19.99,
+        "account": "AM00147",
+        "site": "US",
+        "stage": "growth",
+        "amazonUrl": "https://www.amazon.com/dp/B0FB8FRB3X?th=1&psc=1"
+      },
+      "macroGoal": "boost-sales",
+      "targetAcos": 20,
+      "budgetLimit": 100,
+      "bidLimit": 2,
+      "campaignIds": [
+        "400641453145004",
+        "415285089257642",
+        "550212093559706"
+      ],
+      "notes": "acos原本表现不错10%左右，求销量增长",
+      "createdAt": "2026-03-04T06:13:23.106Z"
+    },
+    {
+      "id": "group-mmbnguvh-mek1",
+      "name": "ADJ000082智能托管组",
+      "enabled": true,
+      "product": {
+        "name": "COOFANDY Mens Casual Button Down Shirt Summer Beach Shirts Lightweight Hoodie Sun Protection Coverup for Travel Vacation",
+        "spu": "ADJ000082",
+        "asin": "B0G91TF3N2",
+        "price": 19.99,
+        "account": "AM00147",
+        "site": "US",
+        "stage": "launch",
+        "amazonUrl": "https://www.amazon.com/dp/B0G91JTPH3?th=1&psc=1"
+      },
+      "macroGoal": "boost-sales",
+      "targetAcos": 25,
+      "budgetLimit": 150,
+      "bidLimit": 2,
+      "campaignIds": [
+        "479008051757777",
+        "368893969861779",
+        "422036852572102"
+      ],
+      "notes": "",
+      "createdAt": "2026-03-04T06:22:47.119Z"
+    }
+  ]
+}

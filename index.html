@@ -186,16 +186,19 @@ const GOALS = {
 
 // ===== Group Management =====
 async function loadGroups() {
-  // Load from API first, fallback to localStorage
-  try {
-    const resp = await fetch('/api/config?t=' + Date.now());
-    if (resp.ok) {
-      const cfg = await resp.json();
-      groups = (cfg.groups || []).filter(g => g.enabled);
-      return groups;
-    }
-  } catch(e) {}
-  // Fallback
+  // Try API first (local dev), then static file (GitHub Pages), then localStorage
+  const sources = ['/api/config?t=' + Date.now(), 'config/groups.json?t=' + Date.now()];
+  for (const url of sources) {
+    try {
+      const resp = await fetch(url);
+      if (resp.ok) {
+        const cfg = await resp.json();
+        groups = (cfg.groups || []).filter(g => g.enabled);
+        if (groups.length) return groups;
+      }
+    } catch(e) {}
+  }
+  // Final fallback: localStorage
   const saved = localStorage.getItem('smart-ads-groups-v2');
   if (saved) {
     try {

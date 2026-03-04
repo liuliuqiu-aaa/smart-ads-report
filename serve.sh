@@ -35,6 +35,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 data['updatedAt'] = datetime.now().isoformat()
                 os.makedirs(os.path.dirname(CONFIG_PATH), exist_ok=True)
                 with open(CONFIG_PATH,'w') as f: json.dump(data,f,indent=2,ensure_ascii=False)
+                os.makedirs('config', exist_ok=True)
+                with open('config/groups.json','w') as f2: json.dump(data,f2,indent=2,ensure_ascii=False)
                 self.send_response(200)
                 self.send_header('Content-Type','application/json')
                 self.send_header('Access-Control-Allow-Origin','*')
