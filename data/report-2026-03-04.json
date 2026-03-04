@@ -40,7 +40,7 @@
       "cpc": 0.54,
       "ctr": 0.73,
       "salesAmount": 2034,
-      "salesVolume": 78,
+      "salesVolume": 110,
       "roas": 5.02
     },
     "totalCampaigns": 4,
@@ -71,7 +71,7 @@
         "acos": 28.43,
         "cvr": 11.97,
         "salesAmount": 286.85,
-        "salesVolume": 14,
+        "salesVolume": 15,
         "roas": 3.52
       }
     },
@@ -127,7 +127,7 @@
         "acos": 13.47,
         "cvr": 13.18,
         "salesAmount": 579.68,
-        "salesVolume": 17,
+        "salesVolume": 32,
         "roas": 7.42
       }
     },
@@ -155,7 +155,7 @@
         "acos": 18.85,
         "cvr": 10.37,
         "salesAmount": 856.09,
-        "salesVolume": 31,
+        "salesVolume": 47,
         "roas": 5.3
       }
     }
