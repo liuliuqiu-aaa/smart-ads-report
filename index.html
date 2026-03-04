@@ -263,8 +263,10 @@ async function loadDatesForGroup(groupId) {
     if (r.ok) dates = await r.json();
   } catch(e) {}
   if (dates && dates.length) {
+    dates.sort();
     dates.forEach(d => { const o = document.createElement('option'); o.value = d; o.textContent = d; sel.appendChild(o); });
-    loadReport(groupId, dates[0]);
+    sel.value = dates[dates.length - 1];
+    loadReport(groupId, dates[dates.length - 1]);
   } else {
     const o = document.createElement('option'); o.value = ''; o.textContent = '暂无数据'; sel.appendChild(o);
     loadReport(groupId, '');
