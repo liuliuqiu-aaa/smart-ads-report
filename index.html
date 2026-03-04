@@ -334,9 +334,22 @@ function acosBadge(acos) {
 function fmt(n) { return typeof n === 'number' ? n.toLocaleString() : n; }
 function fmtD(n) { return typeof n === 'number' ? '$' + n.toFixed(2) : n; }
 
+function norm(raw) {
+  if (!raw) return {impressions:0,clicks:0,ctr:0,spend:0,cpc:0,orders:0,salesVolume:0,salesAmount:0,roas:0,acos:0};
+  return {
+    impressions: raw.impressions||0, clicks: raw.clicks||0,
+    ctr: raw.ctr||0, spend: raw.spend||0, cpc: raw.cpc||0,
+    orders: raw.orders||0,
+    salesVolume: raw.salesVolume ?? raw.orders ?? 0,
+    salesAmount: raw.salesAmount ?? raw.sales ?? 0,
+    roas: raw.roas ?? (raw.spend>0 ? +((raw.salesAmount??raw.sales??0)/raw.spend).toFixed(2) : 0),
+    acos: raw.acos||0
+  };
+}
 function renderOverview(d) {
-  const s7 = d.summary.last7days, sy = d.summary.yesterday;
-  const target = d.product?.targetAcos || 20;
+  const s7 = norm(d.summary.last7days || d.summary.seventh), sy = norm(d.summary.yesterday);
+  const target = d.summary?.targetAcos || d.product?.targetAcos || 20;
+  if (!d.summary.totalDailyBudget && d.campaigns) d.summary.totalDailyBudget = d.campaigns.reduce((s,c)=>s+(c.budget||0),0);
   return `
     <div class="card">
       <h2>📊 整体表现 — 最近7天</h2>
@@ -365,22 +378,26 @@ function renderOverview(d) {
     <div class="card">
       <h2>📦 ${d.campaigns.length}个广告活动概览</h2>
       <div class="campaign-grid">
-        ${d.campaigns.map(c => `
+        ${d.campaigns.map(c => {
+          const c7 = norm(c.last7days || c.seventh), cy = norm(c.yesterday);
+          const cid = c.id || c.campaignId || '';
+          const tInfo = c.targetingCount ? ` | ${c.targetingCount}个${c.targetingType}` : '';
+          return `
           <div class="campaign-card">
             <div class="name">${c.name}</div>
-            <div class="meta">ID: ${c.id} | 预算: $${c.budget}/日 | ${c.targetingCount}个${c.targetingType}</div>
+            <div class="meta">ID: ${cid} | 预算: $${c.budget}/日${tInfo}</div>
             <div class="mini-grid">
-              <div class="mini-stat"><span>7天ACOS:</span> <strong style="${acosColor(c.last7days.acos,target)}">${c.last7days.acos}%</strong></div>
-              <div class="mini-stat"><span>昨天ACOS:</span> <strong style="${acosColor(c.yesterday.acos,target)}">${c.yesterday.acos}%</strong></div>
-              <div class="mini-stat"><span>7天花费:</span> ${fmtD(c.last7days.spend)}</div>
-              <div class="mini-stat"><span>昨天花费:</span> ${fmtD(c.yesterday.spend)}</div>
-              <div class="mini-stat"><span>7天订单:</span> ${c.last7days.orders}单</div>
-              <div class="mini-stat"><span>昨天订单:</span> ${c.yesterday.orders}单</div>
-              <div class="mini-stat"><span>7天销售:</span> ${fmtD(c.last7days.salesAmount)}</div>
-              <div class="mini-stat"><span>昨天销售:</span> ${fmtD(c.yesterday.salesAmount)}</div>
+              <div class="mini-stat"><span>7天ACOS:</span> <strong style="${acosColor(c7.acos,target)}">${c7.acos}%</strong></div>
+              <div class="mini-stat"><span>昨天ACOS:</span> <strong style="${acosColor(cy.acos,target)}">${cy.acos}%</strong></div>
+              <div class="mini-stat"><span>7天花费:</span> ${fmtD(c7.spend)}</div>
+              <div class="mini-stat"><span>昨天花费:</span> ${fmtD(cy.spend)}</div>
+              <div class="mini-stat"><span>7天订单:</span> ${c7.orders}单</div>
+              <div class="mini-stat"><span>昨天订单:</span> ${cy.orders}单</div>
+              <div class="mini-stat"><span>7天销售:</span> ${fmtD(c7.salesAmount)}</div>
+              <div class="mini-stat"><span>昨天销售:</span> ${fmtD(cy.salesAmount)}</div>
             </div>
-          </div>
-        `).join('')}
+          </div>`;
+        }).join('')}
       </div>
     </div>`;
 }
@@ -395,7 +412,7 @@ function renderKeywordTable(keywords, showSuggestion) {
   }
   if (hasDetail) {
     return `<table><tr><th>关键词</th><th>竞价</th><th>曝光</th><th>点击</th><th>花费</th><th>订单</th><th>销售额</th><th>ACOS</th><th>CVR</th></tr>
-      ${keywords.map(k=>`<tr ${k.acos>40?'style="background:rgba(239,68,68,0.06)"':''}><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmt(k.impressions)}</td><td>${k.clicks}</td><td>${k.spend>50?'<strong>':''}${fmtD(k.spend)}${k.spend>50?'</strong>':''}</td><td>${k.orders}</td><td>${fmtD(k.sales)}</td><td>${acosBadge(k.acos)}</td><td>${k.cvr}%</td></tr>`).join('')}</table>`;
+      ${keywords.map(k=>`<tr ${k.acos>40?'style="background:rgba(239,68,68,0.06)"':''}><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmt(k.impressions)}</td><td>${k.clicks}</td><td>${k.spend>50?'<strong>':''}${fmtD(k.spend)}${k.spend>50?'</strong>':''}</td><td>${k.orders}</td><td>${fmtD(k.sales??k.salesAmount??0)}</td><td>${acosBadge(k.acos)}</td><td>${k.cvr}%</td></tr>`).join('')}</table>`;
   }
   return `<table><tr><th>关键词</th><th>竞价</th><th>花费</th><th>订单</th><th>ACOS</th><th>备注</th></tr>
     ${keywords.map(k=>`<tr ${k.acos>40?'style="background:rgba(239,68,68,0.06)"':''}><td>${k.keyword}</td><td>${fmtD(k.bid)}</td><td>${fmtD(k.spend)}</td><td>${k.orders}</td><td>${k.acos!=null?acosBadge(k.acos):'—'}</td><td>${k.note||'—'}</td></tr>`).join('')}</table>`;
