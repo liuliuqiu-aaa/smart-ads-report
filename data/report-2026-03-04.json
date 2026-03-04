@@ -14,21 +14,21 @@
   },
   "summary": {
     "seventh": {
-      "impressions": 102553.0,
-      "clicks": 751.0,
+      "impressions": 102553,
+      "clicks": 751,
       "spend": 404.78999999999996,
-      "orders": 78.0,
-      "sales": 2034.0,
+      "orders": 78,
+      "sales": 2034,
       "acos": 19.9,
       "cvr": 10.39,
       "cpc": 0.54,
       "ctr": 0.73
     },
     "yesterday": {
-      "impressions": 13918.0,
-      "clicks": 111.0,
+      "impressions": 13918,
+      "clicks": 111,
       "spend": 58.28,
-      "orders": 12.0,
+      "orders": 12,
       "sales": 222.88,
       "acos": 26.15,
       "cvr": 10.81,
@@ -38,14 +38,14 @@
     "macroGoal": "boost-sales",
     "macroGoalLabel": "📈 推动增长",
     "targetAcos": 20,
-    "effectiveAcosConstraint": 20.0
+    "effectiveAcosConstraint": 20
   },
   "campaigns": [
     {
       "name": "#1 手动关键词(广泛)",
       "campaignId": "333903452360072",
       "type": "manual",
-      "budget": 8.0,
+      "budget": 8,
       "seventh": {
         "impressions": 23940,
         "clicks": 117,
@@ -60,16 +60,16 @@
         "clicks": 9,
         "spend": 8.27,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": 0,
-        "cvr": 0.0
+        "cvr": 0
       }
     },
     {
       "name": "#2 自动投放",
       "campaignId": "510273719211911",
       "type": "auto",
-      "budget": 12.0,
+      "budget": 12,
       "seventh": {
         "impressions": 44666,
         "clicks": 206,
@@ -93,7 +93,7 @@
       "name": "#3 商品投放",
       "campaignId": "476971790430984",
       "type": "manual",
-      "budget": 13.0,
+      "budget": 13,
       "seventh": {
         "impressions": 8313,
         "clicks": 129,
@@ -110,14 +110,14 @@
         "orders": 1,
         "sales": 17.99,
         "acos": 68.15,
-        "cvr": 5.0
+        "cvr": 5
       }
     },
     {
       "name": "#4 商品投放",
       "campaignId": "367851579653868",
       "type": "manual",
-      "budget": 32.0,
+      "budget": 32,
       "seventh": {
         "impressions": 25634,
         "clicks": 299,
@@ -183,14 +183,14 @@
       {
         "keyword": "fashion hoodies",
         "match": "广泛",
-        "bid": 1.0,
+        "bid": 1,
         "impressions": 3508,
         "clicks": 12,
         "spend": 10.86,
         "orders": 3,
         "sales": 55.97,
         "acos": 19.4,
-        "cvr": 25.0,
+        "cvr": 25,
         "note": ""
       },
       {
@@ -203,7 +203,7 @@
         "orders": 2,
         "sales": 35.98,
         "acos": 18.34,
-        "cvr": 20.0,
+        "cvr": 20,
         "note": ""
       },
       {
@@ -216,7 +216,7 @@
         "orders": 2,
         "sales": 35.98,
         "acos": 16.9,
-        "cvr": 20.0,
+        "cvr": 20,
         "note": ""
       },
       {
@@ -267,8 +267,8 @@
         "spend": 1.26,
         "orders": 1,
         "sales": 17.99,
-        "acos": 7.0,
-        "cvr": 50.0,
+        "acos": 7,
+        "cvr": 50,
         "note": ""
       },
       {
@@ -281,7 +281,7 @@
         "orders": 1,
         "sales": 19.99,
         "acos": 5.5,
-        "cvr": 50.0,
+        "cvr": 50,
         "note": ""
       },
       {
@@ -294,7 +294,7 @@
         "orders": 1,
         "sales": 24.99,
         "acos": 3.76,
-        "cvr": 50.0,
+        "cvr": 50,
         "note": ""
       }
     ],
@@ -374,9 +374,9 @@
         "clicks": 9,
         "spend": 5.49,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -400,9 +400,9 @@
         "clicks": 8,
         "spend": 4.94,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -413,9 +413,9 @@
         "clicks": 7,
         "spend": 4.27,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -426,9 +426,9 @@
         "clicks": 6,
         "spend": 3.5,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -439,9 +439,9 @@
         "clicks": 5,
         "spend": 3.25,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -452,9 +452,9 @@
         "clicks": 4,
         "spend": 2.68,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -465,9 +465,9 @@
         "clicks": 4,
         "spend": 2.44,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -478,9 +478,9 @@
         "clicks": 3,
         "spend": 1.78,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -491,9 +491,9 @@
         "clicks": 2,
         "spend": 1.56,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -504,9 +504,9 @@
         "clicks": 2,
         "spend": 1.44,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -517,9 +517,9 @@
         "clicks": 2,
         "spend": 1.4,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -530,9 +530,9 @@
         "clicks": 2,
         "spend": 1.39,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -543,9 +543,9 @@
         "clicks": 2,
         "spend": 1.38,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -556,9 +556,9 @@
         "clicks": 2,
         "spend": 1.18,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -569,9 +569,9 @@
         "clicks": 2,
         "spend": 1.12,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -582,9 +582,9 @@
         "clicks": 1,
         "spend": 0.7,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
@@ -595,9 +595,9 @@
         "clicks": 1,
         "spend": 0.7,
         "orders": 0,
-        "sales": 0.0,
+        "sales": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       }
     ],
@@ -607,7 +607,7 @@
         "bid": 0.72,
         "impressions": 563,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -616,7 +616,7 @@
         "bid": 0.54,
         "impressions": 414,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -625,7 +625,7 @@
         "bid": 0.73,
         "impressions": 335,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -634,7 +634,7 @@
         "bid": 0.71,
         "impressions": 63,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -661,7 +661,7 @@
         "bid": 0.4,
         "impressions": 38,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -679,7 +679,7 @@
         "bid": 0.4,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -688,7 +688,7 @@
         "bid": 0.65,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -697,7 +697,7 @@
         "bid": 0.6,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -706,7 +706,7 @@
         "bid": 0.6,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -715,7 +715,7 @@
         "bid": 0.65,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -724,7 +724,7 @@
         "bid": 0.6,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
@@ -733,7 +733,7 @@
         "bid": 0,
         "impressions": 136,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -742,7 +742,7 @@
         "bid": 0,
         "impressions": 131,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -751,7 +751,7 @@
         "bid": 0,
         "impressions": 114,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -787,7 +787,7 @@
         "bid": 0,
         "impressions": 68,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -814,7 +814,7 @@
         "bid": 0,
         "impressions": 53,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -832,7 +832,7 @@
         "bid": 0,
         "impressions": 48,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -859,7 +859,7 @@
         "bid": 0,
         "impressions": 45,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -868,7 +868,7 @@
         "bid": 0,
         "impressions": 44,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -895,7 +895,7 @@
         "bid": 0,
         "impressions": 34,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -904,7 +904,7 @@
         "bid": 0,
         "impressions": 33,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -913,7 +913,7 @@
         "bid": 0,
         "impressions": 33,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -922,7 +922,7 @@
         "bid": 0,
         "impressions": 32,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -940,7 +940,7 @@
         "bid": 0,
         "impressions": 29,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -949,7 +949,7 @@
         "bid": 0,
         "impressions": 28,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -958,7 +958,7 @@
         "bid": 0,
         "impressions": 27,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -967,7 +967,7 @@
         "bid": 0,
         "impressions": 27,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -976,7 +976,7 @@
         "bid": 0,
         "impressions": 22,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -994,7 +994,7 @@
         "bid": 0,
         "impressions": 19,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1003,7 +1003,7 @@
         "bid": 0,
         "impressions": 16,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1012,7 +1012,7 @@
         "bid": 0,
         "impressions": 15,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1021,7 +1021,7 @@
         "bid": 0,
         "impressions": 14,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1030,7 +1030,7 @@
         "bid": 0,
         "impressions": 13,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1039,7 +1039,7 @@
         "bid": 0,
         "impressions": 13,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1048,7 +1048,7 @@
         "bid": 0,
         "impressions": 11,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1057,7 +1057,7 @@
         "bid": 0,
         "impressions": 11,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1066,7 +1066,7 @@
         "bid": 0,
         "impressions": 8,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1075,7 +1075,7 @@
         "bid": 0,
         "impressions": 8,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1084,7 +1084,7 @@
         "bid": 0,
         "impressions": 6,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1093,7 +1093,7 @@
         "bid": 0,
         "impressions": 6,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1102,7 +1102,7 @@
         "bid": 0,
         "impressions": 5,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1111,7 +1111,7 @@
         "bid": 0,
         "impressions": 4,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1120,7 +1120,7 @@
         "bid": 0,
         "impressions": 4,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1129,7 +1129,7 @@
         "bid": 0,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1138,7 +1138,7 @@
         "bid": 0,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1147,7 +1147,7 @@
         "bid": 0,
         "impressions": 3,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1156,7 +1156,7 @@
         "bid": 0,
         "impressions": 2,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1165,7 +1165,7 @@
         "bid": 0,
         "impressions": 2,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1174,7 +1174,7 @@
         "bid": 0,
         "impressions": 1,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1183,7 +1183,7 @@
         "bid": 0,
         "impressions": 1,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1192,7 +1192,7 @@
         "bid": 0,
         "impressions": 1,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1201,7 +1201,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1210,7 +1210,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1219,7 +1219,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1228,7 +1228,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1237,7 +1237,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1246,7 +1246,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1255,7 +1255,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
@@ -1264,7 +1264,7 @@
         "bid": 0,
         "impressions": 0,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       }
@@ -1303,8 +1303,8 @@
     "midTerm": "18-22%",
     "currentDailyOrders": 11.1,
     "expectedDailyOrders": 12.2,
-    "budgetBefore": 65.0,
-    "budgetAfter": 68.0
+    "budgetBefore": 65,
+    "budgetAfter": 68
   },
   "actions": {
     "summary": {
@@ -1410,7 +1410,7 @@
         "campaignId": "333903452360072",
         "keyword": "fashion hoodies",
         "match": "广泛",
-        "from": 1.0,
+        "from": 1,
         "to": 1.15,
         "change": "+15%",
         "reason": "优质词ACOS 19.4%,3单,提竞价获取更多流量",
@@ -1446,7 +1446,7 @@
         "seq": 11,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "from": 13.0,
+        "from": 13,
         "to": 16,
         "change": "+23%",
         "reason": "ACOS 13.47%表现优秀,日花费接近预算上限,建议提升"
@@ -1535,5 +1535,13 @@
         "reason": "搜索词ACOS 6%≤目标20%,1单,建议精确匹配"
       }
     ]
+  },
+  "execution": {
+    "status": "completed",
+    "executedAt": "2026-03-04T10:02:00.554Z",
+    "totalActions": 11,
+    "successCount": 11,
+    "failedCount": 0,
+    "failedActions": []
   }
 }
