@@ -316,14 +316,19 @@ const GOALS = {
 };
 
 async function init() {
-  // Load from API first, fallback to localStorage
-  try {
-    const resp = await fetch('/api/config?t=' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      if (data.groups) config = data;
-    }
-  } catch(e) {
+  // Try API first (local dev), then static file (GitHub Pages), then localStorage
+  const sources = ['/api/config?t=' + Date.now(), 'config/groups.json?t=' + Date.now()];
+  let loaded = false;
+  for (const url of sources) {
+    try {
+      const resp = await fetch(url);
+      if (resp.ok) {
+        const data = await resp.json();
+        if (data.groups) { config = data; loaded = true; break; }
+      }
+    } catch(e) {}
+  }
+  if (!loaded) {
     const saved = localStorage.getItem('smart-ads-groups-v2');
     if (saved) try { config = JSON.parse(saved); } catch(e2) {}
   }
