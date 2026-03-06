@@ -1,203 +1,86 @@
 {
   "reportDate": "2026-03-05",
-  "dataDate": "2026-03-04",
-  "generatedAt": "2026-03-05T17:45:00+08:00",
+  "dataDate": "2026-03-05",
+  "generatedAt": "2026-03-06T05:16:06.932237+00:00",
   "product": {
-    "title": "COOFANDY Men Casual Pullover Hoodie",
-    "brand": "COOFANDY",
-    "price": "$17.99",
-    "mainAsin": "B0FCYLJH34",
-    "parentAsin": "B0FCYP2QQ8",
-    "targetAcos": 20,
-    "budgetLimit": 300,
-    "bidLimit": 2
+    "name": "COOFANDY Men Casual Pullover Hoodie",
+    "spu": "AMJ010095",
+    "asin": "B0FCYLJH34",
+    "price": 17.99,
+    "account": "AM00147",
+    "site": "US",
+    "stage": "growth",
+    "amazonUrl": "https://www.amazon.com/dp/B0FCYLJH34"
   },
   "summary": {
     "totalCampaigns": 4,
-    "totalDailyBudget": 68,
-    "yesterday": {
-      "impressions": 12967,
-      "clicks": 120,
-      "ctr": 0.93,
-      "spend": 63.14,
-      "cpc": 0.53,
-      "orders": 3,
-      "salesVolume": 3,
-      "salesAmount": 53.97,
-      "roas": 0.85,
-      "acos": 117.0
-    },
+    "totalDailyBudget": 0,
     "last7days": {
-      "impressions": 101158,
-      "clicks": 785,
-      "ctr": 0.78,
-      "spend": 417.43,
-      "cpc": 0.53,
-      "orders": 68,
-      "salesVolume": 83,
-      "salesAmount": 1527.71,
-      "roas": 3.66,
-      "acos": 27.0
+      "impressions": 0,
+      "clicks": 0,
+      "spend": 0,
+      "orders": 0,
+      "salesAmount": 0,
+      "salesVolume": 0,
+      "acos": 0,
+      "roas": 0,
+      "cvr": 0,
+      "cpc": 0,
+      "ctr": 0
+    },
+    "yesterday": {
+      "impressions": 0,
+      "clicks": 0,
+      "spend": 0,
+      "orders": 0,
+      "salesAmount": 0,
+      "salesVolume": 0,
+      "acos": 0,
+      "roas": 0,
+      "cvr": 0,
+      "cpc": 0,
+      "ctr": 0
+    },
+    "macroGoal": "boost-sales",
+    "macroGoalLabel": "📈 推动增长",
+    "targetAcos": 20,
+    "effectiveAcosConstraint": 20.0,
+    "trends": {
+      "acos": "falling",
+      "orders": "rising",
+      "spend": "rising",
+      "historyDays": 3,
+      "history": [
+        {
+          "date": "2026-03-02",
+          "acos_7d": 27.02,
+          "orders_7d": 54,
+          "spend_7d": 359.18
+        },
+        {
+          "date": "2026-03-03",
+          "acos_7d": 21.1,
+          "orders_7d": 71,
+          "spend_7d": 404.97
+        },
+        {
+          "date": "2026-03-04",
+          "acos_7d": 19.9,
+          "orders_7d": 78,
+          "spend_7d": 404.78999999999996
+        }
+      ]
     }
   },
-  "campaigns": [
-    {
-      "id": "367851579653868",
-      "name": "#1 手动商品品类投放",
-      "type": "手动投放",
-      "budget": 32,
-      "targetingType": "商品",
-      "yesterday": {
-        "impressions": 5676,
-        "clicks": 62,
-        "ctr": 1.09,
-        "spend": 31.98,
-        "cpc": 0.52,
-        "orders": 2,
-        "salesVolume": 2,
-        "salesAmount": 35.98,
-        "roas": 1.13,
-        "acos": 88.88,
-        "cvr": 3.23
-      },
-      "last7days": {
-        "impressions": 30975,
-        "clicks": 268,
-        "ctr": 0.87,
-        "spend": 157.26,
-        "cpc": 0.59,
-        "orders": 24,
-        "salesVolume": 30,
-        "salesAmount": 611.66,
-        "roas": 3.89,
-        "acos": 25.71,
-        "cvr": 8.96
-      }
-    },
-    {
-      "id": "510273719211911",
-      "name": "#2 自动投放",
-      "type": "自动投放",
-      "budget": 12,
-      "targetingType": "自动",
-      "yesterday": {
-        "impressions": 3477,
-        "clicks": 23,
-        "ctr": 0.66,
-        "spend": 6.61,
-        "cpc": 0.29,
-        "orders": 1,
-        "salesVolume": 1,
-        "salesAmount": 17.99,
-        "roas": 2.72,
-        "acos": 36.74,
-        "cvr": 4.35
-      },
-      "last7days": {
-        "impressions": 44874,
-        "clicks": 221,
-        "ctr": 0.49,
-        "spend": 84.51,
-        "cpc": 0.38,
-        "orders": 16,
-        "salesVolume": 16,
-        "salesAmount": 301.82,
-        "roas": 3.57,
-        "acos": 28.0,
-        "cvr": 7.24
-      }
-    },
-    {
-      "id": "333903452360072",
-      "name": "#3 手动关键词广泛",
-      "type": "手动投放",
-      "budget": 8,
-      "targetingType": "关键词",
-      "yesterday": {
-        "impressions": 1975,
-        "clicks": 8,
-        "ctr": 0.41,
-        "spend": 7.81,
-        "cpc": 0.98,
-        "orders": 0,
-        "salesVolume": 0,
-        "salesAmount": 0,
-        "roas": 0,
-        "acos": 0,
-        "cvr": 0
-      },
-      "last7days": {
-        "impressions": 11862,
-        "clicks": 81,
-        "ctr": 0.68,
-        "spend": 67.58,
-        "cpc": 0.83,
-        "orders": 14,
-        "salesVolume": 17,
-        "salesAmount": 304.32,
-        "roas": 4.5,
-        "acos": 22.2,
-        "cvr": 17.28
-      }
-    },
-    {
-      "id": "476971790430984",
-      "name": "#4 手动商品扩展投放",
-      "type": "手动投放",
-      "budget": 16,
-      "targetingType": "商品",
-      "yesterday": {
-        "impressions": 1839,
-        "clicks": 27,
-        "ctr": 1.47,
-        "spend": 16.74,
-        "cpc": 0.62,
-        "orders": 0,
-        "salesVolume": 0,
-        "salesAmount": 0,
-        "roas": 0,
-        "acos": 0,
-        "cvr": 0
-      },
-      "last7days": {
-        "impressions": 13447,
-        "clicks": 215,
-        "ctr": 1.6,
-        "spend": 108.08,
-        "cpc": 0.5,
-        "orders": 14,
-        "salesVolume": 20,
-        "salesAmount": 309.91,
-        "roas": 2.87,
-        "acos": 34.88,
-        "cvr": 6.51
-      }
-    }
-  ],
+  "campaigns": [],
   "diagnosis": [
     {
-      "icon": "🚨",
-      "text": "昨日ACOS暴涨至117%，仅3单/120点击，转化率极低(2.5%)，疑似流量质量下滑或竞争加剧"
+      "icon": "📊",
+      "text": "近3天趋势: ACOS📉持续下降, 订单量📈持续上升, 花费📈持续上升"
     },
     {
-      "icon": "⚠️",
-      "text": "7天整体ACOS 27%，超出目标20%约35%，需加速优化"
-    },
-    {
-      "icon": "✅",
-      "text": "#3手动关键词广泛7天ACOS 22.2%接近目标，转化率17.28%表现优秀"
-    },
-    {
-      "icon": "⚠️",
-      "text": "#4手动商品扩展7天ACOS 34.88%严重超标，昨日0转化花费$16.74"
-    },
-    {
-      "icon": "⚠️",
-      "text": "#1手动商品品类昨日ACOS 88.88%异常，但7天ACOS 25.71%尚可控"
-    },
-    {
-      "icon": "ℹ️",
-      "text": "#2自动投放7天ACOS 28%，其中关联商品/同类商品匹配类型可能存在浪费"
+      "icon": "🎯",
+      "text": "ACOS下降+订单上升,优化方向正确,保持当前策略"
     }
   ],
   "keywordLayers": {
@@ -208,141 +91,111 @@
   },
   "autoTargeting": [],
   "forecast": {
-    "currentAcos": 27.0,
-    "currentAcosYd": 117.0,
-    "shortTerm": "昨日数据异常波动，若连续2天高ACOS需紧急降价。预计优化后3-5天ACOS可回落至30%以下",
-    "midTerm": "通过降低#4商品扩展投放竞价、收紧自动投放，2周内目标ACOS降至25%以内",
-    "currentDailyOrders": 9.71,
-    "expectedDailyOrders": 10,
-    "budgetBefore": 68,
-    "budgetAfter": 60
+    "currentAcos": 0,
+    "currentAcosYd": 0,
+    "shortTerm": "18-0%",
+    "midTerm": "18-22%",
+    "currentDailyOrders": 0.0,
+    "expectedDailyOrders": 0.0,
+    "budgetBefore": 0,
+    "budgetAfter": 0
   },
   "actions": {
     "summary": {
-      "total": 5,
-      "bidDown": 3,
+      "bidDown": 0,
       "bidUp": 0,
-      "budgetAdjust": 1,
+      "budgetAdjust": 0,
       "pause": 0,
-      "newKeywords": 0,
+      "newKeyword": 10,
       "newProductTarget": 0,
-      "negative": 1
+      "negative": 1,
+      "total": 11
     },
-    "bidDown": [
+    "bidDown": [],
+    "bidUp": [],
+    "budgetAdjust": [],
+    "pause": [],
+    "newKeywords": [
       {
         "seq": 1,
-        "campaign": "#4 手动商品扩展投放",
-        "campaignId": "476971790430984",
-        "keyword": "全部商品投放",
-        "match": "商品",
-        "from": 0.62,
-        "to": 0.45,
-        "change": "-27%",
-        "reason": "7天ACOS 34.88%远超目标20%，昨日0转化花费$16.74，需大幅降价控制花费",
-        "targetId": ""
+        "keyword": "hoodie",
+        "match": "精准",
+        "bid": 0.94,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 15%≤目标20%,2单,建议精确匹配"
       },
       {
         "seq": 2,
-        "campaign": "#1 手动商品品类投放",
-        "campaignId": "367851579653868",
-        "keyword": "全部商品投放",
-        "match": "商品",
-        "from": 0.52,
-        "to": 0.42,
-        "change": "-19%",
-        "reason": "7天ACOS 25.71%超标，昨日ACOS 88.88%异常，适度降价",
-        "targetId": ""
+        "keyword": "hoodies",
+        "match": "精准",
+        "bid": 0.89,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 20%≤目标20%,1单,建议精确匹配"
       },
       {
         "seq": 3,
-        "campaign": "#2 自动投放",
-        "campaignId": "510273719211911",
-        "keyword": "全部自动投放",
-        "match": "自动",
-        "from": 0.38,
-        "to": 0.3,
-        "change": "-21%",
-        "reason": "7天ACOS 28%超标，降低自动投放整体竞价以控制花费",
-        "targetId": ""
-      }
-    ],
-    "bidUp": [],
-    "budgetAdjust": [
+        "keyword": "coofandy hoodie",
+        "match": "精准",
+        "bid": 0.72,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 5%≤目标20%,2单,建议精确匹配"
+      },
       {
         "seq": 4,
-        "campaign": "#4 手动商品扩展投放",
-        "campaignId": "476971790430984",
-        "from": 16,
-        "to": 12,
-        "change": "-25%",
-        "reason": "7天ACOS 34.88%持续超标，降预算控制总花费"
-      }
-    ],
-    "pause": [],
-    "newKeywords": [],
-    "newProductTarget": [],
-    "negative": [
+        "keyword": "coofandy hoodie",
+        "match": "精准",
+        "bid": 0.47,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 4%≤目标20%,1单,建议精确匹配"
+      },
       {
         "seq": 5,
-        "campaign": "#2 自动投放",
-        "campaignId": "510273719211911",
-        "negativeType": "negativeKeyword",
-        "negativeKeywords": [],
-        "reason": "自动投放中高花费低转化搜索词需持续监控，待搜索词报告数据补充后否定"
+        "keyword": "black hoodie men",
+        "match": "精准",
+        "bid": 0.6,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 7%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 6,
+        "keyword": "100% cotton hoodie men",
+        "match": "精准",
+        "bid": 0.52,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 3%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 7,
+        "keyword": "coofandy sweatshirt",
+        "match": "精准",
+        "bid": 0.73,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 2%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 8,
+        "keyword": "mens large light weight hoodie",
+        "match": "精准",
+        "bid": 0.78,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 4%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 9,
+        "keyword": "reebok hoodie men",
+        "match": "精准",
+        "bid": 0.6,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 1%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 10,
+        "keyword": "dark red hoodie men",
+        "match": "精准",
+        "bid": 0.34,
+        "campaign": "#1 333903452360072",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
       }
     ]
-  },
-  "execution": {
-    "executedAt": "2026-03-05T18:00:00+08:00",
-    "endTime": "2026-03-05T18:48:09+08:00",
-    "status": "completed",
-    "method": "EIP Browser + CDP",
-    "totalOps": 5,
-    "successOps": 1,
-    "existed": 2,
-    "failedOps": 0,
-    "operations": [
-      {
-        "seq": 1,
-        "type": "bidDown",
-        "target": "全部商品投放 (#1 手动商品EXPANDED)",
-        "from": 0.62,
-        "to": 0.45,
-        "status": "existed"
-      },
-      {
-        "seq": 2,
-        "type": "bidDown",
-        "target": "全部商品投放 (#2 手动商品)",
-        "from": 0.66,
-        "to": 0.5,
-        "status": "existed"
-      },
-      {
-        "seq": 3,
-        "type": "bidDown",
-        "target": "全部自动投放 (#3 自动投放)",
-        "from": 0.63,
-        "to": 0.48,
-        "status": "skipped"
-      },
-      {
-        "seq": 4,
-        "type": "budgetDown",
-        "target": "#1 手动商品EXPANDED (476971790430984)",
-        "from": 25,
-        "to": 20,
-        "status": "skipped"
-      },
-      {
-        "seq": 5,
-        "type": "negative",
-        "target": "#1 手动商品EXPANDED (476971790430984)",
-        "from": null,
-        "to": null,
-        "status": "skipped"
-      }
-    ],
-    "budgetChanges": []
   }
 }

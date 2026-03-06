@@ -1,438 +1,179 @@
 {
   "reportDate": "2026-03-05",
-  "dataDate": "2026-03-04",
-  "generatedAt": "2026-03-05T17:45:00+08:00",
+  "dataDate": "2026-03-05",
+  "generatedAt": "2026-03-06T05:16:06.980484+00:00",
   "product": {
-    "title": "COOFANDY Mens Long Sleeve Polo Knit Polo Sweater",
-    "brand": "COOFANDY",
-    "price": "$19.99",
-    "mainAsin": "B0FB4XTP58",
-    "parentAsin": "B0FB8FRB3X",
-    "targetAcos": 20,
-    "budgetLimit": 100,
-    "bidLimit": 2
+    "name": "COOFANDY Mens Long Sleeve Polo Knit Polo Sweater Collared Pullover Casual Golf Polo Sweate",
+    "spu": "AMJ010001",
+    "asin": "B0FB4XTP58",
+    "price": 19.99,
+    "account": "AM00147",
+    "site": "US",
+    "stage": "growth",
+    "amazonUrl": "https://www.amazon.com/dp/B0FB8FRB3X?th=1&psc=1"
   },
   "summary": {
     "totalCampaigns": 3,
-    "totalDailyBudget": 9,
-    "yesterday": {
-      "impressions": 7827,
-      "clicks": 18,
-      "ctr": 0.23,
-      "spend": 9.4,
-      "cpc": 0.52,
-      "orders": 6,
-      "salesVolume": 6,
-      "salesAmount": 113.95,
-      "roas": 12.12,
-      "acos": 8.0
-    },
+    "totalDailyBudget": 0,
     "last7days": {
-      "impressions": 35045,
-      "clicks": 109,
-      "ctr": 0.31,
-      "spend": 53.68,
-      "cpc": 0.49,
-      "orders": 17,
-      "salesVolume": 17,
-      "salesAmount": 304.39,
-      "roas": 5.67,
-      "acos": 18.0
-    }
-  },
-  "campaigns": [
-    {
-      "id": "400641453145004",
-      "name": "#1 自动投放AT(新)",
-      "type": "自动投放",
-      "budget": 4,
-      "targetingType": "自动",
-      "yesterday": {
-        "impressions": 3670,
-        "clicks": 8,
-        "ctr": 0.22,
-        "spend": 3.92,
-        "cpc": 0.49,
-        "orders": 2,
-        "salesVolume": 2,
-        "salesAmount": 47.48,
-        "roas": 12.11,
-        "acos": 8.26,
-        "cvr": 25.0
-      },
-      "last7days": {
-        "impressions": 20040,
-        "clicks": 51,
-        "ctr": 0.25,
-        "spend": 24.89,
-        "cpc": 0.49,
-        "orders": 6,
-        "salesVolume": 6,
-        "salesAmount": 120.95,
-        "roas": 4.86,
-        "acos": 20.58,
-        "cvr": 11.76
-      }
-    },
-    {
-      "id": "415285089257642",
-      "name": "#2 手动Polo关键词",
-      "type": "手动投放",
-      "budget": 3,
-      "targetingType": "关键词",
-      "targetingCount": 86,
-      "yesterday": {
-        "impressions": 2496,
-        "clicks": 7,
-        "ctr": 0.28,
-        "spend": 3.84,
-        "cpc": 0.55,
-        "orders": 4,
-        "salesVolume": 4,
-        "salesAmount": 66.47,
-        "roas": 17.31,
-        "acos": 5.78,
-        "cvr": 57.14
-      },
-      "last7days": {
-        "impressions": 9942,
-        "clicks": 36,
-        "ctr": 0.36,
-        "spend": 17.8,
-        "cpc": 0.49,
-        "orders": 9,
-        "salesVolume": 9,
-        "salesAmount": 144.47,
-        "roas": 8.12,
-        "acos": 12.32,
-        "cvr": 25.0
-      }
-    },
-    {
-      "id": "550212093559706",
-      "name": "#3 手动属性词MT",
-      "type": "手动投放",
-      "budget": 2,
-      "targetingType": "关键词",
-      "yesterday": {
-        "impressions": 1661,
-        "clicks": 3,
-        "ctr": 0.18,
-        "spend": 1.64,
-        "cpc": 0.55,
-        "orders": 0,
-        "salesVolume": 0,
-        "salesAmount": 0,
-        "roas": 0,
-        "acos": 0,
-        "cvr": 0
-      },
-      "last7days": {
-        "impressions": 5063,
-        "clicks": 22,
-        "ctr": 0.43,
-        "spend": 10.99,
-        "cpc": 0.5,
-        "orders": 2,
-        "salesVolume": 2,
-        "salesAmount": 38.97,
-        "roas": 3.55,
-        "acos": 28.2,
-        "cvr": 9.09
-      }
-    }
-  ],
-  "diagnosis": [
-    {
-      "icon": "🎉",
-      "text": "昨日表现极佳！ACOS仅8%，6单/18点击，转化率33.33%"
-    },
-    {
-      "icon": "✅",
-      "text": "7天整体ACOS 18%已达标(目标20%)，ROAS 5.67非常健康"
-    },
-    {
-      "icon": "🎉",
-      "text": "#2手动Polo关键词表现突出：昨日ACOS 5.78%，7天ACOS 12.32%，核心出单词'polo men's long sleeve'ROAS 27.7"
-    },
-    {
-      "icon": "⚠️",
-      "text": "#3属性词MT 7天ACOS 28.2%超标，collar组7天ACOS 21.94%勉强，knit组7天花费$2.44零转化"
-    },
-    {
-      "icon": "⚠️",
-      "text": "#1自动投放中'同类商品'匹配7天花费$5.56零转化(ACOS 0%/无单)，需关注"
-    },
-    {
-      "icon": "📌",
-      "text": "整体日预算仅$9，预算利用率高，可考虑适度提预算以追求更多销量增长"
-    }
-  ],
-  "keywordLayers": {
-    "excellent": [
-      {
-        "keyword": "polo men's long sleeve",
-        "match": "广泛",
-        "bid": 0.48,
-        "impressions": 978,
-        "clicks": 5,
-        "spend": 2.4,
-        "orders": 4,
-        "salesAmount": 66.47,
-        "acos": 3.61,
-        "cvr": 80.0,
-        "note": "核心转化词，ACOS极低3.61%，可适度提竞价扩量"
-      },
-      {
-        "keyword": "mens casual sweaters",
-        "match": "广泛",
-        "bid": 0.55,
-        "impressions": 957,
-        "clicks": 4,
-        "spend": 1.92,
-        "orders": 3,
-        "salesAmount": 44.97,
-        "acos": 4.27,
-        "cvr": 75.0,
-        "note": "高转化率词，ACOS 4.27%，可提竞价"
-      },
-      {
-        "keyword": "coofandy knit polo",
-        "match": "广泛",
-        "bid": 0.6,
-        "impressions": 3556,
-        "clicks": 10,
-        "spend": 5.52,
-        "orders": 2,
-        "salesAmount": 33.03,
-        "acos": 16.71,
-        "cvr": 20.0,
-        "note": "品牌词+品类，ACOS 16.71%低于目标"
-      }
-    ],
-    "potential": [
-      {
-        "keyword": "collar (属性词组)",
-        "match": "广泛",
-        "bid": 0.5,
-        "impressions": 4097,
-        "clicks": 17,
-        "spend": 8.55,
-        "orders": 2,
-        "salesAmount": 38.97,
-        "acos": 21.94,
-        "cvr": 11.76,
-        "note": "ACOS 21.94%接近目标，可维持观察"
-      }
-    ],
-    "losing": [
-      {
-        "keyword": "knit (属性词组)",
-        "match": "广泛",
-        "bid": 0.49,
-        "impressions": 966,
-        "clicks": 5,
-        "spend": 2.44,
-        "orders": 0,
-        "salesAmount": 0,
-        "acos": 0,
-        "cvr": 0,
-        "note": "7天5点击花费$2.44零转化，需降价或观察"
-      }
-    ],
-    "lowVolume": []
-  },
-  "autoTargeting": [
-    {
-      "type": "宽泛匹配",
-      "bid": 0.48,
-      "impressions": 4071,
-      "clicks": 37,
-      "spend": 18.39,
-      "orders": 6,
-      "salesAmount": 120.95,
-      "acos": 15.2,
-      "action": "表现优秀，维持当前竞价"
-    },
-    {
-      "type": "同类商品",
-      "bid": 0.45,
-      "impressions": 15506,
-      "clicks": 12,
-      "spend": 5.56,
-      "orders": 0,
-      "salesAmount": 0,
-      "acos": 0,
-      "action": "高曝光低点击零转化，降竞价至$0.30控制浪费"
-    },
-    {
-      "type": "紧密匹配",
-      "bid": 0.45,
-      "impressions": 396,
-      "clicks": 2,
-      "spend": 0.94,
-      "orders": 0,
-      "salesAmount": 0,
-      "acos": 0,
-      "action": "低量级，维持观察"
-    },
-    {
-      "type": "关联商品",
-      "bid": 0.29,
-      "impressions": 56,
+      "impressions": 0,
       "clicks": 0,
       "spend": 0,
       "orders": 0,
       "salesAmount": 0,
+      "salesVolume": 0,
       "acos": 0,
-      "action": "极低曝光，维持观察"
+      "roas": 0,
+      "cvr": 0,
+      "cpc": 0,
+      "ctr": 0
+    },
+    "yesterday": {
+      "impressions": 0,
+      "clicks": 0,
+      "spend": 0,
+      "orders": 0,
+      "salesAmount": 0,
+      "salesVolume": 0,
+      "acos": 0,
+      "roas": 0,
+      "cvr": 0,
+      "cpc": 0,
+      "ctr": 0
+    },
+    "macroGoal": "boost-sales",
+    "macroGoalLabel": "📈 推动增长",
+    "targetAcos": 20,
+    "effectiveAcosConstraint": 20.0,
+    "trends": {
+      "acos": "stable",
+      "orders": "stable",
+      "spend": "stable",
+      "historyDays": 1,
+      "history": [
+        {
+          "date": "2026-03-04",
+          "acos_7d": 10.53,
+          "orders_7d": 17,
+          "spend_7d": 53.010000000000005
+        }
+      ]
     }
-  ],
+  },
+  "campaigns": [],
+  "diagnosis": [],
+  "keywordLayers": {
+    "excellent": [],
+    "potential": [],
+    "losing": [],
+    "lowVolume": []
+  },
+  "autoTargeting": [],
   "forecast": {
-    "currentAcos": 18.0,
-    "currentAcosYd": 8.0,
-    "shortTerm": "当前趋势良好，昨日数据优秀。预计保持优化后ACOS可稳定在15-18%",
-    "midTerm": "建议逐步提升优质词竞价和预算，2周内日均订单可从2.4提升至3-4单",
-    "currentDailyOrders": 2.43,
-    "expectedDailyOrders": 3.5,
-    "budgetBefore": 9,
-    "budgetAfter": 12
+    "currentAcos": 0,
+    "currentAcosYd": 0,
+    "shortTerm": "18-0%",
+    "midTerm": "18-22%",
+    "currentDailyOrders": 0.0,
+    "expectedDailyOrders": 0.0,
+    "budgetBefore": 0,
+    "budgetAfter": 0
   },
   "actions": {
     "summary": {
-      "total": 5,
-      "bidDown": 1,
-      "bidUp": 2,
-      "budgetAdjust": 1,
+      "bidDown": 0,
+      "bidUp": 0,
+      "budgetAdjust": 0,
       "pause": 0,
-      "newKeywords": 0,
+      "newKeyword": 10,
       "newProductTarget": 0,
-      "negative": 1
+      "negative": 0,
+      "total": 10
     },
-    "bidDown": [
-      {
-        "seq": 1,
-        "campaign": "#1 自动投放AT(新)",
-        "campaignId": "400641453145004",
-        "keyword": "同类商品",
-        "match": "自动",
-        "from": 0.45,
-        "to": 0.3,
-        "change": "-33%",
-        "reason": "7天15506曝光12点击花费$5.56零转化，CTR极低0.08%，大幅降价控制浪费",
-        "targetId": "432480081940544"
-      }
-    ],
-    "bidUp": [
-      {
-        "seq": 2,
-        "campaign": "#2 手动Polo关键词",
-        "campaignId": "415285089257642",
-        "keyword": "polo men's long sleeve",
-        "match": "广泛",
-        "from": 0.48,
-        "to": 0.58,
-        "change": "+21%",
-        "reason": "7天ACOS 3.61%极优，转化率80%，提竞价争取更多曝光和订单",
-        "targetId": "357247603914865",
-        "acos": 3.61
-      },
-      {
-        "seq": 3,
-        "campaign": "#2 手动Polo关键词",
-        "campaignId": "415285089257642",
-        "keyword": "mens casual sweaters",
-        "match": "广泛",
-        "from": 0.55,
-        "to": 0.65,
-        "change": "+18%",
-        "reason": "7天ACOS 4.27%极优，转化率75%，提竞价扩量",
-        "targetId": "401590823090647",
-        "acos": 4.27
-      }
-    ],
-    "budgetAdjust": [
-      {
-        "seq": 4,
-        "campaign": "#2 手动Polo关键词",
-        "campaignId": "415285089257642",
-        "from": 3,
-        "to": 5,
-        "change": "+67%",
-        "reason": "7天ACOS 12.32%远低于目标，有优质出单词，提预算以承接更多转化"
-      }
-    ],
+    "bidDown": [],
+    "bidUp": [],
+    "budgetAdjust": [],
     "pause": [],
-    "newKeywords": [],
-    "newProductTarget": [],
-    "negative": [
-      {
-        "seq": 5,
-        "campaign": "#1 自动投放AT(新)",
-        "campaignId": "400641453145004",
-        "negativeType": "negativeKeyword",
-        "negativeKeywords": [],
-        "reason": "自动投放宽泛匹配中可能存在不相关搜索词，待搜索词报告补充后否定"
-      }
-    ]
-  },
-  "execution": {
-    "executedAt": "2026-03-05T18:25:00+08:00",
-    "endTime": "2026-03-05T18:48:09+08:00",
-    "status": "completed",
-    "method": "EIP Browser + CDP",
-    "totalOps": 5,
-    "successOps": 4,
-    "existed": 0,
-    "failedOps": 0,
-    "operations": [
+    "newKeywords": [
       {
         "seq": 1,
-        "type": "bidDown",
-        "target": "同类商品 (campaign 400641453145004)",
-        "from": 0.45,
-        "to": 0.3,
-        "status": "success"
+        "keyword": "mens purple sweater",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 400641453145004",
+        "reason": "搜索词ACOS 6%≤目标20%,1单,建议精确匹配"
       },
       {
         "seq": 2,
-        "type": "bidUp",
-        "target": "polo men's long sleeve (campaign 415285089257642)",
-        "from": 0.48,
-        "to": 0.58,
-        "status": "success"
+        "keyword": "mens sweaters big and tall",
+        "match": "精准",
+        "bid": 0.52,
+        "campaign": "#1 400641453145004",
+        "reason": "搜索词ACOS 3%≤目标20%,2单,建议精确匹配"
       },
       {
         "seq": 3,
-        "type": "bidUp",
-        "target": "mens casual sweaters (campaign 415285089257642)",
-        "from": 0.55,
-        "to": 0.65,
-        "status": "success"
+        "keyword": "mens lightweight sweater",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 400641453145004",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
       },
       {
         "seq": 4,
-        "type": "budgetUp",
-        "target": "campaign 415285089257642",
-        "from": 3,
-        "to": 5,
-        "status": "success"
+        "keyword": "big and tall sweater lightweight",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 400641453145004",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
       },
       {
         "seq": 5,
-        "type": "negative",
-        "target": "campaign 400641453145004",
-        "from": null,
-        "to": null,
-        "status": "skipped"
-      }
-    ],
-    "budgetChanges": [
+        "keyword": "mens red sweater",
+        "match": "精准",
+        "bid": 0.52,
+        "campaign": "#1 400641453145004",
+        "reason": "搜索词ACOS 3%≤目标20%,1单,建议精确匹配"
+      },
       {
-        "campaign": "campaign 415285089257642",
-        "before": 3,
-        "after": 5,
-        "change": 2
+        "seq": 6,
+        "keyword": "mens polo sweaters with a pocket",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 400641453145004",
+        "reason": "搜索词ACOS 1%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 7,
+        "keyword": "mens black sweater dressy",
+        "match": "精准",
+        "bid": 0.5,
+        "campaign": "#1 400641453145004",
+        "reason": "搜索词ACOS 4%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 8,
+        "keyword": "polo sweaters for men",
+        "match": "精准",
+        "bid": 0.52,
+        "campaign": "#2 415285089257642",
+        "reason": "搜索词ACOS 2%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 9,
+        "keyword": "polo sweater men",
+        "match": "精准",
+        "bid": 0.48,
+        "campaign": "#2 415285089257642",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 10,
+        "keyword": "mens casual sweater",
+        "match": "精准",
+        "bid": 0.48,
+        "campaign": "#2 415285089257642",
+        "reason": "搜索词ACOS 1%≤目标20%,3单,建议精确匹配"
       }
     ]
   }
