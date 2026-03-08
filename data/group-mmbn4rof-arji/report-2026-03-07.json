@@ -773,5 +773,192 @@
         "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
       }
     ]
+  },
+  "execution": {
+    "executedAt": "2026-03-07T17:45:00+08:00",
+    "endTime": "2026-03-07T18:05:00+08:00",
+    "status": "completed",
+    "method": "EIP Browser + CDP",
+    "totalOps": 20,
+    "successOps": 20,
+    "existed": 0,
+    "failedOps": 0,
+    "skipped": 0,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "coofandy knit polo (Campaign 415285089257642)",
+        "from": 0.72,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "collared sweater men (Campaign 550212093559706)",
+        "from": 0.28,
+        "to": 0.1,
+        "status": "success"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "men sweater (Campaign 415285089257642)",
+        "from": 0.82,
+        "to": 0.29,
+        "status": "success"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "men's collared shirts (Campaign 550212093559706)",
+        "from": 0.15,
+        "to": 0.05,
+        "status": "success"
+      },
+      {
+        "seq": 5,
+        "type": "bidUp",
+        "target": "loose-match (Campaign 400641453145004)",
+        "from": 0.9,
+        "to": 1.08,
+        "status": "success"
+      },
+      {
+        "seq": 6,
+        "type": "bidUp",
+        "target": "polo men's long sleeve (Campaign 415285089257642)",
+        "from": 0.62,
+        "to": 0.81,
+        "status": "success"
+      },
+      {
+        "seq": 7,
+        "type": "bidUp",
+        "target": "mens casual sweaters (Campaign 415285089257642)",
+        "from": 0.72,
+        "to": 0.86,
+        "status": "success"
+      },
+      {
+        "seq": 8,
+        "type": "bidUp",
+        "target": "mens collared sweaters (Campaign 550212093559706)",
+        "from": 0.36,
+        "to": 0.43,
+        "status": "success"
+      },
+      {
+        "seq": 9,
+        "type": "budgetUp",
+        "target": "ZTJ010001_B_L-130-2-FYZ-AT(新)",
+        "from": 4.0,
+        "to": 5,
+        "status": "success"
+      },
+      {
+        "seq": 10,
+        "type": "budgetDown",
+        "target": "ZTJ010001_B_L-130-2-FYZ-MT-属性",
+        "from": 3.0,
+        "to": 3,
+        "status": "success"
+      },
+      {
+        "seq": 11,
+        "type": "newKeyword",
+        "target": "mens purple sweater (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 12,
+        "type": "newKeyword",
+        "target": "dress up sweater beige for man (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 13,
+        "type": "newKeyword",
+        "target": "mens sweaters big and tall (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.52,
+        "status": "success"
+      },
+      {
+        "seq": 14,
+        "type": "newKeyword",
+        "target": "mens red sweater (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.52,
+        "status": "success"
+      },
+      {
+        "seq": 15,
+        "type": "newKeyword",
+        "target": "b0f6v3wqlf (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.47,
+        "status": "success"
+      },
+      {
+        "seq": 16,
+        "type": "newKeyword",
+        "target": "mens polo sweaters with a pocket (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 17,
+        "type": "newKeyword",
+        "target": "mens black sweater dressy (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 18,
+        "type": "newKeyword",
+        "target": "polo sweaters for men (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.52,
+        "status": "success"
+      },
+      {
+        "seq": 19,
+        "type": "newKeyword",
+        "target": "big and tall mens casual sweater (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.55,
+        "status": "success"
+      },
+      {
+        "seq": 20,
+        "type": "newKeyword",
+        "target": "sweater for men (Campaign 550212093559706)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "ZTJ010001_B_L-130-2-FYZ-AT(新)",
+        "before": 4.0,
+        "after": 5,
+        "change": 1.0
+      },
+      {
+        "campaign": "ZTJ010001_B_L-130-2-FYZ-MT-属性",
+        "before": 3.0,
+        "after": 3,
+        "change": 0.0
+      }
+    ]
   }
 }

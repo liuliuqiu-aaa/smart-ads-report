@@ -632,5 +632,204 @@
         "reason": "搜索词ACOS 5%≤目标25%,1单,建议精确匹配"
       }
     ]
+  },
+  "execution": {
+    "executedAt": "2026-03-07T17:45:00+08:00",
+    "endTime": "2026-03-07T18:05:00+08:00",
+    "status": "completed",
+    "method": "EIP Browser + CDP",
+    "totalOps": 23,
+    "successOps": 23,
+    "existed": 0,
+    "failedOps": 0,
+    "skipped": 0,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "loose-match (Campaign 368893969861779)",
+        "from": 0.85,
+        "to": 0.44,
+        "status": "success"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "mens summer shirts (Campaign 422036852572102)",
+        "from": 0.81,
+        "to": 0.62,
+        "status": "success"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "mens long sleeve button down shirts (Campaign 422036852572102)",
+        "from": 0.2,
+        "to": 0.09,
+        "status": "success"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "linen shirts for men (Campaign 479008051757777)",
+        "from": 1.15,
+        "to": 0.74,
+        "status": "success"
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "mens beach shirts (Campaign 422036852572102)",
+        "from": 0.67,
+        "to": 0.4,
+        "status": "success"
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "beach shirts for men (Campaign 422036852572102)",
+        "from": 0.47,
+        "to": 0.28,
+        "status": "success"
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "summer shirts for men (Campaign 422036852572102)",
+        "from": 0.33,
+        "to": 0.2,
+        "status": "success"
+      },
+      {
+        "seq": 8,
+        "type": "bidDown",
+        "target": "casual shirts for men (Campaign 422036852572102)",
+        "from": 0.35,
+        "to": 0.21,
+        "status": "success"
+      },
+      {
+        "seq": 9,
+        "type": "bidUp",
+        "target": "mens beach shirts (Campaign 422036852572102)",
+        "from": 1.64,
+        "to": 2,
+        "status": "success"
+      },
+      {
+        "seq": 10,
+        "type": "budgetDown",
+        "target": "ZDJ000082_KH_L-123-3-CML-SP-AT",
+        "from": 12.0,
+        "to": 10,
+        "status": "success"
+      },
+      {
+        "seq": 11,
+        "type": "newKeyword",
+        "target": "linen shirts men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.08,
+        "status": "success"
+      },
+      {
+        "seq": 12,
+        "type": "newKeyword",
+        "target": "mens linen shirts long sleeve (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.13,
+        "status": "success"
+      },
+      {
+        "seq": 13,
+        "type": "newKeyword",
+        "target": "thick linen shirt (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.13,
+        "status": "success"
+      },
+      {
+        "seq": 14,
+        "type": "newKeyword",
+        "target": "linen raw edge shirt men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.13,
+        "status": "success"
+      },
+      {
+        "seq": 15,
+        "type": "newKeyword",
+        "target": "lino shirts for men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.13,
+        "status": "success"
+      },
+      {
+        "seq": 16,
+        "type": "newKeyword",
+        "target": "coofandy jacket (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.05,
+        "status": "success"
+      },
+      {
+        "seq": 17,
+        "type": "newKeyword",
+        "target": "long sleeve linen shirt men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.05,
+        "status": "success"
+      },
+      {
+        "seq": 18,
+        "type": "newKeyword",
+        "target": "b0f8nwn3wd (Campaign 479008051757777)",
+        "from": 0,
+        "to": 0.6,
+        "status": "success"
+      },
+      {
+        "seq": 19,
+        "type": "newKeyword",
+        "target": "b0fcmnqmzn (Campaign 479008051757777)",
+        "from": 0,
+        "to": 0.6,
+        "status": "success"
+      },
+      {
+        "seq": 20,
+        "type": "newKeyword",
+        "target": "mens lightweight hooded button shirt (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.02,
+        "status": "success"
+      },
+      {
+        "seq": 21,
+        "type": "negative",
+        "target": "Campaign 479008051757777",
+        "status": "success"
+      },
+      {
+        "seq": 22,
+        "type": "negative",
+        "target": "Campaign 368893969861779",
+        "status": "success"
+      },
+      {
+        "seq": 23,
+        "type": "negative",
+        "target": "Campaign 422036852572102",
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "ZDJ000082_KH_L-123-3-CML-SP-AT",
+        "before": 12.0,
+        "after": 10,
+        "change": -2.0
+      }
+    ]
   }
 }

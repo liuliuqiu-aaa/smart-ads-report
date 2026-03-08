@@ -768,5 +768,178 @@
         "reason": "搜索词ACOS 1%≤目标20%,2单,建议新增商品投放"
       }
     ]
+  },
+  "execution": {
+    "executedAt": "2026-03-08T18:00:00+08:00",
+    "endTime": "2026-03-08T18:35:00+08:00",
+    "status": "completed",
+    "method": "EIP Browser + CDP",
+    "totalOps": 19,
+    "successOps": 18,
+    "existed": 0,
+    "failedOps": 0,
+    "skipped": 1,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "coofandy knit polo (Campaign 415285089257642)",
+        "from": 0.25,
+        "to": 0.12,
+        "status": "success"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "collared sweater men (Campaign 550212093559706)",
+        "from": 0.1,
+        "to": 0.05,
+        "status": "success"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "men sweater (Campaign 415285089257642)",
+        "from": 0.29,
+        "to": 0.14,
+        "status": "success"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "men's collared shirts (Campaign 550212093559706)",
+        "from": 0.05,
+        "to": 0.03,
+        "status": "success"
+      },
+      {
+        "seq": 5,
+        "type": "bidUp",
+        "target": "loose-match (Campaign 400641453145004)",
+        "from": 0.9,
+        "to": 1.03,
+        "status": "success"
+      },
+      {
+        "seq": 6,
+        "type": "bidUp",
+        "target": "polo men's long sleeve (Campaign 415285089257642)",
+        "from": 0.81,
+        "to": 0.98,
+        "status": "success"
+      },
+      {
+        "seq": 7,
+        "type": "bidUp",
+        "target": "mens sweater with collar (Campaign 550212093559706)",
+        "from": 0.68,
+        "to": 0.78,
+        "status": "success"
+      },
+      {
+        "seq": 8,
+        "type": "bidUp",
+        "target": "mens collared sweaters (Campaign 550212093559706)",
+        "from": 0.43,
+        "to": 0.49,
+        "status": "success"
+      },
+      {
+        "seq": 9,
+        "type": "budgetDown",
+        "target": "ZTJ010001_B_L-130-2-FYZ-AT(新)",
+        "from": 5.0,
+        "to": 4,
+        "status": "success"
+      },
+      {
+        "seq": 10,
+        "type": "newKeyword",
+        "target": "mens purple sweater (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 11,
+        "type": "newKeyword",
+        "target": "dress up sweater beige for man (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 12,
+        "type": "newKeyword",
+        "target": "mens sweaters big and tall (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.52,
+        "status": "success"
+      },
+      {
+        "seq": 13,
+        "type": "newKeyword",
+        "target": "mens red sweater (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.52,
+        "status": "success"
+      },
+      {
+        "seq": 14,
+        "type": "newProductTarget",
+        "target": "B0F6V3WQLF (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.47,
+        "status": "skipped"
+      },
+      {
+        "seq": 15,
+        "type": "newKeyword",
+        "target": "mens polo sweaters with a pocket (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 16,
+        "type": "newKeyword",
+        "target": "mens black sweater dressy (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      },
+      {
+        "seq": 17,
+        "type": "newKeyword",
+        "target": "big and tall mens casual sweater (Campaign 415285089257642)",
+        "from": 0,
+        "to": 0.55,
+        "status": "success"
+      },
+      {
+        "seq": 18,
+        "type": "newKeyword",
+        "target": "coofandy long sleeve fancy knit mens (Campaign 550212093559706)",
+        "from": 0,
+        "to": 0.68,
+        "status": "success"
+      },
+      {
+        "seq": 19,
+        "type": "newKeyword",
+        "target": "sweater for men (Campaign 550212093559706)",
+        "from": 0,
+        "to": 0.5,
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "ZTJ010001_B_L-130-2-FYZ-AT(新)",
+        "before": 5.0,
+        "after": 4,
+        "change": -1.0
+      }
+    ]
   }
 }

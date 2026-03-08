@@ -1235,5 +1235,292 @@
         "reason": "搜索词ACOS 1%≤目标20%,1单,建议新增商品投放"
       }
     ]
+  },
+  "execution": {
+    "executedAt": "2026-03-08T18:00:00+08:00",
+    "endTime": "2026-03-08T18:35:00+08:00",
+    "status": "completed",
+    "method": "EIP Browser + CDP",
+    "totalOps": 34,
+    "successOps": 32,
+    "existed": 0,
+    "failedOps": 0,
+    "skipped": 2,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "fashion hoodies (Campaign 333903452360072)",
+        "from": 0.03,
+        "to": 0.02,
+        "status": "success"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0BZ4FR1KS\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.2,
+        "status": "success"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "coofandy sweatshirt (Campaign 333903452360072)",
+        "from": 0.26,
+        "to": 0.13,
+        "status": "success"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0F99GHYK8\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B09C5CX942\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0DFPSGWQT\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0DT9K9QBF\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 8,
+        "type": "bidDown",
+        "target": "coofandy hoodie (Campaign 333903452360072)",
+        "from": 0.34,
+        "to": 0.17,
+        "status": "success"
+      },
+      {
+        "seq": 9,
+        "type": "bidDown",
+        "target": "mens hooded pullover sweatshirt (Campaign 333903452360072)",
+        "from": 0.25,
+        "to": 0.12,
+        "status": "success"
+      },
+      {
+        "seq": 10,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0DL5MW8F9\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 11,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B014RQ1L1O\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 12,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0DT9MWRGN\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 13,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B01B9K2JB2\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 14,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0CDQ69B11\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 15,
+        "type": "bidDown",
+        "target": "asin-expanded=\"B0FJMNJMHZ\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.25,
+        "status": "success"
+      },
+      {
+        "seq": 16,
+        "type": "bidDown",
+        "target": "navy blue hoodie (Campaign 333903452360072)",
+        "from": 0.54,
+        "to": 0.27,
+        "status": "success"
+      },
+      {
+        "seq": 17,
+        "type": "bidUp",
+        "target": "asin-expanded=\"B0DT9MZNL9\" (Campaign 476971790430984)",
+        "from": 0.5,
+        "to": 0.65,
+        "status": "success"
+      },
+      {
+        "seq": 18,
+        "type": "bidUp",
+        "target": "coofandy mens hoodie (Campaign 333903452360072)",
+        "from": 0.71,
+        "to": 0.85,
+        "status": "success"
+      },
+      {
+        "seq": 19,
+        "type": "bidUp",
+        "target": "textured hoodie men (Campaign 333903452360072)",
+        "from": 0.73,
+        "to": 0.88,
+        "status": "success"
+      },
+      {
+        "seq": 20,
+        "type": "bidUp",
+        "target": "hoodie men (Campaign 333903452360072)",
+        "from": 0.51,
+        "to": 0.61,
+        "status": "success"
+      },
+      {
+        "seq": 21,
+        "type": "budgetDown",
+        "target": "TEST-AI-AMJ010095-MANUAL-KEYWORD-BROAD-20260119150235",
+        "from": 4.0,
+        "to": 3,
+        "status": "success"
+      },
+      {
+        "seq": 22,
+        "type": "newKeyword",
+        "target": "coofandy hoodies for men (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.71,
+        "status": "success"
+      },
+      {
+        "seq": 23,
+        "type": "newKeyword",
+        "target": "mens hooded sweater (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.73,
+        "status": "success"
+      },
+      {
+        "seq": 24,
+        "type": "newKeyword",
+        "target": "dark red hoodie men (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.34,
+        "status": "success"
+      },
+      {
+        "seq": 25,
+        "type": "newKeyword",
+        "target": "dark blue mens hoodie (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.48,
+        "status": "success"
+      },
+      {
+        "seq": 26,
+        "type": "newKeyword",
+        "target": "hoodies for men (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.31,
+        "status": "success"
+      },
+      {
+        "seq": 27,
+        "type": "newProductTarget",
+        "target": "B0DCJYQS74 (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.4,
+        "status": "skipped"
+      },
+      {
+        "seq": 28,
+        "type": "newKeyword",
+        "target": "100% cotton hoodie men (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.3,
+        "status": "success"
+      },
+      {
+        "seq": 29,
+        "type": "newKeyword",
+        "target": "mens cotton hoodie (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.3,
+        "status": "success"
+      },
+      {
+        "seq": 30,
+        "type": "newProductTarget",
+        "target": "B0FBK2XBND (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.2,
+        "status": "skipped"
+      },
+      {
+        "seq": 31,
+        "type": "newKeyword",
+        "target": "mens solid long sleeve hoodies (Campaign 333903452360072)",
+        "from": 0,
+        "to": 0.3,
+        "status": "success"
+      },
+      {
+        "seq": 32,
+        "type": "negative",
+        "target": "Campaign 510273719211911",
+        "status": "success"
+      },
+      {
+        "seq": 33,
+        "type": "negative",
+        "target": "Campaign 476971790430984",
+        "status": "success"
+      },
+      {
+        "seq": 34,
+        "type": "negative",
+        "target": "Campaign 367851579653868",
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "TEST-AI-AMJ010095-MANUAL-KEYWORD-BROAD-20260119150235",
+        "before": 4.0,
+        "after": 3,
+        "change": -1.0
+      }
+    ]
   }
 }

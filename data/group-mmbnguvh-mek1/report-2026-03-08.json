@@ -675,5 +675,228 @@
         "reason": "搜索词ACOS 1%≤目标25%,2单,建议新增商品投放"
       }
     ]
+  },
+  "execution": {
+    "executedAt": "2026-03-08T18:00:00+08:00",
+    "endTime": "2026-03-08T18:35:00+08:00",
+    "status": "completed",
+    "method": "EIP Browser + CDP",
+    "totalOps": 26,
+    "successOps": 23,
+    "existed": 0,
+    "failedOps": 0,
+    "skipped": 3,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "loose-match (Campaign 368893969861779)",
+        "from": 0.85,
+        "to": 0.42,
+        "status": "success"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "button down shirt men (Campaign 422036852572102)",
+        "from": 1.51,
+        "to": 0.92,
+        "status": "success"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "mens shirts casual (Campaign 422036852572102)",
+        "from": 1.39,
+        "to": 0.14,
+        "status": "success"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "linen shirts for men (Campaign 479008051757777)",
+        "from": 1.15,
+        "to": 0.7,
+        "status": "success"
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "mens beach shirts (Campaign 422036852572102)",
+        "from": 0.67,
+        "to": 0.23,
+        "status": "success"
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "mens long sleeve button down shirts (Campaign 422036852572102)",
+        "from": 0.2,
+        "to": 0.07,
+        "status": "success"
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "summer shirts for men (Campaign 422036852572102)",
+        "from": 0.33,
+        "to": 0.12,
+        "status": "success"
+      },
+      {
+        "seq": 8,
+        "type": "bidDown",
+        "target": "casual shirts for men (Campaign 422036852572102)",
+        "from": 0.35,
+        "to": 0.12,
+        "status": "success"
+      },
+      {
+        "seq": 9,
+        "type": "bidDown",
+        "target": "beach shirts for men (Campaign 422036852572102)",
+        "from": 0.47,
+        "to": 0.16,
+        "status": "success"
+      },
+      {
+        "seq": 10,
+        "type": "bidUp",
+        "target": "mens beach shirts (Campaign 422036852572102)",
+        "from": 1.64,
+        "to": 1.98,
+        "status": "success"
+      },
+      {
+        "seq": 11,
+        "type": "bidUp",
+        "target": "linen shirts for men (Campaign 479008051757777)",
+        "from": 1.02,
+        "to": 1.16,
+        "status": "success"
+      },
+      {
+        "seq": 12,
+        "type": "bidUp",
+        "target": "mens shirts casual stylish (Campaign 422036852572102)",
+        "from": 0.7,
+        "to": 0.8,
+        "status": "success"
+      },
+      {
+        "seq": 13,
+        "type": "budgetDown",
+        "target": "ZDJ000082_KH_L-123-3-CML-SP-AT",
+        "from": 12.0,
+        "to": 10,
+        "status": "success"
+      },
+      {
+        "seq": 14,
+        "type": "newKeyword",
+        "target": "linen shirts men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.12,
+        "status": "success"
+      },
+      {
+        "seq": 15,
+        "type": "newKeyword",
+        "target": "thick linen shirt (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.13,
+        "status": "success"
+      },
+      {
+        "seq": 16,
+        "type": "newKeyword",
+        "target": "lino shirts for men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.13,
+        "status": "success"
+      },
+      {
+        "seq": 17,
+        "type": "newKeyword",
+        "target": "coofandy jacket (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.05,
+        "status": "success"
+      },
+      {
+        "seq": 18,
+        "type": "newKeyword",
+        "target": "long sleeve linen shirt men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.05,
+        "status": "success"
+      },
+      {
+        "seq": 19,
+        "type": "newProductTarget",
+        "target": "B0F8NWN3WD (Campaign 479008051757777)",
+        "from": 0,
+        "to": 0.6,
+        "status": "skipped"
+      },
+      {
+        "seq": 20,
+        "type": "newProductTarget",
+        "target": "B0FCMNQMZN (Campaign 479008051757777)",
+        "from": 0,
+        "to": 0.6,
+        "status": "skipped"
+      },
+      {
+        "seq": 21,
+        "type": "newKeyword",
+        "target": "long shirts for men (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.07,
+        "status": "success"
+      },
+      {
+        "seq": 22,
+        "type": "newKeyword",
+        "target": "man pull over jacket (Campaign 479008051757777)",
+        "from": 0,
+        "to": 1.0,
+        "status": "success"
+      },
+      {
+        "seq": 23,
+        "type": "newProductTarget",
+        "target": "B0FZTJDSRC (Campaign 479008051757777)",
+        "from": 0,
+        "to": 0.63,
+        "status": "skipped"
+      },
+      {
+        "seq": 24,
+        "type": "negative",
+        "target": "Campaign 479008051757777",
+        "status": "success"
+      },
+      {
+        "seq": 25,
+        "type": "negative",
+        "target": "Campaign 368893969861779",
+        "status": "success"
+      },
+      {
+        "seq": 26,
+        "type": "negative",
+        "target": "Campaign 422036852572102",
+        "status": "success"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "ZDJ000082_KH_L-123-3-CML-SP-AT",
+        "before": 12.0,
+        "after": 10,
+        "change": -2.0
+      }
+    ]
   }
 }
