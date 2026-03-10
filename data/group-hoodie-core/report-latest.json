@@ -1,7 +1,7 @@
 {
-  "reportDate": "2026-03-08",
-  "dataDate": "2026-03-08",
-  "generatedAt": "2026-03-08T10:02:03.589719+00:00",
+  "reportDate": "2026-03-10",
+  "dataDate": "2026-03-10",
+  "generatedAt": "2026-03-10T09:00:37.729567+00:00",
   "product": {
     "name": "COOFANDY Men Casual Pullover Hoodie",
     "spu": "AMJ010095",
@@ -14,60 +14,60 @@
   },
   "summary": {
     "totalCampaigns": 4,
-    "totalDailyBudget": 52.0,
+    "totalDailyBudget": 44,
     "last7days": {
-      "impressions": 72445.0,
-      "clicks": 692.0,
-      "spend": 327.58,
-      "orders": 58.0,
-      "salesAmount": 1316.28,
-      "salesVolume": 72,
-      "acos": 24.89,
-      "roas": 4.02,
-      "cvr": 8.38,
-      "cpc": 0.47,
-      "ctr": 0.96
+      "impressions": 59768,
+      "clicks": 580,
+      "spend": 261.38,
+      "orders": 31,
+      "salesAmount": 571.69,
+      "salesVolume": 31,
+      "acos": 45.72,
+      "roas": 2.19,
+      "cvr": 5.34,
+      "cpc": 0.45,
+      "ctr": 0.97
     },
     "yesterday": {
-      "impressions": 6966.0,
-      "clicks": 66.0,
-      "spend": 30.45,
-      "orders": 9.0,
-      "salesAmount": 165.90999999999997,
-      "salesVolume": 9,
-      "acos": 18.35,
-      "roas": 5.45,
-      "cvr": 13.64,
-      "cpc": 0.46,
-      "ctr": 0.95
+      "impressions": 5326,
+      "clicks": 52,
+      "spend": 24.19,
+      "orders": 2,
+      "salesAmount": 37.98,
+      "salesVolume": 2,
+      "acos": 63.69,
+      "roas": 1.57,
+      "cvr": 3.85,
+      "cpc": 0.47,
+      "ctr": 0.98
     },
     "macroGoal": "boost-sales",
     "macroGoalLabel": "📈 推动增长",
     "targetAcos": 20,
-    "effectiveAcosConstraint": 20.0,
+    "effectiveAcosConstraint": 20,
     "trends": {
-      "acos": "stable",
-      "orders": "stable",
+      "acos": "rising",
+      "orders": "falling",
       "spend": "falling",
       "historyDays": 3,
       "history": [
         {
-          "date": "2026-03-05",
-          "acos_7d": 0,
-          "orders_7d": 0,
-          "spend_7d": 0
-        },
-        {
-          "date": "2026-03-06",
-          "acos_7d": 27.91,
-          "orders_7d": 65.0,
-          "spend_7d": 406.84999999999997
-        },
-        {
           "date": "2026-03-07",
           "acos_7d": 26.53,
-          "orders_7d": 60.0,
+          "orders_7d": 60,
           "spend_7d": 363.73
+        },
+        {
+          "date": "2026-03-08",
+          "acos_7d": 24.89,
+          "orders_7d": 58,
+          "spend_7d": 327.58
+        },
+        {
+          "date": "2026-03-09",
+          "acos_7d": 37.78,
+          "orders_7d": 43,
+          "spend_7d": 296.79
         }
       ]
     }
@@ -77,1082 +77,960 @@
       "name": "#1 手动关键词(广泛)",
       "id": "333903452360072",
       "type": "SP",
-      "budget": 4.0,
+      "budget": 3,
       "last7days": {
-        "impressions": 14894,
-        "clicks": 49,
-        "spend": 42.67,
-        "orders": 5,
-        "salesAmount": 91.95,
-        "acos": 46.41,
-        "cvr": 10.2
-      },
-      "yesterday": {
-        "impressions": 1872,
-        "clicks": 8,
-        "spend": 4.7,
+        "impressions": 10219,
+        "clicks": 39,
+        "spend": 31.9,
         "orders": 4,
         "salesAmount": 73.96,
-        "acos": 6.35,
-        "cvr": 50.0
+        "acos": 43.13,
+        "cvr": 10.26
+      },
+      "yesterday": {
+        "impressions": 379,
+        "clicks": 4,
+        "spend": 2.85,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": 0,
+        "cvr": 0
       }
     },
     {
       "name": "#2 自动投放",
       "id": "510273719211911",
       "type": "SP",
-      "budget": 12.0,
+      "budget": 12,
       "last7days": {
-        "impressions": 21129,
+        "impressions": 23228,
         "clicks": 202,
-        "spend": 61.03,
-        "orders": 14,
-        "salesAmount": 255.86,
-        "acos": 23.85,
-        "cvr": 6.93
+        "spend": 59.92,
+        "orders": 9,
+        "salesAmount": 167.91,
+        "acos": 35.69,
+        "cvr": 4.46
       },
       "yesterday": {
-        "impressions": 2179,
-        "clicks": 15,
-        "spend": 4.5,
+        "impressions": 3564,
+        "clicks": 26,
+        "spend": 8.3,
         "orders": 1,
-        "salesAmount": 19.99,
-        "acos": 22.51,
-        "cvr": 6.67
+        "salesAmount": 17.99,
+        "acos": 46.14,
+        "cvr": 3.85
       }
     },
     {
       "name": "#3 商品投放",
       "id": "476971790430984",
       "type": "SP",
-      "budget": 15.0,
+      "budget": 12,
       "last7days": {
-        "impressions": 10966,
-        "clicks": 158,
-        "spend": 85.46,
-        "orders": 11,
-        "salesAmount": 451.75,
-        "acos": 18.92,
-        "cvr": 6.96
+        "impressions": 10976,
+        "clicks": 163,
+        "spend": 89.75,
+        "orders": 5,
+        "salesAmount": 91.95,
+        "acos": 97.61,
+        "cvr": 3.07
       },
       "yesterday": {
-        "impressions": 2043,
-        "clicks": 35,
-        "spend": 18.85,
-        "orders": 2,
-        "salesAmount": 35.98,
-        "acos": 52.39,
-        "cvr": 5.71
+        "impressions": 1063,
+        "clicks": 20,
+        "spend": 12.58,
+        "orders": 1,
+        "salesAmount": 19.99,
+        "acos": 62.93,
+        "cvr": 5
       }
     },
     {
       "name": "#4 商品投放",
       "id": "367851579653868",
       "type": "SP",
-      "budget": 21.0,
+      "budget": 17,
       "last7days": {
-        "impressions": 25456,
-        "clicks": 283,
-        "spend": 138.42,
-        "orders": 28,
-        "salesAmount": 516.72,
-        "acos": 26.79,
-        "cvr": 9.89
+        "impressions": 15345,
+        "clicks": 176,
+        "spend": 79.81,
+        "orders": 13,
+        "salesAmount": 237.87,
+        "acos": 33.55,
+        "cvr": 7.39
       },
       "yesterday": {
-        "impressions": 872,
-        "clicks": 8,
-        "spend": 2.4,
-        "orders": 2,
-        "salesAmount": 35.98,
-        "acos": 6.67,
-        "cvr": 25.0
+        "impressions": 320,
+        "clicks": 2,
+        "spend": 0.46,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": 0,
+        "cvr": 0
       }
     }
   ],
   "diagnosis": [
     {
-      "icon": "📈",
-      "text": "宏观目标: 推动增长(boost-sales) — 严格约束ACOS≤20%,优质词大力加注"
-    },
-    {
-      "icon": "✅",
-      "text": "昨日ACOS 18.35%达标(目标20%),9单,转化率13.64%表现优秀"
-    },
-    {
-      "icon": "⚠️",
-      "text": "7天整体ACOS 24.89%超目标,主要被#1手动广泛(46.41%)和商品投放ASIN拖累"
-    },
-    {
-      "icon": "📉",
-      "text": "近3天趋势: ACOS从27.91%→24.89%持续下降,花费也在下降,优化方向正确"
+      "icon": "📊",
+      "text": "近3天趋势: ACOS📈持续上升, 订单量📉持续下降, 花费📉持续下降"
     },
     {
       "icon": "🚨",
-      "text": "#3商品投放有大量零转化ASIN(11个),花费$30+,需批量降竞价止血"
+      "text": "ACOS上升+订单下降,双重恶化信号,需重点干预"
     },
     {
-      "icon": "🎯",
-      "text": "4个优质词(ACOS<20%)贡献核心转化,建议提竞价扩量+新增8个精确匹配词"
+      "icon": "🚨",
+      "text": "7天整体ACOS 45.72%超过有效约束20%,需要优化"
     },
     {
-      "icon": "📌",
-      "text": "品牌词\"coofandy mens hoodie\"ACOS仅1.97%,品牌认知流量高效"
+      "icon": "⚠️",
+      "text": "昨日ACOS 63.69%异常偏高,需关注"
+    },
+    {
+      "icon": "🚨",
+      "text": "亏损投放(28个)远多于优质投放(3个),整体效率堪忧"
+    },
+    {
+      "icon": "📊",
+      "text": "7天日均4.4单,日均花费$37.34"
+    },
+    {
+      "icon": "🔥",
+      "text": "活动[TEST-AI-AMJ010095-MANUAL-KEYWO]ACOS 43.13%严重超标"
+    },
+    {
+      "icon": "🔥",
+      "text": "活动[TEST-AI-AMJ010095-MANUAL-PRODU]ACOS 97.61%严重超标"
     }
   ],
   "keywordLayers": {
     "excellent": [
       {
-        "keyword": "asin-expanded=\"B0DT9MZNL9\"",
+        "keyword": "PRODUCT_COMPLEMENTS",
         "match": "",
-        "bid": 0.5,
-        "impressions": 1564,
-        "clicks": 24,
-        "spend": 14.25,
-        "orders": 5,
-        "salesAmount": 341.81,
-        "acos": 4.17,
-        "cvr": 20.83,
-        "note": ""
-      },
-      {
-        "keyword": "hoodie men",
-        "match": "",
-        "bid": 0.51,
-        "impressions": 436,
-        "clicks": 5,
-        "spend": 2.46,
-        "orders": 1,
-        "salesAmount": 17.99,
-        "acos": 13.67,
-        "cvr": 20.0,
-        "note": ""
-      },
-      {
-        "keyword": "textured hoodie men",
-        "match": "",
-        "bid": 0.73,
-        "impressions": 499,
-        "clicks": 1,
-        "spend": 0.73,
-        "orders": 1,
-        "salesAmount": 19.99,
-        "acos": 3.65,
-        "cvr": 100.0,
+        "bid": 0.34,
+        "impressions": 9265,
+        "clicks": 41,
+        "spend": 11.78,
+        "orders": 4,
+        "salesAmount": 73.96,
+        "acos": 15.93,
+        "cvr": 9.76,
         "note": ""
       },
       {
         "keyword": "coofandy mens hoodie",
         "match": "",
-        "bid": 0.71,
-        "impressions": 402,
-        "clicks": 1,
-        "spend": 0.71,
+        "bid": 0.81,
+        "impressions": 530,
+        "clicks": 3,
+        "spend": 2.21,
         "orders": 2,
         "salesAmount": 35.98,
-        "acos": 1.97,
-        "cvr": 200.0,
+        "acos": 6.14,
+        "cvr": 66.67,
+        "note": ""
+      },
+      {
+        "keyword": "textured hoodie men",
+        "match": "",
+        "bid": 1,
+        "impressions": 702,
+        "clicks": 2,
+        "spend": 1.73,
+        "orders": 1,
+        "salesAmount": 19.99,
+        "acos": 8.65,
+        "cvr": 50,
         "note": ""
       }
     ],
     "potential": [
       {
-        "keyword": "category=\"Men's Fashion Hoodies\"",
+        "keyword": "hoodie men",
         "match": "",
-        "bid": 0.5,
-        "impressions": 16956,
-        "clicks": 343,
-        "spend": 172.92,
-        "orders": 33,
-        "salesAmount": 613.23,
-        "acos": 28.2,
-        "cvr": 9.62,
-        "note": ""
-      },
-      {
-        "keyword": "loose-match",
-        "match": "",
-        "bid": 0.5,
-        "impressions": 4977,
-        "clicks": 198,
-        "spend": 61.48,
-        "orders": 13,
-        "salesAmount": 245.85,
-        "acos": 25.01,
-        "cvr": 6.57,
-        "note": ""
-      },
-      {
-        "keyword": "complements",
-        "match": "",
-        "bid": 0.5,
-        "impressions": 904,
-        "clicks": 47,
-        "spend": 15.89,
-        "orders": 4,
-        "salesAmount": 75.96,
-        "acos": 20.92,
-        "cvr": 8.51,
+        "bid": 0.61,
+        "impressions": 963,
+        "clicks": 9,
+        "spend": 4.9,
+        "orders": 1,
+        "salesAmount": 17.99,
+        "acos": 27.24,
+        "cvr": 11.11,
         "note": ""
       }
     ],
     "losing": [
       {
+        "keyword": "Men's Fashion Hoodies (ID: 5545637011)",
+        "match": "",
+        "bid": 0.23,
+        "impressions": 15429,
+        "clicks": 176,
+        "spend": 79.81,
+        "orders": 13,
+        "salesAmount": 237.87,
+        "acos": 33.55,
+        "cvr": 7.39,
+        "note": ""
+      },
+      {
+        "keyword": "SEARCH_LOOSE_MATCH",
+        "match": "",
+        "bid": 0.3,
+        "impressions": 13966,
+        "clicks": 161,
+        "spend": 48.14,
+        "orders": 4,
+        "salesAmount": 73.96,
+        "acos": 65.09,
+        "cvr": 2.48,
+        "note": ""
+      },
+      {
+        "keyword": "B0DT9MZNL9",
+        "match": "",
+        "bid": 0.42,
+        "impressions": 2796,
+        "clicks": 48,
+        "spend": 29.47,
+        "orders": 3,
+        "salesAmount": 53.97,
+        "acos": 54.6,
+        "cvr": 6.25,
+        "note": ""
+      },
+      {
+        "keyword": "B0BZ4FR1KS",
+        "match": "",
+        "bid": 0.1,
+        "impressions": 1484,
+        "clicks": 27,
+        "spend": 15.79,
+        "orders": 1,
+        "salesAmount": 17.99,
+        "acos": 87.77,
+        "cvr": 3.7,
+        "note": ""
+      },
+      {
+        "keyword": "B0B921Y6LY",
+        "match": "",
+        "bid": 0.65,
+        "impressions": 1179,
+        "clicks": 20,
+        "spend": 12.77,
+        "orders": 1,
+        "salesAmount": 19.99,
+        "acos": 63.88,
+        "cvr": 5,
+        "note": ""
+      },
+      {
         "keyword": "fashion hoodies",
         "match": "",
-        "bid": 0.03,
-        "impressions": 6895,
-        "clicks": 21,
-        "spend": 21.65,
-        "orders": 1,
-        "salesAmount": 17.99,
-        "acos": 120.34,
-        "cvr": 4.76,
-        "note": ""
-      },
-      {
-        "keyword": "asin-expanded=\"B0BZ4FR1KS\"",
-        "match": "",
-        "bid": 0.5,
-        "impressions": 1825,
-        "clicks": 32,
-        "spend": 18.99,
-        "orders": 1,
-        "salesAmount": 17.99,
-        "acos": 105.56,
-        "cvr": 3.13,
-        "note": ""
-      },
-      {
-        "keyword": "coofandy sweatshirt",
-        "match": "",
-        "bid": 0.26,
-        "impressions": 1644,
-        "clicks": 5,
-        "spend": 5.61,
+        "bid": 0.02,
+        "impressions": 4076,
+        "clicks": 11,
+        "spend": 12.23,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B0F99GHYK8\"",
+        "keyword": "B0F6M7NHCW",
         "match": "",
-        "bid": 0.5,
-        "impressions": 456,
-        "clicks": 9,
-        "spend": 5.49,
-        "orders": 0,
-        "salesAmount": 0.0,
-        "acos": null,
-        "cvr": 0.0,
-        "note": ""
-      },
-      {
-        "keyword": "asin-expanded=\"B09C5CX942\"",
-        "match": "",
-        "bid": 0.5,
-        "impressions": 204,
-        "clicks": 8,
-        "spend": 5.28,
-        "orders": 0,
-        "salesAmount": 0.0,
-        "acos": null,
-        "cvr": 0.0,
-        "note": ""
-      },
-      {
-        "keyword": "asin-expanded=\"B0DFPSGWQT\"",
-        "match": "",
-        "bid": 0.5,
-        "impressions": 110,
-        "clicks": 9,
-        "spend": 4.44,
-        "orders": 0,
-        "salesAmount": 0.0,
-        "acos": null,
-        "cvr": 0.0,
-        "note": ""
-      },
-      {
-        "keyword": "asin-expanded=\"B0DT9K9QBF\"",
-        "match": "",
-        "bid": 0.5,
-        "impressions": 156,
+        "bid": 0.27,
+        "impressions": 259,
         "clicks": 7,
-        "spend": 4.11,
+        "spend": 3.15,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
-        "note": ""
-      },
-      {
-        "keyword": "coofandy hoodie",
-        "match": "",
-        "bid": 0.34,
-        "impressions": 100,
-        "clicks": 4,
-        "spend": 3.4,
-        "orders": 0,
-        "salesAmount": 0.0,
-        "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
         "keyword": "mens hooded pullover sweatshirt",
         "match": "",
-        "bid": 0.25,
-        "impressions": 1099,
+        "bid": 0.07,
+        "impressions": 809,
         "clicks": 4,
         "spend": 2.88,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B0DL5MW8F9\"",
+        "keyword": "B0DL5MW8F9",
         "match": "",
-        "bid": 0.5,
-        "impressions": 215,
+        "bid": 0.15,
+        "impressions": 504,
         "clicks": 6,
         "spend": 2.7,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B014RQ1L1O\"",
+        "keyword": "B014RQ1L1O",
         "match": "",
-        "bid": 0.5,
-        "impressions": 122,
+        "bid": 0.15,
+        "impressions": 363,
         "clicks": 6,
         "spend": 2.7,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B0DT9MWRGN\"",
+        "keyword": "B0DFPSGWQT",
         "match": "",
-        "bid": 0.5,
-        "impressions": 113,
-        "clicks": 4,
-        "spend": 2.28,
+        "bid": 0.15,
+        "impressions": 203,
+        "clicks": 6,
+        "spend": 2.7,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B01B9K2JB2\"",
+        "keyword": "B01B9K2JB2",
         "match": "",
-        "bid": 0.5,
-        "impressions": 217,
-        "clicks": 5,
-        "spend": 2.25,
+        "bid": 0.15,
+        "impressions": 536,
+        "clicks": 6,
+        "spend": 2.5,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B0CDQ69B11\"",
+        "keyword": "coofandy sweatshirt",
         "match": "",
-        "bid": 0.5,
-        "impressions": 134,
-        "clicks": 4,
-        "spend": 2.04,
-        "orders": 0,
-        "salesAmount": 0.0,
-        "acos": null,
-        "cvr": 0.0,
-        "note": ""
-      },
-      {
-        "keyword": "asin-expanded=\"B0FJMNJMHZ\"",
-        "match": "",
-        "bid": 0.5,
-        "impressions": 116,
-        "clicks": 3,
-        "spend": 1.75,
-        "orders": 0,
-        "salesAmount": 0.0,
-        "acos": null,
-        "cvr": 0.0,
-        "note": ""
-      },
-      {
-        "keyword": "light weight hoodie",
-        "match": "",
-        "bid": 0.02,
-        "impressions": 1040,
+        "bid": 0.08,
+        "impressions": 1056,
         "clicks": 2,
-        "spend": 1.7,
+        "spend": 2.13,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B0CGMBFY2K",
+        "match": "",
+        "bid": 0.45,
+        "impressions": 114,
+        "clicks": 4,
+        "spend": 1.9,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B09LQS5T4Z",
+        "match": "",
+        "bid": 0.27,
+        "impressions": 138,
+        "clicks": 4,
+        "spend": 1.8,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B0CDQ69B11",
+        "match": "",
+        "bid": 0.15,
+        "impressions": 182,
+        "clicks": 3,
+        "spend": 1.59,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B00JUM2V8I",
+        "match": "",
+        "bid": 0.27,
+        "impressions": 194,
+        "clicks": 3,
+        "spend": 1.35,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B0DFPY4Z1Y",
+        "match": "",
+        "bid": 0.27,
+        "impressions": 176,
+        "clicks": 3,
+        "spend": 1.35,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
         "note": ""
       },
       {
         "keyword": "navy blue hoodie",
         "match": "",
-        "bid": 0.54,
-        "impressions": 543,
+        "bid": 0.16,
+        "impressions": 407,
         "clicks": 2,
         "spend": 1.08,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "gray hoodie men",
+        "keyword": "B0DL5KM1DJ",
         "match": "",
-        "bid": 0.7,
-        "impressions": 187,
-        "clicks": 1,
-        "spend": 0.7,
+        "bid": 0.45,
+        "impressions": 113,
+        "clicks": 2,
+        "spend": 0.9,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B0CJ9CSHG1",
+        "match": "",
+        "bid": 0.45,
+        "impressions": 217,
+        "clicks": 2,
+        "spend": 0.86,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "light weight mens hoodie",
+        "match": "",
+        "bid": 0.71,
+        "impressions": 490,
+        "clicks": 1,
+        "spend": 0.71,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
         "note": ""
       },
       {
         "keyword": "navy blue sweatshirt men",
         "match": "",
         "bid": 0.69,
-        "impressions": 493,
+        "impressions": 579,
         "clicks": 1,
         "spend": 0.69,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B0B4Z1D9G9\"",
+        "keyword": "B0DC3XJFCD",
         "match": "",
-        "bid": 0.5,
-        "impressions": 135,
+        "bid": 0.45,
+        "impressions": 114,
         "clicks": 1,
-        "spend": 0.64,
+        "spend": 0.57,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
         "note": ""
       },
       {
-        "keyword": "asin-expanded=\"B0BZ4G3S9G\"",
+        "keyword": "B0BZ4G3S9G",
         "match": "",
-        "bid": 0.5,
-        "impressions": 107,
+        "bid": 0.45,
+        "impressions": 204,
         "clicks": 1,
         "spend": 0.45,
         "orders": 0,
-        "salesAmount": 0.0,
+        "salesAmount": 0,
         "acos": null,
-        "cvr": 0.0,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B0CGMCKTZD",
+        "match": "",
+        "bid": 0.45,
+        "impressions": 187,
+        "clicks": 1,
+        "spend": 0.45,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B0FJMNJMHZ",
+        "match": "",
+        "bid": 0.15,
+        "impressions": 135,
+        "clicks": 1,
+        "spend": 0.45,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
+        "note": ""
+      },
+      {
+        "keyword": "B0BNQDNYNS",
+        "match": "",
+        "bid": 0.45,
+        "impressions": 128,
+        "clicks": 1,
+        "spend": 0.45,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": null,
+        "cvr": 0,
         "note": ""
       }
     ],
     "lowVolume": [
       {
-        "keyword": "coofandy hoodies",
-        "bid": 0.44,
-        "impressions": 105,
+        "keyword": "athletic sweatshirt",
+        "bid": 0.7,
+        "impressions": 320,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
-        "suggestion": "提竞价测试"
+        "suggestion": "保持观察"
       },
       {
-        "keyword": "coofandy hoodies",
-        "bid": 0.77,
-        "impressions": 2,
+        "keyword": "gray hoodie men",
+        "bid": 0.7,
+        "impressions": 181,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
       },
       {
         "keyword": "coofandy hoodie",
-        "bid": 0.36,
-        "impressions": 0,
-        "clicks": 0,
-        "spend": 0.0,
-        "orders": 0,
-        "suggestion": "提竞价测试"
-      },
-      {
-        "keyword": "mens large light weight hoodie",
-        "bid": 0.78,
-        "impressions": 0,
-        "clicks": 0,
-        "spend": 0.0,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "light blue hoodies",
-        "bid": 0.3,
-        "impressions": 469,
-        "clicks": 0,
-        "spend": 0.0,
-        "orders": 0,
-        "suggestion": "提竞价测试"
-      },
-      {
-        "keyword": "dark gray hoodie men",
-        "bid": 0.43,
-        "impressions": 91,
-        "clicks": 0,
-        "spend": 0.0,
-        "orders": 0,
-        "suggestion": "提竞价测试"
-      },
-      {
-        "keyword": "mens casual hoodies pullover",
-        "bid": 0.15,
-        "impressions": 0,
-        "clicks": 0,
-        "spend": 0.0,
+        "bid": 0.34,
+        "impressions": 51,
+        "clicks": 3,
+        "spend": 2.91,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
       {
         "keyword": "mens cotton hoodies pullover",
         "bid": 0.21,
-        "impressions": 350,
+        "impressions": 39,
         "clicks": 0,
-        "spend": 0.0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "light blue hoodies",
+        "bid": 0.3,
+        "impressions": 35,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "dark gray hoodie men",
+        "bid": 0.43,
+        "impressions": 12,
+        "clicks": 1,
+        "spend": 0.43,
+        "orders": 0,
+        "suggestion": "提竞价测试"
+      },
+      {
+        "keyword": "coofandy hoodies",
+        "bid": 0.44,
+        "impressions": 4,
+        "clicks": 0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "提竞价测试"
       },
       {
         "keyword": "hooded sweatshirt",
         "bid": 0.58,
-        "impressions": 2,
-        "clicks": 0,
-        "spend": 0.0,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "close-match",
-        "bid": 0.5,
-        "impressions": 14,
-        "clicks": 2,
-        "spend": 0.98,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "substitutes",
-        "bid": 0.5,
-        "impressions": 5,
-        "clicks": 4,
-        "spend": 1.43,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B08HCH1YBY\"",
-        "bid": 0.5,
-        "impressions": 76,
-        "clicks": 4,
-        "spend": 2.3,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0DFPY4Z1Y\"",
-        "bid": 0.5,
-        "impressions": 99,
-        "clicks": 9,
-        "spend": 4.86,
-        "orders": 1,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0CKX2MMZ9\"",
-        "bid": 0.5,
-        "impressions": 75,
-        "clicks": 5,
-        "spend": 3.0,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0B921Y6LY\"",
-        "bid": 0.5,
-        "impressions": 87,
-        "clicks": 5,
-        "spend": 3.03,
-        "orders": 2,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0DL5KM1DJ\"",
-        "bid": 0.5,
-        "impressions": 39,
-        "clicks": 2,
-        "spend": 0.9,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0CJ9CSHG1\"",
-        "bid": 0.5,
-        "impressions": 50,
-        "clicks": 4,
-        "spend": 1.96,
-        "orders": 1,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0FKRX5DWX\"",
-        "bid": 0.5,
-        "impressions": 30,
-        "clicks": 1,
-        "spend": 0.67,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0F6M7NHCW\"",
-        "bid": 0.5,
-        "impressions": 74,
-        "clicks": 7,
-        "spend": 3.15,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B09LQS5T4Z\"",
-        "bid": 0.5,
-        "impressions": 52,
-        "clicks": 6,
-        "spend": 2.82,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0CGMBFY2K\"",
-        "bid": 0.5,
-        "impressions": 27,
-        "clicks": 4,
-        "spend": 1.9,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0BNQDNYNS\"",
-        "bid": 0.5,
-        "impressions": 17,
-        "clicks": 1,
-        "spend": 0.45,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0BNQQSQS6\"",
-        "bid": 0.5,
-        "impressions": 14,
-        "clicks": 1,
-        "spend": 0.58,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B00JUM2V8I\"",
-        "bid": 0.5,
-        "impressions": 17,
-        "clicks": 3,
-        "spend": 1.35,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0CGMCKTZD\"",
-        "bid": 0.5,
-        "impressions": 10,
-        "clicks": 1,
-        "spend": 0.45,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0DC3XJFCD\"",
-        "bid": 0.5,
-        "impressions": 12,
-        "clicks": 2,
-        "spend": 1.14,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B09VDHC4XC\"",
-        "bid": 0.5,
-        "impressions": 10,
-        "clicks": 2,
-        "spend": 1.21,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0BMTBR6TL\"",
-        "bid": 0.5,
-        "impressions": 4,
-        "clicks": 1,
-        "spend": 0.45,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0FGQDJHC1\"",
-        "bid": 0.5,
-        "impressions": 3,
-        "clicks": 1,
-        "spend": 0.45,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0CFDFH3HZ\"",
-        "bid": 0.5,
-        "impressions": 3,
-        "clicks": 1,
-        "spend": 0.57,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0F6M8CNHH\"",
-        "bid": 0.5,
-        "impressions": 2,
-        "clicks": 1,
-        "spend": 0.56,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0DB89GRZ2\"",
-        "bid": 0.5,
-        "impressions": 2,
-        "clicks": 1,
-        "spend": 0.45,
-        "orders": 0,
-        "suggestion": "保持观察"
-      },
-      {
-        "keyword": "asin-expanded=\"B0991PTKSL\"",
-        "bid": 0.5,
         "impressions": 1,
-        "clicks": 1,
-        "spend": 0.65,
+        "clicks": 0,
+        "spend": 0,
         "orders": 0,
         "suggestion": "保持观察"
+      },
+      {
+        "keyword": "light weight hoodie",
+        "bid": 0.02,
+        "impressions": 1,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "提竞价测试"
       }
     ]
   },
   "autoTargeting": [],
   "forecast": {
-    "currentAcos": 24.89,
-    "currentAcosYd": 18.35,
-    "shortTerm": "22-25%",
+    "currentAcos": 45.72,
+    "currentAcosYd": 63.69,
+    "shortTerm": "43-46%",
     "midTerm": "18-22%",
-    "currentDailyOrders": 8.3,
-    "expectedDailyOrders": 9.1,
-    "budgetBefore": 52.0,
-    "budgetAfter": 51.0
+    "currentDailyOrders": 4.4,
+    "expectedDailyOrders": 4.8,
+    "budgetBefore": 44,
+    "budgetAfter": 37
   },
   "actions": {
     "summary": {
-      "bidDown": 16,
-      "bidUp": 4,
-      "budgetAdjust": 1,
+      "bidDown": 18,
+      "bidUp": 3,
+      "budgetAdjust": 4,
       "pause": 0,
       "newKeyword": 10,
-      "newProductTarget": 2,
+      "newProductTarget": 0,
       "negative": 3,
-      "total": 44,
-      "newKeywords": 8
+      "total": 38
     },
     "bidDown": [
       {
         "seq": 1,
-        "campaign": "#1 手动关键词(广泛)",
-        "campaignId": "333903452360072",
-        "keyword": "fashion hoodies",
+        "campaign": "#4 商品投放",
+        "campaignId": "367851579653868",
+        "keyword": "Men's Fashion Hoodies (ID: 5545637011)",
         "match": "广泛",
-        "from": 0.03,
-        "to": 0.02,
-        "change": "-33%",
-        "reason": "ACOS 120.34%花费$21.65,1单",
-        "targetId": "430850765098249"
+        "from": 0.23,
+        "to": 0.14,
+        "change": "-39%",
+        "reason": "ACOS 33.55%花费$79.81,13单",
+        "targetId": "316614221542470"
       },
       {
         "seq": 2,
-        "campaign": "#3 商品投放",
-        "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0BZ4FR1KS\"",
+        "campaign": "#2 自动投放",
+        "campaignId": "510273719211911",
+        "keyword": "SEARCH_LOOSE_MATCH",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.2,
-        "change": "-60%",
-        "reason": "ACOS 105.56%花费$18.99,1单",
-        "targetId": "520215909267713"
+        "from": 0.3,
+        "to": 0.07,
+        "change": "-77%",
+        "reason": "ACOS 65.09%花费$48.14,4单",
+        "targetId": "414727730441503"
       },
       {
         "seq": 3,
-        "campaign": "#1 手动关键词(广泛)",
-        "campaignId": "333903452360072",
-        "keyword": "coofandy sweatshirt",
+        "campaign": "#3 商品投放",
+        "campaignId": "476971790430984",
+        "keyword": "B0DT9MZNL9",
         "match": "广泛",
-        "from": 0.26,
-        "to": 0.13,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$5.61,零转化",
-        "targetId": "488729509834326"
+        "from": 0.42,
+        "to": 0.17,
+        "change": "-60%",
+        "reason": "ACOS 54.6%花费$29.47,3单",
+        "targetId": "282333119009486"
       },
       {
         "seq": 4,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0F99GHYK8\"",
+        "keyword": "B0BZ4FR1KS",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$5.49,零转化",
-        "targetId": "528083024672274"
+        "from": 0.1,
+        "to": 0.02,
+        "change": "-80%",
+        "reason": "ACOS 87.77%花费$15.79,1单",
+        "targetId": "520215909267713"
       },
       {
         "seq": 5,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B09C5CX942\"",
+        "keyword": "B0B921Y6LY",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$5.28,零转化",
-        "targetId": "371663039744658"
+        "from": 0.65,
+        "to": 0.14,
+        "change": "-78%",
+        "reason": "ACOS 63.88%花费$12.77,1单",
+        "targetId": "457330486946562"
       },
       {
         "seq": 6,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0DFPSGWQT\"",
+        "keyword": "B0F6M7NHCW",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$4.44,零转化",
-        "targetId": "350814953043309"
+        "from": 0.27,
+        "to": 0.09,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$3.15,零转化",
+        "targetId": "521704383024998"
       },
       {
         "seq": 7,
-        "campaign": "#3 商品投放",
-        "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0DT9K9QBF\"",
-        "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$4.11,零转化",
-        "targetId": "429215042865113"
-      },
-      {
-        "seq": 8,
-        "campaign": "#1 手动关键词(广泛)",
-        "campaignId": "333903452360072",
-        "keyword": "coofandy hoodie",
-        "match": "广泛",
-        "from": 0.34,
-        "to": 0.17,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$3.4,零转化",
-        "targetId": "332064545335727"
-      },
-      {
-        "seq": 9,
         "campaign": "#1 手动关键词(广泛)",
         "campaignId": "333903452360072",
         "keyword": "mens hooded pullover sweatshirt",
         "match": "广泛",
-        "from": 0.25,
-        "to": 0.12,
-        "change": "-52%",
+        "from": 0.07,
+        "to": 0.02,
+        "change": "-71%",
         "reason": "ACOS 0.0%花费$2.88,零转化",
         "targetId": "477018009170107"
+      },
+      {
+        "seq": 8,
+        "campaign": "#3 商品投放",
+        "campaignId": "476971790430984",
+        "keyword": "B0DL5MW8F9",
+        "match": "广泛",
+        "from": 0.15,
+        "to": 0.05,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$2.7,零转化",
+        "targetId": "438218093975244"
+      },
+      {
+        "seq": 9,
+        "campaign": "#3 商品投放",
+        "campaignId": "476971790430984",
+        "keyword": "B014RQ1L1O",
+        "match": "广泛",
+        "from": 0.15,
+        "to": 0.05,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$2.7,零转化",
+        "targetId": "515750175511289"
       },
       {
         "seq": 10,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0DL5MW8F9\"",
+        "keyword": "B0DFPSGWQT",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
+        "from": 0.15,
+        "to": 0.05,
+        "change": "-67%",
         "reason": "ACOS 0.0%花费$2.7,零转化",
-        "targetId": "438218093975244"
+        "targetId": "350814953043309"
       },
       {
         "seq": 11,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B014RQ1L1O\"",
+        "keyword": "B01B9K2JB2",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$2.7,零转化",
-        "targetId": "515750175511289"
+        "from": 0.15,
+        "to": 0.05,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$2.5,零转化",
+        "targetId": "449171947796403"
       },
       {
         "seq": 12,
-        "campaign": "#3 商品投放",
-        "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0DT9MWRGN\"",
+        "campaign": "#1 手动关键词(广泛)",
+        "campaignId": "333903452360072",
+        "keyword": "coofandy sweatshirt",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$2.28,零转化",
-        "targetId": "549874812926044"
+        "from": 0.08,
+        "to": 0.03,
+        "change": "-62%",
+        "reason": "ACOS 0.0%花费$2.13,零转化",
+        "targetId": "488729509834326"
       },
       {
         "seq": 13,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B01B9K2JB2\"",
+        "keyword": "B0CGMBFY2K",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$2.25,零转化",
-        "targetId": "449171947796403"
+        "from": 0.45,
+        "to": 0.16,
+        "change": "-64%",
+        "reason": "ACOS 0.0%花费$1.9,零转化",
+        "targetId": "357801939386794"
       },
       {
         "seq": 14,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0CDQ69B11\"",
+        "keyword": "B09LQS5T4Z",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$2.04,零转化",
-        "targetId": "487197043027018"
+        "from": 0.27,
+        "to": 0.09,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$1.8,零转化",
+        "targetId": "342499713073547"
       },
       {
         "seq": 15,
         "campaign": "#3 商品投放",
         "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0FJMNJMHZ\"",
+        "keyword": "B0CDQ69B11",
         "match": "广泛",
-        "from": 0.5,
-        "to": 0.25,
-        "change": "-50%",
-        "reason": "ACOS 0.0%花费$1.75,零转化",
-        "targetId": "487086731047662"
+        "from": 0.15,
+        "to": 0.05,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$1.59,零转化",
+        "targetId": "487197043027018"
       },
       {
         "seq": 16,
+        "campaign": "#3 商品投放",
+        "campaignId": "476971790430984",
+        "keyword": "B00JUM2V8I",
+        "match": "广泛",
+        "from": 0.27,
+        "to": 0.09,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$1.35,零转化",
+        "targetId": "471121922163637"
+      },
+      {
+        "seq": 17,
+        "campaign": "#3 商品投放",
+        "campaignId": "476971790430984",
+        "keyword": "B0DFPY4Z1Y",
+        "match": "广泛",
+        "from": 0.27,
+        "to": 0.09,
+        "change": "-67%",
+        "reason": "ACOS 0.0%花费$1.35,零转化",
+        "targetId": "343687699748276"
+      },
+      {
+        "seq": 18,
         "campaign": "#1 手动关键词(广泛)",
         "campaignId": "333903452360072",
         "keyword": "navy blue hoodie",
         "match": "广泛",
-        "from": 0.54,
-        "to": 0.27,
-        "change": "-50%",
+        "from": 0.16,
+        "to": 0.06,
+        "change": "-62%",
         "reason": "ACOS 0.0%花费$1.08,零转化",
         "targetId": "325846588151383"
       }
     ],
     "bidUp": [
       {
-        "seq": 17,
-        "campaign": "#3 商品投放",
-        "campaignId": "476971790430984",
-        "keyword": "asin-expanded=\"B0DT9MZNL9\"",
-        "match": "广泛",
-        "from": 0.5,
-        "to": 0.65,
-        "change": "+30%",
-        "reason": "优质词ACOS 4.17%,5单,提竞价获取更多流量",
-        "targetId": "282333119009486"
-      },
-      {
-        "seq": 18,
-        "campaign": "#1 手动关键词(广泛)",
-        "campaignId": "333903452360072",
-        "keyword": "coofandy mens hoodie",
-        "match": "广泛",
-        "from": 0.71,
-        "to": 0.85,
-        "change": "+20%",
-        "reason": "优质词ACOS 1.97%,2单,提竞价获取更多流量",
-        "targetId": "527454136431786"
-      },
-      {
         "seq": 19,
-        "campaign": "#1 手动关键词(广泛)",
-        "campaignId": "333903452360072",
-        "keyword": "textured hoodie men",
+        "campaign": "#2 自动投放",
+        "campaignId": "510273719211911",
+        "keyword": "PRODUCT_COMPLEMENTS",
         "match": "广泛",
-        "from": 0.73,
-        "to": 0.88,
-        "change": "+21%",
-        "reason": "优质词ACOS 3.65%,1单,提竞价获取更多流量",
-        "targetId": "385754928987575"
+        "from": 0.34,
+        "to": 0.39,
+        "change": "+15%",
+        "reason": "优质词ACOS 15.93%,4单,提竞价获取更多流量",
+        "targetId": "369997404229739"
       },
       {
         "seq": 20,
         "campaign": "#1 手动关键词(广泛)",
         "campaignId": "333903452360072",
-        "keyword": "hoodie men",
+        "keyword": "coofandy mens hoodie",
         "match": "广泛",
-        "from": 0.51,
-        "to": 0.61,
-        "change": "+20%",
-        "reason": "优质词ACOS 13.67%,1单,提竞价获取更多流量",
-        "targetId": "559662059726858"
-      }
-    ],
-    "budgetAdjust": [
+        "from": 0.81,
+        "to": 0.92,
+        "change": "+14%",
+        "reason": "优质词ACOS 6.14%,2单,提竞价获取更多流量",
+        "targetId": "527454136431786"
+      },
       {
         "seq": 21,
         "campaign": "#1 手动关键词(广泛)",
         "campaignId": "333903452360072",
-        "from": 4.0,
+        "keyword": "textured hoodie men",
+        "match": "广泛",
+        "from": 1,
+        "to": 1.14,
+        "change": "+14%",
+        "reason": "优质词ACOS 8.65%,1单,提竞价获取更多流量",
+        "targetId": "385754928987575"
+      }
+    ],
+    "budgetAdjust": [
+      {
+        "seq": 22,
+        "campaign": "#1 手动关键词(广泛)",
+        "campaignId": "333903452360072",
+        "from": 3,
         "to": 3,
-        "change": "-25%",
-        "reason": "ACOS 46.41%严重超标,缩减预算止血"
+        "change": "+0%",
+        "reason": "ACOS 43.13%严重超标,缩减预算止血"
+      },
+      {
+        "seq": 23,
+        "campaign": "#2 自动投放",
+        "campaignId": "510273719211911",
+        "from": 12,
+        "to": 10,
+        "change": "-17%",
+        "reason": "ACOS 35.69%严重超标,缩减预算止血"
+      },
+      {
+        "seq": 24,
+        "campaign": "#3 商品投放",
+        "campaignId": "476971790430984",
+        "from": 12,
+        "to": 10,
+        "change": "-17%",
+        "reason": "ACOS 97.61%严重超标,缩减预算止血"
+      },
+      {
+        "seq": 25,
+        "campaign": "#4 商品投放",
+        "campaignId": "367851579653868",
+        "from": 17,
+        "to": 14,
+        "change": "-18%",
+        "reason": "ACOS 33.55%严重超标,缩减预算止血"
       }
     ],
     "pause": [],
     "newKeywords": [
       {
-        "seq": 22,
+        "seq": 26,
         "keyword": "coofandy hoodies for men",
         "match": "精准",
         "bid": 0.71,
@@ -1160,7 +1038,7 @@
         "reason": "搜索词ACOS 2%≤目标20%,2单,建议精确匹配"
       },
       {
-        "seq": 23,
+        "seq": 27,
         "keyword": "mens hooded sweater",
         "match": "精准",
         "bid": 0.73,
@@ -1168,15 +1046,7 @@
         "reason": "搜索词ACOS 4%≤目标20%,1单,建议精确匹配"
       },
       {
-        "seq": 24,
-        "keyword": "dark red hoodie men",
-        "match": "精准",
-        "bid": 0.34,
-        "campaign": "#1 手动关键词(广泛)",
-        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
-      },
-      {
-        "seq": 25,
+        "seq": 28,
         "keyword": "dark blue mens hoodie",
         "match": "精准",
         "bid": 0.48,
@@ -1184,55 +1054,390 @@
         "reason": "搜索词ACOS 3%≤目标20%,1单,建议精确匹配"
       },
       {
-        "seq": 26,
+        "seq": 29,
         "keyword": "hoodies for men",
         "match": "精准",
-        "bid": 0.31,
-        "campaign": "#1 手动关键词(广泛)",
-        "reason": "搜索词ACOS 12%≤目标20%,3单,建议精确匹配"
+        "bid": 0.3,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 8%≤目标20%,3单,建议精确匹配"
       },
       {
-        "seq": 28,
-        "keyword": "100% cotton hoodie men",
+        "seq": 30,
+        "keyword": "b0dcjyqs74",
         "match": "精准",
         "bid": 0.3,
-        "campaign": "#1 手动关键词(广泛)",
-        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
-      },
-      {
-        "seq": 29,
-        "keyword": "mens cotton hoodie",
-        "match": "精准",
-        "bid": 0.3,
-        "campaign": "#1 手动关键词(广泛)",
-        "reason": "搜索词ACOS 1%≤目标20%,2单,建议精确匹配"
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 5%≤目标20%,1单,建议精确匹配"
       },
       {
         "seq": 31,
-        "keyword": "mens solid long sleeve hoodies",
+        "keyword": "100% cotton hoodie men",
         "match": "精准",
         "bid": 0.3,
-        "campaign": "#1 手动关键词(广泛)",
-        "reason": "搜索词ACOS 1%≤目标20%,2单,建议精确匹配"
-      }
-    ],
-    "negative": [],
-    "newProductTarget": [
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 3%≤目标20%,1单,建议精确匹配"
+      },
       {
         "seq": 32,
-        "campaign": "#1 手动关键词(广泛)",
-        "campaignId": "333903452360072",
-        "targetAsin": "B0DCJYQS74",
-        "suggestedBid": 0.4,
-        "reason": "搜索词ACOS 1%≤目标20%,2单,建议新增商品投放"
+        "keyword": "b0fbk2xbnd",
+        "match": "精准",
+        "bid": 0.2,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 0%≤目标20%,2单,建议精确匹配"
       },
       {
         "seq": 33,
-        "campaign": "#1 手动关键词(广泛)",
-        "campaignId": "333903452360072",
-        "targetAsin": "B0FBK2XBND",
-        "suggestedBid": 0.2,
-        "reason": "搜索词ACOS 1%≤目标20%,1单,建议新增商品投放"
+        "keyword": "mens solid long sleeve hoodies",
+        "match": "精准",
+        "bid": 0.3,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 1%≤目标20%,2单,建议精确匹配"
+      },
+      {
+        "seq": 34,
+        "keyword": "waffle hoodie men",
+        "match": "精准",
+        "bid": 0.3,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 2%≤目标20%,1单,建议精确匹配"
+      },
+      {
+        "seq": 35,
+        "keyword": "coofandy mens hoodies pullover long sleeve casual fashion sweatshirts",
+        "match": "精准",
+        "bid": 0.3,
+        "campaign": "#2 自动投放",
+        "reason": "搜索词ACOS 1%≤目标20%,1单,建议精确匹配"
+      }
+    ]
+  },
+  "execution": {
+    "executedAt": "2026-03-10T17:01:00+08:00",
+    "endTime": "2026-03-10T09:05:17.551Z",
+    "status": "completed",
+    "method": "API",
+    "totalOps": 38,
+    "successOps": 27,
+    "existed": 3,
+    "failedOps": 4,
+    "skipped": 4,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "Men's Fashion Hoodies (品类投放)",
+        "from": 0.23,
+        "to": 0.14,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "SEARCH_LOOSE_MATCH (自动投放)",
+        "from": 0.3,
+        "to": 0.07,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "B0DT9MZNL9 (商品投放)",
+        "from": 0.42,
+        "to": 0.17,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "B0BZ4FR1KS (商品投放)",
+        "from": 0.1,
+        "to": 0.02,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "B0B921Y6LY (商品投放)",
+        "from": 0.65,
+        "to": 0.14,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "B0F6M7NHCW (商品投放)",
+        "from": 0.27,
+        "to": 0.09,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "B0DL5MW8F9 (商品投放)",
+        "from": 0.15,
+        "to": 0.05,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 8,
+        "type": "bidDown",
+        "target": "B014RQ1L1O (商品投放)",
+        "from": 0.15,
+        "to": 0.05,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 9,
+        "type": "bidDown",
+        "target": "B0DFPSGWQT (商品投放)",
+        "from": 0.15,
+        "to": 0.05,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 10,
+        "type": "bidDown",
+        "target": "B01B9K2JB2 (商品投放)",
+        "from": 0.15,
+        "to": 0.05,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 11,
+        "type": "bidDown",
+        "target": "B0CGMBFY2K (商品投放)",
+        "from": 0.45,
+        "to": 0.16,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 12,
+        "type": "bidDown",
+        "target": "B09LQS5T4Z (商品投放)",
+        "from": 0.27,
+        "to": 0.09,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 13,
+        "type": "bidDown",
+        "target": "B0CDQ69B11 (商品投放)",
+        "from": 0.15,
+        "to": 0.05,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 14,
+        "type": "bidDown",
+        "target": "B00JUM2V8I (商品投放)",
+        "from": 0.27,
+        "to": 0.09,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 15,
+        "type": "bidDown",
+        "target": "B0DFPY4Z1Y (商品投放)",
+        "from": 0.27,
+        "to": 0.09,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 16,
+        "type": "bidDown",
+        "target": "mens hooded pullover sweatshirt (关键词)",
+        "from": 0.07,
+        "to": 0.02,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 17,
+        "type": "bidDown",
+        "target": "coofandy sweatshirt (关键词)",
+        "from": 0.08,
+        "to": 0.03,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 18,
+        "type": "bidDown",
+        "target": "navy blue hoodie (关键词)",
+        "from": 0.16,
+        "to": 0.06,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 19,
+        "type": "bidUp",
+        "target": "PRODUCT_COMPLEMENTS (自动投放)",
+        "from": 0.34,
+        "to": 0.39,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 20,
+        "type": "bidUp",
+        "target": "coofandy mens hoodie (关键词)",
+        "from": 0.81,
+        "to": 0.92,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 21,
+        "type": "bidUp",
+        "target": "textured hoodie men (关键词)",
+        "from": 1,
+        "to": 1.14,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 22,
+        "type": "newKeyword",
+        "target": "coofandy hoodies for men (exact)",
+        "status": "existed",
+        "method": "api"
+      },
+      {
+        "seq": 23,
+        "type": "newKeyword",
+        "target": "mens hooded sweater (exact)",
+        "status": "existed",
+        "method": "api"
+      },
+      {
+        "seq": 24,
+        "type": "newKeyword",
+        "target": "dark blue mens hoodie (exact)",
+        "status": "existed",
+        "method": "api"
+      },
+      {
+        "seq": 25,
+        "type": "newKeyword",
+        "target": "hoodies for men (exact)",
+        "status": "existed",
+        "method": "api"
+      },
+      {
+        "seq": 26,
+        "type": "newKeyword",
+        "target": "100% cotton hoodie men (exact)",
+        "status": "failed",
+        "method": "api"
+      },
+      {
+        "seq": 27,
+        "type": "newKeyword",
+        "target": "mens solid long sleeve hoodies (exact)",
+        "status": "existed",
+        "method": "api"
+      },
+      {
+        "seq": 28,
+        "type": "newKeyword",
+        "target": "waffle hoodie men (exact)",
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 29,
+        "type": "newKeyword",
+        "target": "coofandy mens hoodies pullover... (exact)",
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 30,
+        "type": "newKeyword",
+        "target": "b0dcjyqs74 (exact)",
+        "status": "skipped",
+        "method": "api"
+      },
+      {
+        "seq": 31,
+        "type": "newKeyword",
+        "target": "b0fbk2xbnd (exact)",
+        "status": "skipped",
+        "method": "api"
+      },
+      {
+        "seq": 32,
+        "type": "negative",
+        "target": "hoodie (negExact, #1手动关键词)",
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 33,
+        "type": "negative",
+        "target": "b00jum3bsm (negExact, #3商品投放)",
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 34,
+        "type": "negative",
+        "target": "b01b9k2jb2 (negExact, #3商品投放)",
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 35,
+        "type": "negative",
+        "target": "b0fjl9k6r5 (negExact, #4品类投放)",
+        "status": "success",
+        "method": "api"
+      }
+    ],
+    "budgetChanges": [
+      {
+        "campaign": "#1 手动关键词广泛",
+        "before": 3,
+        "after": 2,
+        "change": -1,
+        "status": "partial"
+      },
+      {
+        "campaign": "#2 自动投放",
+        "before": 12,
+        "after": 10,
+        "change": -2,
+        "status": "partial"
+      },
+      {
+        "campaign": "#3 手动商品投放",
+        "before": 12,
+        "after": 10,
+        "change": -2,
+        "status": "partial"
+      },
+      {
+        "campaign": "#4 手动品类投放",
+        "before": 17,
+        "after": 14,
+        "change": -3,
+        "status": "partial"
       }
     ]
   }
