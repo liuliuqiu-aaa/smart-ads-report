@@ -1,0 +1,886 @@
+{
+  "reportDate": "2026-03-11",
+  "dataDate": "2026-03-11",
+  "generatedAt": "2026-03-11T16:45:00+08:00",
+  "product": {
+    "title": "COOFANDY Men's 3 Pack Workout Gym Shorts Mesh Athletic Shorts Lightweight Bodybuilding Training Short Pants with Pockets",
+    "brand": "COOFANDY",
+    "price": "$32.99",
+    "mainAsin": "B0C89WCYLW",
+    "parentAsin": "AMJ008012",
+    "targetAcos": 25,
+    "budgetLimit": 150,
+    "bidLimit": 2
+  },
+  "summary": {
+    "totalCampaigns": 4,
+    "totalDailyBudget": 115,
+    "last7days": {
+      "impressions": 139189,
+      "clicks": 459,
+      "ctr": 0.33,
+      "spend": 595.69,
+      "cpc": 1.3,
+      "orders": 50,
+      "salesVolume": 52,
+      "salesAmount": 1060.49,
+      "roas": 1.78,
+      "acos": 56.17
+    },
+    "yesterday": {
+      "impressions": 15303,
+      "clicks": 57,
+      "ctr": 0.37,
+      "spend": 82.05,
+      "cpc": 1.44,
+      "orders": 4,
+      "salesVolume": 4,
+      "salesAmount": 101.95,
+      "roas": 1.24,
+      "acos": 80.48
+    }
+  },
+  "campaigns": [
+    {
+      "id": "456563888390401",
+      "name": "BR大流量词-单件",
+      "type": "手动投放",
+      "budget": 40,
+      "targetingCount": 20,
+      "targetingType": "关键词",
+      "last7days": {
+        "impressions": 50722,
+        "clicks": 235,
+        "ctr": 0.46,
+        "spend": 209.61,
+        "cpc": 0.89,
+        "orders": 34,
+        "salesVolume": 36,
+        "salesAmount": 667.66,
+        "roas": 3.19,
+        "acos": 31.39,
+        "cvr": 14.47
+      },
+      "yesterday": {
+        "impressions": 9266,
+        "clicks": 29,
+        "ctr": 0.31,
+        "spend": 25.68,
+        "cpc": 0.89,
+        "orders": 4,
+        "salesVolume": 4,
+        "salesAmount": 101.95,
+        "roas": 3.97,
+        "acos": 25.19,
+        "cvr": 13.79
+      }
+    },
+    {
+      "id": "306797621332731",
+      "name": "BR大流量词-双件",
+      "type": "手动投放",
+      "budget": 20,
+      "targetingCount": 20,
+      "targetingType": "关键词",
+      "last7days": {
+        "impressions": 31243,
+        "clicks": 52,
+        "ctr": 0.17,
+        "spend": 39.6,
+        "cpc": 0.76,
+        "orders": 5,
+        "salesVolume": 5,
+        "salesAmount": 128.7,
+        "roas": 3.25,
+        "acos": 30.77,
+        "cvr": 9.62
+      },
+      "yesterday": {
+        "impressions": 249,
+        "clicks": 0,
+        "ctr": 0,
+        "spend": 0,
+        "cpc": 0,
+        "orders": 0,
+        "salesVolume": 0,
+        "salesAmount": 0,
+        "roas": 0,
+        "acos": 0,
+        "cvr": 0
+      }
+    },
+    {
+      "id": "173942146993352",
+      "name": "旧EX2流量",
+      "type": "手动投放",
+      "budget": 35,
+      "targetingCount": 20,
+      "targetingType": "关键词",
+      "last7days": {
+        "impressions": 52554,
+        "clicks": 150,
+        "ctr": 0.29,
+        "spend": 208.06,
+        "cpc": 1.39,
+        "orders": 10,
+        "salesVolume": 10,
+        "salesAmount": 236.14,
+        "roas": 1.13,
+        "acos": 88.11,
+        "cvr": 6.67
+      },
+      "yesterday": {
+        "impressions": 4162,
+        "clicks": 24,
+        "ctr": 0.58,
+        "spend": 33.49,
+        "cpc": 1.4,
+        "orders": 0,
+        "salesVolume": 0,
+        "salesAmount": 0,
+        "roas": 0,
+        "acos": 0,
+        "cvr": 0
+      }
+    },
+    {
+      "id": "368312445423109",
+      "name": "AT双件-自动",
+      "type": "自动投放",
+      "budget": 20,
+      "targetingCount": 4,
+      "targetingType": "自动",
+      "last7days": {
+        "impressions": 4670,
+        "clicks": 22,
+        "ctr": 0.47,
+        "spend": 138.42,
+        "cpc": 6.29,
+        "orders": 1,
+        "salesVolume": 1,
+        "salesAmount": 27.99,
+        "roas": 0.2,
+        "acos": 494.53,
+        "cvr": 4.55
+      },
+      "yesterday": {
+        "impressions": 1626,
+        "clicks": 4,
+        "ctr": 0.25,
+        "spend": 22.88,
+        "cpc": 5.72,
+        "orders": 0,
+        "salesVolume": 0,
+        "salesAmount": 0,
+        "roas": 0,
+        "acos": 0,
+        "cvr": 0
+      }
+    }
+  ],
+  "diagnosis": [
+    {
+      "icon": "🚨",
+      "text": "7天ACOS 56.17%，远超目标25%，昨天更是恶化至80.48%"
+    },
+    {
+      "icon": "🚨",
+      "text": "AT双件-自动活动竞价设为$10疑似误操作，CPC高达$6.29，7天ACOS 494%"
+    },
+    {
+      "icon": "🚨",
+      "text": "旧EX2活动\"gym shorts for men\"单词ACOS 80.6%，占该活动91.5%花费"
+    },
+    {
+      "icon": "✅",
+      "text": "BR大流量词-单件活动表现尚可，7天ACOS 31.39%，贡献68%订单"
+    },
+    {
+      "icon": "⚠️",
+      "text": "58%花费集中在低效活动（旧EX2+AT双件），仅贡献22%订单"
+    },
+    {
+      "icon": "ℹ️",
+      "text": "品牌词(coofandy)转化极佳，ACOS 1-6%，品牌认知度良好"
+    },
+    {
+      "icon": "⚠️",
+      "text": "\"gym shorts\"大词7天151点击零转化，但30天有201单需观察"
+    }
+  ],
+  "keywordLayers": {
+    "excellent": [
+      {
+        "keyword": "mens workout shorts",
+        "match": "广泛",
+        "bid": 0.97,
+        "impressions": 11119,
+        "clicks": 27,
+        "spend": 25.84,
+        "orders": 6,
+        "salesAmount": 103.94,
+        "acos": 24.86,
+        "cvr": 22.22,
+        "note": "ACOS刚好达标，高转化率"
+      },
+      {
+        "keyword": "mens shorts 7 inch",
+        "match": "广泛",
+        "bid": 0.96,
+        "impressions": 868,
+        "clicks": 4,
+        "spend": 3.84,
+        "orders": 2,
+        "salesAmount": 34.98,
+        "acos": 10.98,
+        "cvr": 50,
+        "note": "高效低量，可提竞价扩量"
+      },
+      {
+        "keyword": "running shorts for men",
+        "match": "广泛",
+        "bid": 0.88,
+        "impressions": 336,
+        "clicks": 4,
+        "spend": 3.5,
+        "orders": 1,
+        "salesAmount": 29.98,
+        "acos": 11.67,
+        "cvr": 25,
+        "note": "高效"
+      },
+      {
+        "keyword": "mens shorts athletic",
+        "match": "广泛",
+        "bid": 0.95,
+        "impressions": 909,
+        "clicks": 1,
+        "spend": 0.95,
+        "orders": 2,
+        "salesAmount": 29.98,
+        "acos": 3.17,
+        "cvr": 200,
+        "note": "极高效"
+      },
+      {
+        "keyword": "coofandy shorts",
+        "match": "广泛",
+        "bid": 0.78,
+        "impressions": 406,
+        "clicks": 3,
+        "spend": 2.13,
+        "orders": 2,
+        "salesAmount": 49.98,
+        "acos": 4.26,
+        "cvr": 66.67,
+        "note": "品牌词，极高效"
+      }
+    ],
+    "potential": [
+      {
+        "keyword": "mens shorts",
+        "match": "广泛",
+        "bid": 0.9,
+        "impressions": 13182,
+        "clicks": 85,
+        "spend": 75.04,
+        "orders": 11,
+        "salesAmount": 257.65,
+        "acos": 29.12,
+        "cvr": 12.94,
+        "note": "主力词，降竞价至$0.80可优化ACOS"
+      },
+      {
+        "keyword": "shorts",
+        "match": "广泛",
+        "bid": 0.86,
+        "impressions": 11587,
+        "clicks": 61,
+        "spend": 51.63,
+        "orders": 7,
+        "salesAmount": 146.19,
+        "acos": 35.32,
+        "cvr": 11.48,
+        "note": "大词ACOS偏高，降竞价至$0.75"
+      },
+      {
+        "keyword": "mens athletic shorts",
+        "match": "广泛",
+        "bid": 0.95,
+        "impressions": 2774,
+        "clicks": 16,
+        "spend": 14.9,
+        "orders": 2,
+        "salesAmount": 34.97,
+        "acos": 42.61,
+        "cvr": 12.5,
+        "note": "ACOS偏高，降竞价优化"
+      },
+      {
+        "keyword": "shorts men",
+        "match": "广泛",
+        "bid": 0.78,
+        "impressions": 9333,
+        "clicks": 16,
+        "spend": 12.48,
+        "orders": 2,
+        "salesAmount": 48.98,
+        "acos": 25.48,
+        "cvr": 12.5,
+        "note": "双件活动，ACOS刚好达标边缘"
+      }
+    ],
+    "losing": [
+      {
+        "keyword": "gym shorts for men",
+        "match": "精准",
+        "bid": 1.38,
+        "impressions": 49047,
+        "clicks": 137,
+        "spend": 190.32,
+        "orders": 10,
+        "salesAmount": 236.14,
+        "acos": 80.6,
+        "cvr": 7.3,
+        "note": "最大亏损源，降竞价至$0.90"
+      },
+      {
+        "keyword": "gym shorts",
+        "match": "广泛",
+        "bid": 0.9,
+        "impressions": 1662,
+        "clicks": 11,
+        "spend": 9.9,
+        "orders": 1,
+        "salesAmount": 9.99,
+        "acos": 99.1,
+        "cvr": 9.09,
+        "note": "7天表现差，30天有大量转化，观察"
+      },
+      {
+        "keyword": "SEARCH_CLOSE_MATCH",
+        "match": "自动",
+        "bid": 10,
+        "impressions": 4008,
+        "clicks": 10,
+        "spend": 63.4,
+        "orders": 0,
+        "salesAmount": 0,
+        "acos": 0,
+        "cvr": 0,
+        "note": "竞价$10异常，紧急降至$0.75"
+      },
+      {
+        "keyword": "SEARCH_LOOSE_MATCH",
+        "match": "自动",
+        "bid": 10,
+        "impressions": 664,
+        "clicks": 12,
+        "spend": 75.02,
+        "orders": 1,
+        "salesAmount": 27.99,
+        "acos": 268.02,
+        "cvr": 8.33,
+        "note": "竞价$10异常，紧急降至$0.75"
+      }
+    ],
+    "lowVolume": [
+      {
+        "keyword": "coofandy",
+        "match": "广泛",
+        "bid": 0.75,
+        "impressions": 256,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "品牌词零点击，保持观察"
+      },
+      {
+        "keyword": "workout shorts men",
+        "match": "广泛",
+        "bid": 0.95,
+        "impressions": 164,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "有曝光无点击，保持观察"
+      },
+      {
+        "keyword": "mens running shorts",
+        "match": "广泛",
+        "bid": 0.88,
+        "impressions": 118,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "低量，保持"
+      },
+      {
+        "keyword": "PRODUCT_SUBSTITUTES",
+        "match": "自动",
+        "bid": 10,
+        "impressions": 5,
+        "clicks": 0,
+        "spend": 0,
+        "orders": 0,
+        "suggestion": "竞价异常，降至$0.75后观察"
+      }
+    ]
+  },
+  "autoTargeting": [
+    {
+      "type": "紧密匹配",
+      "bid": 10,
+      "impressions": 4008,
+      "clicks": 10,
+      "spend": 63.4,
+      "orders": 0,
+      "salesAmount": 0,
+      "acos": 0,
+      "action": "竞价从$10降至$0.75，CPC $6.34严重偏高"
+    },
+    {
+      "type": "宽泛匹配",
+      "bid": 10,
+      "impressions": 664,
+      "clicks": 12,
+      "spend": 75.02,
+      "orders": 1,
+      "salesAmount": 27.99,
+      "acos": 268.02,
+      "action": "竞价从$10降至$0.75，ACOS 268%不可接受"
+    },
+    {
+      "type": "同类商品",
+      "bid": 10,
+      "impressions": 5,
+      "clicks": 0,
+      "spend": 0,
+      "orders": 0,
+      "salesAmount": 0,
+      "acos": 0,
+      "action": "竞价从$10降至$0.75"
+    },
+    {
+      "type": "关联商品",
+      "bid": 10,
+      "impressions": 0,
+      "clicks": 0,
+      "spend": 0,
+      "orders": 0,
+      "salesAmount": 0,
+      "acos": 0,
+      "action": "竞价从$10降至$0.75"
+    }
+  ],
+  "forecast": {
+    "currentAcos": 56.17,
+    "currentAcosYd": 80.48,
+    "shortTerm": "执行P0止血操作后3-5天内，预计ACOS从56%降至30-35%区间。AT双件日花费从$20降至$3-5，旧EX2日花费从$30降至$15-20",
+    "midTerm": "持续优化2周后，目标ACOS接近25%。BR大流量词活动微调后可进一步提效，整体日花费稳定在$50-60区间",
+    "currentDailyOrders": 7.14,
+    "expectedDailyOrders": 6,
+    "budgetBefore": 115,
+    "budgetAfter": 115
+  },
+  "actions": {
+    "summary": {
+      "total": 17,
+      "bidDown": 16,
+      "bidUp": 0,
+      "budgetAdjust": 0,
+      "pause": 0,
+      "newKeywords": 0,
+      "newProductTarget": 0,
+      "negative": 1
+    },
+    "bidDown": [
+      {
+        "seq": 1,
+        "campaign": "AT双件-自动",
+        "campaignId": "368312445423109",
+        "keyword": "SEARCH_CLOSE_MATCH",
+        "match": "自动",
+        "from": 10,
+        "to": 0.75,
+        "change": "-92.5%",
+        "reason": "竞价$10疑似误操作，7天$63花费零转化，CPC $6.34",
+        "targetId": "288189755799300"
+      },
+      {
+        "seq": 2,
+        "campaign": "AT双件-自动",
+        "campaignId": "368312445423109",
+        "keyword": "SEARCH_LOOSE_MATCH",
+        "match": "自动",
+        "from": 10,
+        "to": 0.75,
+        "change": "-92.5%",
+        "reason": "竞价$10，7天$75花费仅1单，ACOS 268%",
+        "targetId": "307516235596330"
+      },
+      {
+        "seq": 3,
+        "campaign": "AT双件-自动",
+        "campaignId": "368312445423109",
+        "keyword": "PRODUCT_SUBSTITUTES",
+        "match": "自动",
+        "from": 10,
+        "to": 0.75,
+        "change": "-92.5%",
+        "reason": "竞价$10异常，统一调整",
+        "targetId": "327183954537370"
+      },
+      {
+        "seq": 4,
+        "campaign": "AT双件-自动",
+        "campaignId": "368312445423109",
+        "keyword": "PRODUCT_COMPLEMENTS",
+        "match": "自动",
+        "from": 10,
+        "to": 0.75,
+        "change": "-92.5%",
+        "reason": "竞价$10异常，统一调整",
+        "targetId": "440423834257828"
+      },
+      {
+        "seq": 5,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "gym shorts for men",
+        "match": "精准",
+        "from": 1.38,
+        "to": 0.9,
+        "change": "-34.8%",
+        "reason": "7天ACOS 80.6%，花费$190仅10单",
+        "targetId": "177550280135973"
+      },
+      {
+        "seq": 6,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "mens shorts 6 inch inseam",
+        "match": "精准",
+        "from": 1.51,
+        "to": 0.9,
+        "change": "-40.4%",
+        "reason": "7天7点击$10花费零转化",
+        "targetId": "180557072476800"
+      },
+      {
+        "seq": 7,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "mens active shorts",
+        "match": "精准",
+        "from": 1.31,
+        "to": 0.9,
+        "change": "-31.3%",
+        "reason": "7天3点击零转化",
+        "targetId": "26434743407391"
+      },
+      {
+        "seq": 8,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "mens gym shorts 7 inch inseam",
+        "match": "精准",
+        "from": 1.31,
+        "to": 0.9,
+        "change": "-31.3%",
+        "reason": "7天2点击零转化",
+        "targetId": "217203652575985"
+      },
+      {
+        "seq": 9,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "men running shorts",
+        "match": "精准",
+        "from": 1.07,
+        "to": 0.8,
+        "change": "-25.2%",
+        "reason": "竞价偏高，7天零曝光",
+        "targetId": "480834653749704"
+      },
+      {
+        "seq": 10,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "mens shorts 3 pack",
+        "match": "精准",
+        "from": 1.07,
+        "to": 0.8,
+        "change": "-25.2%",
+        "reason": "高相关词，降竞价保留观察",
+        "targetId": "404663230259861"
+      },
+      {
+        "seq": 11,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "mens running shorts",
+        "match": "精准",
+        "from": 1.07,
+        "to": 0.8,
+        "change": "-25.2%",
+        "reason": "竞价偏高，7天零曝光",
+        "targetId": "405276931562070"
+      },
+      {
+        "seq": 12,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "running shorts for men",
+        "match": "精准",
+        "from": 1.02,
+        "to": 0.8,
+        "change": "-21.6%",
+        "reason": "竞价偏高，7天零曝光",
+        "targetId": "445928201992935"
+      },
+      {
+        "seq": 13,
+        "campaign": "旧EX2流量",
+        "campaignId": "173942146993352",
+        "keyword": "mens athletic shorts",
+        "match": "精准",
+        "from": 1.02,
+        "to": 0.8,
+        "change": "-21.6%",
+        "reason": "竞价偏高，7天零曝光",
+        "targetId": "309710243101651"
+      },
+      {
+        "seq": 14,
+        "campaign": "BR大流量词-单件",
+        "campaignId": "456563888390401",
+        "keyword": "mens shorts",
+        "match": "广泛",
+        "from": 0.9,
+        "to": 0.8,
+        "change": "-11.1%",
+        "reason": "7天ACOS 29%略超目标，小幅降竞价",
+        "targetId": "544123075540746"
+      },
+      {
+        "seq": 15,
+        "campaign": "BR大流量词-单件",
+        "campaignId": "456563888390401",
+        "keyword": "shorts",
+        "match": "广泛",
+        "from": 0.86,
+        "to": 0.75,
+        "change": "-12.8%",
+        "reason": "7天ACOS 35%超目标，降竞价控ACOS",
+        "targetId": "364486222176920"
+      },
+      {
+        "seq": 16,
+        "campaign": "BR大流量词-单件",
+        "campaignId": "456563888390401",
+        "keyword": "mens athletic shorts",
+        "match": "广泛",
+        "from": 0.95,
+        "to": 0.8,
+        "change": "-15.8%",
+        "reason": "7天ACOS 43%偏高",
+        "targetId": "420165184101305"
+      }
+    ],
+    "bidUp": [],
+    "budgetAdjust": [],
+    "pause": [],
+    "newKeywords": [],
+    "newProductTarget": [],
+    "negative": [
+      {
+        "seq": 17,
+        "campaign": "BR大流量词-单件",
+        "campaignId": "456563888390401",
+        "negativeType": "negativeKeyword",
+        "negativeKeywords": [
+          "under armour shorts",
+          "red nike shorts",
+          "nike light army green workout shorts",
+          "puma adult white shorts",
+          "adidas sprinter shorts men",
+          "russell athletic 3in shorts",
+          "orange ua shorts",
+          "orange nike shorts",
+          "6 inch dock shorts",
+          "navy blue police academy pt shorts",
+          "tennis shorts with ball pockets"
+        ],
+        "reason": "竞品品牌词及不相关词，7天+30天数据均零转化"
+      }
+    ]
+  },
+  "analysisReport": "../../data/reports/group-mmk9ks4h-k6cu/analysis-2026-03-11.md",
+  "execution": {
+    "executedAt": "2026-03-11T16:51:00+08:00",
+    "endTime": "2026-03-11T16:52:00+08:00",
+    "status": "completed",
+    "method": "API",
+    "totalOps": 17,
+    "successOps": 17,
+    "existed": 0,
+    "failedOps": 0,
+    "operations": [
+      {
+        "seq": 1,
+        "type": "bidDown",
+        "target": "SEARCH_CLOSE_MATCH (AT双件-自动)",
+        "from": 10,
+        "to": 0.75,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 2,
+        "type": "bidDown",
+        "target": "SEARCH_LOOSE_MATCH (AT双件-自动)",
+        "from": 10,
+        "to": 0.75,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 3,
+        "type": "bidDown",
+        "target": "PRODUCT_SUBSTITUTES (AT双件-自动)",
+        "from": 10,
+        "to": 0.75,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 4,
+        "type": "bidDown",
+        "target": "PRODUCT_COMPLEMENTS (AT双件-自动)",
+        "from": 10,
+        "to": 0.75,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 5,
+        "type": "bidDown",
+        "target": "gym shorts for men (旧EX2流量)",
+        "from": 1.38,
+        "to": 0.9,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 6,
+        "type": "bidDown",
+        "target": "mens shorts 6 inch inseam (旧EX2流量)",
+        "from": 1.51,
+        "to": 0.9,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 7,
+        "type": "bidDown",
+        "target": "mens active shorts (旧EX2流量)",
+        "from": 1.31,
+        "to": 0.9,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 8,
+        "type": "bidDown",
+        "target": "mens gym shorts 7 inch inseam (旧EX2流量)",
+        "from": 1.31,
+        "to": 0.9,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 9,
+        "type": "bidDown",
+        "target": "men running shorts (旧EX2流量)",
+        "from": 1.07,
+        "to": 0.8,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 10,
+        "type": "bidDown",
+        "target": "mens shorts 3 pack (旧EX2流量)",
+        "from": 1.07,
+        "to": 0.8,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 11,
+        "type": "bidDown",
+        "target": "mens running shorts (旧EX2流量)",
+        "from": 1.07,
+        "to": 0.8,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 12,
+        "type": "bidDown",
+        "target": "running shorts for men (旧EX2流量)",
+        "from": 1.02,
+        "to": 0.8,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 13,
+        "type": "bidDown",
+        "target": "mens athletic shorts (旧EX2流量)",
+        "from": 1.02,
+        "to": 0.8,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 14,
+        "type": "bidDown",
+        "target": "mens shorts (BR大流量词-单件)",
+        "from": 0.9,
+        "to": 0.8,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 15,
+        "type": "bidDown",
+        "target": "shorts (BR大流量词-单件)",
+        "from": 0.86,
+        "to": 0.75,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 16,
+        "type": "bidDown",
+        "target": "mens athletic shorts (BR大流量词-单件)",
+        "from": 0.95,
+        "to": 0.8,
+        "status": "success",
+        "method": "api"
+      },
+      {
+        "seq": 17,
+        "type": "negative",
+        "target": "11个竞品/不相关词 (BR大流量词-单件)",
+        "from": null,
+        "to": null,
+        "status": "success",
+        "method": "api"
+      }
+    ],
+    "budgetChanges": []
+  }
+}
