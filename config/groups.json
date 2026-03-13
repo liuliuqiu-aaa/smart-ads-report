@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-03-04T14:23:17.147122",
+  "updatedAt": "2026-03-10T07:03:51.167Z",
   "groups": [
     {
       "id": "group-hoodie-core",
@@ -80,6 +80,33 @@
       ],
       "notes": "",
       "createdAt": "2026-03-04T06:22:47.119Z"
+    },
+    {
+      "id": "group-mmk9ks4h-k6cu",
+      "name": "AMJ008012智能托管组",
+      "enabled": true,
+      "product": {
+        "name": "Visit the COOFANDY Store COOFANDY Men's 3 Pack Workout Gym Shorts Mesh Athletic Shorts Lightweight Bodybuilding Training Short Pants with Pockets",
+        "spu": "AMJ008012",
+        "asin": "B0C89WCYLW",
+        "price": 32.99,
+        "account": "AM00224",
+        "site": "US",
+        "stage": "growth",
+        "amazonUrl": "https://www.amazon.com/dp/B09K5GM5K7?th=1&psc=1"
+      },
+      "macroGoal": "boost-sales",
+      "targetAcos": 25,
+      "budgetLimit": 150,
+      "bidLimit": 2,
+      "campaignIds": [
+        "456563888390401",
+        "306797621332731",
+        "173942146993352",
+        "368312445423109"
+      ],
+      "notes": "3.10号北京时间新增",
+      "createdAt": "2026-03-10T07:03:51.139Z"
     }
   ]
 }

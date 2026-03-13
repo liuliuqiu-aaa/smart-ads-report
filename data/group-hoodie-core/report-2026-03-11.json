@@ -702,7 +702,7 @@
       }
     ]
   },
-  "analysisReport": "../../data/reports/group-hoodie-core/analysis-2026-03-11.md",
+  "analysisReport": "analysis-2026-03-11.md",
   "execution": {
     "executedAt": "2026-03-11T16:14:00+08:00",
     "endTime": "2026-03-11T16:16:00+08:00",

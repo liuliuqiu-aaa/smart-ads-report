@@ -603,7 +603,8 @@ async function showAnalysisReport() {
     return;
   }
   try {
-    const resp = await fetch(mdPath + '?t=' + Date.now());
+    const fullPath = mdPath.startsWith('data/') ? mdPath : `data/${currentGroupId}/${mdPath}`;
+    const resp = await fetch(fullPath + '?t=' + Date.now());
     if (!resp.ok) throw new Error('Not found');
     const md = await resp.text();
     const html = marked.parse(md);
