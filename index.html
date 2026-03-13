@@ -423,8 +423,12 @@ function renderAnalysis(d) {
   const kl = d.keywordLayers || {};
   const hasKL = kl.excellent || kl.potential || kl.losing || kl.lowVolume;
   const hasReport = !!d.analysisReport;
+  const hasSearchTerm = !!d.searchTermReport;
   return `
-    ${hasReport ? `<div style="margin-bottom:20px;"><button onclick="showAnalysisReport()" style="background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:500;transition:opacity .2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1">📋 查看完整分析报告</button></div>` : ''}
+    <div style="margin-bottom:20px; display:flex; gap:12px; flex-wrap:wrap;">
+      ${hasReport ? `<button onclick="showAnalysisReport()" style="background:var(--accent);color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:500;transition:opacity .2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1">📋 查看完整分析报告</button>` : ''}
+      ${hasSearchTerm ? `<button onclick="showSearchTermReport()" style="background:#10b981;color:#fff;border:none;padding:10px 20px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:500;transition:opacity .2s;" onmouseover="this.style.opacity=0.85" onmouseout="this.style.opacity=1">🔎 查看搜索词报告</button>` : ''}
+    </div>
     <div class="card">
       <h2>🔍 核心诊断</h2>
       ${(d.diagnosis||[]).map(a=>{
@@ -615,12 +619,40 @@ async function showAnalysisReport() {
     alert('加载分析报告失败: ' + e.message);
   }
 }
+
+async function showSearchTermReport() {
+  const report = getCurrentReport();
+  const mdPath = report?.searchTermReport;
+  if (!mdPath) {
+    alert('本日暂无搜索词报告');
+    return;
+  }
+  try {
+    const fullPath = mdPath.startsWith('data/') ? mdPath : `data/${currentGroupId}/${mdPath}`;
+    const resp = await fetch(fullPath + '?t=' + Date.now());
+    if (!resp.ok) throw new Error('Not found');
+    const md = await resp.text();
+    const html = marked.parse(md);
+    const modal = document.getElementById('searchTermModal');
+    document.getElementById('searchTermContent').innerHTML = html;
+    modal.style.display = 'flex';
+  } catch(e) {
+    alert('加载搜索词报告失败: ' + e.message);
+  }
+}
 </script>
 
 <div id="analysisModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:1000; justify-content:center; align-items:center; padding:20px;">
   <div style="background:var(--card, #1a1d27); border-radius:12px; max-width:900px; width:100%; max-height:90vh; overflow-y:auto; padding:30px; position:relative;">
     <button onclick="document.getElementById('analysisModal').style.display='none'" style="position:absolute; top:12px; right:16px; background:none; border:none; color:var(--text2, #888); font-size:24px; cursor:pointer;">&times;</button>
     <div id="analysisContent" style="color:var(--text, #e0e0e0); line-height:1.8; font-size:14px;"></div>
+  </div>
+</div>
+
+<div id="searchTermModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:1000; justify-content:center; align-items:center; padding:20px;">
+  <div style="background:var(--card, #1a1d27); border-radius:12px; max-width:900px; width:100%; max-height:90vh; overflow-y:auto; padding:30px; position:relative;">
+    <button onclick="document.getElementById('searchTermModal').style.display='none'" style="position:absolute; top:12px; right:16px; background:none; border:none; color:var(--text2, #888); font-size:24px; cursor:pointer;">&times;</button>
+    <div id="searchTermContent" style="color:var(--text, #e0e0e0); line-height:1.8; font-size:14px;"></div>
   </div>
 </div>
 
