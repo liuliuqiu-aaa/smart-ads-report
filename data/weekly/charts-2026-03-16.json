@@ -1,0 +1,76 @@
+{
+  "charts": [
+    {
+      "id": "openclaw-acos-trend",
+      "title": "OpenClaw 各托管组周 ACOS 趋势",
+      "type": "line",
+      "labels": ["W1(2/9-2/15)", "W2(2/16-2/22)", "W3(2/23-3/1)", "W4(3/2-3/8)", "W5(3/9-3/15)"],
+      "datasets": [
+        {"label": "AMJ010095", "data": [41.59, 33.68, 23.47, 25.55, 25.12], "borderColor": "#FF6384", "backgroundColor": "rgba(255,99,132,0.1)"},
+        {"label": "AMJ010001", "data": [null, null, 9.05, 20.47, 22.49], "borderColor": "#36A2EB", "backgroundColor": "rgba(54,162,235,0.1)"},
+        {"label": "ADJ000082", "data": [null, null, 33.14, 39.56, 28.74], "borderColor": "#FFCE56", "backgroundColor": "rgba(255,206,86,0.1)"},
+        {"label": "AMJ008012", "data": [null, null, 90.40, 58.57, 39.18], "borderColor": "#4BC0C0", "backgroundColor": "rgba(75,192,192,0.1)"}
+      ],
+      "options": {"scales": {"y": {"title": {"display": true, "text": "ACOS (%)"}}}}
+    },
+    {
+      "id": "openclaw-spend-trend",
+      "title": "OpenClaw 各托管组周花费",
+      "type": "bar",
+      "labels": ["W1(2/9-2/15)", "W2(2/16-2/22)", "W3(2/23-3/1)", "W4(3/2-3/8)", "W5(3/9-3/15)"],
+      "datasets": [
+        {"label": "AMJ010095", "data": [198.92, 219.78, 389.52, 364.40, 178.93], "backgroundColor": "rgba(255,99,132,0.7)"},
+        {"label": "AMJ010001", "data": [null, null, 69.69, 82.75, 172.34], "backgroundColor": "rgba(54,162,235,0.7)"},
+        {"label": "ADJ000082", "data": [null, null, 512.02, 412.00, 312.52], "backgroundColor": "rgba(255,206,86,0.7)"},
+        {"label": "AMJ008012", "data": [null, null, 261.06, 642.65, 371.22], "backgroundColor": "rgba(75,192,192,0.7)"}
+      ],
+      "options": {"scales": {"y": {"title": {"display": true, "text": "花费 ($)"}}}}
+    },
+    {
+      "id": "openclaw-orders-trend",
+      "title": "OpenClaw 各托管组周订单",
+      "type": "bar",
+      "labels": ["W1(2/9-2/15)", "W2(2/16-2/22)", "W3(2/23-3/1)", "W4(3/2-3/8)", "W5(3/9-3/15)"],
+      "datasets": [
+        {"label": "AMJ010095", "data": [25, 34, 67, 64, 38], "backgroundColor": "rgba(255,99,132,0.7)"},
+        {"label": "AMJ010001", "data": [null, null, 30, 22, 36], "backgroundColor": "rgba(54,162,235,0.7)"},
+        {"label": "ADJ000082", "data": [null, null, 69, 47, 43], "backgroundColor": "rgba(255,206,86,0.7)"},
+        {"label": "AMJ008012", "data": [null, null, 12, 50, 39], "backgroundColor": "rgba(75,192,192,0.7)"}
+      ],
+      "options": {"scales": {"y": {"title": {"display": true, "text": "订单数"}}}}
+    },
+    {
+      "id": "eip-acos-trend",
+      "title": "EIP AI 整体周 ACOS 趋势",
+      "type": "line",
+      "labels": ["W1(2/9-2/15)", "W2(2/16-2/22)", "W3(2/23-3/1)", "W4(3/2-3/8)", "W5(3/9-3/15)"],
+      "datasets": [
+        {"label": "EIP AI 整体 ACOS", "data": [18.44, 29.21, 21.34, 26.42, 29.10], "borderColor": "#9966FF", "backgroundColor": "rgba(153,102,255,0.1)", "fill": true},
+        {"label": "EIP AI 日均订单", "data": [23.57, 19.57, 49.86, 52.86, 47.86], "borderColor": "#FF9F40", "backgroundColor": "rgba(255,159,64,0.1)", "yAxisID": "y1"}
+      ],
+      "options": {"scales": {"y": {"title": {"display": true, "text": "ACOS (%)"}}, "y1": {"position": "right", "title": {"display": true, "text": "日均订单"}}}}
+    },
+    {
+      "id": "compare-acos-trend",
+      "title": "两套方案 ACOS 对比趋势",
+      "type": "line",
+      "labels": ["W3(2/23-3/1)", "W4(3/2-3/8)", "W5(3/9-3/15)"],
+      "datasets": [
+        {"label": "OpenClaw 整体 ACOS", "data": [25.37, 32.55, 29.04], "borderColor": "#FF6384", "borderWidth": 3},
+        {"label": "EIP AI 整体 ACOS", "data": [21.34, 26.42, 29.10], "borderColor": "#9966FF", "borderWidth": 3}
+      ],
+      "options": {"scales": {"y": {"title": {"display": true, "text": "ACOS (%)"}}}}
+    },
+    {
+      "id": "compare-orders-trend",
+      "title": "两套方案周订单对比",
+      "type": "bar",
+      "labels": ["W3(2/23-3/1)", "W4(3/2-3/8)", "W5(3/9-3/15)"],
+      "datasets": [
+        {"label": "OpenClaw 订单", "data": [178, 183, 156], "backgroundColor": "rgba(255,99,132,0.7)"},
+        {"label": "EIP AI 订单", "data": [349, 370, 335], "backgroundColor": "rgba(153,102,255,0.7)"}
+      ],
+      "options": {"scales": {"y": {"title": {"display": true, "text": "订单数"}}}}
+    }
+  ]
+}
