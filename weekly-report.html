@@ -213,7 +213,7 @@ fetch(`data/weekly/charts-${dateStr}.json`)
       if (c.id.startsWith('overall-')) {
         createChartCard(overallContainer, c, false);
       } else if (c.id.includes('daily')) {
-        createChartCard(dailyContainer, c, false);
+        createChartCard(dailyContainer, c, true);
       } else if (c.id.includes('phase') || c.id.includes('compare')) {
         createChartCard(phaseContainer, c, c.id.includes('compare'));
       } else if (c.id.includes('eip') || c.id.includes('vs')) {
