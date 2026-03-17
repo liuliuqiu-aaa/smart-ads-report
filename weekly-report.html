@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>智能广告托管周报</title>
+<title>智能托管广告 - 周报分析</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.1.0/dist/chartjs-plugin-annotation.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
@@ -58,15 +58,42 @@ header p { text-align: center; color: var(--text2); font-size: 0.9em; margin-top
 .report-content p { margin: 8px 0; }
 
 .loading { text-align: center; padding: 40px; color: var(--text2); }
+
+/* Top nav - matches index.html */
+.topbar { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 24px; display: flex; align-items: center; height: 44px; gap: 16px; }
+.topbar .logo { font-size: 14px; font-weight: 600; color: var(--text); white-space: nowrap; }
+.topbar .nav-link { color: var(--text2); text-decoration: none; font-size: 13px; padding: 4px 10px; border-radius: 4px; transition: all .2s; }
+.topbar .nav-link:hover { color: var(--text); background: rgba(255,255,255,.05); }
+.topbar .nav-link.active { color: var(--accent); background: rgba(99,102,241,.1); }
+
+/* Week selector header */
+.week-header { background: linear-gradient(135deg, #1e1b4b, #312e81); padding: 16px 32px; }
+.week-header h2 { font-size: 20px; font-weight: 600; margin-bottom: 10px; }
+.week-header .week-selector { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.week-header select { background: rgba(255,255,255,0.1); color: var(--text); border: 1px solid rgba(255,255,255,0.2); padding: 6px 12px; border-radius: 6px; font-size: 13px; cursor: pointer; }
+.week-header select:focus { outline: none; border-color: var(--accent); }
+.week-header .week-info { color: var(--text2); font-size: 13px; }
 </style>
 </head>
 <body>
-<header>
-  <div class="container">
-    <h1>📊 智能广告托管周报</h1>
-    <p id="report-date">加载中...</p>
+
+<!-- Top navigation -->
+<div class="topbar">
+  <div class="logo">🎯 智能托管广告</div>
+  <a href="index.html" class="nav-link">📊 报告中心</a>
+  <a href="config.html" class="nav-link">⚙️ 托管组配置</a>
+  <a href="weekly-report.html" class="nav-link active">📈 周报分析</a>
+</div>
+
+<!-- Week selector header -->
+<div class="week-header">
+  <h2>📊 智能广告托管周报</h2>
+  <div class="week-selector">
+    <span>📅 选择周报：</span>
+    <select id="weekSelect"></select>
+    <span class="week-info" id="weekInfo">加载中...</span>
   </div>
-</header>
+</div>
 
 <div class="container">
   <div class="tabs">
@@ -96,8 +123,45 @@ header p { text-align: center; color: var(--text2); font-size: 0.9em; margin-top
 </div>
 
 <script>
-const dateStr = location.hash.slice(1) || '2026-03-16';
-document.getElementById('report-date').textContent = `报告周期截至 ${dateStr}`;
+let weeklyIndex = [];
+let currentWeek = null;
+
+// Init: load week index, populate selector, then load data
+fetch('data/weekly-index.json')
+  .then(r => r.json())
+  .then(index => {
+    weeklyIndex = index;
+    const sel = document.getElementById('weekSelect');
+    index.forEach((w, i) => {
+      const opt = document.createElement('option');
+      opt.value = i;
+      opt.textContent = w.label;
+      sel.appendChild(opt);
+    });
+    // Select from hash or default to latest
+    const hashDate = location.hash.slice(1);
+    const matchIdx = hashDate ? index.findIndex(w => w.endDate === hashDate) : index.length - 1;
+    sel.value = matchIdx >= 0 ? matchIdx : index.length - 1;
+    sel.addEventListener('change', () => loadWeek(parseInt(sel.value)));
+    loadWeek(parseInt(sel.value));
+  });
+
+function loadWeek(idx) {
+  currentWeek = weeklyIndex[idx];
+  const dateStr = currentWeek.endDate;
+  const weeklyDir = currentWeek.dir;
+  location.hash = dateStr;
+  document.getElementById('weekInfo').textContent = `报告周期: ${currentWeek.label} | 截至 ${dateStr}`;
+  
+  // Clear existing charts
+  ['overall-charts','daily-charts','phase-charts','eip-charts'].forEach(id => {
+    document.getElementById(id).innerHTML = '';
+  });
+  document.getElementById('report-content').innerHTML = '<div class="loading">加载报告中...</div>';
+
+  loadCharts(weeklyDir, dateStr);
+  loadReport(weeklyDir, dateStr);
+}
 
 // Tab switching
 document.querySelectorAll('.tab').forEach(t => {
@@ -109,7 +173,6 @@ document.querySelectorAll('.tab').forEach(t => {
   });
 });
 
-Chart.register(ChartDataLabels);
 Chart.defaults.color = '#8b949e';
 Chart.defaults.borderColor = '#30363d';
 Chart.defaults.font.size = 11;
@@ -200,55 +263,41 @@ function createChartCard(container, chart, isFull) {
   new Chart(canvas, cfg);
 }
 
-// Find weekly dir from index
-function findWeeklyDir(dateStr) {
-  return fetch('data/weekly-index.json')
+function loadCharts(weeklyDir, dateStr) {
+  fetch(`data/${weeklyDir}/charts-${dateStr}.json`)
     .then(r => r.json())
-    .then(index => {
-      // Find the entry whose endDate matches, or the latest one
-      const match = index.find(e => e.endDate === dateStr);
-      return match ? match.dir : index[index.length - 1].dir;
+    .then(({charts}) => {
+      const overallContainer = document.getElementById('overall-charts');
+      const dailyContainer = document.getElementById('daily-charts');
+      const phaseContainer = document.getElementById('phase-charts');
+      const eipContainer = document.getElementById('eip-charts');
+      charts.forEach(c => {
+        if (c.id.startsWith('overall-')) {
+          createChartCard(overallContainer, c, false);
+        } else if (c.id.includes('daily')) {
+          createChartCard(dailyContainer, c, true);
+        } else if (c.id.includes('phase') || c.id.includes('compare')) {
+          createChartCard(phaseContainer, c, c.id.includes('compare'));
+        } else if (c.id.includes('eip') || c.id.includes('vs')) {
+          createChartCard(eipContainer, c, false);
+        }
+      });
+    })
+    .catch(e => {
+      document.getElementById('daily-charts').innerHTML = `<div class="loading">图表加载失败: ${e.message}</div>`;
     });
 }
 
-// Load charts
-findWeeklyDir(dateStr).then(weeklyDir => {
-
-fetch(`data/${weeklyDir}/charts-${dateStr}.json`)
-  .then(r => r.json())
-  .then(({charts}) => {
-    const dailyContainer = document.getElementById('daily-charts');
-    const phaseContainer = document.getElementById('phase-charts');
-    const eipContainer = document.getElementById('eip-charts');
-    
-    const overallContainer = document.getElementById('overall-charts');
-    charts.forEach(c => {
-      if (c.id.startsWith('overall-')) {
-        createChartCard(overallContainer, c, false);
-      } else if (c.id.includes('daily')) {
-        createChartCard(dailyContainer, c, true);
-      } else if (c.id.includes('phase') || c.id.includes('compare')) {
-        createChartCard(phaseContainer, c, c.id.includes('compare'));
-      } else if (c.id.includes('eip') || c.id.includes('vs')) {
-        createChartCard(eipContainer, c, false);
-      }
+function loadReport(weeklyDir, dateStr) {
+  fetch(`data/${weeklyDir}/report-${dateStr}.md`)
+    .then(r => r.text())
+    .then(md => {
+      document.getElementById('report-content').innerHTML = marked.parse(md);
+    })
+    .catch(e => {
+      document.getElementById('report-content').innerHTML = `<div class="loading">报告加载失败: ${e.message}</div>`;
     });
-  })
-  .catch(e => {
-    document.getElementById('daily-charts').innerHTML = `<div class="loading">图表加载失败: ${e.message}</div>`;
-  });
-
-// Load report
-fetch(`data/${weeklyDir}/report-${dateStr}.md`)
-  .then(r => r.text())
-  .then(md => {
-    document.getElementById('report-content').innerHTML = marked.parse(md);
-  })
-  .catch(e => {
-    document.getElementById('report-content').innerHTML = `<div class="loading">报告加载失败: ${e.message}</div>`;
-  });
-
-}); // end findWeeklyDir
+}
 </script>
 </body>
 </html>
