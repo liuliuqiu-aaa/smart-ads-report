@@ -1331,8 +1331,9 @@
       ]
     },
     {
-      "id": "openclaw-vs-eip-phase-acos",
-      "title": "OpenClaw vs EIP AI 整体 ACOS 对比（前后）",
+      "id": "overall-vs-acos",
+      "title": "OpenClaw vs EIP AI 整体 ACOS 对比",
+      "subtitle": "OpenClaw: 托管前 2/8~2/25 → 托管后 2/26~3/16 | EIP AI: 上线前 2/9~2/25 → 上线后 2/26~3/16",
       "type": "bar",
       "labels": [
         "托管/上线前",
@@ -1340,26 +1341,155 @@
       ],
       "datasets": [
         {
-          "label": "OpenClaw",
-          "data": [
-            34.13,
-            26.91
-          ],
+          "label": "OpenClaw (4组)",
+          "data": [34.13, 26.91],
           "backgroundColor": "rgba(76,175,80,0.6)",
           "borderColor": "#4CAF50",
           "borderWidth": 1
         },
         {
-          "label": "EIP AI",
-          "data": [
-            26.96,
-            27.48
-          ],
+          "label": "EIP AI (10组)",
+          "data": [26.96, 27.47],
           "backgroundColor": "rgba(233,30,99,0.6)",
           "borderColor": "#E91E63",
           "borderWidth": 1
         }
-      ]
+      ],
+      "yAxisLabel": "ACOS %"
+    },
+    {
+      "id": "overall-vs-spend",
+      "title": "OpenClaw vs EIP AI 日均花费对比($)",
+      "subtitle": "同上时间口径",
+      "type": "bar",
+      "labels": ["托管/上线前", "托管/上线后"],
+      "datasets": [
+        {
+          "label": "OpenClaw (4组)",
+          "data": [197.29, 91.40],
+          "backgroundColor": "rgba(76,175,80,0.6)",
+          "borderColor": "#4CAF50",
+          "borderWidth": 1
+        },
+        {
+          "label": "EIP AI (10组)",
+          "data": [148.71, 347.98],
+          "backgroundColor": "rgba(233,30,99,0.6)",
+          "borderColor": "#E91E63",
+          "borderWidth": 1
+        }
+      ],
+      "yAxisLabel": "日均花费($)"
+    },
+    {
+      "id": "overall-vs-orders",
+      "title": "OpenClaw vs EIP AI 日均订单量对比",
+      "subtitle": "同上时间口径",
+      "type": "bar",
+      "labels": ["托管/上线前", "托管/上线后"],
+      "datasets": [
+        {
+          "label": "OpenClaw (4组)",
+          "data": [22.67, 14.95],
+          "backgroundColor": "rgba(76,175,80,0.6)",
+          "borderColor": "#4CAF50",
+          "borderWidth": 1
+        },
+        {
+          "label": "EIP AI (10组)",
+          "data": [21.78, 52.42],
+          "backgroundColor": "rgba(233,30,99,0.6)",
+          "borderColor": "#E91E63",
+          "borderWidth": 1
+        }
+      ],
+      "yAxisLabel": "日均订单"
+    },
+    {
+      "id": "overall-vs-sales",
+      "title": "OpenClaw vs EIP AI 日均销售额对比($)",
+      "subtitle": "同上时间口径",
+      "type": "bar",
+      "labels": ["托管/上线前", "托管/上线后"],
+      "datasets": [
+        {
+          "label": "OpenClaw (4组)",
+          "data": [514.79, 339.62],
+          "backgroundColor": "rgba(76,175,80,0.6)",
+          "borderColor": "#4CAF50",
+          "borderWidth": 1
+        },
+        {
+          "label": "EIP AI (10组)",
+          "data": [551.73, 1266.35],
+          "backgroundColor": "rgba(233,30,99,0.6)",
+          "borderColor": "#E91E63",
+          "borderWidth": 1
+        }
+      ],
+      "yAxisLabel": "日均销售额($)"
+    },
+    {
+      "id": "overall-vs-ctr",
+      "title": "OpenClaw 各组 CTR 对比（托管前→最新阶段）",
+      "subtitle": "AMJ010095 为唯一全阶段数据组",
+      "type": "bar",
+      "labels": ["AMJ010095"],
+      "datasets": [
+        {
+          "label": "托管前 CTR%",
+          "data": [0.63],
+          "backgroundColor": "rgba(158,158,158,0.5)",
+          "borderColor": "#9E9E9E",
+          "borderWidth": 1
+        },
+        {
+          "label": "单产品托管 CTR%",
+          "data": [0.77],
+          "backgroundColor": "rgba(76,175,80,0.6)",
+          "borderColor": "#4CAF50",
+          "borderWidth": 1
+        },
+        {
+          "label": "统一agent CTR%",
+          "data": [0.93],
+          "backgroundColor": "rgba(255,152,0,0.6)",
+          "borderColor": "#FF9800",
+          "borderWidth": 1
+        },
+        {
+          "label": "多agent CTR%",
+          "data": [0.50],
+          "backgroundColor": "rgba(33,150,243,0.6)",
+          "borderColor": "#2196F3",
+          "borderWidth": 1
+        }
+      ],
+      "yAxisLabel": "CTR %"
+    },
+    {
+      "id": "overall-vs-cvr",
+      "title": "OpenClaw 各组 CVR 对比（托管前→最新阶段）",
+      "subtitle": "各组托管前 vs 最新托管阶段的 CVR",
+      "type": "bar",
+      "labels": ["AMJ010095", "AMJ010001", "ADJ000082", "AMJ008012"],
+      "datasets": [
+        {
+          "label": "托管前 CVR%",
+          "data": [8.41, 18.57, 14.46, 7.22],
+          "backgroundColor": "rgba(158,158,158,0.5)",
+          "borderColor": "#9E9E9E",
+          "borderWidth": 1
+        },
+        {
+          "label": "最新阶段 CVR%",
+          "data": [12.45, 18.18, 14.44, 13.64],
+          "backgroundColor": "rgba(76,175,80,0.6)",
+          "borderColor": "#4CAF50",
+          "borderWidth": 1
+        }
+      ],
+      "yAxisLabel": "CVR %"
     },
     {
       "id": "eip-weekly-spend",

@@ -6,6 +6,7 @@
 <title>智能广告托管周报</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.1.0/dist/chartjs-plugin-annotation.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <style>
 :root {
@@ -74,7 +75,10 @@ header p { text-align: center; color: var(--text2); font-size: 0.9em; margin-top
   </div>
 
   <div id="charts-section" class="section active">
-    <h2 style="color:var(--accent);margin-bottom:16px;">OpenClaw 托管组每日趋势</h2>
+    <h2 style="color:var(--accent);margin-bottom:16px;">🔥 OpenClaw VS EIP AI</h2>
+    <div class="charts-grid" id="overall-charts"></div>
+
+    <h2 style="color:var(--accent);margin:24px 0 16px;">OpenClaw 托管组每日趋势</h2>
     <div class="charts-grid" id="daily-charts"></div>
     
     <h2 style="color:var(--accent);margin:24px 0 16px;">OpenClaw 阶段横向对比</h2>
@@ -105,14 +109,17 @@ document.querySelectorAll('.tab').forEach(t => {
   });
 });
 
+Chart.register(ChartDataLabels);
 Chart.defaults.color = '#8b949e';
 Chart.defaults.borderColor = '#30363d';
 Chart.defaults.font.size = 11;
+Chart.register(ChartDataLabels);
 
 function createChartCard(container, chart, isFull) {
   const card = document.createElement('div');
   card.className = 'chart-card' + (isFull ? ' full' : '');
-  card.innerHTML = `<h3>${chart.title}</h3><div class="chart-wrap"><canvas></canvas></div>`;
+  const subtitleHtml = chart.subtitle ? `<p style="font-size:0.75em;color:var(--text2);margin:-8px 0 8px;">${chart.subtitle}</p>` : '';
+  card.innerHTML = `<h3>${chart.title}</h3>${subtitleHtml}<div class="chart-wrap"><canvas></canvas></div>`;
   container.appendChild(card);
   const canvas = card.querySelector('canvas');
   
@@ -158,7 +165,22 @@ function createChartCard(container, chart, isFull) {
       interaction: { intersect: false, mode: 'index' },
       plugins: {
         legend: { position: 'bottom', labels: { boxWidth: 12, padding: 8 } },
-        annotation: { annotations }
+        annotation: { annotations },
+        datalabels: {
+          color: '#e6edf3',
+          font: function(ctx) {
+            var n = ctx.chart.data.labels.length;
+            return { size: n > 15 ? 7 : 9, weight: 'bold' };
+          },
+          anchor: 'end',
+          align: 'top',
+          offset: 1,
+          rotation: function(ctx) { return ctx.chart.data.labels.length > 15 ? -45 : 0; },
+          formatter: (v) => v == null ? '' : (v >= 1000 ? (v/1000).toFixed(1)+'k' : (Number.isInteger(v) ? v : v.toFixed(1))),
+          display: (ctx) => {
+            return ctx.dataset.data[ctx.dataIndex] != null;
+          }
+        }
       },
       scales: {
         x: { grid: { display: false }, ticks: { maxRotation: 45, font: { size: 9 } } },
@@ -186,8 +208,11 @@ fetch(`data/weekly/charts-${dateStr}.json`)
     const phaseContainer = document.getElementById('phase-charts');
     const eipContainer = document.getElementById('eip-charts');
     
+    const overallContainer = document.getElementById('overall-charts');
     charts.forEach(c => {
-      if (c.id.includes('daily')) {
+      if (c.id.startsWith('overall-')) {
+        createChartCard(overallContainer, c, false);
+      } else if (c.id.includes('daily')) {
         createChartCard(dailyContainer, c, false);
       } else if (c.id.includes('phase') || c.id.includes('compare')) {
         createChartCard(phaseContainer, c, c.id.includes('compare'));
