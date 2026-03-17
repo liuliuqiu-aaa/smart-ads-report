@@ -1333,7 +1333,7 @@
     {
       "id": "overall-vs-acos",
       "title": "OpenClaw vs EIP AI 整体 ACOS 对比",
-      "subtitle": "OpenClaw: 托管前 2/8~2/25 → 托管后 2/26~3/16 | EIP AI: 上线前 2/9~2/25 → 上线后 2/26~3/16",
+      "subtitle": "OpenClaw: 各组托管前(2/8~3/4不等) vs 托管后(2/26~3/16) | EIP AI: 上线前(2/8~2/25) vs 上线后(2/26~3/16)",
       "type": "bar",
       "labels": [
         "托管/上线前",
@@ -1354,7 +1354,7 @@
           "label": "EIP AI (10组)",
           "data": [
             26.96,
-            27.47
+            27.48
           ],
           "backgroundColor": "rgba(233,30,99,0.6)",
           "borderColor": "#E91E63",
@@ -1365,7 +1365,7 @@
     },
     {
       "id": "overall-vs-spend",
-      "title": "OpenClaw vs EIP AI 日均花费对比($)",
+      "title": "OpenClaw vs EIP AI 累计花费对比($)",
       "subtitle": "同上时间口径",
       "type": "bar",
       "labels": [
@@ -1376,8 +1376,8 @@
         {
           "label": "OpenClaw (4组)",
           "data": [
-            197.29,
-            91.4
+            1966.78,
+            1736.62
           ],
           "backgroundColor": "rgba(76,175,80,0.6)",
           "borderColor": "#4CAF50",
@@ -1386,19 +1386,19 @@
         {
           "label": "EIP AI (10组)",
           "data": [
-            148.71,
-            347.98
+            2677.04,
+            6611.72
           ],
           "backgroundColor": "rgba(233,30,99,0.6)",
           "borderColor": "#E91E63",
           "borderWidth": 1
         }
       ],
-      "yAxisLabel": "日均花费($)"
+      "yAxisLabel": "累计花费($)"
     },
     {
       "id": "overall-vs-orders",
-      "title": "OpenClaw vs EIP AI 日均订单量对比",
+      "title": "OpenClaw vs EIP AI 累计订单量对比",
       "subtitle": "同上时间口径",
       "type": "bar",
       "labels": [
@@ -1409,8 +1409,8 @@
         {
           "label": "OpenClaw (4组)",
           "data": [
-            22.67,
-            14.95
+            260,
+            284
           ],
           "backgroundColor": "rgba(76,175,80,0.6)",
           "borderColor": "#4CAF50",
@@ -1419,19 +1419,19 @@
         {
           "label": "EIP AI (10组)",
           "data": [
-            21.78,
-            52.42
+            392,
+            996
           ],
           "backgroundColor": "rgba(233,30,99,0.6)",
           "borderColor": "#E91E63",
           "borderWidth": 1
         }
       ],
-      "yAxisLabel": "日均订单"
+      "yAxisLabel": "累计订单"
     },
     {
       "id": "overall-vs-sales",
-      "title": "OpenClaw vs EIP AI 日均销售额对比($)",
+      "title": "OpenClaw vs EIP AI 累计销售额对比($)",
       "subtitle": "同上时间口径",
       "type": "bar",
       "labels": [
@@ -1442,8 +1442,8 @@
         {
           "label": "OpenClaw (4组)",
           "data": [
-            514.79,
-            339.62
+            5763.4,
+            6452.79
           ],
           "backgroundColor": "rgba(76,175,80,0.6)",
           "borderColor": "#4CAF50",
@@ -1452,54 +1452,54 @@
         {
           "label": "EIP AI (10组)",
           "data": [
-            551.73,
-            1266.35
+            9931.08,
+            24060.67
           ],
           "backgroundColor": "rgba(233,30,99,0.6)",
           "borderColor": "#E91E63",
           "borderWidth": 1
         }
       ],
-      "yAxisLabel": "日均销售额($)"
+      "yAxisLabel": "累计销售额($)"
     },
     {
       "id": "overall-vs-cvr",
-      "title": "OpenClaw 各组 CVR 对比（托管前→最新阶段）",
-      "subtitle": "各组托管前 vs 最新托管阶段的 CVR",
+      "title": "OpenClaw vs EIP AI 整体 CTR/CVR 对比",
+      "subtitle": "同上时间口径",
       "type": "bar",
       "labels": [
-        "AMJ010095",
-        "AMJ010001",
-        "ADJ000082",
-        "AMJ008012"
+        "CTR 前",
+        "CTR 后",
+        "CVR 前",
+        "CVR 后"
       ],
       "datasets": [
         {
-          "label": "托管前 CVR%",
+          "label": "OpenClaw (4组)",
           "data": [
-            8.41,
-            18.57,
-            14.46,
-            7.22
-          ],
-          "backgroundColor": "rgba(158,158,158,0.5)",
-          "borderColor": "#9E9E9E",
-          "borderWidth": 1
-        },
-        {
-          "label": "最新阶段 CVR%",
-          "data": [
-            12.45,
-            18.18,
-            14.44,
-            13.64
+            0.45,
+            0.57,
+            11.19,
+            11.33
           ],
           "backgroundColor": "rgba(76,175,80,0.6)",
           "borderColor": "#4CAF50",
           "borderWidth": 1
+        },
+        {
+          "label": "EIP AI (10组)",
+          "data": [
+            0.22,
+            0.3,
+            9.26,
+            11.49
+          ],
+          "backgroundColor": "rgba(233,30,99,0.6)",
+          "borderColor": "#E91E63",
+          "borderWidth": 1
         }
       ],
-      "yAxisLabel": "CVR %"
+      "yAxisLabel": "%"
     },
     {
       "id": "eip-weekly-spend",
