@@ -1,1 +1,4291 @@
-/Users/lf/.openclaw/workspace/smart-ads-agent/data/weekly-reports/weekly-data-2026-03-16.json
+{
+  "reportDate": "2026-03-16",
+  "collectionTime": "2026-03-16T12:40:24.357Z",
+  "openclawGroups": [
+    {
+      "id": "AMJ010095",
+      "name": "AMJ010095智能托管组",
+      "campaignIds": [
+        "333903452360072",
+        "510273719211911",
+        "476971790430984",
+        "367851579653868"
+      ],
+      "phases": [
+        {
+          "name": "托管前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 156822,
+            "clicks": 987,
+            "spend": 553.41,
+            "orders": 83,
+            "salesVolume": 88,
+            "salesAmount": 1648.81,
+            "acos": 33.56,
+            "roas": 2.98,
+            "ctr": 0.63,
+            "cpc": 0.56,
+            "cvr": 8.41
+          },
+          "dailyAvg": {
+            "spend": 30.74,
+            "orders": 4.61,
+            "salesAmount": 91.6,
+            "impressions": 8712,
+            "clicks": 54.8
+          }
+        },
+        {
+          "name": "单产品托管",
+          "start": "2026-02-26",
+          "end": "2026-03-04",
+          "type": "after",
+          "days": 7,
+          "metrics": {
+            "impressions": 115415,
+            "clicks": 887,
+            "spend": 471.14,
+            "orders": 87,
+            "salesVolume": 119,
+            "salesAmount": 2190.91,
+            "acos": 21.5,
+            "roas": 4.65,
+            "ctr": 0.77,
+            "cpc": 0.53,
+            "cvr": 9.81
+          },
+          "dailyAvg": {
+            "spend": 67.31,
+            "orders": 12.43,
+            "salesAmount": 312.99,
+            "impressions": 16488,
+            "clicks": 126.7
+          }
+        },
+        {
+          "name": "多组统一agent",
+          "start": "2026-03-05",
+          "end": "2026-03-10",
+          "type": "after",
+          "days": 6,
+          "metrics": {
+            "impressions": 53115,
+            "clicks": 495,
+            "spend": 214.02,
+            "orders": 31,
+            "salesVolume": 31,
+            "salesAmount": 580.68,
+            "acos": 36.86,
+            "roas": 2.71,
+            "ctr": 0.93,
+            "cpc": 0.43,
+            "cvr": 6.26
+          },
+          "dailyAvg": {
+            "spend": 35.67,
+            "orders": 5.17,
+            "salesAmount": 96.78,
+            "impressions": 8853,
+            "clicks": 82.5
+          }
+        },
+        {
+          "name": "多组多agent",
+          "start": "2026-03-11",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 6,
+          "metrics": {
+            "impressions": 53078,
+            "clicks": 265,
+            "spend": 136.88,
+            "orders": 33,
+            "salesVolume": 33,
+            "salesAmount": 611.27,
+            "acos": 22.39,
+            "roas": 4.47,
+            "ctr": 0.5,
+            "cpc": 0.52,
+            "cvr": 12.45
+          },
+          "dailyAvg": {
+            "spend": 22.81,
+            "orders": 5.5,
+            "salesAmount": 101.88,
+            "impressions": 8846,
+            "clicks": 44.2
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 8946,
+            "clicks": 40,
+            "spend": 22.4,
+            "orders": 6,
+            "salesVolume": 6,
+            "salesAmount": 102.44,
+            "acos": 21.87,
+            "roas": 4.57,
+            "ctr": 0.45,
+            "cpc": 0.56,
+            "cvr": 15
+          },
+          "dailyAvg": {
+            "spend": 22.4,
+            "orders": 6,
+            "salesAmount": 102.44
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 62496,
+            "clicks": 358,
+            "spend": 198.92,
+            "orders": 25,
+            "salesVolume": 25,
+            "salesAmount": 478.25,
+            "acos": 41.59,
+            "roas": 2.4,
+            "ctr": 0.57,
+            "cpc": 0.56,
+            "cvr": 6.98
+          },
+          "dailyAvg": {
+            "spend": 28.42,
+            "orders": 3.57,
+            "salesAmount": 68.32
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 56381,
+            "clicks": 392,
+            "spend": 219.78,
+            "orders": 34,
+            "salesVolume": 35,
+            "salesAmount": 652.64,
+            "acos": 33.68,
+            "roas": 2.97,
+            "ctr": 0.7,
+            "cpc": 0.56,
+            "cvr": 8.67
+          },
+          "dailyAvg": {
+            "spend": 31.4,
+            "orders": 4.86,
+            "salesAmount": 93.23
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 101561,
+            "clicks": 697,
+            "spend": 389.52,
+            "orders": 67,
+            "salesVolume": 89,
+            "salesAmount": 1659.91,
+            "acos": 23.47,
+            "roas": 4.26,
+            "ctr": 0.69,
+            "cpc": 0.56,
+            "cvr": 9.61
+          },
+          "dailyAvg": {
+            "spend": 55.65,
+            "orders": 9.57,
+            "salesAmount": 237.13
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 84297,
+            "clicks": 783,
+            "spend": 364.4,
+            "orders": 64,
+            "salesVolume": 78,
+            "salesAmount": 1426.22,
+            "acos": 25.55,
+            "roas": 3.91,
+            "ctr": 0.93,
+            "cpc": 0.47,
+            "cvr": 8.17
+          },
+          "dailyAvg": {
+            "spend": 52.06,
+            "orders": 9.14,
+            "salesAmount": 203.75
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 64020,
+            "clicks": 361,
+            "spend": 178.93,
+            "orders": 38,
+            "salesVolume": 38,
+            "salesAmount": 712.21,
+            "acos": 25.12,
+            "roas": 3.98,
+            "ctr": 0.56,
+            "cpc": 0.5,
+            "cvr": 10.53
+          },
+          "dailyAvg": {
+            "spend": 25.56,
+            "orders": 5.43,
+            "salesAmount": 101.74
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 729,
+            "clicks": 3,
+            "spend": 1.5,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.41,
+            "cpc": 0.5,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 1.5,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-02-08",
+          "impressions": 8946,
+          "clicks": 40,
+          "spend": 22.4,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 102.44,
+          "acos": 21.87,
+          "roas": 4.57
+        },
+        {
+          "date": "2026-02-09",
+          "impressions": 9156,
+          "clicks": 43,
+          "spend": 24.66,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 53.97,
+          "acos": 45.69,
+          "roas": 2.19
+        },
+        {
+          "date": "2026-02-10",
+          "impressions": 8905,
+          "clicks": 43,
+          "spend": 23.84,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 17.99,
+          "acos": 132.52,
+          "roas": 0.75
+        },
+        {
+          "date": "2026-02-11",
+          "impressions": 6768,
+          "clicks": 44,
+          "spend": 24.68,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 53.97,
+          "acos": 45.73,
+          "roas": 2.19
+        },
+        {
+          "date": "2026-02-12",
+          "impressions": 8171,
+          "clicks": 60,
+          "spend": 31.98,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 53.97,
+          "acos": 59.26,
+          "roas": 1.69
+        },
+        {
+          "date": "2026-02-13",
+          "impressions": 10918,
+          "clicks": 54,
+          "spend": 30.99,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 106.45,
+          "acos": 29.11,
+          "roas": 3.43
+        },
+        {
+          "date": "2026-02-14",
+          "impressions": 10318,
+          "clicks": 57,
+          "spend": 30.93,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 109.94,
+          "acos": 28.13,
+          "roas": 3.55
+        },
+        {
+          "date": "2026-02-15",
+          "impressions": 8260,
+          "clicks": 57,
+          "spend": 31.84,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 81.96,
+          "acos": 38.85,
+          "roas": 2.57
+        },
+        {
+          "date": "2026-02-16",
+          "impressions": 5805,
+          "clicks": 55,
+          "spend": 31.42,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 53.97,
+          "acos": 58.22,
+          "roas": 1.72
+        },
+        {
+          "date": "2026-02-17",
+          "impressions": 7752,
+          "clicks": 55,
+          "spend": 31.43,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 91.95,
+          "acos": 34.18,
+          "roas": 2.93
+        },
+        {
+          "date": "2026-02-18",
+          "impressions": 9230,
+          "clicks": 56,
+          "spend": 30.65,
+          "orders": 8,
+          "salesVolume": 8,
+          "salesAmount": 151.92,
+          "acos": 20.18,
+          "roas": 4.96
+        },
+        {
+          "date": "2026-02-19",
+          "impressions": 11322,
+          "clicks": 71,
+          "spend": 39.23,
+          "orders": 7,
+          "salesVolume": 7,
+          "salesAmount": 125.93,
+          "acos": 31.15,
+          "roas": 3.21
+        },
+        {
+          "date": "2026-02-20",
+          "impressions": 8834,
+          "clicks": 57,
+          "spend": 31.87,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 35.98,
+          "acos": 88.58,
+          "roas": 1.13
+        },
+        {
+          "date": "2026-02-21",
+          "impressions": 5495,
+          "clicks": 41,
+          "spend": 24.18,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 93.95,
+          "acos": 25.74,
+          "roas": 3.89
+        },
+        {
+          "date": "2026-02-22",
+          "impressions": 7943,
+          "clicks": 57,
+          "spend": 31,
+          "orders": 4,
+          "salesVolume": 5,
+          "salesAmount": 98.94,
+          "acos": 31.33,
+          "roas": 3.19
+        },
+        {
+          "date": "2026-02-23",
+          "impressions": 9923,
+          "clicks": 56,
+          "spend": 31.3,
+          "orders": 7,
+          "salesVolume": 11,
+          "salesAmount": 208.89,
+          "acos": 14.98,
+          "roas": 6.67
+        },
+        {
+          "date": "2026-02-24",
+          "impressions": 4490,
+          "clicks": 40,
+          "spend": 24.13,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 37.98,
+          "acos": 63.53,
+          "roas": 1.57
+        },
+        {
+          "date": "2026-02-25",
+          "impressions": 14586,
+          "clicks": 101,
+          "spend": 56.88,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 168.61,
+          "acos": 33.73,
+          "roas": 2.96
+        },
+        {
+          "date": "2026-02-26",
+          "impressions": 14374,
+          "clicks": 94,
+          "spend": 52.12,
+          "orders": 16,
+          "salesVolume": 33,
+          "salesAmount": 609.23,
+          "acos": 8.56,
+          "roas": 11.69
+        },
+        {
+          "date": "2026-02-27",
+          "impressions": 24110,
+          "clicks": 138,
+          "spend": 77.09,
+          "orders": 12,
+          "salesVolume": 13,
+          "salesAmount": 235.87,
+          "acos": 32.68,
+          "roas": 3.06
+        },
+        {
+          "date": "2026-02-28",
+          "impressions": 16015,
+          "clicks": 124,
+          "spend": 72.85,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 160.91,
+          "acos": 45.27,
+          "roas": 2.21
+        },
+        {
+          "date": "2026-03-01",
+          "impressions": 18063,
+          "clicks": 144,
+          "spend": 75.15,
+          "orders": 12,
+          "salesVolume": 12,
+          "salesAmount": 238.42,
+          "acos": 31.52,
+          "roas": 3.17
+        },
+        {
+          "date": "2026-03-02",
+          "impressions": 15971,
+          "clicks": 138,
+          "spend": 68.23,
+          "orders": 18,
+          "salesVolume": 32,
+          "salesAmount": 584.68,
+          "acos": 11.67,
+          "roas": 8.57
+        },
+        {
+          "date": "2026-03-03",
+          "impressions": 13942,
+          "clicks": 120,
+          "spend": 60.2,
+          "orders": 15,
+          "salesVolume": 15,
+          "salesAmount": 271.85,
+          "acos": 22.14,
+          "roas": 4.52
+        },
+        {
+          "date": "2026-03-04",
+          "impressions": 12940,
+          "clicks": 129,
+          "spend": 65.5,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 89.95,
+          "acos": 72.82,
+          "roas": 1.37
+        },
+        {
+          "date": "2026-03-05",
+          "impressions": 13534,
+          "clicks": 148,
+          "spend": 67.61,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 165.91,
+          "acos": 40.75,
+          "roas": 2.45
+        },
+        {
+          "date": "2026-03-06",
+          "impressions": 9068,
+          "clicks": 87,
+          "spend": 33.85,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 93.95,
+          "acos": 36.03,
+          "roas": 2.78
+        },
+        {
+          "date": "2026-03-07",
+          "impressions": 9717,
+          "clicks": 87,
+          "spend": 36.75,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 165.91,
+          "acos": 22.15,
+          "roas": 4.51
+        },
+        {
+          "date": "2026-03-08",
+          "impressions": 9125,
+          "clicks": 74,
+          "spend": 32.26,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 53.97,
+          "acos": 59.77,
+          "roas": 1.67
+        },
+        {
+          "date": "2026-03-09",
+          "impressions": 5818,
+          "clicks": 60,
+          "spend": 26.75,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 37.98,
+          "acos": 70.43,
+          "roas": 1.42
+        },
+        {
+          "date": "2026-03-10",
+          "impressions": 5853,
+          "clicks": 39,
+          "spend": 16.8,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 62.96,
+          "acos": 26.68,
+          "roas": 3.75
+        },
+        {
+          "date": "2026-03-11",
+          "impressions": 8459,
+          "clicks": 42,
+          "spend": 19.64,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 35.98,
+          "acos": 54.59,
+          "roas": 1.83
+        },
+        {
+          "date": "2026-03-12",
+          "impressions": 6109,
+          "clicks": 37,
+          "spend": 20.76,
+          "orders": 10,
+          "salesVolume": 10,
+          "salesAmount": 185.9,
+          "acos": 11.17,
+          "roas": 8.95
+        },
+        {
+          "date": "2026-03-13",
+          "impressions": 9140,
+          "clicks": 46,
+          "spend": 24.5,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 106.94,
+          "acos": 22.91,
+          "roas": 4.36
+        },
+        {
+          "date": "2026-03-14",
+          "impressions": 11270,
+          "clicks": 54,
+          "spend": 31.35,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 17.99,
+          "acos": 174.26,
+          "roas": 0.57
+        },
+        {
+          "date": "2026-03-15",
+          "impressions": 17307,
+          "clicks": 83,
+          "spend": 39.13,
+          "orders": 14,
+          "salesVolume": 14,
+          "salesAmount": 264.46,
+          "acos": 14.8,
+          "roas": 6.76
+        },
+        {
+          "date": "2026-03-16",
+          "impressions": 1503,
+          "clicks": 6,
+          "spend": 3.2,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 17.99,
+          "acos": 17.79,
+          "roas": 5.62
+        }
+      ]
+    },
+    {
+      "id": "AMJ010001",
+      "name": "AMJ010001智能托管组",
+      "campaignIds": [
+        "400641453145004",
+        "415285089257642",
+        "550212093559706"
+      ],
+      "phases": [
+        {
+          "name": "托管前",
+          "start": "2026-02-22",
+          "end": "2026-03-04",
+          "type": "before",
+          "days": 11,
+          "metrics": {
+            "impressions": 69866,
+            "clicks": 237,
+            "spend": 116.5,
+            "orders": 44,
+            "salesVolume": 44,
+            "salesAmount": 1031.74,
+            "acos": 11.29,
+            "roas": 8.86,
+            "ctr": 0.34,
+            "cpc": 0.49,
+            "cvr": 18.57
+          },
+          "dailyAvg": {
+            "spend": 10.59,
+            "orders": 4,
+            "salesAmount": 93.79,
+            "impressions": 6351,
+            "clicks": 21.5
+          }
+        },
+        {
+          "name": "多组统一agent",
+          "start": "2026-03-05",
+          "end": "2026-03-10",
+          "type": "after",
+          "days": 6,
+          "metrics": {
+            "impressions": 36200,
+            "clicks": 95,
+            "spend": 75.97,
+            "orders": 16,
+            "salesVolume": 16,
+            "salesAmount": 294.05,
+            "acos": 25.84,
+            "roas": 3.87,
+            "ctr": 0.26,
+            "cpc": 0.8,
+            "cvr": 16.84
+          },
+          "dailyAvg": {
+            "spend": 12.66,
+            "orders": 2.67,
+            "salesAmount": 49.01,
+            "impressions": 6033,
+            "clicks": 15.8
+          }
+        },
+        {
+          "name": "多组多agent",
+          "start": "2026-03-11",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 6,
+          "metrics": {
+            "impressions": 50558,
+            "clicks": 176,
+            "spend": 147.07,
+            "orders": 32,
+            "salesVolume": 32,
+            "salesAmount": 685.15,
+            "acos": 21.47,
+            "roas": 4.66,
+            "ctr": 0.35,
+            "cpc": 0.84,
+            "cvr": 18.18
+          },
+          "dailyAvg": {
+            "spend": 24.51,
+            "orders": 5.33,
+            "salesAmount": 114.19,
+            "impressions": 8426,
+            "clicks": 29.3
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-22",
+          "weekEnd": "2026-02-22",
+          "days": 1,
+          "metrics": {
+            "impressions": 11719,
+            "clicks": 29,
+            "spend": 14.76,
+            "orders": 4,
+            "salesVolume": 4,
+            "salesAmount": 69.96,
+            "acos": 21.1,
+            "roas": 4.74,
+            "ctr": 0.25,
+            "cpc": 0.51,
+            "cvr": 13.79
+          },
+          "dailyAvg": {
+            "spend": 14.76,
+            "orders": 4,
+            "salesAmount": 69.96
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 37669,
+            "clicks": 144,
+            "spend": 69.69,
+            "orders": 30,
+            "salesVolume": 30,
+            "salesAmount": 770.37,
+            "acos": 9.05,
+            "roas": 11.05,
+            "ctr": 0.38,
+            "cpc": 0.48,
+            "cvr": 20.83
+          },
+          "dailyAvg": {
+            "spend": 9.96,
+            "orders": 4.29,
+            "salesAmount": 110.05
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 50586,
+            "clicks": 134,
+            "spend": 82.75,
+            "orders": 22,
+            "salesVolume": 22,
+            "salesAmount": 404.26,
+            "acos": 20.47,
+            "roas": 4.89,
+            "ctr": 0.26,
+            "cpc": 0.62,
+            "cvr": 16.42
+          },
+          "dailyAvg": {
+            "spend": 11.82,
+            "orders": 3.14,
+            "salesAmount": 57.75
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 56003,
+            "clicks": 201,
+            "spend": 172.34,
+            "orders": 36,
+            "salesVolume": 36,
+            "salesAmount": 766.35,
+            "acos": 22.49,
+            "roas": 4.45,
+            "ctr": 0.36,
+            "cpc": 0.86,
+            "cvr": 17.91
+          },
+          "dailyAvg": {
+            "spend": 24.62,
+            "orders": 5.14,
+            "salesAmount": 109.48
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 647,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-02-22",
+          "impressions": 11719,
+          "clicks": 29,
+          "spend": 14.76,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 69.96,
+          "acos": 21.1,
+          "roas": 4.74
+        },
+        {
+          "date": "2026-02-23",
+          "impressions": 9813,
+          "clicks": 29,
+          "spend": 14.37,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 86.4,
+          "acos": 16.63,
+          "roas": 6.01
+        },
+        {
+          "date": "2026-02-24",
+          "impressions": 7544,
+          "clicks": 23,
+          "spend": 11.16,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 74.96,
+          "acos": 14.89,
+          "roas": 6.72
+        },
+        {
+          "date": "2026-02-25",
+          "impressions": 3097,
+          "clicks": 22,
+          "spend": 10.3,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 83.2,
+          "acos": 12.38,
+          "roas": 8.08
+        },
+        {
+          "date": "2026-02-26",
+          "impressions": 3269,
+          "clicks": 22,
+          "spend": 10.68,
+          "orders": 8,
+          "salesVolume": 8,
+          "salesAmount": 346.92,
+          "acos": 3.08,
+          "roas": 32.48
+        },
+        {
+          "date": "2026-02-27",
+          "impressions": 4911,
+          "clicks": 14,
+          "spend": 6.71,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 19.99,
+          "acos": 33.57,
+          "roas": 2.98
+        },
+        {
+          "date": "2026-02-28",
+          "impressions": 3446,
+          "clicks": 19,
+          "spend": 9.2,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 78,
+          "acos": 11.79,
+          "roas": 8.48
+        },
+        {
+          "date": "2026-03-01",
+          "impressions": 5589,
+          "clicks": 15,
+          "spend": 7.27,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 80.9,
+          "acos": 8.99,
+          "roas": 11.13
+        },
+        {
+          "date": "2026-03-02",
+          "impressions": 5684,
+          "clicks": 20,
+          "spend": 9.69,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 25.99,
+          "acos": 37.28,
+          "roas": 2.68
+        },
+        {
+          "date": "2026-03-03",
+          "impressions": 7562,
+          "clicks": 23,
+          "spend": 11.41,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 51.47,
+          "acos": 22.17,
+          "roas": 4.51
+        },
+        {
+          "date": "2026-03-04",
+          "impressions": 7232,
+          "clicks": 21,
+          "spend": 10.95,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 113.95,
+          "acos": 9.61,
+          "roas": 10.41
+        },
+        {
+          "date": "2026-03-05",
+          "impressions": 7918,
+          "clicks": 23,
+          "spend": 11.66,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 69.98,
+          "acos": 16.66,
+          "roas": 6
+        },
+        {
+          "date": "2026-03-06",
+          "impressions": 10663,
+          "clicks": 16,
+          "spend": 11.98,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 51.96,
+          "acos": 23.06,
+          "roas": 4.34
+        },
+        {
+          "date": "2026-03-07",
+          "impressions": 7593,
+          "clicks": 17,
+          "spend": 13.81,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 39.98,
+          "acos": 34.54,
+          "roas": 2.9
+        },
+        {
+          "date": "2026-03-08",
+          "impressions": 3934,
+          "clicks": 14,
+          "spend": 13.25,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 50.93,
+          "acos": 26.02,
+          "roas": 3.84
+        },
+        {
+          "date": "2026-03-09",
+          "impressions": 4367,
+          "clicks": 13,
+          "spend": 12.53,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 41.22,
+          "acos": 30.4,
+          "roas": 3.29
+        },
+        {
+          "date": "2026-03-10",
+          "impressions": 1725,
+          "clicks": 12,
+          "spend": 12.74,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 39.98,
+          "acos": 31.87,
+          "roas": 3.14
+        },
+        {
+          "date": "2026-03-11",
+          "impressions": 10175,
+          "clicks": 26,
+          "spend": 23.87,
+          "orders": 11,
+          "salesVolume": 11,
+          "salesAmount": 213.69,
+          "acos": 11.17,
+          "roas": 8.95
+        },
+        {
+          "date": "2026-03-12",
+          "impressions": 9028,
+          "clicks": 32,
+          "spend": 28.89,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 178.87,
+          "acos": 16.15,
+          "roas": 6.19
+        },
+        {
+          "date": "2026-03-13",
+          "impressions": 8941,
+          "clicks": 38,
+          "spend": 30.87,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 79.21,
+          "acos": 38.97,
+          "roas": 2.57
+        },
+        {
+          "date": "2026-03-14",
+          "impressions": 11035,
+          "clicks": 39,
+          "spend": 30.88,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 99.45,
+          "acos": 31.05,
+          "roas": 3.22
+        },
+        {
+          "date": "2026-03-15",
+          "impressions": 10722,
+          "clicks": 41,
+          "spend": 32.56,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 113.93,
+          "acos": 28.58,
+          "roas": 3.5
+        },
+        {
+          "date": "2026-03-16",
+          "impressions": 1370,
+          "clicks": 1,
+          "spend": 0.86,
+          "orders": 0,
+          "salesVolume": 0,
+          "salesAmount": 0,
+          "acos": 0,
+          "roas": 0
+        }
+      ]
+    },
+    {
+      "id": "ADJ000082",
+      "name": "ADJ000082智能托管组",
+      "campaignIds": [
+        "479008051757777",
+        "368893969861779",
+        "422036852572102"
+      ],
+      "phases": [
+        {
+          "name": "托管前",
+          "start": "2026-02-22",
+          "end": "2026-03-04",
+          "type": "before",
+          "days": 11,
+          "metrics": {
+            "impressions": 170923,
+            "clicks": 740,
+            "spend": 794.34,
+            "orders": 107,
+            "salesVolume": 108,
+            "salesAmount": 2434.22,
+            "acos": 32.63,
+            "roas": 3.06,
+            "ctr": 0.43,
+            "cpc": 1.07,
+            "cvr": 14.46
+          },
+          "dailyAvg": {
+            "spend": 72.21,
+            "orders": 9.73,
+            "salesAmount": 221.29,
+            "impressions": 15538,
+            "clicks": 67.3
+          }
+        },
+        {
+          "name": "多组统一agent",
+          "start": "2026-03-05",
+          "end": "2026-03-10",
+          "type": "after",
+          "days": 6,
+          "metrics": {
+            "impressions": 53313,
+            "clicks": 225,
+            "spend": 256.78,
+            "orders": 34,
+            "salesVolume": 34,
+            "salesAmount": 820.99,
+            "acos": 31.28,
+            "roas": 3.2,
+            "ctr": 0.42,
+            "cpc": 1.14,
+            "cvr": 15.11
+          },
+          "dailyAvg": {
+            "spend": 42.8,
+            "orders": 5.67,
+            "salesAmount": 136.83,
+            "impressions": 8886,
+            "clicks": 37.5
+          }
+        },
+        {
+          "name": "多组多agent",
+          "start": "2026-03-11",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 6,
+          "metrics": {
+            "impressions": 30350,
+            "clicks": 187,
+            "spend": 267.24,
+            "orders": 27,
+            "salesVolume": 27,
+            "salesAmount": 675.23,
+            "acos": 39.58,
+            "roas": 2.53,
+            "ctr": 0.62,
+            "cpc": 1.43,
+            "cvr": 14.44
+          },
+          "dailyAvg": {
+            "spend": 44.54,
+            "orders": 4.5,
+            "salesAmount": 112.54,
+            "impressions": 5058,
+            "clicks": 31.2
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-22",
+          "weekEnd": "2026-02-22",
+          "days": 1,
+          "metrics": {
+            "impressions": 16027,
+            "clicks": 73,
+            "spend": 79.56,
+            "orders": 9,
+            "salesVolume": 9,
+            "salesAmount": 256.31,
+            "acos": 31.04,
+            "roas": 3.22,
+            "ctr": 0.46,
+            "cpc": 1.09,
+            "cvr": 12.33
+          },
+          "dailyAvg": {
+            "spend": 79.56,
+            "orders": 9,
+            "salesAmount": 256.31
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 108367,
+            "clicks": 477,
+            "spend": 512.02,
+            "orders": 69,
+            "salesVolume": 70,
+            "salesAmount": 1545.21,
+            "acos": 33.14,
+            "roas": 3.02,
+            "ctr": 0.44,
+            "cpc": 1.07,
+            "cvr": 14.47
+          },
+          "dailyAvg": {
+            "spend": 73.15,
+            "orders": 9.86,
+            "salesAmount": 220.74
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 93157,
+            "clicks": 376,
+            "spend": 412,
+            "orders": 47,
+            "salesVolume": 47,
+            "salesAmount": 1041.36,
+            "acos": 39.56,
+            "roas": 2.53,
+            "ctr": 0.4,
+            "cpc": 1.1,
+            "cvr": 12.5
+          },
+          "dailyAvg": {
+            "spend": 58.86,
+            "orders": 6.71,
+            "salesAmount": 148.77
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 36791,
+            "clicks": 224,
+            "spend": 312.52,
+            "orders": 43,
+            "salesVolume": 43,
+            "salesAmount": 1087.56,
+            "acos": 28.74,
+            "roas": 3.48,
+            "ctr": 0.61,
+            "cpc": 1.4,
+            "cvr": 19.2
+          },
+          "dailyAvg": {
+            "spend": 44.65,
+            "orders": 6.14,
+            "salesAmount": 155.37
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 244,
+            "clicks": 2,
+            "spend": 2.26,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.82,
+            "cpc": 1.13,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 2.26,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-02-22",
+          "impressions": 16027,
+          "clicks": 73,
+          "spend": 79.56,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 256.31,
+          "acos": 31.04,
+          "roas": 3.22
+        },
+        {
+          "date": "2026-02-23",
+          "impressions": 14651,
+          "clicks": 71,
+          "spend": 78.29,
+          "orders": 10,
+          "salesVolume": 10,
+          "salesAmount": 240.7,
+          "acos": 32.53,
+          "roas": 3.07
+        },
+        {
+          "date": "2026-02-24",
+          "impressions": 12619,
+          "clicks": 74,
+          "spend": 79.1,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 57.97,
+          "acos": 136.45,
+          "roas": 0.73
+        },
+        {
+          "date": "2026-02-25",
+          "impressions": 14233,
+          "clicks": 67,
+          "spend": 74.29,
+          "orders": 18,
+          "salesVolume": 18,
+          "salesAmount": 358.64,
+          "acos": 20.71,
+          "roas": 4.83
+        },
+        {
+          "date": "2026-02-26",
+          "impressions": 14588,
+          "clicks": 67,
+          "spend": 70.46,
+          "orders": 12,
+          "salesVolume": 12,
+          "salesAmount": 292.18,
+          "acos": 24.12,
+          "roas": 4.15
+        },
+        {
+          "date": "2026-02-27",
+          "impressions": 15582,
+          "clicks": 64,
+          "spend": 69.57,
+          "orders": 7,
+          "salesVolume": 7,
+          "salesAmount": 158.92,
+          "acos": 43.78,
+          "roas": 2.28
+        },
+        {
+          "date": "2026-02-28",
+          "impressions": 17636,
+          "clicks": 67,
+          "spend": 69.29,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 169.91,
+          "acos": 40.78,
+          "roas": 2.45
+        },
+        {
+          "date": "2026-03-01",
+          "impressions": 19058,
+          "clicks": 67,
+          "spend": 71.02,
+          "orders": 10,
+          "salesVolume": 11,
+          "salesAmount": 266.89,
+          "acos": 26.61,
+          "roas": 3.76
+        },
+        {
+          "date": "2026-03-02",
+          "impressions": 15911,
+          "clicks": 68,
+          "spend": 71.41,
+          "orders": 13,
+          "salesVolume": 13,
+          "salesAmount": 263.12,
+          "acos": 27.14,
+          "roas": 3.68
+        },
+        {
+          "date": "2026-03-03",
+          "impressions": 15137,
+          "clicks": 64,
+          "spend": 69.65,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 193.41,
+          "acos": 36.01,
+          "roas": 2.78
+        },
+        {
+          "date": "2026-03-04",
+          "impressions": 15481,
+          "clicks": 58,
+          "spend": 61.7,
+          "orders": 7,
+          "salesVolume": 7,
+          "salesAmount": 176.17,
+          "acos": 35.02,
+          "roas": 2.86
+        },
+        {
+          "date": "2026-03-05",
+          "impressions": 11607,
+          "clicks": 51,
+          "spend": 54.18,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 224.91,
+          "acos": 24.09,
+          "roas": 4.15
+        },
+        {
+          "date": "2026-03-06",
+          "impressions": 13708,
+          "clicks": 46,
+          "spend": 53.71,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 19.99,
+          "acos": 268.68,
+          "roas": 0.37
+        },
+        {
+          "date": "2026-03-07",
+          "impressions": 9237,
+          "clicks": 44,
+          "spend": 49.98,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 25.99,
+          "acos": 192.3,
+          "roas": 0.52
+        },
+        {
+          "date": "2026-03-08",
+          "impressions": 12076,
+          "clicks": 45,
+          "spend": 51.37,
+          "orders": 7,
+          "salesVolume": 7,
+          "salesAmount": 137.77,
+          "acos": 37.29,
+          "roas": 2.68
+        },
+        {
+          "date": "2026-03-09",
+          "impressions": 3859,
+          "clicks": 23,
+          "spend": 27.57,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 272.4,
+          "acos": 10.12,
+          "roas": 9.88
+        },
+        {
+          "date": "2026-03-10",
+          "impressions": 2826,
+          "clicks": 16,
+          "spend": 19.97,
+          "orders": 7,
+          "salesVolume": 7,
+          "salesAmount": 139.93,
+          "acos": 14.27,
+          "roas": 7.01
+        },
+        {
+          "date": "2026-03-11",
+          "impressions": 6669,
+          "clicks": 27,
+          "spend": 45.29,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 88.46,
+          "acos": 51.2,
+          "roas": 1.95
+        },
+        {
+          "date": "2026-03-12",
+          "impressions": 4049,
+          "clicks": 33,
+          "spend": 44.49,
+          "orders": 8,
+          "salesVolume": 8,
+          "salesAmount": 271.32,
+          "acos": 16.4,
+          "roas": 6.1
+        },
+        {
+          "date": "2026-03-13",
+          "impressions": 5842,
+          "clicks": 24,
+          "spend": 34.14,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 62.97,
+          "acos": 54.22,
+          "roas": 1.84
+        },
+        {
+          "date": "2026-03-14",
+          "impressions": 6363,
+          "clicks": 51,
+          "spend": 72.48,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 110.95,
+          "acos": 65.33,
+          "roas": 1.53
+        },
+        {
+          "date": "2026-03-15",
+          "impressions": 7172,
+          "clicks": 50,
+          "spend": 68.58,
+          "orders": 7,
+          "salesVolume": 7,
+          "salesAmount": 141.53,
+          "acos": 48.46,
+          "roas": 2.06
+        },
+        {
+          "date": "2026-03-16",
+          "impressions": 395,
+          "clicks": 5,
+          "spend": 5.99,
+          "orders": 0,
+          "salesVolume": 0,
+          "salesAmount": 0,
+          "acos": 0,
+          "roas": 0
+        }
+      ]
+    },
+    {
+      "id": "AMJ008012",
+      "name": "AMJ008012智能托管组",
+      "campaignIds": [
+        "456563888390401",
+        "306797621332731",
+        "173942146993352",
+        "368312445423109"
+      ],
+      "phases": [
+        {
+          "name": "托管前",
+          "start": "2026-02-27",
+          "end": "2026-03-04",
+          "type": "before",
+          "days": 6,
+          "metrics": {
+            "impressions": 118057,
+            "clicks": 360,
+            "spend": 502.53,
+            "orders": 26,
+            "salesVolume": 26,
+            "salesAmount": 648.63,
+            "acos": 77.48,
+            "roas": 1.29,
+            "ctr": 0.3,
+            "cpc": 1.4,
+            "cvr": 7.22
+          },
+          "dailyAvg": {
+            "spend": 83.75,
+            "orders": 4.33,
+            "salesAmount": 108.11,
+            "impressions": 19676,
+            "clicks": 60
+          }
+        },
+        {
+          "name": "多组多agent",
+          "start": "2026-03-11",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 6,
+          "metrics": {
+            "impressions": 49134,
+            "clicks": 176,
+            "spend": 167.52,
+            "orders": 24,
+            "salesVolume": 24,
+            "salesAmount": 594.51,
+            "acos": 28.18,
+            "roas": 3.55,
+            "ctr": 0.36,
+            "cpc": 0.95,
+            "cvr": 13.64
+          },
+          "dailyAvg": {
+            "spend": 27.92,
+            "orders": 4,
+            "salesAmount": 99.08,
+            "impressions": 8189,
+            "clicks": 29.3
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-27",
+          "weekEnd": "2026-03-01",
+          "days": 3,
+          "metrics": {
+            "impressions": 63817,
+            "clicks": 191,
+            "spend": 261.06,
+            "orders": 12,
+            "salesVolume": 12,
+            "salesAmount": 288.79,
+            "acos": 90.4,
+            "roas": 1.11,
+            "ctr": 0.3,
+            "cpc": 1.37,
+            "cvr": 6.28
+          },
+          "dailyAvg": {
+            "spend": 87.02,
+            "orders": 4,
+            "salesAmount": 96.26
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 153601,
+            "clicks": 477,
+            "spend": 642.65,
+            "orders": 50,
+            "salesVolume": 52,
+            "salesAmount": 1097.25,
+            "acos": 58.57,
+            "roas": 1.71,
+            "ctr": 0.31,
+            "cpc": 1.35,
+            "cvr": 10.48
+          },
+          "dailyAvg": {
+            "spend": 91.81,
+            "orders": 7.14,
+            "salesAmount": 156.75
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 90101,
+            "clicks": 338,
+            "spend": 371.22,
+            "orders": 39,
+            "salesVolume": 39,
+            "salesAmount": 947.58,
+            "acos": 39.18,
+            "roas": 2.55,
+            "ctr": 0.38,
+            "cpc": 1.1,
+            "cvr": 11.54
+          },
+          "dailyAvg": {
+            "spend": 53.03,
+            "orders": 5.57,
+            "salesAmount": 135.37
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 249,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ],
+      "daily": [
+        {
+          "date": "2026-02-27",
+          "impressions": 20420,
+          "clicks": 44,
+          "spend": 69.23,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 159.61,
+          "acos": 43.37,
+          "roas": 2.31
+        },
+        {
+          "date": "2026-02-28",
+          "impressions": 16648,
+          "clicks": 60,
+          "spend": 81.13,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 14.99,
+          "acos": 541.23,
+          "roas": 0.18
+        },
+        {
+          "date": "2026-03-01",
+          "impressions": 26749,
+          "clicks": 87,
+          "spend": 110.7,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 114.19,
+          "acos": 96.94,
+          "roas": 1.03
+        },
+        {
+          "date": "2026-03-02",
+          "impressions": 15573,
+          "clicks": 55,
+          "spend": 83.57,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 155.94,
+          "acos": 53.59,
+          "roas": 1.87
+        },
+        {
+          "date": "2026-03-03",
+          "impressions": 17527,
+          "clicks": 50,
+          "spend": 71.4,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 29.98,
+          "acos": 238.16,
+          "roas": 0.42
+        },
+        {
+          "date": "2026-03-04",
+          "impressions": 21140,
+          "clicks": 64,
+          "spend": 86.5,
+          "orders": 6,
+          "salesVolume": 6,
+          "salesAmount": 173.92,
+          "acos": 49.74,
+          "roas": 2.01
+        },
+        {
+          "date": "2026-03-05",
+          "impressions": 22841,
+          "clicks": 67,
+          "spend": 95.96,
+          "orders": 5,
+          "salesVolume": 6,
+          "salesAmount": 122.69,
+          "acos": 78.21,
+          "roas": 1.28
+        },
+        {
+          "date": "2026-03-06",
+          "impressions": 20329,
+          "clicks": 63,
+          "spend": 86.33,
+          "orders": 9,
+          "salesVolume": 10,
+          "salesAmount": 174.45,
+          "acos": 49.49,
+          "roas": 2.02
+        },
+        {
+          "date": "2026-03-07",
+          "impressions": 30319,
+          "clicks": 76,
+          "spend": 95.83,
+          "orders": 9,
+          "salesVolume": 9,
+          "salesAmount": 176.91,
+          "acos": 54.17,
+          "roas": 1.85
+        },
+        {
+          "date": "2026-03-08",
+          "impressions": 25872,
+          "clicks": 102,
+          "spend": 123.06,
+          "orders": 13,
+          "salesVolume": 13,
+          "salesAmount": 263.36,
+          "acos": 46.73,
+          "roas": 2.14
+        },
+        {
+          "date": "2026-03-09",
+          "impressions": 24410,
+          "clicks": 94,
+          "spend": 112.46,
+          "orders": 11,
+          "salesVolume": 11,
+          "salesAmount": 251.12,
+          "acos": 44.78,
+          "roas": 2.23
+        },
+        {
+          "date": "2026-03-10",
+          "impressions": 16806,
+          "clicks": 68,
+          "spend": 91.24,
+          "orders": 4,
+          "salesVolume": 4,
+          "salesAmount": 101.95,
+          "acos": 89.49,
+          "roas": 1.12
+        },
+        {
+          "date": "2026-03-11",
+          "impressions": 18940,
+          "clicks": 48,
+          "spend": 61.27,
+          "orders": 5,
+          "salesVolume": 5,
+          "salesAmount": 155.74,
+          "acos": 39.34,
+          "roas": 2.54
+        },
+        {
+          "date": "2026-03-12",
+          "impressions": 7369,
+          "clicks": 36,
+          "spend": 30.53,
+          "orders": 3,
+          "salesVolume": 3,
+          "salesAmount": 89.97,
+          "acos": 33.93,
+          "roas": 2.95
+        },
+        {
+          "date": "2026-03-13",
+          "impressions": 5961,
+          "clicks": 30,
+          "spend": 24.91,
+          "orders": 1,
+          "salesVolume": 1,
+          "salesAmount": 14.99,
+          "acos": 166.18,
+          "roas": 0.6
+        },
+        {
+          "date": "2026-03-14",
+          "impressions": 6727,
+          "clicks": 29,
+          "spend": 24.29,
+          "orders": 2,
+          "salesVolume": 2,
+          "salesAmount": 44.98,
+          "acos": 54,
+          "roas": 1.85
+        },
+        {
+          "date": "2026-03-15",
+          "impressions": 9888,
+          "clicks": 33,
+          "spend": 26.52,
+          "orders": 13,
+          "salesVolume": 13,
+          "salesAmount": 288.83,
+          "acos": 9.18,
+          "roas": 10.89
+        },
+        {
+          "date": "2026-03-16",
+          "impressions": 249,
+          "clicks": 0,
+          "spend": 0,
+          "orders": 0,
+          "salesVolume": 0,
+          "salesAmount": 0,
+          "acos": 0,
+          "roas": 0
+        }
+      ]
+    }
+  ],
+  "eipAiGroups": [
+    {
+      "id": 272,
+      "name": "AI-SP-AMJ007917",
+      "campaignIds": [
+        "238626406020279",
+        "124502941146137",
+        "161413999721178",
+        "103367443297954"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 0,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0,
+            "impressions": 0,
+            "clicks": 0
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 46620,
+            "clicks": 130,
+            "spend": 103.61,
+            "orders": 4,
+            "salesVolume": 4,
+            "salesAmount": 266.96,
+            "acos": 38.81,
+            "roas": 2.58,
+            "ctr": 0.28,
+            "cpc": 0.8,
+            "cvr": 3.08
+          },
+          "dailyAvg": {
+            "spend": 5.45,
+            "orders": 0.21,
+            "salesAmount": 14.05,
+            "impressions": 2454,
+            "clicks": 6.8
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 0,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 0,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 0,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 0,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 18568,
+            "clicks": 64,
+            "spend": 50.13,
+            "orders": 4,
+            "salesVolume": 4,
+            "salesAmount": 266.96,
+            "acos": 18.78,
+            "roas": 5.33,
+            "ctr": 0.34,
+            "cpc": 0.78,
+            "cvr": 6.25
+          },
+          "dailyAvg": {
+            "spend": 7.16,
+            "orders": 0.57,
+            "salesAmount": 38.14
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 27482,
+            "clicks": 66,
+            "spend": 53.48,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.24,
+            "cpc": 0.81,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 7.64,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 570,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "name": "AI-SP-AMV007707",
+      "campaignIds": [
+        "35974572596313",
+        "261892198404406",
+        "14097877009905",
+        "56282881154112",
+        "103444074244975",
+        "190255659406853"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 98539,
+            "clicks": 454,
+            "spend": 331.64,
+            "orders": 48,
+            "salesVolume": 50,
+            "salesAmount": 947.9,
+            "acos": 34.99,
+            "roas": 2.86,
+            "ctr": 0.46,
+            "cpc": 0.73,
+            "cvr": 10.57
+          },
+          "dailyAvg": {
+            "spend": 18.42,
+            "orders": 2.67,
+            "salesAmount": 52.66,
+            "impressions": 5474,
+            "clicks": 25.2
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 182360,
+            "clicks": 1178,
+            "spend": 850.25,
+            "orders": 121,
+            "salesVolume": 122,
+            "salesAmount": 2276.57,
+            "acos": 37.35,
+            "roas": 2.68,
+            "ctr": 0.65,
+            "cpc": 0.72,
+            "cvr": 10.27
+          },
+          "dailyAvg": {
+            "spend": 44.75,
+            "orders": 6.37,
+            "salesAmount": 119.82,
+            "impressions": 9598,
+            "clicks": 62
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 1520,
+            "clicks": 9,
+            "spend": 6.62,
+            "orders": 1,
+            "salesVolume": 1,
+            "salesAmount": 19.99,
+            "acos": 33.12,
+            "roas": 3.02,
+            "ctr": 0.59,
+            "cpc": 0.74,
+            "cvr": 11.11
+          },
+          "dailyAvg": {
+            "spend": 6.62,
+            "orders": 1,
+            "salesAmount": 19.99
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 27078,
+            "clicks": 97,
+            "spend": 70.38,
+            "orders": 10,
+            "salesVolume": 12,
+            "salesAmount": 239.88,
+            "acos": 29.34,
+            "roas": 3.41,
+            "ctr": 0.36,
+            "cpc": 0.73,
+            "cvr": 10.31
+          },
+          "dailyAvg": {
+            "spend": 10.05,
+            "orders": 1.43,
+            "salesAmount": 34.27
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 41372,
+            "clicks": 205,
+            "spend": 147.79,
+            "orders": 24,
+            "salesVolume": 24,
+            "salesAmount": 453.16,
+            "acos": 32.61,
+            "roas": 3.07,
+            "ctr": 0.5,
+            "cpc": 0.72,
+            "cvr": 11.71
+          },
+          "dailyAvg": {
+            "spend": 21.11,
+            "orders": 3.43,
+            "salesAmount": 64.74
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 67117,
+            "clicks": 405,
+            "spend": 289.23,
+            "orders": 47,
+            "salesVolume": 47,
+            "salesAmount": 804.53,
+            "acos": 35.95,
+            "roas": 2.78,
+            "ctr": 0.6,
+            "cpc": 0.71,
+            "cvr": 11.6
+          },
+          "dailyAvg": {
+            "spend": 41.32,
+            "orders": 6.71,
+            "salesAmount": 114.93
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 82971,
+            "clicks": 468,
+            "spend": 345.8,
+            "orders": 48,
+            "salesVolume": 49,
+            "salesAmount": 909.51,
+            "acos": 38.02,
+            "roas": 2.63,
+            "ctr": 0.56,
+            "cpc": 0.74,
+            "cvr": 10.26
+          },
+          "dailyAvg": {
+            "spend": 49.4,
+            "orders": 6.86,
+            "salesAmount": 129.93
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 60588,
+            "clicks": 447,
+            "spend": 321.28,
+            "orders": 39,
+            "salesVolume": 39,
+            "salesAmount": 797.4,
+            "acos": 40.29,
+            "roas": 2.48,
+            "ctr": 0.74,
+            "cpc": 0.72,
+            "cvr": 8.72
+          },
+          "dailyAvg": {
+            "spend": 45.9,
+            "orders": 5.57,
+            "salesAmount": 113.91
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 253,
+            "clicks": 1,
+            "spend": 0.79,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.4,
+            "cpc": 0.79,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0.79,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "name": "AI-SP-AMJ008663",
+      "campaignIds": [
+        "522350898986248",
+        "332628622939311",
+        "555041334170614",
+        "474272095876315",
+        "386644684672662",
+        "286322441218008"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 23278,
+            "clicks": 121,
+            "spend": 47.79,
+            "orders": 14,
+            "salesVolume": 14,
+            "salesAmount": 399.03,
+            "acos": 11.98,
+            "roas": 8.35,
+            "ctr": 0.52,
+            "cpc": 0.39,
+            "cvr": 11.57
+          },
+          "dailyAvg": {
+            "spend": 2.65,
+            "orders": 0.78,
+            "salesAmount": 22.17,
+            "impressions": 1293,
+            "clicks": 6.7
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 222365,
+            "clicks": 781,
+            "spend": 548.29,
+            "orders": 118,
+            "salesVolume": 118,
+            "salesAmount": 3184.99,
+            "acos": 17.21,
+            "roas": 5.81,
+            "ctr": 0.35,
+            "cpc": 0.7,
+            "cvr": 15.11
+          },
+          "dailyAvg": {
+            "spend": 28.86,
+            "orders": 6.21,
+            "salesAmount": 167.63,
+            "impressions": 11703,
+            "clicks": 41.1
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 1029,
+            "clicks": 4,
+            "spend": 1.77,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.39,
+            "cpc": 0.44,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 1.77,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 8139,
+            "clicks": 29,
+            "spend": 12.03,
+            "orders": 6,
+            "salesVolume": 6,
+            "salesAmount": 156.91,
+            "acos": 7.67,
+            "roas": 13.04,
+            "ctr": 0.36,
+            "cpc": 0.41,
+            "cvr": 20.69
+          },
+          "dailyAvg": {
+            "spend": 1.72,
+            "orders": 0.86,
+            "salesAmount": 22.42
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 9164,
+            "clicks": 63,
+            "spend": 23.96,
+            "orders": 6,
+            "salesVolume": 6,
+            "salesAmount": 177.74,
+            "acos": 13.48,
+            "roas": 7.42,
+            "ctr": 0.69,
+            "cpc": 0.38,
+            "cvr": 9.52
+          },
+          "dailyAvg": {
+            "spend": 3.42,
+            "orders": 0.86,
+            "salesAmount": 25.39
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 64095,
+            "clicks": 191,
+            "spend": 123.12,
+            "orders": 36,
+            "salesVolume": 36,
+            "salesAmount": 1041.9,
+            "acos": 11.82,
+            "roas": 8.46,
+            "ctr": 0.3,
+            "cpc": 0.64,
+            "cvr": 18.85
+          },
+          "dailyAvg": {
+            "spend": 17.59,
+            "orders": 5.14,
+            "salesAmount": 148.84
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 90184,
+            "clicks": 279,
+            "spend": 206.51,
+            "orders": 40,
+            "salesVolume": 40,
+            "salesAmount": 1076.7,
+            "acos": 19.18,
+            "roas": 5.21,
+            "ctr": 0.31,
+            "cpc": 0.74,
+            "cvr": 14.34
+          },
+          "dailyAvg": {
+            "spend": 29.5,
+            "orders": 5.71,
+            "salesAmount": 153.81
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 72402,
+            "clicks": 335,
+            "spend": 228.05,
+            "orders": 44,
+            "salesVolume": 44,
+            "salesAmount": 1130.77,
+            "acos": 20.17,
+            "roas": 4.96,
+            "ctr": 0.46,
+            "cpc": 0.68,
+            "cvr": 13.13
+          },
+          "dailyAvg": {
+            "spend": 32.58,
+            "orders": 6.29,
+            "salesAmount": 161.54
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 630,
+            "clicks": 1,
+            "spend": 0.64,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.16,
+            "cpc": 0.64,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0.64,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "name": "AI-SP-AMJ009855",
+      "campaignIds": [
+        "344599470323048",
+        "503232205484271",
+        "532469471923331",
+        "366152574324225",
+        "424843092531434",
+        "292766555688684"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 11708,
+            "clicks": 39,
+            "spend": 25.39,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.33,
+            "cpc": 0.65,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 1.41,
+            "orders": 0,
+            "salesAmount": 0,
+            "impressions": 650,
+            "clicks": 2.2
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 584224,
+            "clicks": 936,
+            "spend": 755.19,
+            "orders": 141,
+            "salesVolume": 141,
+            "salesAmount": 4139.82,
+            "acos": 18.24,
+            "roas": 5.48,
+            "ctr": 0.16,
+            "cpc": 0.81,
+            "cvr": 15.06
+          },
+          "dailyAvg": {
+            "spend": 39.75,
+            "orders": 7.42,
+            "salesAmount": 217.89,
+            "impressions": 30749,
+            "clicks": 49.3
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 349,
+            "clicks": 1,
+            "spend": 0.66,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.29,
+            "cpc": 0.66,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0.66,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 3461,
+            "clicks": 10,
+            "spend": 6.55,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.29,
+            "cpc": 0.66,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0.94,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 5185,
+            "clicks": 17,
+            "spend": 11,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.33,
+            "cpc": 0.65,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 1.57,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 19302,
+            "clicks": 79,
+            "spend": 61.83,
+            "orders": 4,
+            "salesVolume": 4,
+            "salesAmount": 125.06,
+            "acos": 49.44,
+            "roas": 2.02,
+            "ctr": 0.41,
+            "cpc": 0.78,
+            "cvr": 5.06
+          },
+          "dailyAvg": {
+            "spend": 8.83,
+            "orders": 0.57,
+            "salesAmount": 17.87
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 277259,
+            "clicks": 387,
+            "spend": 331.44,
+            "orders": 49,
+            "salesVolume": 49,
+            "salesAmount": 1455.4,
+            "acos": 22.77,
+            "roas": 4.39,
+            "ctr": 0.14,
+            "cpc": 0.86,
+            "cvr": 12.66
+          },
+          "dailyAvg": {
+            "spend": 47.35,
+            "orders": 7,
+            "salesAmount": 207.91
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 287509,
+            "clicks": 478,
+            "spend": 367,
+            "orders": 88,
+            "salesVolume": 88,
+            "salesAmount": 2559.36,
+            "acos": 14.34,
+            "roas": 6.97,
+            "ctr": 0.17,
+            "cpc": 0.77,
+            "cvr": 18.41
+          },
+          "dailyAvg": {
+            "spend": 52.43,
+            "orders": 12.57,
+            "salesAmount": 365.62
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 2867,
+            "clicks": 3,
+            "spend": 2.1,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.1,
+            "cpc": 0.7,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 2.1,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "name": "AI-SP-AMJ006283",
+      "campaignIds": [
+        "509177515210282",
+        "532586463205848",
+        "341701173097994",
+        "504260588086216",
+        "474453365377873",
+        "416717636026157"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 380946,
+            "clicks": 891,
+            "spend": 481.92,
+            "orders": 107,
+            "salesVolume": 108,
+            "salesAmount": 2698.53,
+            "acos": 17.86,
+            "roas": 5.6,
+            "ctr": 0.23,
+            "cpc": 0.54,
+            "cvr": 12.01
+          },
+          "dailyAvg": {
+            "spend": 26.77,
+            "orders": 5.94,
+            "salesAmount": 149.92,
+            "impressions": 21164,
+            "clicks": 49.5
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 504200,
+            "clicks": 1315,
+            "spend": 933.37,
+            "orders": 92,
+            "salesVolume": 94,
+            "salesAmount": 1969.64,
+            "acos": 47.39,
+            "roas": 2.11,
+            "ctr": 0.26,
+            "cpc": 0.71,
+            "cvr": 7
+          },
+          "dailyAvg": {
+            "spend": 49.12,
+            "orders": 4.84,
+            "salesAmount": 103.67,
+            "impressions": 26537,
+            "clicks": 69.2
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 22062,
+            "clicks": 56,
+            "spend": 32.48,
+            "orders": 7,
+            "salesVolume": 7,
+            "salesAmount": 243.17,
+            "acos": 13.36,
+            "roas": 7.49,
+            "ctr": 0.25,
+            "cpc": 0.58,
+            "cvr": 12.5
+          },
+          "dailyAvg": {
+            "spend": 32.48,
+            "orders": 7,
+            "salesAmount": 243.17
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 159613,
+            "clicks": 366,
+            "spend": 197.96,
+            "orders": 53,
+            "salesVolume": 54,
+            "salesAmount": 1326.91,
+            "acos": 14.92,
+            "roas": 6.7,
+            "ctr": 0.23,
+            "cpc": 0.54,
+            "cvr": 14.48
+          },
+          "dailyAvg": {
+            "spend": 28.28,
+            "orders": 7.57,
+            "salesAmount": 189.56
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 139688,
+            "clicks": 331,
+            "spend": 177.95,
+            "orders": 29,
+            "salesVolume": 29,
+            "salesAmount": 689.67,
+            "acos": 25.8,
+            "roas": 3.88,
+            "ctr": 0.24,
+            "cpc": 0.54,
+            "cvr": 8.76
+          },
+          "dailyAvg": {
+            "spend": 25.42,
+            "orders": 4.14,
+            "salesAmount": 98.52
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 190940,
+            "clicks": 427,
+            "spend": 273.14,
+            "orders": 41,
+            "salesVolume": 41,
+            "salesAmount": 954.55,
+            "acos": 28.61,
+            "roas": 3.49,
+            "ctr": 0.22,
+            "cpc": 0.64,
+            "cvr": 9.6
+          },
+          "dailyAvg": {
+            "spend": 39.02,
+            "orders": 5.86,
+            "salesAmount": 136.36
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 186524,
+            "clicks": 512,
+            "spend": 362.73,
+            "orders": 55,
+            "salesVolume": 57,
+            "salesAmount": 1156.52,
+            "acos": 31.36,
+            "roas": 3.19,
+            "ctr": 0.27,
+            "cpc": 0.71,
+            "cvr": 10.74
+          },
+          "dailyAvg": {
+            "spend": 51.82,
+            "orders": 7.86,
+            "salesAmount": 165.22
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 184353,
+            "clicks": 508,
+            "spend": 366.44,
+            "orders": 14,
+            "salesVolume": 14,
+            "salesAmount": 297.35,
+            "acos": 123.24,
+            "roas": 0.81,
+            "ctr": 0.28,
+            "cpc": 0.72,
+            "cvr": 2.76
+          },
+          "dailyAvg": {
+            "spend": 52.35,
+            "orders": 2,
+            "salesAmount": 42.48
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 1966,
+            "clicks": 6,
+            "spend": 4.59,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.31,
+            "cpc": 0.77,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 4.59,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "name": "AI-SP-AMJ009765",
+      "campaignIds": [
+        "489327724263493",
+        "403950308281639",
+        "350537513897640",
+        "428854578486657",
+        "539618307174306",
+        "425081405569887"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 13984,
+            "clicks": 29,
+            "spend": 19.66,
+            "orders": 6,
+            "salesVolume": 6,
+            "salesAmount": 141.74,
+            "acos": 13.87,
+            "roas": 7.21,
+            "ctr": 0.21,
+            "cpc": 0.68,
+            "cvr": 20.69
+          },
+          "dailyAvg": {
+            "spend": 1.09,
+            "orders": 0.33,
+            "salesAmount": 7.87,
+            "impressions": 777,
+            "clicks": 1.6
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 40616,
+            "clicks": 164,
+            "spend": 128.47,
+            "orders": 28,
+            "salesVolume": 28,
+            "salesAmount": 509.72,
+            "acos": 25.2,
+            "roas": 3.97,
+            "ctr": 0.4,
+            "cpc": 0.78,
+            "cvr": 17.07
+          },
+          "dailyAvg": {
+            "spend": 6.76,
+            "orders": 1.47,
+            "salesAmount": 26.83,
+            "impressions": 2138,
+            "clicks": 8.6
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 759,
+            "clicks": 2,
+            "spend": 1.14,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.26,
+            "cpc": 0.57,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 1.14,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 6179,
+            "clicks": 12,
+            "spend": 7.85,
+            "orders": 1,
+            "salesVolume": 1,
+            "salesAmount": 18.99,
+            "acos": 41.34,
+            "roas": 2.42,
+            "ctr": 0.19,
+            "cpc": 0.65,
+            "cvr": 8.33
+          },
+          "dailyAvg": {
+            "spend": 1.12,
+            "orders": 0.14,
+            "salesAmount": 2.71
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 5093,
+            "clicks": 10,
+            "spend": 6.99,
+            "orders": 4,
+            "salesVolume": 4,
+            "salesAmount": 102.76,
+            "acos": 6.8,
+            "roas": 14.7,
+            "ctr": 0.2,
+            "cpc": 0.7,
+            "cvr": 40
+          },
+          "dailyAvg": {
+            "spend": 1,
+            "orders": 0.57,
+            "salesAmount": 14.68
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 3824,
+            "clicks": 8,
+            "spend": 5.91,
+            "orders": 1,
+            "salesVolume": 1,
+            "salesAmount": 19.99,
+            "acos": 29.56,
+            "roas": 3.38,
+            "ctr": 0.21,
+            "cpc": 0.74,
+            "cvr": 12.5
+          },
+          "dailyAvg": {
+            "spend": 0.84,
+            "orders": 0.14,
+            "salesAmount": 2.86
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 20362,
+            "clicks": 73,
+            "spend": 59.67,
+            "orders": 17,
+            "salesVolume": 17,
+            "salesAmount": 339.83,
+            "acos": 17.56,
+            "roas": 5.7,
+            "ctr": 0.36,
+            "cpc": 0.82,
+            "cvr": 23.29
+          },
+          "dailyAvg": {
+            "spend": 8.52,
+            "orders": 2.43,
+            "salesAmount": 48.55
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 18217,
+            "clicks": 87,
+            "spend": 65.77,
+            "orders": 9,
+            "salesVolume": 9,
+            "salesAmount": 139.91,
+            "acos": 47.01,
+            "roas": 2.13,
+            "ctr": 0.48,
+            "cpc": 0.76,
+            "cvr": 10.34
+          },
+          "dailyAvg": {
+            "spend": 9.4,
+            "orders": 1.29,
+            "salesAmount": 19.99
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 166,
+            "clicks": 1,
+            "spend": 0.8,
+            "orders": 2,
+            "salesVolume": 2,
+            "salesAmount": 29.98,
+            "acos": 2.67,
+            "roas": 37.48,
+            "ctr": 0.6,
+            "cpc": 0.8,
+            "cvr": 200
+          },
+          "dailyAvg": {
+            "spend": 0.8,
+            "orders": 2,
+            "salesAmount": 29.98
+          }
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "name": "AI-SP-AMV007502",
+      "campaignIds": [
+        "329162883447956",
+        "347585546858519",
+        "468360943221251",
+        "430141951734097"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 350545,
+            "clicks": 116,
+            "spend": 59.91,
+            "orders": 7,
+            "salesVolume": 7,
+            "salesAmount": 135.27,
+            "acos": 44.29,
+            "roas": 2.26,
+            "ctr": 0.03,
+            "cpc": 0.52,
+            "cvr": 6.03
+          },
+          "dailyAvg": {
+            "spend": 3.33,
+            "orders": 0.39,
+            "salesAmount": 7.52,
+            "impressions": 19475,
+            "clicks": 6.4
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 173526,
+            "clicks": 222,
+            "spend": 139.66,
+            "orders": 33,
+            "salesVolume": 33,
+            "salesAmount": 551.2,
+            "acos": 25.34,
+            "roas": 3.95,
+            "ctr": 0.13,
+            "cpc": 0.63,
+            "cvr": 14.86
+          },
+          "dailyAvg": {
+            "spend": 7.35,
+            "orders": 1.74,
+            "salesAmount": 29.01,
+            "impressions": 9133,
+            "clicks": 11.7
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 53882,
+            "clicks": 15,
+            "spend": 7.81,
+            "orders": 2,
+            "salesVolume": 2,
+            "salesAmount": 52.58,
+            "acos": 14.85,
+            "roas": 6.73,
+            "ctr": 0.03,
+            "cpc": 0.52,
+            "cvr": 13.33
+          },
+          "dailyAvg": {
+            "spend": 7.81,
+            "orders": 2,
+            "salesAmount": 52.58
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 269496,
+            "clicks": 79,
+            "spend": 40.18,
+            "orders": 4,
+            "salesVolume": 4,
+            "salesAmount": 67.7,
+            "acos": 59.35,
+            "roas": 1.68,
+            "ctr": 0.03,
+            "cpc": 0.51,
+            "cvr": 5.06
+          },
+          "dailyAvg": {
+            "spend": 5.74,
+            "orders": 0.57,
+            "salesAmount": 9.67
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 21037,
+            "clicks": 18,
+            "spend": 9.49,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.09,
+            "cpc": 0.53,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 1.36,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 15670,
+            "clicks": 24,
+            "spend": 15.08,
+            "orders": 6,
+            "salesVolume": 6,
+            "salesAmount": 92.94,
+            "acos": 16.23,
+            "roas": 6.16,
+            "ctr": 0.15,
+            "cpc": 0.63,
+            "cvr": 25
+          },
+          "dailyAvg": {
+            "spend": 2.15,
+            "orders": 0.86,
+            "salesAmount": 13.28
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 22748,
+            "clicks": 49,
+            "spend": 30.68,
+            "orders": 7,
+            "salesVolume": 7,
+            "salesAmount": 107.24,
+            "acos": 28.61,
+            "roas": 3.5,
+            "ctr": 0.22,
+            "cpc": 0.63,
+            "cvr": 14.29
+          },
+          "dailyAvg": {
+            "spend": 4.38,
+            "orders": 1,
+            "salesAmount": 15.32
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 139388,
+            "clicks": 153,
+            "spend": 96.33,
+            "orders": 21,
+            "salesVolume": 21,
+            "salesAmount": 366.01,
+            "acos": 26.32,
+            "roas": 3.8,
+            "ctr": 0.11,
+            "cpc": 0.63,
+            "cvr": 13.73
+          },
+          "dailyAvg": {
+            "spend": 13.76,
+            "orders": 3,
+            "salesAmount": 52.29
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 1850,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "name": "AI-SP-AMJ009445",
+      "campaignIds": [
+        "453300553206529",
+        "367379990344375",
+        "342932685832932",
+        "447694977003972",
+        "337531996606767",
+        "404220117124103",
+        "425437463055923",
+        "316263917567111",
+        "406753720751555"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 832212,
+            "clicks": 1691,
+            "spend": 1073.27,
+            "orders": 147,
+            "salesVolume": 153,
+            "salesAmount": 4025.61,
+            "acos": 26.66,
+            "roas": 3.75,
+            "ctr": 0.2,
+            "cpc": 0.63,
+            "cvr": 8.69
+          },
+          "dailyAvg": {
+            "spend": 59.63,
+            "orders": 8.17,
+            "salesAmount": 223.65,
+            "impressions": 46234,
+            "clicks": 93.9
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 741599,
+            "clicks": 2344,
+            "spend": 1947.75,
+            "orders": 266,
+            "salesVolume": 271,
+            "salesAmount": 6173.81,
+            "acos": 31.55,
+            "roas": 3.17,
+            "ctr": 0.32,
+            "cpc": 0.83,
+            "cvr": 11.35
+          },
+          "dailyAvg": {
+            "spend": 102.51,
+            "orders": 14,
+            "salesAmount": 324.94,
+            "impressions": 39032,
+            "clicks": 123.4
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 191889,
+            "clicks": 158,
+            "spend": 96.86,
+            "orders": 9,
+            "salesVolume": 9,
+            "salesAmount": 191.32,
+            "acos": 50.63,
+            "roas": 1.98,
+            "ctr": 0.08,
+            "cpc": 0.61,
+            "cvr": 5.7
+          },
+          "dailyAvg": {
+            "spend": 96.86,
+            "orders": 9,
+            "salesAmount": 191.32
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 321333,
+            "clicks": 710,
+            "spend": 448.93,
+            "orders": 70,
+            "salesVolume": 75,
+            "salesAmount": 1938.14,
+            "acos": 23.16,
+            "roas": 4.32,
+            "ctr": 0.22,
+            "cpc": 0.63,
+            "cvr": 9.86
+          },
+          "dailyAvg": {
+            "spend": 64.13,
+            "orders": 10,
+            "salesAmount": 276.88
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 232827,
+            "clicks": 633,
+            "spend": 405.46,
+            "orders": 54,
+            "salesVolume": 55,
+            "salesAmount": 1514.95,
+            "acos": 26.76,
+            "roas": 3.74,
+            "ctr": 0.27,
+            "cpc": 0.64,
+            "cvr": 8.53
+          },
+          "dailyAvg": {
+            "spend": 57.92,
+            "orders": 7.71,
+            "salesAmount": 216.42
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 239810,
+            "clicks": 730,
+            "spend": 540.93,
+            "orders": 71,
+            "salesVolume": 72,
+            "salesAmount": 1771.69,
+            "acos": 30.53,
+            "roas": 3.28,
+            "ctr": 0.3,
+            "cpc": 0.74,
+            "cvr": 9.73
+          },
+          "dailyAvg": {
+            "spend": 77.28,
+            "orders": 10.14,
+            "salesAmount": 253.1
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 311585,
+            "clicks": 935,
+            "spend": 798.63,
+            "orders": 134,
+            "salesVolume": 137,
+            "salesAmount": 3026.25,
+            "acos": 26.39,
+            "roas": 3.79,
+            "ctr": 0.3,
+            "cpc": 0.85,
+            "cvr": 14.33
+          },
+          "dailyAvg": {
+            "spend": 114.09,
+            "orders": 19.14,
+            "salesAmount": 432.32
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 272453,
+            "clicks": 859,
+            "spend": 721.92,
+            "orders": 75,
+            "salesVolume": 76,
+            "salesAmount": 1757.07,
+            "acos": 41.09,
+            "roas": 2.43,
+            "ctr": 0.32,
+            "cpc": 0.84,
+            "cvr": 8.73
+          },
+          "dailyAvg": {
+            "spend": 103.13,
+            "orders": 10.71,
+            "salesAmount": 251.01
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 3914,
+            "clicks": 10,
+            "spend": 8.29,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.26,
+            "cpc": 0.83,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 8.29,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "name": "AI-SP-AMJ009685",
+      "campaignIds": [
+        "528847108941884",
+        "532411333384072"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 235499,
+            "clicks": 845,
+            "spend": 615.78,
+            "orders": 58,
+            "salesVolume": 58,
+            "salesAmount": 1441.05,
+            "acos": 42.73,
+            "roas": 2.34,
+            "ctr": 0.36,
+            "cpc": 0.73,
+            "cvr": 6.86
+          },
+          "dailyAvg": {
+            "spend": 34.21,
+            "orders": 3.22,
+            "salesAmount": 80.06,
+            "impressions": 13083,
+            "clicks": 46.9
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 217981,
+            "clicks": 1039,
+            "spend": 801.26,
+            "orders": 138,
+            "salesVolume": 145,
+            "salesAmount": 3329.55,
+            "acos": 24.07,
+            "roas": 4.16,
+            "ctr": 0.48,
+            "cpc": 0.77,
+            "cvr": 13.28
+          },
+          "dailyAvg": {
+            "spend": 42.17,
+            "orders": 7.26,
+            "salesAmount": 175.24,
+            "impressions": 11473,
+            "clicks": 54.7
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 31807,
+            "clicks": 85,
+            "spend": 69.11,
+            "orders": 7,
+            "salesVolume": 7,
+            "salesAmount": 160.93,
+            "acos": 42.94,
+            "roas": 2.33,
+            "ctr": 0.27,
+            "cpc": 0.81,
+            "cvr": 8.24
+          },
+          "dailyAvg": {
+            "spend": 69.11,
+            "orders": 7,
+            "salesAmount": 160.93
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 78319,
+            "clicks": 260,
+            "spend": 189.66,
+            "orders": 19,
+            "salesVolume": 19,
+            "salesAmount": 444.3,
+            "acos": 42.69,
+            "roas": 2.34,
+            "ctr": 0.33,
+            "cpc": 0.73,
+            "cvr": 7.31
+          },
+          "dailyAvg": {
+            "spend": 27.09,
+            "orders": 2.71,
+            "salesAmount": 63.47
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 81644,
+            "clicks": 307,
+            "spend": 219.03,
+            "orders": 19,
+            "salesVolume": 19,
+            "salesAmount": 485.95,
+            "acos": 45.07,
+            "roas": 2.22,
+            "ctr": 0.38,
+            "cpc": 0.71,
+            "cvr": 6.19
+          },
+          "dailyAvg": {
+            "spend": 31.29,
+            "orders": 2.71,
+            "salesAmount": 69.42
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 109873,
+            "clicks": 543,
+            "spend": 402.05,
+            "orders": 59,
+            "salesVolume": 64,
+            "salesAmount": 1497.61,
+            "acos": 26.85,
+            "roas": 3.72,
+            "ctr": 0.49,
+            "cpc": 0.74,
+            "cvr": 10.87
+          },
+          "dailyAvg": {
+            "spend": 57.44,
+            "orders": 8.43,
+            "salesAmount": 213.94
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 86815,
+            "clicks": 375,
+            "spend": 301.82,
+            "orders": 60,
+            "salesVolume": 62,
+            "salesAmount": 1413.81,
+            "acos": 21.35,
+            "roas": 4.68,
+            "ctr": 0.43,
+            "cpc": 0.8,
+            "cvr": 16
+          },
+          "dailyAvg": {
+            "spend": 43.12,
+            "orders": 8.57,
+            "salesAmount": 201.97
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 64682,
+            "clicks": 313,
+            "spend": 234.58,
+            "orders": 32,
+            "salesVolume": 32,
+            "salesAmount": 768,
+            "acos": 30.54,
+            "roas": 3.27,
+            "ctr": 0.48,
+            "cpc": 0.75,
+            "cvr": 10.22
+          },
+          "dailyAvg": {
+            "spend": 33.51,
+            "orders": 4.57,
+            "salesAmount": 109.71
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 340,
+            "clicks": 1,
+            "spend": 0.79,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.29,
+            "cpc": 0.79,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0.79,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "name": "AI-SP-AMJ008532",
+      "campaignIds": [
+        "556249575323154",
+        "436684558424181",
+        "41294422721504",
+        "48308416297369"
+      ],
+      "phases": [
+        {
+          "name": "上线前",
+          "start": "2026-02-08",
+          "end": "2026-02-25",
+          "type": "before",
+          "days": 18,
+          "metrics": {
+            "impressions": 18288,
+            "clicks": 45,
+            "spend": 21.68,
+            "orders": 5,
+            "salesVolume": 5,
+            "salesAmount": 141.95,
+            "acos": 15.27,
+            "roas": 6.55,
+            "ctr": 0.25,
+            "cpc": 0.48,
+            "cvr": 11.11
+          },
+          "dailyAvg": {
+            "spend": 1.2,
+            "orders": 0.28,
+            "salesAmount": 7.89,
+            "impressions": 1016,
+            "clicks": 2.5
+          }
+        },
+        {
+          "name": "在线学习上线后",
+          "start": "2026-02-26",
+          "end": "2026-03-16",
+          "type": "after",
+          "days": 19,
+          "metrics": {
+            "impressions": 205725,
+            "clicks": 562,
+            "spend": 403.87,
+            "orders": 55,
+            "salesVolume": 58,
+            "salesAmount": 1658.41,
+            "acos": 24.35,
+            "roas": 4.11,
+            "ctr": 0.27,
+            "cpc": 0.72,
+            "cvr": 9.79
+          },
+          "dailyAvg": {
+            "spend": 21.26,
+            "orders": 2.89,
+            "salesAmount": 87.28,
+            "impressions": 10828,
+            "clicks": 29.6
+          }
+        }
+      ],
+      "weekly": [
+        {
+          "weekStart": "2026-02-08",
+          "weekEnd": "2026-02-08",
+          "days": 1,
+          "metrics": {
+            "impressions": 1048,
+            "clicks": 1,
+            "spend": 0.62,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0.1,
+            "cpc": 0.62,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0.62,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        },
+        {
+          "weekStart": "2026-02-09",
+          "weekEnd": "2026-02-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 7777,
+            "clicks": 22,
+            "spend": 10.67,
+            "orders": 2,
+            "salesVolume": 2,
+            "salesAmount": 57.98,
+            "acos": 18.4,
+            "roas": 5.43,
+            "ctr": 0.28,
+            "cpc": 0.48,
+            "cvr": 9.09
+          },
+          "dailyAvg": {
+            "spend": 1.52,
+            "orders": 0.29,
+            "salesAmount": 8.28
+          }
+        },
+        {
+          "weekStart": "2026-02-16",
+          "weekEnd": "2026-02-22",
+          "days": 7,
+          "metrics": {
+            "impressions": 6428,
+            "clicks": 13,
+            "spend": 5.81,
+            "orders": 1,
+            "salesVolume": 1,
+            "salesAmount": 24.99,
+            "acos": 23.25,
+            "roas": 4.3,
+            "ctr": 0.2,
+            "cpc": 0.45,
+            "cvr": 7.69
+          },
+          "dailyAvg": {
+            "spend": 0.83,
+            "orders": 0.14,
+            "salesAmount": 3.57
+          }
+        },
+        {
+          "weekStart": "2026-02-23",
+          "weekEnd": "2026-03-01",
+          "days": 7,
+          "metrics": {
+            "impressions": 39796,
+            "clicks": 115,
+            "spend": 83.4,
+            "orders": 14,
+            "salesVolume": 14,
+            "salesAmount": 378.85,
+            "acos": 22.01,
+            "roas": 4.54,
+            "ctr": 0.29,
+            "cpc": 0.73,
+            "cvr": 12.17
+          },
+          "dailyAvg": {
+            "spend": 11.91,
+            "orders": 2,
+            "salesAmount": 54.12
+          }
+        },
+        {
+          "weekStart": "2026-03-02",
+          "weekEnd": "2026-03-08",
+          "days": 7,
+          "metrics": {
+            "impressions": 89709,
+            "clicks": 209,
+            "spend": 154.46,
+            "orders": 16,
+            "salesVolume": 18,
+            "salesAmount": 526.33,
+            "acos": 29.35,
+            "roas": 3.41,
+            "ctr": 0.23,
+            "cpc": 0.74,
+            "cvr": 7.66
+          },
+          "dailyAvg": {
+            "spend": 22.07,
+            "orders": 2.29,
+            "salesAmount": 75.19
+          }
+        },
+        {
+          "weekStart": "2026-03-09",
+          "weekEnd": "2026-03-15",
+          "days": 7,
+          "metrics": {
+            "impressions": 78924,
+            "clicks": 247,
+            "spend": 170.59,
+            "orders": 27,
+            "salesVolume": 28,
+            "salesAmount": 812.21,
+            "acos": 21,
+            "roas": 4.76,
+            "ctr": 0.31,
+            "cpc": 0.69,
+            "cvr": 10.93
+          },
+          "dailyAvg": {
+            "spend": 24.37,
+            "orders": 3.86,
+            "salesAmount": 116.03
+          }
+        },
+        {
+          "weekStart": "2026-03-16",
+          "weekEnd": "2026-03-16",
+          "days": 1,
+          "metrics": {
+            "impressions": 331,
+            "clicks": 0,
+            "spend": 0,
+            "orders": 0,
+            "salesVolume": 0,
+            "salesAmount": 0,
+            "acos": 0,
+            "roas": 0,
+            "ctr": 0,
+            "cpc": 0,
+            "cvr": 0
+          },
+          "dailyAvg": {
+            "spend": 0,
+            "orders": 0,
+            "salesAmount": 0
+          }
+        }
+      ]
+    }
+  ]
+}
