@@ -262,23 +262,21 @@ function renderEipOverall(){
   const daily=mergeDaily(groups,'daily');
   if(!phases.length)return;
 
-  // KPI
+  // KPI — 三阶段对比表
   const before=phases[0],offline=phases[1],online=phases[2];
   const kpiHtml=`
-    <div class="kpi-card"><h4>📊 广告效果</h4>
-      ${kpiRow('ACOS',fmt(online.metrics.acos,'pct'),chgPP(online.metrics.acos,before.metrics.acos,true))}
-      ${kpiRow('日均花费',fmt(online.dailyAvg.spend,'dollar'),chg(online.dailyAvg.spend,before.dailyAvg.spend,false))}
-      ${kpiRow('日均销售额',fmt(online.dailyAvg.salesAmount,'dollar'),chg(online.dailyAvg.salesAmount,before.dailyAvg.salesAmount,false))}
-    </div>
-    <div class="kpi-card"><h4>👁️ 曝光点击</h4>
-      ${kpiRow('日均曝光',fmt(online.dailyAvg.impressions,'int'),chg(online.dailyAvg.impressions,before.dailyAvg.impressions,false))}
-      ${kpiRow('日均点击',fmt(online.dailyAvg.clicks,'int'),chg(online.dailyAvg.clicks,before.dailyAvg.clicks,false))}
-      ${kpiRow('CTR',fmt(online.metrics.ctr,'pct'),chgPP(online.metrics.ctr,before.metrics.ctr,false))}
-    </div>
-    <div class="kpi-card"><h4>🛒 转化</h4>
-      ${kpiRow('日均订单',online.dailyAvg.orders.toFixed(1),chg(online.dailyAvg.orders,before.dailyAvg.orders,false))}
-      ${kpiRow('CVR',fmt(online.metrics.cvr,'pct'),chgPP(online.metrics.cvr,before.metrics.cvr,false))}
-      ${kpiRow('CPC',fmt(online.metrics.cpc,'dollar'),chg(online.metrics.cpc,before.metrics.cpc,true))}
+    <div style="grid-column:1/-1">
+      <table class="phase-table">
+      <tr><th>指标</th><th>上线前 (${before.days}天日均)</th><th>离线学习 (${offline.days}天日均)</th><th>在线学习 (${online.days}天日均)</th><th>离线 vs 上线前</th><th>在线 vs 上线前</th><th>在线 vs 离线</th></tr>
+      ${phaseRow3('花费($)',before.dailyAvg.spend,offline.dailyAvg.spend,online.dailyAvg.spend,false)}
+      ${phaseRow3('订单',before.dailyAvg.orders,offline.dailyAvg.orders,online.dailyAvg.orders,false)}
+      ${phaseRow3('销量',before.dailyAvg.salesVolume,offline.dailyAvg.salesVolume,online.dailyAvg.salesVolume,false)}
+      ${phaseRow3('销售额($)',before.dailyAvg.salesAmount,offline.dailyAvg.salesAmount,online.dailyAvg.salesAmount,false)}
+      ${phaseRowPct3('ACOS',before.metrics.acos,offline.metrics.acos,online.metrics.acos,true)}
+      ${phaseRowPct3('CTR',before.metrics.ctr,offline.metrics.ctr,online.metrics.ctr,false)}
+      ${phaseRowPct3('CVR',before.metrics.cvr,offline.metrics.cvr,online.metrics.cvr,false)}
+      ${phaseRow3('CPC($)',before.metrics.cpc,offline.metrics.cpc,online.metrics.cpc,true)}
+      </table>
     </div>`;
   document.getElementById('eip-kpi').innerHTML=kpiHtml;
 
@@ -464,6 +462,18 @@ function createDualChart(container,title,leftLabel1,leftData1,leftColor1,leftLab
 // ── KPI helpers ──
 function kpiRow(label,value,change){
   return `<div class="kpi-item"><span class="kpi-label">${label}</span><span class="kpi-value">${value}</span>${change.text?`<span class="kpi-change ${change.cls}">${change.text}</span>`:''}</div>`;
+}
+function phaseRow3(label,b,ol,on,inverse){
+  const c1=b>0?chg(ol,b,inverse):{text:'N/A',cls:'neutral'};
+  const c2=b>0?chg(on,b,inverse):{text:'N/A',cls:'neutral'};
+  const c3=ol>0?chg(on,ol,inverse):{text:'N/A',cls:'neutral'};
+  return `<tr><td style="text-align:left">${label}</td><td>${b.toFixed(2)}</td><td>${ol.toFixed(2)}</td><td>${on.toFixed(2)}</td><td><span class="kpi-change ${c1.cls}">${c1.text}</span></td><td><span class="kpi-change ${c2.cls}">${c2.text}</span></td><td><span class="kpi-change ${c3.cls}">${c3.text}</span></td></tr>`;
+}
+function phaseRowPct3(label,b,ol,on,inverse){
+  const c1=chgPP(ol,b,inverse);
+  const c2=chgPP(on,b,inverse);
+  const c3=chgPP(on,ol,inverse);
+  return `<tr><td style="text-align:left">${label}</td><td>${b.toFixed(2)}%</td><td>${ol.toFixed(2)}%</td><td>${on.toFixed(2)}%</td><td><span class="kpi-change ${c1.cls}">${c1.text}</span></td><td><span class="kpi-change ${c2.cls}">${c2.text}</span></td><td><span class="kpi-change ${c3.cls}">${c3.text}</span></td></tr>`;
 }
 function phaseRow(label,b,ol,on,inverse){
   const c=b>0?chg(on,b,inverse):{text:'N/A',cls:'neutral'};
