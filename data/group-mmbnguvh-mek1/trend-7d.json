@@ -1,0 +1,371 @@
+{
+  "updated_at": "2026-03-27T10:28:37.222Z",
+  "data_date": "2026-03-26",
+  "group": {
+    "id": "group-mmbnguvh-mek1",
+    "name": "ADJ000082智能托管组",
+    "macroGoal": "boost-sales",
+    "targetAcos": 25
+  },
+  "days": [
+    {
+      "date": "2026-03-20",
+      "orders": 1,
+      "salesVolume": 1,
+      "spend": 22.29,
+      "sales": 16.99,
+      "acos": 131.2,
+      "impressions": 1812,
+      "clicks": 21,
+      "ctr": 1.16,
+      "cvr": 4.76
+    },
+    {
+      "date": "2026-03-21",
+      "orders": 2,
+      "salesVolume": 2,
+      "spend": 19.19,
+      "sales": 29.98,
+      "acos": 64,
+      "impressions": 1866,
+      "clicks": 17,
+      "ctr": 0.91,
+      "cvr": 11.76
+    },
+    {
+      "date": "2026-03-22",
+      "orders": 4,
+      "salesVolume": 4,
+      "spend": 15.99,
+      "sales": 63.96,
+      "acos": 25,
+      "impressions": 2050,
+      "clicks": 14,
+      "ctr": 0.68,
+      "cvr": 28.57
+    },
+    {
+      "date": "2026-03-23",
+      "orders": 3,
+      "salesVolume": 3,
+      "spend": 23.36,
+      "sales": 48.97,
+      "acos": 47.7,
+      "impressions": 1688,
+      "clicks": 21,
+      "ctr": 1.24,
+      "cvr": 14.29
+    },
+    {
+      "date": "2026-03-24",
+      "orders": 1,
+      "salesVolume": 1,
+      "spend": 15.91,
+      "sales": 16.99,
+      "acos": 93.6,
+      "impressions": 1252,
+      "clicks": 15,
+      "ctr": 1.2,
+      "cvr": 6.67
+    },
+    {
+      "date": "2026-03-25",
+      "orders": 2,
+      "salesVolume": 2,
+      "spend": 14.89,
+      "sales": 31.98,
+      "acos": 46.6,
+      "impressions": 1124,
+      "clicks": 13,
+      "ctr": 1.16,
+      "cvr": 15.38
+    },
+    {
+      "date": "2026-03-26",
+      "orders": 2,
+      "salesVolume": 3,
+      "spend": 11.39,
+      "sales": 44.97,
+      "acos": 25.3,
+      "impressions": 1197,
+      "clicks": 10,
+      "ctr": 0.84,
+      "cvr": 20
+    }
+  ],
+  "campaigns": {
+    "479008051757777": {
+      "name": "ZDJ000082-123-3-CML-MT1",
+      "type": "手动投放",
+      "budget": 15,
+      "days": [
+        {
+          "date": "2026-03-20",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 41,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-21",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 6,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-22",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 8,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-23",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 4,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-24",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 4,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-25",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 4,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-26",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 9,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        }
+      ]
+    },
+    "368893969861779": {
+      "name": "ZDJ000082_KH_L-123-3-CML-SP-AT",
+      "type": "自动投放",
+      "budget": 5,
+      "days": [
+        {
+          "date": "2026-03-20",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0.02,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 307,
+          "clicks": 1,
+          "ctr": 0.33,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-21",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 128,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-22",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 124,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-23",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 83,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-24",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 100,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-25",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 121,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-26",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 155,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        }
+      ]
+    },
+    "422036852572102": {
+      "name": "ZDJ000082-123-3-CML-MT2",
+      "type": "手动投放",
+      "budget": 55,
+      "days": [
+        {
+          "date": "2026-03-20",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 22.27,
+          "sales": 16.99,
+          "acos": 131.08,
+          "impressions": 1464,
+          "clicks": 20,
+          "ctr": 1.37,
+          "cvr": 5
+        },
+        {
+          "date": "2026-03-21",
+          "orders": 2,
+          "salesVolume": 2,
+          "spend": 19.19,
+          "sales": 29.98,
+          "acos": 64.01,
+          "impressions": 1732,
+          "clicks": 17,
+          "ctr": 0.98,
+          "cvr": 11.76
+        },
+        {
+          "date": "2026-03-22",
+          "orders": 4,
+          "salesVolume": 4,
+          "spend": 15.99,
+          "sales": 63.96,
+          "acos": 25,
+          "impressions": 1918,
+          "clicks": 14,
+          "ctr": 0.73,
+          "cvr": 28.57
+        },
+        {
+          "date": "2026-03-23",
+          "orders": 3,
+          "salesVolume": 3,
+          "spend": 23.36,
+          "sales": 48.97,
+          "acos": 47.7,
+          "impressions": 1601,
+          "clicks": 21,
+          "ctr": 1.31,
+          "cvr": 14.29
+        },
+        {
+          "date": "2026-03-24",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 15.91,
+          "sales": 16.99,
+          "acos": 93.64,
+          "impressions": 1148,
+          "clicks": 15,
+          "ctr": 1.31,
+          "cvr": 6.67
+        },
+        {
+          "date": "2026-03-25",
+          "orders": 2,
+          "salesVolume": 2,
+          "spend": 14.89,
+          "sales": 31.98,
+          "acos": 46.56,
+          "impressions": 999,
+          "clicks": 13,
+          "ctr": 1.3,
+          "cvr": 15.38
+        },
+        {
+          "date": "2026-03-26",
+          "orders": 2,
+          "salesVolume": 3,
+          "spend": 11.39,
+          "sales": 44.97,
+          "acos": 25.33,
+          "impressions": 1033,
+          "clicks": 10,
+          "ctr": 0.97,
+          "cvr": 20
+        }
+      ]
+    }
+  }
+}
