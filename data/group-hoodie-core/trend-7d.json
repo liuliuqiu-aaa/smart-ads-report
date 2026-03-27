@@ -1,0 +1,462 @@
+{
+  "updated_at": "2026-03-27T09:50:51.349Z",
+  "data_date": "2026-03-26",
+  "group": {
+    "id": "group-hoodie-core",
+    "name": "AMJ010095智能托管组",
+    "macroGoal": "boost-sales",
+    "targetAcos": 20
+  },
+  "days": [
+    {
+      "date": "2026-03-20",
+      "orders": 5,
+      "salesVolume": 5,
+      "spend": 13.77,
+      "sales": 96.95,
+      "acos": 14.2,
+      "impressions": 8416,
+      "clicks": 27,
+      "ctr": 0.32,
+      "cvr": 18.52
+    },
+    {
+      "date": "2026-03-21",
+      "orders": 1,
+      "salesVolume": 1,
+      "spend": 20.55,
+      "sales": 17.99,
+      "acos": 114.2,
+      "impressions": 8297,
+      "clicks": 44,
+      "ctr": 0.53,
+      "cvr": 2.27
+    },
+    {
+      "date": "2026-03-22",
+      "orders": 3,
+      "salesVolume": 3,
+      "spend": 13.64,
+      "sales": 53.97,
+      "acos": 25.3,
+      "impressions": 7859,
+      "clicks": 30,
+      "ctr": 0.38,
+      "cvr": 10
+    },
+    {
+      "date": "2026-03-23",
+      "orders": 1,
+      "salesVolume": 1,
+      "spend": 18.34,
+      "sales": 17.99,
+      "acos": 101.9,
+      "impressions": 9699,
+      "clicks": 42,
+      "ctr": 0.43,
+      "cvr": 2.38
+    },
+    {
+      "date": "2026-03-24",
+      "orders": 2,
+      "salesVolume": 2,
+      "spend": 12.76,
+      "sales": 39.98,
+      "acos": 31.9,
+      "impressions": 9194,
+      "clicks": 33,
+      "ctr": 0.36,
+      "cvr": 6.06
+    },
+    {
+      "date": "2026-03-25",
+      "orders": 11,
+      "salesVolume": 17,
+      "spend": 9,
+      "sales": 314.83,
+      "acos": 2.9,
+      "impressions": 7407,
+      "clicks": 24,
+      "ctr": 0.32,
+      "cvr": 45.83
+    },
+    {
+      "date": "2026-03-26",
+      "orders": 4,
+      "salesVolume": 4,
+      "spend": 13.6,
+      "sales": 71.96,
+      "acos": 18.9,
+      "impressions": 4069,
+      "clicks": 41,
+      "ctr": 1.01,
+      "cvr": 9.76
+    }
+  ],
+  "campaigns": {
+    "333903452360072": {
+      "name": "TEST-AI-AMJ010095-MANUAL-KEYWORD-BROAD-20260119150235",
+      "type": "手动投放",
+      "budget": 30,
+      "days": [
+        {
+          "date": "2026-03-20",
+          "orders": 2,
+          "salesVolume": 2,
+          "spend": 9.57,
+          "sales": 42.98,
+          "acos": 22.27,
+          "impressions": 4409,
+          "clicks": 15,
+          "ctr": 0.34,
+          "cvr": 13.33
+        },
+        {
+          "date": "2026-03-21",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 12.15,
+          "sales": 17.99,
+          "acos": 67.54,
+          "impressions": 4595,
+          "clicks": 20,
+          "ctr": 0.44,
+          "cvr": 5
+        },
+        {
+          "date": "2026-03-22",
+          "orders": 3,
+          "salesVolume": 3,
+          "spend": 7.69,
+          "sales": 53.97,
+          "acos": 14.25,
+          "impressions": 4322,
+          "clicks": 13,
+          "ctr": 0.3,
+          "cvr": 23.08
+        },
+        {
+          "date": "2026-03-23",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 9.59,
+          "sales": 17.99,
+          "acos": 53.31,
+          "impressions": 3032,
+          "clicks": 17,
+          "ctr": 0.56,
+          "cvr": 5.88
+        },
+        {
+          "date": "2026-03-24",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 7.36,
+          "sales": 19.99,
+          "acos": 36.82,
+          "impressions": 4611,
+          "clicks": 15,
+          "ctr": 0.33,
+          "cvr": 6.67
+        },
+        {
+          "date": "2026-03-25",
+          "orders": 4,
+          "salesVolume": 4,
+          "spend": 4.8,
+          "sales": 80.96,
+          "acos": 5.93,
+          "impressions": 3715,
+          "clicks": 10,
+          "ctr": 0.27,
+          "cvr": 40
+        },
+        {
+          "date": "2026-03-26",
+          "orders": 2,
+          "salesVolume": 2,
+          "spend": 7.17,
+          "sales": 35.98,
+          "acos": 19.93,
+          "impressions": 1432,
+          "clicks": 13,
+          "ctr": 0.91,
+          "cvr": 15.38
+        }
+      ]
+    },
+    "510273719211911": {
+      "name": "TEST-AI-AMJ010095-AUTO-20260119150235",
+      "type": "自动投放",
+      "budget": 15,
+      "days": [
+        {
+          "date": "2026-03-20",
+          "orders": 3,
+          "salesVolume": 3,
+          "spend": 4.2,
+          "sales": 53.97,
+          "acos": 7.78,
+          "impressions": 4001,
+          "clicks": 12,
+          "ctr": 0.3,
+          "cvr": 25
+        },
+        {
+          "date": "2026-03-21",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 8.4,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 3696,
+          "clicks": 24,
+          "ctr": 0.65,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-22",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 5.95,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 3535,
+          "clicks": 17,
+          "ctr": 0.48,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-23",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 8.75,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 6666,
+          "clicks": 25,
+          "ctr": 0.38,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-24",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 5.4,
+          "sales": 19.99,
+          "acos": 27.01,
+          "impressions": 4583,
+          "clicks": 18,
+          "ctr": 0.39,
+          "cvr": 5.56
+        },
+        {
+          "date": "2026-03-25",
+          "orders": 7,
+          "salesVolume": 13,
+          "spend": 4.2,
+          "sales": 233.87,
+          "acos": 1.8,
+          "impressions": 3692,
+          "clicks": 14,
+          "ctr": 0.38,
+          "cvr": 50
+        },
+        {
+          "date": "2026-03-26",
+          "orders": 2,
+          "salesVolume": 2,
+          "spend": 6.43,
+          "sales": 35.98,
+          "acos": 17.87,
+          "impressions": 2637,
+          "clicks": 28,
+          "ctr": 1.06,
+          "cvr": 7.14
+        }
+      ]
+    },
+    "476971790430984": {
+      "name": "TEST-AI-AMJ010095-MANUAL-PRODUCT-EXPANDED-20260119150235",
+      "type": "手动投放",
+      "budget": 12,
+      "days": [
+        {
+          "date": "2026-03-20",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 6,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-21",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 6,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-22",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 2,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-23",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 1,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-24",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-25",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-26",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        }
+      ]
+    },
+    "367851579653868": {
+      "name": "TEST-AI-AMJ010095-MANUAL-PRODUCT-CATEGORY-20260119150235",
+      "type": "手动投放",
+      "budget": 5,
+      "days": [
+        {
+          "date": "2026-03-20",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-21",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-22",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-23",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-24",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-25",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-03-26",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        }
+      ]
+    }
+  }
+}

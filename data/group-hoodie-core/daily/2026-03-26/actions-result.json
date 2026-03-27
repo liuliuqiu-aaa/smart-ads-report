@@ -1,0 +1,44 @@
+{
+  "date": "2026-03-26",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-03-27T08:41:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        {
+          "keyword": "hoodies",
+          "matchType": "NEGATIVE_EXACT"
+        }
+      ],
+      "reason": "7天$3.75/7clk/0单，泛词'hoodies'无效流量。精确否定不影响gym hoodies/workout hoodies等有效长尾。周省$3-4。"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "hoodies for men coofandy",
+      "matchType": "EXACT",
+      "bid": 0.3,
+      "reason": "搜索词报告发现7天1clk/3单/$62.97/ACOS 0.48%，品牌+品类高转化长尾词，精确投放$0.30捕获。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
