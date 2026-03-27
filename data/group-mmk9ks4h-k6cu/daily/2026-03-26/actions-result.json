@@ -1,0 +1,47 @@
+{
+  "date": "2026-03-26",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-03-27T10:28:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "306797621332731",
+      "groupId": "396497492360017",
+      "negativeKeywords": [
+        {
+          "keyword": "6 inch",
+          "matchType": "NEGATIVE_PHRASE"
+        }
+      ],
+      "reason": "双件shorts for men投放下6inch搜索词7天累计约$5.28花费/0单，产品是5inch完全不匹配"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "306797621332731",
+      "groupId": "396497492360017",
+      "negativeKeywords": [
+        {
+          "keyword": "7 inch",
+          "matchType": "NEGATIVE_PHRASE"
+        }
+      ],
+      "reason": "7inch搜索词在本5inch产品上持续不转化，双件+单件均已验证，$1-2/周浪费"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
