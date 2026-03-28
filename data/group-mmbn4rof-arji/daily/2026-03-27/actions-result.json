@@ -1,0 +1,69 @@
+{
+  "date": "2026-03-27",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-03-28T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "coofandy",
+          "matchType": "NEGATIVE_PHRASE"
+        }
+      ],
+      "reason": "collar广泛+sweater with collar广泛截流品牌词，7天coofandy long sleeve polo shirts for men走collar广泛$5.48/8clk/0单+coofandy sweaters for men走sweater广泛$1.88/3clk/0单，合计$7.36/周浪费。品牌词在Polo活动有专门投放(coofandy polo 8单ACOS 3.96%)"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "suter de salir",
+          "matchType": "NEGATIVE_PHRASE"
+        }
+      ],
+      "reason": "西语不相关词suter de salir de hombre，7天$1.30/2clk/0单走sweater with collar广泛，完全不相关产品"
+    },
+    {
+      "id": 3,
+      "type": "resume",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "targetId": "481484151824260",
+      "keyword": "sweater polo men",
+      "currentBid": 0.55,
+      "reason": "30天$1.03/2clk/4单/$271.96 ACOS 0.38%，超级延迟归因。搜索词mens collared sweater/dark red polo sweater men均有转化。之前暂停基于4周0单判断过早，30天数据证明ROI极高"
+    },
+    {
+      "id": 4,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "keyword": "mens over button down sweater",
+      "matchType": "EXACT",
+      "bid": 0.55,
+      "reason": "3-26创建失败(code 0)，重试。7天通过sweater with collar广泛触发men 3 button sweater 3单$79.77 ACOS 0.73%，同类延迟归因超级高效词"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "resume": 1,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 4
+  }
+}
