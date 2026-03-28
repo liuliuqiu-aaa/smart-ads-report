@@ -1,0 +1,47 @@
+{
+  "date": "2026-03-27",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-03-28T09:45:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "hippie men's shirts",
+          "matchType": "NEGATIVE_EXACT"
+        }
+      ],
+      "reason": "30天3click/$3.42/0单，hippie风格与beach coverup产品完全不相关"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "100% cotton cruise shirts men",
+          "matchType": "NEGATIVE_EXACT"
+        }
+      ],
+      "reason": "产品非100% cotton，材质不匹配搜索意图，7天1click/$1.15/0单"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
