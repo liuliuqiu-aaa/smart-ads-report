@@ -1,0 +1,47 @@
+{
+  "date": "2026-03-27",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-03-28T09:48:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "wine red",
+          "matchType": "NEGATIVE_PHRASE"
+        }
+      ],
+      "reason": "搜索词gym shorts coofandy wine red 7天$3.12/4click/0单，找特定颜色款我们没有，占gym shorts投放66%花费"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "306797621332731",
+      "groupId": "396497492360017",
+      "negativeKeywords": [
+        {
+          "keyword": "satin",
+          "matchType": "NEGATIVE_PHRASE"
+        }
+      ],
+      "reason": "搜索词men's satin lounge shorts 7天$0.76/1click/0单，产品mesh运动短裤完全不匹配satin缎面材质"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
