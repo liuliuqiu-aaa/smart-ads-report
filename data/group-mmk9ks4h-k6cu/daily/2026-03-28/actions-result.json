@@ -1,0 +1,26 @@
+{
+  "date": "2026-03-28",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-03-29T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "306797621332731",
+      "reason": "双件手动活动7天ACOS 104.48%（$30.29/$28.99），远超25%约束线。3-26降价后花费已降至$1.56/天但仍0单。3-29评估日到期，策略记忆预设>50%暂停阈值，执行暂停"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
