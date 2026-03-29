@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-28",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-03-29T08:50:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "targetId": "473297978818281",
+      "keyword": "beach shirts for men",
+      "matchType": "phrase",
+      "currentBid": 1.16,
+      "reason": "7天379impr/3click/$3.48/0单，词组匹配累计多轮验证失败。30天同样0单。暂停每周省$3-5，零副作用。精确匹配死局规律第9次确认。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
