@@ -1,0 +1,51 @@
+{
+  "date": "2026-03-28",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-03-29T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "508144749487294",
+      "keyword": "gym hoodie",
+      "currentBid": 0.6,
+      "newBid": 0.69,
+      "reason": "7天$15/5单ACOS 16.68%，是唯一稳定转化大词。ACOS有5.4pp余量，提竞价至AI推荐值$0.69抢更多曝光放量。当前bid=CPC=$0.60顶满。"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "331953890481367",
+      "keyword": "russell athletic hoodie",
+      "currentBid": 0.55,
+      "reason": "3-25新增精确$0.55，出窗验证7天$0.55/1clk/0单。竞品截流词验证失败，CTR仅0.43%。"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "essential hoodie"
+      ],
+      "reason": "7天$1.20/2clk/0单通过gym hoodie广泛触发。品牌流量（Essentials），占gym hoodie 20%曝光(1687/8316)但0转化。否定后释放曝光给有效词。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 3
+  }
+}
