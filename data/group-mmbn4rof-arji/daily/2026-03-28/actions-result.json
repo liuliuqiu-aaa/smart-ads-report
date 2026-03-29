@@ -1,0 +1,84 @@
+{
+  "date": "2026-03-28",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-03-29T08:24:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "525687076267052",
+      "keyword": "coofandy polo",
+      "matchType": "broad",
+      "currentBid": 0.46,
+      "newBid": 0.55,
+      "reason": "7天9单ACOS 4.04% CVR 60%。bid仅AI推荐63%。品牌词最安全放量手段"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "504129401834266",
+      "keyword": "coofandy long sleeve polo",
+      "matchType": "exact",
+      "currentBid": 0.5,
+      "newBid": 0.58,
+      "reason": "7天6单ACOS 3.09% CVR 86%。全组ROI最高投放，周花费仅$3.50"
+    },
+    {
+      "id": 3,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "449834789867347",
+      "keyword": "mens sweater with collar",
+      "matchType": "broad",
+      "currentBid": 0.58,
+      "newBid": 0.63,
+      "reason": "7天7单ACOS 10.65% CVR 23%。collar第二引擎，CPC卡在bid线上，提$0.05释放曝光"
+    },
+    {
+      "id": 4,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "456375041368385",
+      "keyword": "long sleeve collar shirts for men",
+      "matchType": "broad",
+      "currentBid": 0.65,
+      "newBid": 0.7,
+      "reason": "7天20单ACOS 15.31%最大引擎。3-25降价$0.72→$0.65验证成功，现反向提$0.05放量"
+    },
+    {
+      "id": 5,
+      "type": "bidUp",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "308470683464893",
+      "keyword": "polo shirts men",
+      "matchType": "broad",
+      "currentBid": 0.47,
+      "newBid": 0.52,
+      "reason": "7天2单ACOS 22.06%略超目标，但核心搜索词ACOS 12.93%。bid仅AI推荐54%，放量空间大"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 5,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 5
+  }
+}
