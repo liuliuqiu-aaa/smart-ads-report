@@ -1,0 +1,31 @@
+{
+  "date": "2026-03-29",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-03-30T08:42:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "linen beach shirts for men"
+      ],
+      "matchType": "negative_exact",
+      "reason": "30天550impr/8click/$10.40/0单，产品非纯linen beach shirt，搜索意图不匹配。7天又3click/0单持续浪费，每周省$3-5"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
