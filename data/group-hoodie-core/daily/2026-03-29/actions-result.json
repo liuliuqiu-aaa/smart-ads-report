@@ -1,0 +1,55 @@
+{
+  "date": "2026-03-29",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-03-30T08:02:00Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "302579491004539",
+      "keyword": "coofandy hoodies for men",
+      "targetingType": "关键词投放",
+      "currentBid": 0.5,
+      "newBid": 0.35,
+      "reason": "出窗7天ACOS 48.19%仍超目标，最后一次降bid至$0.35。若4-2仍>30%则暂停。"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "targetId": "369997404229739",
+      "keyword": "PRODUCT_COMPLEMENTS",
+      "targetingType": "自动投放",
+      "currentBid": 0.3,
+      "newBid": 0.35,
+      "reason": "7天ACOS 10.21%有10pp余量，3-29曝光断崖需放量。COMPLEMENTS是唯一可控的增长杠杆。"
+    },
+    {
+      "id": 3,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "476971790430984",
+      "targetId": "540979161588123",
+      "keyword": "B0BNQQSQS6",
+      "targetingType": "商品投放",
+      "currentBid": 0.45,
+      "newBid": 0.55,
+      "reason": "活动死水，bid低于AI建议，提bid激活。B0BNQQSQS6是30天超级ASIN(7单ACOS 3.4%)。"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
