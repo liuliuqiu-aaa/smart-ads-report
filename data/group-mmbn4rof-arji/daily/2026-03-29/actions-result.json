@@ -1,0 +1,71 @@
+{
+  "date": "2026-03-29",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-03-30T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "budgetAdjust",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "currentBudget": 15,
+      "newBudget": 20,
+      "reason": "Polo活动7天ACOS 6.41%极度健康，大词组33单ACOS 4.78%，3-29利用率72%接近天花板。suggested budget $35，$15严重限制品牌词放量空间"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "461615722688809",
+      "keyword": "men's pullover sweaters",
+      "currentBid": 0.45,
+      "reason": "7天$4.05/9clk/0单，连续2期0单。sweater泛词季节性衰退+clearance词泄漏，纯浪费"
+    },
+    {
+      "id": 3,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "targetId": "429833878818626",
+      "keyword": "mens blue sweater",
+      "currentBid": 0.9,
+      "newBid": 0.7,
+      "reason": "7天$2.07/3clk/0单，30天1单ACOS 20.01%。bid $0.90远高于CPC $0.69，降至$0.70不影响竞争力"
+    },
+    {
+      "id": 4,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "keyword": "casual collared shirt men long sleeve",
+      "matchType": "EXACT",
+      "bid": 0.55,
+      "reason": "搜索词报告7天1clk/2单ACOS 1.63%，collar广泛触发的超级延迟归因词，精确锁定"
+    },
+    {
+      "id": 5,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "keyword": "mens shirt full sleeve",
+      "matchType": "EXACT",
+      "bid": 0.6,
+      "reason": "搜索词报告7天1clk/3单ACOS 1.60%，连续验证的延迟归因词，精确锁定"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 1,
+    "pause": 1,
+    "newKeyword": 2,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 5
+  }
+}
