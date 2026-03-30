@@ -1,0 +1,19 @@
+{
+  "date": "2026-03-29",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-03-30T09:04:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "3-29是周六（美东），周末单日数据不做决策（pitfall p004）。单件曝光1658强势回升但CTR 0.06%异常低，需周一工作日数据确认是位置下移还是结构性问题。双件已暂停生效。无紧急止血需求。3-31周一是真正判断日。"
+}
