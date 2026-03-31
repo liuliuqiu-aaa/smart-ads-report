@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-30",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-03-31T09:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "keyword": "slim fit athletic shorts men",
+      "matchType": "broad",
+      "bid": 0.78,
+      "reason": "7天2单ACOS 1.86%($50.98/$0.95)，全组转化最优搜索词。当前藏在workout shorts men广泛匹配下仅4曝光，独立投放争取更多曝光。boost-sales目标下，验证有效的转化词必须给独立位置。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
