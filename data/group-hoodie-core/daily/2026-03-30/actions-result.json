@@ -1,0 +1,45 @@
+{
+  "date": "2026-03-30",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-03-31T08:06:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetId": "508144749487294",
+      "keyword": "gym hoodie",
+      "matchType": "broad",
+      "currentBid": 0.69,
+      "newBid": 0.55,
+      "reason": "7天ACOS 41.02%超目标2倍，24clk仅2单CVR 8.3%。提竞价$0.69实验失败：近3天6clk/0单。降回$0.55止血。"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetId": "446916394920302",
+      "keyword": "fashion sweatshirt",
+      "matchType": "broad",
+      "currentBid": 0.25,
+      "newBid": 0.15,
+      "reason": "30天$1.87/7clk/0单累计零转化。搜索词为品类浏览页无购买意图。最后一次降bid，下周仍0单暂停。"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
