@@ -1,0 +1,19 @@
+{
+  "date": "2026-03-31",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-01T15:40:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "reasoning": "4-1已执行5条操作（预算$30、COMP $0.40、暂停reebok/mens dress hoodie、否定russell athletic sweatshirt），3-31/3-30各有2-3条操作在观察期。累计10条操作待验证，不叠加新操作。3-31爆发11单证明方向正确，等4-1/4-2数据确认。"
+}
