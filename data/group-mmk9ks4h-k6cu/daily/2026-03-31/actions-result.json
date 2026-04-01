@@ -1,0 +1,18 @@
+{
+  "date": "2026-03-31",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-01T16:31:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
