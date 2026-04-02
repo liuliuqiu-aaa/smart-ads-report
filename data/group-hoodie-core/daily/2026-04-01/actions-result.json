@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-01",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-02T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "476971790430984",
+      "groupId": "314470982948989",
+      "targetId": "540979161588123",
+      "keyword": "B0BNQQSQS6",
+      "currentBid": 0.55,
+      "reason": "3-30提竞价$0.45→$0.55实验出窗验证失败：7天3clk/$1.55/0单，暂停止血"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetId": "525537229398849",
+      "keyword": "the gym people hoodie",
+      "currentBid": 0.55,
+      "reason": "曾经竞品截流超级词，近7天83imp/0clk/0单完全失效，清理僵尸投放"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetId": "438183981428353",
+      "keyword": "gym hoodies for men",
+      "currentBid": 0.55,
+      "reason": "7天63imp/0clk/0单，gym场景词系列全面崩塌，清理无效投放"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 3,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
