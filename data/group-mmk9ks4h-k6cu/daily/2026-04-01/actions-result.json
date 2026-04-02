@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-01",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-02T09:06:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "420165184101305",
+      "keyword": "mens athletic shorts",
+      "currentBid": 0.55,
+      "newBid": 0.65,
+      "reason": "boost-sales目标下该词7天仅6曝光，bid $0.55远低于AI建议$0.86。预算利用率5%需要打开新入口。升幅18%控制风险。"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P2",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "433270113910539",
+      "keyword": "running shorts for men",
+      "currentBid": 0.4,
+      "newBid": 0.5,
+      "reason": "已验证转化词（30天1单ACOS 7.24%），当前bid $0.40远低于AI建议$0.86，7天仅6曝光。在boost-sales目标下放弃已验证转化入口不可接受。升幅25%温和试探。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
