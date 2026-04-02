@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-01",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-02T08:26:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "481484151824260",
+      "keyword": "sweater polo men",
+      "currentBid": 0.55,
+      "reason": "3-27重启后累计2周$13+/0单，7天$7.09/13clk/0单，sweater季节衰退4月继续失效"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "targetId": "497045576518152",
+      "keyword": "mens lightweight sweater",
+      "currentBid": 0.8,
+      "reason": "7天$8.86/10clk/0单，3-30降bid $1.00→$0.80无改善，4月sweater季节性失效确认"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "targetId": "429833878818626",
+      "keyword": "mens blue sweater",
+      "currentBid": 0.7,
+      "reason": "7天$2.77/4clk/0单，3-29降bid $0.90→$0.70后仍花钱无单，30天仅1单ACOS 24.68%，sweater衰退"
+    },
+    {
+      "id": 4,
+      "type": "budgetAdjust",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "currentBudget": 20,
+      "newBudget": 25,
+      "reason": "7天ACOS 9.03%远低于约束线20%，品牌词引擎32单ACOS<4%，增长目标下预算利用率61%不可接受，保守提$5"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 1,
+    "pause": 3,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 4
+  }
+}
