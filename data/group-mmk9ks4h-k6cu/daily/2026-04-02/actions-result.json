@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-02",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-03T11:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "319741172036330",
+      "keyword": "shorts for men",
+      "matchType": "broad",
+      "currentBid": 0.58,
+      "newBid": 0.72,
+      "reason": "boost-sales目标下流量入口过窄（95%依赖workout shorts men），shorts for men是唯一有实质流量的第二通用词（7天236imp/4clk/CTR 1.69%），提bid从AI建议的68%到85%以突破曝光瓶颈"
+    }
+  ],
+  "pendingActions": [
+    {
+      "executeDate": "2026-04-04",
+      "type": "bidUp",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "433270113910539",
+      "keyword": "running shorts for men",
+      "matchType": "broad",
+      "currentBid": 0.5,
+      "newBid": 0.8,
+      "reason": "30天验证转化词（1单ACOS 7.24%），4-01提bid至$0.50观察期4-04到期，确认$0.50不够需提到$0.80（AI建议93%）"
+    },
+    {
+      "executeDate": "2026-04-04",
+      "type": "investigate",
+      "keyword": "slim fit athletic shorts men",
+      "reason": "3-30添加的新词4天后不存在于数据中，疑似创建失败，需排查EIP后台"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
