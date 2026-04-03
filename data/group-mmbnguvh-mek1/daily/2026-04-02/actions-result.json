@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-02",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-03T11:27:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "beach clothes for men"
+      ],
+      "matchType": "negative_exact",
+      "reason": "7d 3click/$3.45/0单，30d 7click/$9.73/1单(ACOS 48.67%)。上期策略记忆明确触发条件已满足。品类偏泛不匹配产品。"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens cabana shirt"
+      ],
+      "matchType": "negative_exact",
+      "reason": "7d 2click/$2.30/0单，30d 3click/$4.28/0单。上期策略记忆触发条件满足。cabana shirt品类与beach hoodie shirt完全不匹配。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
