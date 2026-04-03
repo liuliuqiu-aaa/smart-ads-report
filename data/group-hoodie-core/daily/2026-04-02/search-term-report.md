@@ -1,37 +1,59 @@
-# 搜索词分析报告 — group-hoodie-core
-数据日期：2026-04-02 | 分析时间：2026-04-03
+# 搜索词分析报告 — AMJ010095智能托管组
+数据日期：2026-04-02 | 分析时间：4-3 19:10
 
-## 1. 🔥 B07YF44L4K 超级ASIN持续爆发（COMPLEMENTS）
-7天1clk/9单/$206.51销售额，ACOS 0.17%。花费仅$0.35。这是回填归因的极致案例——关联购买链路极强。**不做任何操作，让它自然跑。**
+## 🔴 P0：COMPLEMENTS聚合行(*)恶化加速——最大出血口
+- 7天：171clk/$40.28/仅6单，ACOS **37.32%**（目标20%，超标86%）
+- 30天：186clk/$43.08/8单，ACOS 29.93%——7天比30天恶化7.4pp，趋势在加速
+- 占全组花费 **46%**（$40.28/$86.99），产出仅6单。碎片长尾ASIN流量严重拖后腿
+- **对比有名字的ASIN合计：13单/$21.17=ACOS 2.44%** → 问题100%出在没名字的碎片流量
+- 建议：目前无法在COMPLEMENTS级别做否定，这是结构性代价。如ACOS继续恶化考虑降bid $0.35→$0.30回到验证过的安全点
 
-## 2. ⚠️ COMPLEMENTS聚合行（*）效率恶化明显
-7天：171clk/$40.28花费/6单/$107.94，ACOS 37.32%，远超目标20%。对比30天ACOS 29.93%，趋势在恶化。$0.40竞价实验仅跑了1天（4-2），当天数据：19clk/$6.20/3单/ACOS 11.49%（1d归因）还行，但**7天累积的长尾ASIN稀释了整体效率**。依据：4-1当天0转化说明不是每天都能出单，$0.40竞价下漏斗底部转化不稳定。**建议：继续观察至4-5出窗再判断，但心理准备回退$0.35。**
+## 🔥 P1：B07YF44L4K仍是超级ASIN但回填风险极高
+- 7天：1clk/$0.35 → **9单/$206.51**，ACOS 0.17%。单个ASIN贡献全组47%订单
+- 30天数据完全一致（9单/$206.51）→ 这9单全部集中在最近7天窗口
+- **风险：如果回填窗口滑出，7天ACOS将从19.6%飙升到35%+**（丢$206.51销售额）
+- 建议：不操作，但标记为最大下行风险。一旦该ASIN回填结束，全组ACOS会剧变
 
-## 3. 🔴 gym hoodie 确认暂停
-7天：16clk/$9.80/0单，ACOS无穷大。3天逐日（3-31: 0clk, 4-1: 2clk/0单, 4-2: 3clk/0单），降竞价$0.55后仍无改善。**strategy-memory已标记4-3出窗暂停，做。**
+## ✅ 品牌词持续高效——核心利润锚
+- "coofandy hoodies for men"精确：7天6clk/$2.80/1单 ACOS **15.56%**，30天5单ACOS 17.88%
+- "coofandy hoodie"广泛(via pullover for men)：7天1clk/$0.40/1单 ACOS **2.00%**
+- "coofandy pullover for men"广泛：7天2clk/$0.80/1单 ACOS **4.00%**
+- 品牌词总计：7天$4.00/3单 ACOS 7.04%，确认品牌词是利润基石，不动
 
-## 4. 🔴 fashion sweatshirt 确认暂停
-7天：5clk/$1.25/0单。搜索词全部是"men's fashion hoodies & sweatshirts"（品类浏览页流量），30天同样0转化。4-1/4-2连续0曝光说明$0.15竞价已拿不到流量。**暂停，不再浪费。**
+## 🔴 reebok hoodie men仍在花钱——竞品词该断
+- 7天：2clk/$1.20/0单（精确匹配）。30天同样1clk/$0.60/0单
+- 策略记忆记录4-1已暂停精确匹配，但采集显示status=enabled、仍在出单
+- **建议：确认暂停是否生效。如未生效立即重新暂停**
 
-## 5. ✅ coofandy hoodies for men 精确——有出单但CPC溢价
-7天：5clk/$2.45/1单/$17.99，ACOS 13.62%（达标）。但注意CPC $0.49远高于bid $0.35。30天5单ACOS 17.57%也在目标线内。**保持$0.35不动，品牌词继续跑。**
+## ⚠️ athletic sweatshirt持续0转化——接近止血线
+- 7天：6clk/$3.30/0单。30天含russell athletic搜索词合计：13clk/$7.93/1单 ACOS 20.73%
+- 30天唯一1单来自"russell athletic hoodie"搜索词（已否定该品牌词）
+- 扣除品牌搜索词后：30天实际0有效转化
+- 搜索词分布：men's athletic hoodies 3clk/$1.65/0单、russell athletic sweatshirt 1clk/$0.55/0单、running sweatshirt 1clk/$0.55/0单
+- **建议：再观察至4-5（上次设定的出窗日），如仍0单则暂停**
 
-## 6. ✅ coofandy hoodie（通过pullover for men广泛触发）
-7天：1clk/$0.40/1单/$19.99，ACOS 2.00%。品牌词的黄金转化。**coofandy pullover for men $0.40保持不变。**
+## ✅ 手动商品投放有惊喜——B0CD1N325S(expanded)
+- B0DC3TVB95(expanded from B0CD1N325S)：7天1clk/$0.45/1单 ACOS **2.50%**
+- 该ASIN已连续验证出单，expanded活动整体7天10clk/$4.53/1单 ACOS 25.18%
+- 建议：B0CD1N325S保持不动，是expanded活动唯一出单源
 
-## 7. ⚠️ athletic sweatshirt 7天0转化
-7天：6clk/$3.30/0单。上期验证"大成功"ACOS 15.29%，本周归零。搜索词包括"men's athletic hoodies"(2clk)、"russell athletic hoodie"(1clk)、"running sweatshirt"(1clk)——russell相关已否定但仍出现在7天窗口中。**不急操作，等1-2天看回填。如果4-5仍0单，降竞价至$0.45测试。**
+## ⚠️ B0BNQQSQS6 expanded仍在泄漏（已暂停但有尾量）
+- b07bn6kgkq(expanded from B0BNQQSQS6)：7天2clk/$1.00/0单
+- b07c8y6v5b(expanded from B0BNQQSQS6)：7天1clk/$0.55/0单
+- 合计7天$1.55浪费。暂停在生效中（4-2执行），尾量正常
 
-## 8. ⚠️ 商品投放expanded——B0CD1N325S出单但整体低效
-B0CD1N325S 7天：2clk/$0.90/1单ACOS 5.00%，好。但expanded整体7天10clk/$4.53/1单ACOS 25.18%，其余ASIN全0转化。搜索词中b07bn6kgkq(2clk/0单/$1.00)和b07c8y6v5b(1clk/0单/$0.55)来自已暂停的B0BNQQSQS6——暂停已执行，后续花费会归零。**B0CD1N325S继续跑，其余继续观察。**
+## 📊 COMPLEMENTS有名ASIN效率一览（7天出单的）
+| ASIN | 7天clk/花费/单 | ACOS |
+|------|---------------|------|
+| b07yf44l4k | 1/$0.35/9单 | 0.17% |
+| b0fbjrccys | 1/$0.30/1单 | 1.50% |
+| b0fl1tt5br | 1/$0.35/1单 | 1.95% |
+| b0fcfmrt29 | 1/$0.35/1单 | 1.95% |
+| b0fbk76d5w | 1/$0.35/1单 | 1.95% |
 
-## 9. 📊 品牌词搜索量趋势：the gym people hoodie退潮确认
-30天2256imp/10clk/3单 → 7天531imp/2clk/0单。曝光腰斩、转化归零。竞品截流红利期已过。**已暂停，正确决策。**
+这5个ASIN合计：5clk/$1.70/13单 ACOS **0.93%**——全是回填贡献，实际点击极少
 
-## 10. 本次无明确操作建议的观察项
-- light blue hoodies：7天311imp/0clk，$0.30竞价拿不到点击，无害无花费，暂不管
-- mens hooded sweater/mens casual hoodies pullover/pullover hoodie men等长尾词：曝光低、花费极少、无转化，暂无操作价值
-- reebok hoodie men：已暂停（4-1），7天残留$1.20花费会滑出窗口
-
----
-**总结：今天操作两件事——暂停gym hoodie和fashion sweatshirt。其余观察至4-5。核心关注COMPLEMENTS $0.40实验的ACOS走势。**
+## 本次无操作建议的投放
+- light blue hoodies：7天311imp/0clk/$0，无花费无害
+- 多个$0.55+竞价词（slim fit/pullover hoodie men/mens dress hoodie）：7天0clk/$0，竞价高但拿不到流量
+- coofandy hoodie精确$0.25：7天33imp/0clk，低竞价品牌词不花钱不管
