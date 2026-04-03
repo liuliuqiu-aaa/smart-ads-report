@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-02",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-03T08:54:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "508144749487294",
+      "keyword": "gym hoodie",
+      "currentBid": 0.55,
+      "reason": "3-31出窗验证失败。7天16clk/$9.80/0单，降竞价$0.69→$0.55无改善。gym场景词系统性崩塌确认"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "446916394920302",
+      "keyword": "fashion sweatshirt",
+      "currentBid": 0.15,
+      "reason": "3-31出窗验证失败。7天5clk/$1.25/0单，30天$1.87/0转化。搜索词全是品类浏览页。4-1/4-2连续0曝光"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
