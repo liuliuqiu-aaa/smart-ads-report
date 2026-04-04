@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-03",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-04T08:00:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "reasoning": "4-3下达的4条P0操作（COMPLEMENTS $0.40/预算$30/reebok暂停/mens dress hoodie暂停）全在观察期至4-6，不重复操作。athletic sweatshirt暂停决策时机是4-5（明日）。coofandy hoodies for men精确7天0单但30天5单，回填延迟可能，观察至4-7。API执行链路连续3天故障是当前最大阻塞，新增操作无意义——优先排查执行问题。"
+}
