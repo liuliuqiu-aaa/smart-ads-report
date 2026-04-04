@@ -1,0 +1,100 @@
+{
+  "date": "2026-04-03",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-04T08:24:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "308470683464893",
+      "keyword": "polo shirts men",
+      "matchType": "broad",
+      "currentBid": 0.47,
+      "newBid": 0.42,
+      "reason": "3-30降bid后观察4天连续3天0单，7天ACOS 42.98%超目标2倍，$19.33/3单效率极低"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "297451750059069",
+      "keyword": "men long sleeve polo shirts",
+      "matchType": "exact",
+      "currentBid": 0.6,
+      "newBid": 0.52,
+      "reason": "7天17clk/$10.20/1单ACOS 68.05%，4-03单日4clk/$2.40/0单，与polo shirts men广泛搜索词重叠"
+    },
+    {
+      "id": 3,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "525687076267052",
+      "keyword": "coofandy polo",
+      "matchType": "broad",
+      "currentBid": 0.55,
+      "newBid": 0.6,
+      "reason": "7天33clk/$17.75/5单ACOS 14.22%低于约束线5.78pp，品牌词放量boost-sales目标要求"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "quarter zip",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "7天多条quarter zip搜索词合计5clk/$2.52/0单，产品非拉链款式"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens v neck sweater",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7天23展示1clk/$0.58/0单，产品为polo collar非V领"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens black sweater",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7天15展示4clk/$2.67/0单，纯色彩大词不相关"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 6
+  }
+}

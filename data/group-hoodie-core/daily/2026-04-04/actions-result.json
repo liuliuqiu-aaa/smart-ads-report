@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-04",
+  "groupId": "group-hoodie-core",
+  "executedAt": "2026-04-04T16:11:53+08:00",
+  "source": "manual-补执行4-2遗漏P0操作",
+  "total": 4,
+  "success": 3,
+  "warning": 1,
+  "failed": 0,
+  "results": [
+    {
+      "id": 1,
+      "type": "budgetAdjust",
+      "campaign": "510273719211911",
+      "status": "success",
+      "from": 15,
+      "to": 30
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "keyword": "PRODUCT_COMPLEMENTS",
+      "status": "warning",
+      "from": 0.35,
+      "to": 0.40,
+      "note": "API顶层返回SUCCESS但内部HTTP请求失败，待明日采集验证bid是否=0.40"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "keyword": "reebok hoodie men",
+      "status": "success"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "keyword": "mens dress hoodie",
+      "status": "success"
+    }
+  ]
+}
