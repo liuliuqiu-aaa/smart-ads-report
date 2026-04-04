@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-03",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-04T17:10:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "targetId": "433270113910539",
+      "keyword": "running shorts for men",
+      "currentBid": 0.5,
+      "newBid": 0.8,
+      "reason": "30天验证转化词1单ACOS 7.24%，4-01提bid到$0.50失败3天0曝光(Bid/AI=59%)，提到$0.80(94%)突破竞价门槛"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "targetId": "420165184101305",
+      "keyword": "mens athletic shorts",
+      "currentBid": 0.65,
+      "newBid": 0.8,
+      "reason": "4-01提bid到$0.65失败3天0-1曝光(Bid/AI=76%)，提到$0.80(94%)突破门槛，拓展流量入口"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "keyword": "slim fit athletic shorts men",
+      "matchType": "broad",
+      "suggestedBid": 0.8,
+      "reason": "7天2单ACOS 1.86%全组最优转化词，3-30创建失败确认(5天不存在于数据)，重建独立投放"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
