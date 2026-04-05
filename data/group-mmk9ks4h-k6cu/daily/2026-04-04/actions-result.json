@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-04",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-05T09:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "319741172036330",
+      "keyword": "shorts for men",
+      "currentBid": 0.72,
+      "newBid": 0.55,
+      "reason": "4-02提bid实验到期：7天501imp/5clk/$3.32/0单，搜索词品类错配严重（khaki/white/swim shorts），回调止损"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "keyword": "gym shorts men",
+      "matchType": "broad",
+      "newBid": 0.8,
+      "reason": "搜索词报告挖掘：30天7clk/2单ACOS 11.42%全组第二优词，目前无独立入口仅靠被动触发，给独立广泛投放争取流量"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
