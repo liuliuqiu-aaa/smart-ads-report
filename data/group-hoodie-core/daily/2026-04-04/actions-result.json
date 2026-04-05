@@ -1,41 +1,30 @@
 {
   "date": "2026-04-04",
   "groupId": "group-hoodie-core",
-  "executedAt": "2026-04-04T16:11:53+08:00",
-  "source": "manual-补执行4-2遗漏P0操作",
-  "total": 4,
-  "success": 3,
-  "warning": 1,
-  "failed": 0,
-  "results": [
+  "generatedAt": "2026-04-05T08:00:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
     {
       "id": 1,
-      "type": "budgetAdjust",
-      "campaign": "510273719211911",
-      "status": "success",
-      "from": 15,
-      "to": 30
-    },
-    {
-      "id": 2,
-      "type": "bidUp",
-      "keyword": "PRODUCT_COMPLEMENTS",
-      "status": "warning",
-      "from": 0.35,
-      "to": 0.40,
-      "note": "API顶层返回SUCCESS但内部HTTP请求失败，待明日采集验证bid是否=0.40"
-    },
-    {
-      "id": 3,
       "type": "pause",
-      "keyword": "reebok hoodie men",
-      "status": "success"
-    },
-    {
-      "id": 4,
-      "type": "pause",
-      "keyword": "mens dress hoodie",
-      "status": "success"
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetId": "491096254636165",
+      "keyword": "athletic sweatshirt",
+      "currentBid": 0.55,
+      "reason": "出窗暂停。7天7clk/$3.85/0单，30天$7.78零转化。搜索词全是竞品(russell athletic)和泛运动词，全部0转化。strategy-memory标记4-5出窗执行。"
     }
-  ]
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
 }
