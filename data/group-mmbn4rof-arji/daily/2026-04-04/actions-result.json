@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-04",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-05T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "504129401834266",
+      "keyword": "coofandy long sleeve polo",
+      "matchType": "exact",
+      "currentBid": 0.58,
+      "newBid": 0.63,
+      "reason": "7天13单ACOS 9.11%（30天25单ACOS 3.94%），bid仅AI推荐69%，品牌词放量最确定机会。ACOS有10.89pp余量"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "522562610247037",
+      "targetId": "371523394249871",
+      "keyword": "mens knit polo",
+      "matchType": "broad",
+      "currentBid": 0.47,
+      "newBid": 0.52,
+      "reason": "7天2单ACOS 2.74%但曝光极低(284imp)，bid仅AI推荐55%被严重压制。试探性放量，风险极低($1.37/周)"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
