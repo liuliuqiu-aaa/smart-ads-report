@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-05",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-06T08:00:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "targetId": "369997404229739",
+      "keyword": "PRODUCT_COMPLEMENTS",
+      "currentBid": 0.35,
+      "newBid": 0.4,
+      "reason": "4-4提交失败(API假成功/bid未变)，重新提交。COMPLEMENTS占全组82.6%订单，$0.35竞价下日花费$10/预算利用率30.8%已触顶，放量必须提竞价。7天ACOS 17.89%有2pp余量。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
