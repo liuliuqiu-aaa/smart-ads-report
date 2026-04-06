@@ -1,0 +1,76 @@
+{
+  "date": "2026-04-05",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-06T08:26:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "308470683464893",
+      "keyword": "polo shirts men",
+      "matchType": "broad",
+      "currentBid": 0.42,
+      "reason": "曝光归零(23)到竞价地板，3次降bid验证失败，唯一转化词已被collar广泛覆盖"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens sweater",
+          "matchType": "negative_exact"
+        },
+        {
+          "keyword": "fashion sweaters for men",
+          "matchType": "negative_exact"
+        },
+        {
+          "keyword": "mens polo sweater",
+          "matchType": "negative_exact"
+        }
+      ],
+      "reason": "sweater with collar通道泄漏词，合计$3.70/0单，通道整体ACOS 39.58%"
+    },
+    {
+      "id": 3,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "297451750059069",
+      "keyword": "men long sleeve polo shirts",
+      "matchType": "exact",
+      "currentBid": 0.52,
+      "newBid": 0.45,
+      "reason": "7天ACOS 29.22%超标9pp，同搜索词collar广泛通道ACOS 3.5%远优，精确通道性价比低"
+    },
+    {
+      "id": 4,
+      "type": "bidDown",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "targetId": "405098051698925",
+      "keyword": "collared sweaters for men",
+      "matchType": "exact",
+      "currentBid": 0.65,
+      "newBid": 0.55,
+      "reason": "提bid至$0.65后连续多期0单，7天4clk/$2.60/0单，CPC=bid说明竞价充分但零转化"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 4
+  }
+}
