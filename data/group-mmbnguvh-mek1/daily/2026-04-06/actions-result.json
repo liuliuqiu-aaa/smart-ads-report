@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-06",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-07T08:44:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "cruise shirts for men",
+          "matchType": "negative_exact"
+        }
+      ],
+      "reason": "7d 5click/$5.55/0单，30d数据完全相同（流量全集中近7天），cruise shirt品类（旅游正装短袖）与产品定位（hoodie防晒衬衫）不匹配，达到5click/0单否定阈值"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  },
+  "noActionReasons": [
+    "3/31超级回填日明天滑出7天窗口，ACOS将虚高至42-48%，不在窗口过渡期调bid",
+    "核心出单词ACOS 25.03%已达标，现有bid $1.15经多轮验证为最佳出价点",
+    "放量决策（预算$55→$80）推迟至4/8-4/9，等4/1-4/7纯净窗口稳定后评估",
+    "4/3两个否定（beach clothes for men / mens cabana shirt）残留仍在消退，等清洗完成再评估净ACOS"
+  ]
+}
