@@ -1,0 +1,58 @@
+{
+  "date": "2026-04-06",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-07T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "adGroupId": "287645154677094",
+      "targetId": "302579491004539",
+      "keyword": "coofandy hoodies for men",
+      "matchType": "exact",
+      "currentBid": 0.35,
+      "newBid": 0.45,
+      "reason": "30天33clk/5单ACOS 17.88%效率达标，$0.35导致曝光断崖(日均99→11)，B07YF44L4K滑出后急需增量订单来源"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "adGroupId": "287645154677094",
+      "targetId": "332064545335727",
+      "keyword": "coofandy hoodie",
+      "matchType": "exact",
+      "currentBid": 0.25,
+      "newBid": 0.35,
+      "reason": "品牌核心词bid远低于AI建议$0.55，7天48imp/0clk流量打不出去。搜索词coofandy hoodie已通过广泛匹配验证出单(ACOS 2%)"
+    },
+    {
+      "id": 3,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "adGroupId": "287645154677094",
+      "targetId": "477287543703637",
+      "keyword": "coofandy hoodie",
+      "matchType": "exact",
+      "currentBid": 0.2,
+      "newBid": 0.35,
+      "reason": "同#2，另一个coofandy hoodie精确投放，bid$0.20更低，7天24imp/0clk几乎无流量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 3,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
