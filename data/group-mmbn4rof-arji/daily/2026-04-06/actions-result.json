@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-06",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-07T08:23:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "522562610247037",
+      "targetId": "371523394249871",
+      "keyword": "mens knit polo",
+      "matchType": "broad",
+      "currentBid": 0.52,
+      "newBid": 0.58,
+      "reason": "4-04提bid评估日到期，7天2单ACOS 2.74%极高效但曝光仅260（日均37），bid仅AI推荐61%。提至$0.58试探打开曝光通道"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
