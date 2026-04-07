@@ -248,6 +248,19 @@ function mergePhases(groups){
   });
 }
 
+function mergeM2Phases(groups){
+  var pgs=groups.filter(function(g){return g.phases&&g.phases.length>=2});
+  if(!pgs.length)return[];
+  return pgs[0].phases.map(function(_,i){
+    var t={impressions:0,clicks:0,spend:0,orders:0,salesVolume:0,salesAmount:0},days=1;
+    pgs.forEach(function(g){var p=g.phases?g.phases[i]:null;if(!p)return;t.impressions+=pn(p.metrics.impressions);t.clicks+=pn(p.metrics.clicks);t.spend+=pn(p.metrics.spend);t.orders+=pn(p.metrics.orders);t.salesVolume+=pn(p.metrics.salesVolume);t.salesAmount+=pn(p.metrics.salesAmount);days=p.days||1});
+    var ref=pgs[0].phases[i];
+    return{name:ref.name,start:ref.start,end:ref.end,days:days,
+      metrics:Object.assign({},t,{acos:t.salesAmount>0?(t.spend/t.salesAmount*100):0,ctr:t.impressions>0?(t.clicks/t.impressions*100):0,cvr:t.clicks>0?(t.orders/t.clicks*100):0,cpc:t.clicks>0?(t.spend/t.clicks):0}),
+      dailyAvg:{spend:t.spend/days,orders:t.orders/days,salesAmount:t.salesAmount/days,salesVolume:t.salesVolume/days,impressions:t.impressions/days,clicks:t.clicks/days}};
+  });
+}
+
 function mergeOcPhases(groups){
   var pgs=groups.filter(function(g){return g.phases&&g.phases.length>=2});
   if(!pgs.length)return[];
@@ -338,16 +351,29 @@ function renderEip(){
     }
   }
 
-  /* M2 summary */
+  /* M2 summary with phase comparison */
   if(hasM2){
-    var m2o=mergeOverall(m2Groups);
-    var m2d=m2o.days;var m2m=m2o.metrics;
-    kpiHtml+='<div class="m2-summary" style="grid-column:1/-1"><h4>📊 M2 组汇总 ('+m2Groups.length+'组, '+m2d+'天)</h4>'+
-      kR('ACOS',m2m.acos.toFixed(2)+'%',{text:'',cls:'neutral'})+
-      kR('累计花费','$'+m2m.spend.toFixed(2),{text:'',cls:'neutral'})+
-      kR('累计销售额','$'+m2m.salesAmount.toFixed(2),{text:'',cls:'neutral'})+
-      kR('日均花费','$'+(m2m.spend/m2d).toFixed(2),{text:'',cls:'neutral'})+
-      kR('日均订单',(m2m.orders/m2d).toFixed(1),{text:'',cls:'neutral'})+'</div>';
+    var m2HasPhases=m2Groups.some(function(g){return g.phases&&g.phases.length>=2});
+    if(m2HasPhases){
+      var m2Phases=mergeM2Phases(m2Groups);
+      if(m2Phases.length>=2){
+        var m2p1=m2Phases[0],m2p2=m2Phases[1];
+        kpiHtml+='<div style="grid-column:1/-1"><h4 style="color:var(--purple);margin-bottom:8px;font-size:13px">📊 M2 两版本对比 ('+m2Groups.length+'组)</h4><table class="phase-table"><tr><th>指标</th><th>'+m2p1.name+' ('+m2p1.days+'天日均)</th><th>'+m2p2.name+' ('+m2p2.days+'天日均)</th><th>变化</th></tr>'+
+          pR2('花费($)',m2p1.dailyAvg.spend,m2p2.dailyAvg.spend,false)+pR2('订单',m2p1.dailyAvg.orders,m2p2.dailyAvg.orders,false)+
+          pR2('销量',m2p1.dailyAvg.salesVolume,m2p2.dailyAvg.salesVolume,false)+pR2('销售额($)',m2p1.dailyAvg.salesAmount,m2p2.dailyAvg.salesAmount,false)+
+          pRP2('ACOS',m2p1.metrics.acos,m2p2.metrics.acos,true)+pRP2('CTR',m2p1.metrics.ctr,m2p2.metrics.ctr,false)+
+          pRP2('CVR',m2p1.metrics.cvr,m2p2.metrics.cvr,false)+'</table></div>';
+      }
+    } else {
+      var m2o=mergeOverall(m2Groups);
+      var m2d=m2o.days;var m2m=m2o.metrics;
+      kpiHtml+='<div class="m2-summary" style="grid-column:1/-1"><h4>📊 M2 组汇总 ('+m2Groups.length+'组, '+m2d+'天)</h4>'+
+        kR('ACOS',m2m.acos.toFixed(2)+'%',{text:'',cls:'neutral'})+
+        kR('累计花费','$'+m2m.spend.toFixed(2),{text:'',cls:'neutral'})+
+        kR('累计销售额','$'+m2m.salesAmount.toFixed(2),{text:'',cls:'neutral'})+
+        kR('日均花费','$'+(m2m.spend/m2d).toFixed(2),{text:'',cls:'neutral'})+
+        kR('日均订单',(m2m.orders/m2d).toFixed(1),{text:'',cls:'neutral'})+'</div>';
+    }
   }
 
   /* No phase data at all */
@@ -365,6 +391,7 @@ function renderEip(){
   if(daily.length){
     var dates=daily.map(function(d){return d.date.slice(5)});
     var pLines=DATA.config?(DATA.config.eipM1Phases||DATA.config.eipPhases||[]):[];
+    if(DATA.config&&DATA.config.eipM2Phases){pLines=pLines.concat(DATA.config.eipM2Phases.slice(1).map(function(p){return Object.assign({},p,{name:'M2 '+p.name})}))}
     chartMap['eip-charts'].push(createDualChart(ct,'广告效果趋势','花费($)',daily.map(function(d){return d.metrics.spend}),CL.spend,'销售额($)',daily.map(function(d){return d.metrics.salesAmount}),CL.sales,'ACOS(%)',daily.map(function(d){return d.metrics.acos}),CL.acos,dates,pLines));
     chartMap['eip-charts'].push(createDualChart(ct,'曝光点击趋势','曝光量',daily.map(function(d){return d.metrics.impressions}),CL.imp,'点击量',daily.map(function(d){return d.metrics.clicks}),CL.clicks,'CTR(%)',daily.map(function(d){return d.metrics.ctr}),CL.ctr,dates,pLines));
     chartMap['eip-charts'].push(createDualChart(ct,'转化趋势','订单',daily.map(function(d){return d.metrics.orders}),CL.orders,'销量',daily.map(function(d){return d.metrics.salesVolume}),CL.volume,'CVR(%)',daily.map(function(d){return d.metrics.cvr}),CL.cvr,dates,pLines));
@@ -401,6 +428,18 @@ function renderEipGroupDetail(g){
       pRP('CTR',pn(b.metrics.ctr),pn(ol.metrics.ctr),pn(on.metrics.ctr),false)+
       pRP('CVR',pn(b.metrics.cvr),pn(ol.metrics.cvr),pn(on.metrics.cvr),false)+'</table>';
     ct.appendChild(tbl);
+  } else if(g._model==='M2'&&g.phases&&g.phases.length>=2){
+    var m2b=g.phases[0],m2a=g.phases[1];
+    var m2bd=m2b.days||1,m2ad=m2a.days||1;
+    var tbl=document.createElement('div');
+    tbl.innerHTML='<h3 style="color:var(--purple);margin-bottom:12px">'+g.name+' 版本对比</h3><table class="phase-table"><tr><th>指标</th><th>'+m2b.name+' ('+m2bd+'天)</th><th>'+m2a.name+' ('+m2ad+'天)</th><th>变化</th></tr>'+
+      pR2('日均花费($)',pn(m2b.metrics.spend)/m2bd,pn(m2a.metrics.spend)/m2ad,false)+
+      pR2('日均订单',pn(m2b.metrics.orders)/m2bd,pn(m2a.metrics.orders)/m2ad,false)+
+      pR2('日均销售额($)',pn(m2b.metrics.salesAmount)/m2bd,pn(m2a.metrics.salesAmount)/m2ad,false)+
+      pRP2('ACOS',pn(m2b.metrics.acos),pn(m2a.metrics.acos),true)+
+      pRP2('CTR',pn(m2b.metrics.ctr),pn(m2a.metrics.ctr),false)+
+      pRP2('CVR',pn(m2b.metrics.cvr),pn(m2a.metrics.cvr),false)+'</table>';
+    ct.appendChild(tbl);
   } else if(g.overall){
     var m=g.overall.metrics,d=g.overall.days||1;
     var tbl=document.createElement('div');
@@ -412,7 +451,9 @@ function renderEipGroupDetail(g){
     ct.appendChild(tbl);
   }
   if(g.daily&&g.daily.length){
-    var dates=g.daily.map(function(d){return d.date.slice(5)});var pLines=DATA.config?(DATA.config.eipM1Phases||DATA.config.eipPhases||[]):[];
+    var dates=g.daily.map(function(d){return d.date.slice(5)});
+    var pLines=DATA.config?(DATA.config.eipM1Phases||DATA.config.eipPhases||[]):[];
+    if(g._model==='M2'&&DATA.config&&DATA.config.eipM2Phases){pLines=DATA.config.eipM2Phases}
     var row=document.createElement('div');row.className='charts-row triple';ct.appendChild(row);
     chartMap['eip-detail'].push(createDualChart(row,'广告效果','花费($)',g.daily.map(function(d){return d.metrics.spend}),CL.spend,'销售额($)',g.daily.map(function(d){return d.metrics.salesAmount}),CL.sales,'ACOS(%)',g.daily.map(function(d){return d.metrics.acos}),CL.acos,dates,pLines));
     chartMap['eip-detail'].push(createDualChart(row,'曝光点击','曝光',g.daily.map(function(d){return d.metrics.impressions}),CL.imp,'点击',g.daily.map(function(d){return d.metrics.clicks}),CL.clicks,'CTR(%)',g.daily.map(function(d){return d.metrics.ctr}),CL.ctr,dates,pLines));
