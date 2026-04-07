@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-06",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-07T09:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "173942146993352",
+      "groupId": "169542372364427",
+      "targetId": "111577450873905",
+      "keyword": "gym shorts for men 5 inch",
+      "matchType": "exact",
+      "currentBid": 0.8,
+      "newBid": 0.65,
+      "reason": "7天4209imp/5clk/$4.20/0单，30天持续0转化，CTR 0.12%极差。降bid减少无效花费，Bid/AI=81%不会失去曝光"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
