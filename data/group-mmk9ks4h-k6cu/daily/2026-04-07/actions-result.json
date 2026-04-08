@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-07",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-08T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "290724878595485",
+      "keyword": "workout shorts men 5 inch",
+      "currentBid": 0.92,
+      "newBid": 0.75,
+      "reason": "7天2098imp/5clk/$4.60/0单，30天同样0单。占BR单件花费15.2%全部喂养0转化流量，CPC恒等于bid无折扣。降18.5%压缩无效花费"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "433270113910539",
+      "keyword": "running shorts for men",
+      "currentBid": 0.8,
+      "newBid": 0.9,
+      "reason": "4-03提bid到$0.80后5天仅36imp/1clk曝光极低。已验证转化词（30天1单ACOS 7.24%），提到AI 129%做最后一搏突破曝光门槛"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
