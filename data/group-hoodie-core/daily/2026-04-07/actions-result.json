@@ -1,0 +1,40 @@
+{
+  "date": "2026-04-07",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-08T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "524742453004910",
+      "keyword": "pullover hoodie men",
+      "currentBid": 0.6,
+      "newBid": 0.45,
+      "reason": "7天32imp/2clk/$1.20/0单，CPC $0.60顶价成交零转化，降至$0.45减少单次浪费保留曝光"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "targetId": "552687810322011",
+      "keyword": "mens casual hoodies pullover",
+      "currentBid": 0.15,
+      "reason": "7天323imp/2clk/$0.30/0单，30天0单，bid $0.15(AI建议$0.49)导致广告位极差CTR 0.62%，虚假曝光无转化价值"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
