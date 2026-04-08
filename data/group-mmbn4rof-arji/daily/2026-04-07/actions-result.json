@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-07",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-08T08:24:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "targetId": "405098051698925",
+      "keyword": "collared sweaters for men",
+      "currentBid": 0.55,
+      "reason": "4-05降bid $0.65→$0.55观察期到期，7天$1.30/2clicks/0单，30天$3.40/5clicks/1单ACOS 34%，连续多期0单确认暂停"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "v neck sweater for men",
+          "matchType": "negative_exact"
+        },
+        {
+          "keyword": "men's fall sweaters",
+          "matchType": "negative_exact"
+        }
+      ],
+      "reason": "sweater with collar广泛7天ACOS 29.89%，这两个搜索词确认不相关（V领/秋季sweater）且0单，追加否定减少泄漏"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "polo sweater men",
+          "matchType": "negative_exact"
+        },
+        {
+          "keyword": "mens sweater polo",
+          "matchType": "negative_exact"
+        }
+      ],
+      "reason": "coofandy polo广泛泄漏：两词合计7天$8.10/14clicks/0单，搜索意图偏sweater非polo shirt，占广泛花费22%"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 3
+  }
+}
