@@ -1,0 +1,40 @@
+{
+  "date": "2026-04-08",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-09T09:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "468212566042622",
+      "keyword": "mens gym shorts",
+      "matchType": "broad",
+      "currentBid": 0.72,
+      "newBid": 0.85,
+      "reason": "gym shorts men是全组第二核心搜索词(30天3单ACOS 10.06%)，mens gym shorts可匹配到该搜索词。当前$0.72=AI 104%曝光仅95imp/周，提到AI 123%打开流量入口"
+    }
+  ],
+  "pendingForScheduler": [
+    {
+      "type": "investigate",
+      "priority": "P0",
+      "issue": "create-keyword API连续失败",
+      "detail": "gym shorts men新词(4-04创建)5天0数据确认失败。加上slim fit athletic shorts men两次失败，共3次。两个最优搜索词无独立入口是整组增长瓶颈，必须排查API问题"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
