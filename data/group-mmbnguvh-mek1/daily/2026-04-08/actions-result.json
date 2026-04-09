@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-08",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-09T08:44:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "camisa lino playa hombre"
+      ],
+      "matchType": "negativeExact",
+      "reason": "西班牙语搜索词，US站非英语流量几乎无转化。7d 1click/$1.15/0单，30d 1click/$1.15/0单"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "nike long sleeve beach men shirt uv protection with hoodie"
+      ],
+      "matchType": "negativeExact",
+      "reason": "品牌搜索词(Nike)，用户明确搜Nike产品不匹配COOFANDY。7d 1click/$1.15/0单"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens cotton beach shirt no hood"
+      ],
+      "matchType": "negativeExact",
+      "reason": "no hood明确排斥hoodie产品，需求与产品方向完全相反。7d 1click/$1.15/0单"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 3
+  }
+}
