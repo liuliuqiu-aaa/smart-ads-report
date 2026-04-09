@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-08",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-09T08:22:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "297451750059069",
+      "keyword": "men long sleeve polo shirts",
+      "currentBid": 0.45,
+      "newBid": 0.4,
+      "reason": "4-05降至$0.45观察到期，7天ACOS 37.42%（$5.61/1单）恶化，30天25.64%仍超约束线。collar广泛同词ACOS 4.73%远优，精确通道边际价值低。最后试探$0.40，如仍>30%则暂停"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
