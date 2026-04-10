@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-09",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-10T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "targetId": "297451750059069",
+      "keyword": "men long sleeve polo shirts",
+      "matchType": "exact",
+      "currentBid": 0.4,
+      "reason": "4-09曝光归零，$0.60→$0.52→$0.45→$0.40连续4次降bid失败。7天$4.41/8clicks/1单ACOS 29.42%。collar广泛同搜索词2单ACOS 1.63%完全替代"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
