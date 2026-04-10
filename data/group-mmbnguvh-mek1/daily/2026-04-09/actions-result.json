@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-09",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-10T08:51:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve linen beach shirt",
+          "matchType": "negativeExact"
+        }
+      ],
+      "reason": "30d 2click/$3.15/0单，linen方向已反复验证无转化，精确否定补漏"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "mens linen beach shirt long sleeve",
+          "matchType": "negativeExact"
+        }
+      ],
+      "reason": "30d 2click/$2.75/0单，linen长尾变体同义词补漏"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
