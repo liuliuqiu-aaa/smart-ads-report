@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-09",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-10T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "targetId": "14725153310998",
+      "keyword": "gym shorts",
+      "currentBid": 0.77,
+      "newBid": 0.65,
+      "reason": "7天ACOS 44.14%（16clk/$12.35/1单），连续4天恶化（8.26→16.51→30.38→44.14%），4-09单日5clk/$3.85/0单为近期最高。降至$0.65控制花费，30天ACOS 14.92%基底仍健康不过度压缩"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
