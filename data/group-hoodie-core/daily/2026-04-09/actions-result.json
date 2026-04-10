@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-09",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-10T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetId": "524742453004910",
+      "keyword": "pullover hoodie men",
+      "currentBid": 0.45,
+      "reason": "4-7降竞价$0.60→$0.45出窗评估：7天25imp/2clk/$1.20/0单，CPC$0.60系统溢价到顶，降竞价后曝光塌陷至个位数，30天同样0单。暂停止血。"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "B0CJ99Y11Y"
+      ],
+      "reason": "COMPLEMENTS搜索词B0CJ99Y11Y确认吞金兽：7天4clk/$1.50/0单，30天6clk/$2.15/0单。上期已标注观察，本期达否定阈值。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
