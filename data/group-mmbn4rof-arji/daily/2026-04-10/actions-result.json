@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-10",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-11T08:22:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "targetId": "449834789867347",
+      "keyword": "mens sweater with collar",
+      "currentBid": 0.55,
+      "newBid": 0.5,
+      "reason": "7天ACOS 51.37%（$7.70/14clk/1单），持续3+期超约束线。4-07已否定2词但仍有7个泛sweater词泄漏$3.85/0单。降bid 9%收窄泛词匹配"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
