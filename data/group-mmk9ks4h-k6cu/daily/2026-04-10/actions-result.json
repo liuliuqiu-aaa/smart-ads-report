@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-10",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-11T09:04:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "targetId": "433270113910539",
+      "keyword": "running shorts for men",
+      "currentBid": 0.9,
+      "newBid": 0.75,
+      "reason": "4-07提bid至$0.90后4天275imp/3clk/$2.60/0单，CTR1.09%但0转化。30天近期14天0单。降至AI的86%保留基础曝光减少无效花费"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
