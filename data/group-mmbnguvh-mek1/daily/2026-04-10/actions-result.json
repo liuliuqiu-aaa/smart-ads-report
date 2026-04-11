@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-10",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-11T08:44:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "men's long sleeve beach shirt",
+          "matchType": "negative_exact"
+        }
+      ],
+      "reason": "30d 15click/$17.15/1单/ACOS 114.41%，单数形式系统性低效的第N次验证，复数形式ACOS 32.62%正常不受影响"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
