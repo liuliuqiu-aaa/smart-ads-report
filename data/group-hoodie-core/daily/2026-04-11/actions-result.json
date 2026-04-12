@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-11",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-12T08:06:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jum2v8i"
+      ],
+      "reason": "7天3clk/$1.20/0单，30天8clk/$2.90/0单。30天零转化确认吞金，上期观察条件触发"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jum2v4w"
+      ],
+      "reason": "7天3clk/$1.20/0单，30天4clk/$1.55/0单。30天零转化确认吞金"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jum2vaq"
+      ],
+      "reason": "7天5clk/$2.00/0单，30天11clk/$4.10/1单ACOS22.8%。近7天0单确认退化，花费最高的b00jum ASIN"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 3
+  }
+}
