@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-11",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-12T09:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "173942146993352",
+      "groupId": "169542372364427",
+      "targetId": "88384943257731",
+      "keyword": "mens workout shorts",
+      "currentBid": 0.7,
+      "newBid": 0.6,
+      "reason": "7天917imp/8clk/$5.56/0单，30天同样0单。双渠道合计30天14clk/$10.36/0单确认不转化"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "173942146993352",
+      "groupId": "169542372364427",
+      "targetId": "253617185424229",
+      "keyword": "mens mesh shorts 7 inch inseam",
+      "currentBid": 0.81,
+      "newBid": 0.65,
+      "reason": "7天627imp/4clk/$3.32/0单，产品5 inch与7 inch inseam搜索意图尺寸错配"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
