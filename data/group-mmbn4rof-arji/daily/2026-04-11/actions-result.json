@@ -1,0 +1,45 @@
+{
+  "date": "2026-04-11",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-12T08:24:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "449834789867347",
+      "keyword": "mens sweater with collar",
+      "matchType": "broad",
+      "currentBid": 0.5,
+      "newBid": 0.45,
+      "reason": "7天ACOS 43.70%（$6.55/1单），4-10降bid后从51%→44%有改善但仍超目标2倍。搜索词极度分散12词各$0.55。最后一次降bid观察，若仍>30%暂停"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "matchType": "broad",
+      "currentBid": 0.48,
+      "newBid": 0.52,
+      "reason": "连续3周出单ACOS 1.66%（$0.96/4单），曝光仅271极低。增长目标下最值得放量的通道，温和提bid$0.04验证"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
