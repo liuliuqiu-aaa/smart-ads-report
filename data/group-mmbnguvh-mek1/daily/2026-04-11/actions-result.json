@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-11",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-12T08:45:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "oyozone mens linen shirts casual button down shirts long sleeve roll-up sleeve summer beach shirts tops with hood",
+          "matchType": "negativeExact"
+        }
+      ],
+      "reason": "竞品品牌(Oyozone)搜索词，7d 1click/$0.94/0单，买家搜品牌不会买COOFANDY"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "mens cotton linen hoodies sun protection lightweight beach shirt",
+          "matchType": "negativeExact"
+        }
+      ],
+      "reason": "超长尾linen描述词，7d 1click/$1.15/0单，linen方向全线低效，精确否定零风险"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
