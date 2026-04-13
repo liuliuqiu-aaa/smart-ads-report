@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-12",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-13T08:26:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "sweater",
+          "matchType": "negative_phrase"
+        }
+      ],
+      "reason": "coofandy polo广泛7天ACOS 27.73%（上期10-14%），sweater系搜索词泄漏合计$12+/周仅2单。词组否定一次性堵住所有sweater变体，预计每周止血$8-10"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
