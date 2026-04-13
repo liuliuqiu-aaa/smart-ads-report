@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-12",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-13T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "weding beach shirt man",
+          "matchType": "NEGATIVE_EXACT"
+        }
+      ],
+      "reason": "拼写错误(wedding)+婚礼正装场景不匹配，7d 1click/$1.15/0单"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "beach linen shirts for men",
+          "matchType": "NEGATIVE_EXACT"
+        }
+      ],
+      "reason": "linen方向多次验证无转化，30d 3click/$3.90/0单达阈值"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
