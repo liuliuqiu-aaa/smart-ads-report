@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-12",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-13T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b01b9k2jb2"
+      ],
+      "reason": "7天$1.20/3clk/0单，30天$2.20/6clk/0单，连续两期零转化确认吞金，执行否定"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jumdzs8"
+      ],
+      "reason": "b00jum吞金群漏网最大成员，7天$0.80/2clk/0单，30天$2.20/6clk/0单零转化，追加否定"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
