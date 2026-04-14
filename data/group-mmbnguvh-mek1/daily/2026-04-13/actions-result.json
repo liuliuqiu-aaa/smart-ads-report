@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-13",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-14T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "targetId": "449409101183526",
+      "keyword": "mens beach shirts",
+      "matchType": "broad",
+      "currentBid": 1.15,
+      "newBid": 1.1,
+      "reason": "beach shirts for men搜索词30d ACOS 62.02%连续3期破58%红线(59→60→62%↑恶化)，7d仅2单/ACOS 203%。降$0.05筛掉尾部低效曝光，保守档不断流"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
