@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-13",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-14T08:04:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "negativeType": "negativeProduct",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b01hiutcw6"
+      ],
+      "reason": "7天3clk/$1.20/0单，30天4clk/$1.55/0单，上期已标记4-14仍0单则否定，条件已满"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "negativeType": "negativeProduct",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0cj9blwkx"
+      ],
+      "reason": "30天8clk/$2.79/0单零转化确认，7天1clk/$0.40/0单退潮中但长期吞金"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
