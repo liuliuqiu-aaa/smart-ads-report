@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-13",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-14T09:04:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "173942146993352",
+      "targetId": "88384943257731",
+      "keyword": "mens workout shorts",
+      "currentBid": 0.6,
+      "newBid": 0.5,
+      "reason": "4-11降bid $0.60后3天8clk/$4.75/0单，30天双渠道20clk/$15.71/0单确认不转化，再降至$0.50做最后尝试"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P2",
+      "campaignId": "456563888390401",
+      "targetId": "420165184101305",
+      "keyword": "mens athletic shorts",
+      "currentBid": 0.8,
+      "newBid": 0.65,
+      "reason": "11天835imp/3clk/$2.40/0单终极评估到期，搜索词部分偏移，降bid压缩花费继续保留曝光"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
