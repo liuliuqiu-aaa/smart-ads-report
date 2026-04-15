@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-14",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-15T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "currentBid": 0.52,
+      "newBid": 0.55,
+      "reason": "4-11提bid $0.48→$0.52验证通过：曝光+102%(271→547)，7天3单ACOS 2.33%。增长目标下继续放量，bid仍仅为AI推荐$0.74的74%"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "keyword": "big and tall collared shirts for men",
+      "matchType": "exact",
+      "newBid": 0.65,
+      "reason": "collar大词广泛匹配已验证：7天1clk/$0.65/3单(4qty) ACOS 0.87%，高度精准高转化。新建精确锁定流量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
