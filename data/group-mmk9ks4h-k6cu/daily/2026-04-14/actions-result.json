@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-14",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-15T09:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "budgetAdjust",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "currentBudget": 10,
+      "newBudget": 15,
+      "reason": "旧EX2预算利用率94.8%，4-14花费$11.85触达天花板。近3天5单/ACOS约17%远低于25%约束。boost-sales目标下增长正在被$10预算限制，提至$15打开放量空间"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 1,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
