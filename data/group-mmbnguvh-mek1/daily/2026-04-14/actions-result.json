@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-14",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-15T08:45:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "降bid $1.15→$1.10 观察期至4/16（4/13执行），仅过1天，3天观察期未满。按p002避坑原则（一次只动一个变量），不追加其他操作。4/16是三合一评估日（降bid效果+放量+否定'casual beach shirts for men'）。7d ACOS 54.21%连续5期改善中。"
+}
