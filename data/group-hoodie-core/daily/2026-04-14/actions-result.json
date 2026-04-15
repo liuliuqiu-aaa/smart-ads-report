@@ -1,0 +1,47 @@
+{
+  "date": "2026-04-14",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-15T08:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0dnwd5xv8"
+      ],
+      "reason": "连续两期7天3clk/$1.20/0单零转化确认，30天6clk/$2.25/1单近期无转化，上期标记本期仍0单→否定"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0fcfljvd6"
+      ],
+      "reason": "连续三期7天零转化（4clk/$1.60/0单），30天4clk/$1.60/0单也是零，花费翻倍加速出血确认死亡"
+    }
+  ],
+  "amendments": [
+    {
+      "description": "撤回b0cj9blwkx否定（上期4-14待执行）",
+      "reason": "本期7天2clk/$0.80/1单 ACOS 4.00%意外出单，30天8clk/$2.84/1单 ACOS 14.21%有保留价值，再观察一期"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
