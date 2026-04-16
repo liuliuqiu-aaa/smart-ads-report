@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-15T09:12:09.311Z",
-  "data_date": "2026-04-14",
+  "updated_at": "2026-04-16T09:05:49.021Z",
+  "data_date": "2026-04-15",
   "group": {
     "id": "group-mmk9ks4h-k6cu",
     "name": "AMJ008012智能托管组",
@@ -8,18 +8,6 @@
     "targetAcos": 25
   },
   "days": [
-    {
-      "date": "2026-04-08",
-      "orders": 0,
-      "salesVolume": 0,
-      "spend": 4.96,
-      "sales": 0,
-      "acos": 0,
-      "impressions": 1702,
-      "clicks": 6,
-      "ctr": 0.35,
-      "cvr": 0
-    },
     {
       "date": "2026-04-09",
       "orders": 0,
@@ -75,22 +63,34 @@
       "spend": 7.62,
       "sales": 27.98,
       "acos": 27.2,
-      "impressions": 3116,
+      "impressions": 3112,
       "clicks": 11,
       "ctr": 0.35,
       "cvr": 9.09
     },
     {
       "date": "2026-04-14",
-      "orders": 5,
-      "salesVolume": 5,
+      "orders": 7,
+      "salesVolume": 7,
       "spend": 13.55,
-      "sales": 119.92,
-      "acos": 11.3,
-      "impressions": 5157,
+      "sales": 162.19,
+      "acos": 8.4,
+      "impressions": 5026,
       "clicks": 20,
-      "ctr": 0.39,
-      "cvr": 25
+      "ctr": 0.4,
+      "cvr": 35
+    },
+    {
+      "date": "2026-04-15",
+      "orders": 1,
+      "salesVolume": 1,
+      "spend": 15.81,
+      "sales": 18.99,
+      "acos": 83.3,
+      "impressions": 6517,
+      "clicks": 23,
+      "ctr": 0.35,
+      "cvr": 4.35
     }
   ],
   "campaigns": {
@@ -99,18 +99,6 @@
       "type": "手动投放",
       "budget": 35,
       "days": [
-        {
-          "date": "2026-04-08",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 1.85,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 1110,
-          "clicks": 2,
-          "ctr": 0.18,
-          "cvr": 0
-        },
         {
           "date": "2026-04-09",
           "orders": 0,
@@ -166,22 +154,34 @@
           "spend": 4.15,
           "sales": 0,
           "acos": 0,
-          "impressions": 1831,
+          "impressions": 1826,
           "clicks": 5,
           "ctr": 0.27,
           "cvr": 0
         },
         {
           "date": "2026-04-14",
-          "orders": 3,
-          "salesVolume": 3,
+          "orders": 4,
+          "salesVolume": 4,
           "spend": 1.7,
-          "sales": 61.95,
-          "acos": 2.74,
-          "impressions": 2432,
+          "sales": 84.23,
+          "acos": 2.02,
+          "impressions": 2335,
           "clicks": 2,
-          "ctr": 0.08,
-          "cvr": 150
+          "ctr": 0.09,
+          "cvr": 200
+        },
+        {
+          "date": "2026-04-15",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 2.61,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 2867,
+          "clicks": 3,
+          "ctr": 0.1,
+          "cvr": 0
         }
       ]
     },
@@ -190,18 +190,6 @@
       "type": "手动投放",
       "budget": 20,
       "days": [
-        {
-          "date": "2026-04-08",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 0,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-04-09",
           "orders": 0,
@@ -273,26 +261,26 @@
           "clicks": 0,
           "ctr": 0,
           "cvr": 0
+        },
+        {
+          "date": "2026-04-15",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
         }
       ]
     },
     "173942146993352": {
       "name": "CXJ008012_PAT4_M-130-1-DYMH-MT(旧EX2流量)",
       "type": "手动投放",
-      "budget": 10,
+      "budget": 15,
       "days": [
-        {
-          "date": "2026-04-08",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 3.11,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 550,
-          "clicks": 4,
-          "ctr": 0.73,
-          "cvr": 0
-        },
         {
           "date": "2026-04-09",
           "orders": 0,
@@ -348,22 +336,34 @@
           "spend": 3.47,
           "sales": 27.98,
           "acos": 12.4,
-          "impressions": 1189,
+          "impressions": 1190,
           "clicks": 6,
           "ctr": 0.5,
           "cvr": 16.67
         },
         {
           "date": "2026-04-14",
-          "orders": 2,
-          "salesVolume": 2,
+          "orders": 3,
+          "salesVolume": 3,
           "spend": 11.85,
-          "sales": 57.97,
-          "acos": 20.44,
-          "impressions": 2655,
+          "sales": 77.96,
+          "acos": 15.2,
+          "impressions": 2623,
           "clicks": 18,
-          "ctr": 0.68,
-          "cvr": 11.11
+          "ctr": 0.69,
+          "cvr": 16.67
+        },
+        {
+          "date": "2026-04-15",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 13.2,
+          "sales": 18.99,
+          "acos": 69.51,
+          "impressions": 3572,
+          "clicks": 20,
+          "ctr": 0.56,
+          "cvr": 5
         }
       ]
     },
@@ -372,18 +372,6 @@
       "type": "自动投放",
       "budget": 20,
       "days": [
-        {
-          "date": "2026-04-08",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 42,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-04-09",
           "orders": 0,
@@ -451,7 +439,19 @@
           "spend": 0,
           "sales": 0,
           "acos": 0,
-          "impressions": 70,
+          "impressions": 68,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-04-15",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 78,
           "clicks": 0,
           "ctr": 0,
           "cvr": 0

@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-15",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-16T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "targetId": "195901562781901",
+      "keyword": "men gym shorts",
+      "currentBid": 0.59,
+      "newBid": 0.48,
+      "reason": "7天10clk/$6.04/0单，30天同样0单。EX2精确完全不转化而BR广泛同词出单。旧EX2提预算后该词成最大无效花费点（4-15当天$3.03），必须止血"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "173942146993352",
+      "targetId": "14725153310998",
+      "keyword": "gym shorts",
+      "currentBid": 0.65,
+      "newBid": 0.55,
+      "reason": "7天7clk/$5.18/0单，30天ACOS 44.14%远超目标。$0.65未能有效止血（CPC $0.67-$0.74突破bid），降至$0.55压制"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
