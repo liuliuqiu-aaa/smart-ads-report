@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-15",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-16T08:07:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "negativeType": "negativeProduct",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "B0FG7HWTSR"
+      ],
+      "reason": "7天2clk/$0.76/0单，30天4clk/$1.46/0单，连续两期标记后仍零转化确认否定"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "negativeType": "negativeProduct",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "B0CJ97Q6XK"
+      ],
+      "reason": "7天1clk/$0.40/0单，30天5clk/$1.90/0单，连续两期标记后仍零转化确认否定"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "negativeType": "negativeProduct",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "B0CGMBFF6W"
+      ],
+      "reason": "7天1clk/$0.40/0单，30天6clk/$2.15/0单，30天6次点击全零转化"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 3
+  }
+}
