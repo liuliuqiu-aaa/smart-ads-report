@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-15",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-16T08:41:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "budgetAdjust",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "currentBudget": 55,
+      "newBudget": 70,
+      "reason": "降bid验证成功(3天9单/ACOS改善12.43pp)，7d ACOS 41.78%<52%放量阈值，boost-sales目标下预算利用率仅16%不可接受，旺季放量窗口"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "casual beach shirts for men",
+          "matchType": "NEGATIVE_EXACT"
+        }
+      ],
+      "reason": "30d 3click/$3.15/0单达3click/0单阈值，7d 2click/$2.08/0单加速恶化，casual修饰词偏泛化降低匹配精准度"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 1,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
