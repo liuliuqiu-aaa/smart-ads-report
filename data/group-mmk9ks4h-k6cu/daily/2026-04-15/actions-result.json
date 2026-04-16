@@ -1,7 +1,7 @@
 {
   "date": "2026-04-15",
   "groupId": "group-mmk9ks4h-k6cu",
-  "generatedAt": "2026-04-16T09:02:00.000Z",
+  "generatedAt": "2026-04-16T09:05:00.000Z",
   "macroGoal": "boost-sales",
   "effectiveAcosConstraint": 25,
   "actions": [
@@ -14,28 +14,38 @@
       "keyword": "men gym shorts",
       "currentBid": 0.59,
       "newBid": 0.48,
-      "reason": "7天10clk/$6.04/0单，30天同样0单。EX2精确完全不转化而BR广泛同词出单。旧EX2提预算后该词成最大无效花费点（4-15当天$3.03），必须止血"
+      "reason": "7天914imp/10clk/$6.04/0单，30天同样0单。全组最大花费漏洞。4-15当天5clk/$3.03/0单。降至AI 49%止血"
     },
     {
       "id": 2,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "targetId": "253617185424229",
+      "keyword": "mens mesh shorts 7 inch inseam",
+      "currentBid": 0.65,
+      "reason": "7天424imp/4clk/$3.32/0单。尺寸错配(5inch产品vs7inch搜索)。两轮降bid后仍复活，暂停止损"
+    },
+    {
+      "id": 3,
       "type": "bidDown",
       "priority": "P1",
       "campaignId": "173942146993352",
       "targetId": "14725153310998",
       "keyword": "gym shorts",
       "currentBid": 0.65,
-      "newBid": 0.55,
-      "reason": "7天7clk/$5.18/0单，30天ACOS 44.14%远超目标。$0.65未能有效止血（CPC $0.67-$0.74突破bid），降至$0.55压制"
+      "newBid": 0.52,
+      "reason": "7天1106imp/7clk/$5.18/0单。$0.65止血后复活，4-15当天2clk/$1.33。降至AI 53%再次止血"
     }
   ],
   "summary": {
     "bidDown": 2,
     "bidUp": 0,
     "budgetAdjust": 0,
-    "pause": 0,
+    "pause": 1,
     "newKeyword": 0,
     "newProductTarget": 0,
     "negative": 0,
-    "total": 2
+    "total": 3
   }
 }

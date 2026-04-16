@@ -4,9 +4,9 @@
   "spend": 15.81,
   "sales": 18.99,
   "acos": 83.3,
-  "actions_total": 32,
-  "actions_success": 20,
-  "actions_failed": 12,
+  "actions_total": 35,
+  "actions_success": 22,
+  "actions_failed": 13,
   "files": {
     "analysis": "analysis.md",
     "playbook": "playbook.md",
