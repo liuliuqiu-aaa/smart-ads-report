@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-15",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-16T08:24:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
