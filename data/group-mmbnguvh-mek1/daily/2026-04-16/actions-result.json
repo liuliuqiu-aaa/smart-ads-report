@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-16",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-17T09:00:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens beach shirt"
+      ],
+      "matchType": "negativeExact",
+      "reason": "30d 4click/$4.51/0单，单数形式系统性低效已多次验证"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens beach yoga shirt"
+      ],
+      "matchType": "negativeExact",
+      "reason": "30d 2click/$2.30/0单，yoga方向不匹配产品定位"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
