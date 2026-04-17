@@ -1,0 +1,71 @@
+{
+  "date": "2026-04-16",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-17T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "525687076267052",
+      "keyword": "coofandy polo",
+      "matchType": "广泛",
+      "currentBid": 0.6,
+      "newBid": 0.55,
+      "reason": "7天ACOS 67.55%（$20.25/2单），4-12词组否定sweater实验4-15验证失败（ACOS几乎无变化），结构性低转化率（5.88%），降bid减少高价无效点击"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "522562610247037",
+      "targetId": "371523394249871",
+      "keyword": "mens knit polo",
+      "matchType": "广泛",
+      "currentBid": 0.58,
+      "newBid": 0.5,
+      "reason": "7天ACOS 51.93%（$10.38/1单），从上期第四引擎4单ACOS 14%急剧退化，4-06提bid $0.52→$0.58已11天观察期已过，提bid实验失败，降bid收缩止血"
+    },
+    {
+      "id": 3,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "287725390454184",
+      "keyword": "mens polo shirts",
+      "matchType": "广泛",
+      "currentBid": 0.45,
+      "newBid": 0.38,
+      "reason": "7天ACOS 63.06%（$6.30/14clk/1单），无近期操作记录，大词流量质量差，降bid至$0.38大幅减少无效点击，止血约$4/周"
+    },
+    {
+      "id": 4,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "400641453145004",
+      "adGroupId": "333669658922202",
+      "targetId": "402159692582642",
+      "keyword": "PRODUCT_COMPLEMENTS",
+      "matchType": "自动投放",
+      "currentBid": 0.29,
+      "newBid": 0.4,
+      "reason": "7天ACOS 4.78%（$4.06/5单），bid $0.29远低于AI推荐$0.61，b0d4txhmck连续多期贡献5单超稳，增长目标下放量，保守提至$0.40"
+    }
+  ],
+  "summary": {
+    "bidDown": 3,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 4
+  }
+}
