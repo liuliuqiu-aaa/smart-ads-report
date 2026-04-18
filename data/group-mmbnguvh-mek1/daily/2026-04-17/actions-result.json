@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-17",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-18T08:41:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "targetId": "449409101183526",
+      "keyword": "mens beach shirts",
+      "currentBid": 1.1,
+      "newBid": 1.15,
+      "reason": "曝光断崖确认：连续6天下降（1796→1473→1218→1015→778→364），4/17仅364impr创历史新低。花费$2.20/预算$70=3.1%，boost-sales目标下广告基本停摆。策略矩阵A条预设操作：连续<800→回调。$1.15是4/13前验证出价，历史曝光1200-1800。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}

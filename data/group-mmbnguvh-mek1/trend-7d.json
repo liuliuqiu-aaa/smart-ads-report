@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-17T09:07:12.835Z",
-  "data_date": "2026-04-16",
+  "updated_at": "2026-04-18T08:44:33.108Z",
+  "data_date": "2026-04-17",
   "group": {
     "id": "group-mmbnguvh-mek1",
     "name": "ADJ000082智能托管组",
@@ -8,18 +8,6 @@
     "targetAcos": 25
   },
   "days": [
-    {
-      "date": "2026-04-10",
-      "orders": 0,
-      "salesVolume": 0,
-      "spend": 10.88,
-      "sales": 0,
-      "acos": 0,
-      "impressions": 1705,
-      "clicks": 10,
-      "ctr": 0.59,
-      "cvr": 0
-    },
     {
       "date": "2026-04-11",
       "orders": 5,
@@ -75,7 +63,7 @@
       "spend": 12.25,
       "sales": 59.96,
       "acos": 20.4,
-      "impressions": 1125,
+      "impressions": 1124,
       "clicks": 12,
       "ctr": 1.07,
       "cvr": 33.33
@@ -87,10 +75,22 @@
       "spend": 6.92,
       "sales": 0,
       "acos": 0,
-      "impressions": 966,
+      "impressions": 960,
       "clicks": 9,
-      "ctr": 0.93,
+      "ctr": 0.94,
       "cvr": 0
+    },
+    {
+      "date": "2026-04-17",
+      "orders": 1,
+      "salesVolume": 1,
+      "spend": 2.2,
+      "sales": 14.99,
+      "acos": 14.7,
+      "impressions": 494,
+      "clicks": 2,
+      "ctr": 0.4,
+      "cvr": 50
     }
   ],
   "campaigns": {
@@ -99,18 +99,6 @@
       "type": "手动投放",
       "budget": 15,
       "days": [
-        {
-          "date": "2026-04-10",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 0,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-04-11",
           "orders": 0,
@@ -182,6 +170,18 @@
           "clicks": 0,
           "ctr": 0,
           "cvr": 0
+        },
+        {
+          "date": "2026-04-17",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
         }
       ]
     },
@@ -190,18 +190,6 @@
       "type": "自动投放",
       "budget": 5,
       "days": [
-        {
-          "date": "2026-04-10",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 369,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-04-11",
           "orders": 0,
@@ -273,6 +261,18 @@
           "clicks": 1,
           "ctr": 0.53,
           "cvr": 0
+        },
+        {
+          "date": "2026-04-17",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 130,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
         }
       ]
     },
@@ -281,18 +281,6 @@
       "type": "手动投放",
       "budget": 70,
       "days": [
-        {
-          "date": "2026-04-10",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 10.88,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 1336,
-          "clicks": 10,
-          "ctr": 0.75,
-          "cvr": 0
-        },
         {
           "date": "2026-04-11",
           "orders": 5,
@@ -348,7 +336,7 @@
           "spend": 12.1,
           "sales": 59.96,
           "acos": 20.18,
-          "impressions": 1015,
+          "impressions": 1014,
           "clicks": 11,
           "ctr": 1.08,
           "cvr": 36.36
@@ -360,10 +348,22 @@
           "spend": 6.77,
           "sales": 0,
           "acos": 0,
-          "impressions": 778,
+          "impressions": 772,
           "clicks": 8,
-          "ctr": 1.03,
+          "ctr": 1.04,
           "cvr": 0
+        },
+        {
+          "date": "2026-04-17",
+          "orders": 1,
+          "salesVolume": 1,
+          "spend": 2.2,
+          "sales": 14.99,
+          "acos": 14.68,
+          "impressions": 364,
+          "clicks": 2,
+          "ctr": 0.55,
+          "cvr": 50
         }
       ]
     }
