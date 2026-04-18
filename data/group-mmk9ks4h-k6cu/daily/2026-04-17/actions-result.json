@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-17",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-18T09:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "targetId": "468212566042622",
+      "keyword": "mens gym shorts",
+      "matchType": "broad",
+      "currentBid": 0.85,
+      "newBid": 0.7,
+      "reason": "7天5clk/$4.25/0单，搜索词品类错配(sexy bulge/narrow leg/6inch)，30天同样0转化。降至AI的83%压缩无效花费，保留gym shorts men搜索词触达"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
