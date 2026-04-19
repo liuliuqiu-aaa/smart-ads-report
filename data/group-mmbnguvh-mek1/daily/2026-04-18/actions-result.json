@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-18",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-19T08:41:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}

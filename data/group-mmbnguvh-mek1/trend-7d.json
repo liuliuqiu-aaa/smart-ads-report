@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-18T08:44:33.108Z",
-  "data_date": "2026-04-17",
+  "updated_at": "2026-04-19T08:44:42.916Z",
+  "data_date": "2026-04-18",
   "group": {
     "id": "group-mmbnguvh-mek1",
     "name": "ADJ000082智能托管组",
@@ -8,18 +8,6 @@
     "targetAcos": 25
   },
   "days": [
-    {
-      "date": "2026-04-11",
-      "orders": 5,
-      "salesVolume": 5,
-      "spend": 16.83,
-      "sales": 104.69,
-      "acos": 16.1,
-      "impressions": 2177,
-      "clicks": 15,
-      "ctr": 0.69,
-      "cvr": 33.33
-    },
     {
       "date": "2026-04-12",
       "orders": 3,
@@ -58,15 +46,15 @@
     },
     {
       "date": "2026-04-15",
-      "orders": 4,
-      "salesVolume": 4,
+      "orders": 5,
+      "salesVolume": 5,
       "spend": 12.25,
-      "sales": 59.96,
-      "acos": 20.4,
+      "sales": 74.95,
+      "acos": 16.3,
       "impressions": 1124,
       "clicks": 12,
       "ctr": 1.07,
-      "cvr": 33.33
+      "cvr": 41.67
     },
     {
       "date": "2026-04-16",
@@ -75,7 +63,7 @@
       "spend": 6.92,
       "sales": 0,
       "acos": 0,
-      "impressions": 960,
+      "impressions": 958,
       "clicks": 9,
       "ctr": 0.94,
       "cvr": 0
@@ -87,10 +75,22 @@
       "spend": 2.2,
       "sales": 14.99,
       "acos": 14.7,
-      "impressions": 494,
+      "impressions": 489,
       "clicks": 2,
-      "ctr": 0.4,
+      "ctr": 0.41,
       "cvr": 50
+    },
+    {
+      "date": "2026-04-18",
+      "orders": 0,
+      "salesVolume": 0,
+      "spend": 5.25,
+      "sales": 0,
+      "acos": 0,
+      "impressions": 478,
+      "clicks": 5,
+      "ctr": 1.05,
+      "cvr": 0
     }
   ],
   "campaigns": {
@@ -99,18 +99,6 @@
       "type": "手动投放",
       "budget": 15,
       "days": [
-        {
-          "date": "2026-04-11",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 0,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-04-12",
           "orders": 0,
@@ -182,6 +170,18 @@
           "clicks": 0,
           "ctr": 0,
           "cvr": 0
+        },
+        {
+          "date": "2026-04-18",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
         }
       ]
     },
@@ -190,18 +190,6 @@
       "type": "自动投放",
       "budget": 5,
       "days": [
-        {
-          "date": "2026-04-11",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 571,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-04-12",
           "orders": 0,
@@ -273,6 +261,18 @@
           "clicks": 0,
           "ctr": 0,
           "cvr": 0
+        },
+        {
+          "date": "2026-04-18",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 209,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
         }
       ]
     },
@@ -281,18 +281,6 @@
       "type": "手动投放",
       "budget": 70,
       "days": [
-        {
-          "date": "2026-04-11",
-          "orders": 5,
-          "salesVolume": 5,
-          "spend": 16.83,
-          "sales": 104.69,
-          "acos": 16.08,
-          "impressions": 1606,
-          "clicks": 15,
-          "ctr": 0.93,
-          "cvr": 33.33
-        },
         {
           "date": "2026-04-12",
           "orders": 3,
@@ -331,15 +319,15 @@
         },
         {
           "date": "2026-04-15",
-          "orders": 4,
-          "salesVolume": 4,
+          "orders": 5,
+          "salesVolume": 5,
           "spend": 12.1,
-          "sales": 59.96,
-          "acos": 20.18,
+          "sales": 74.95,
+          "acos": 16.14,
           "impressions": 1014,
           "clicks": 11,
           "ctr": 1.08,
-          "cvr": 36.36
+          "cvr": 45.45
         },
         {
           "date": "2026-04-16",
@@ -348,7 +336,7 @@
           "spend": 6.77,
           "sales": 0,
           "acos": 0,
-          "impressions": 772,
+          "impressions": 770,
           "clicks": 8,
           "ctr": 1.04,
           "cvr": 0
@@ -360,10 +348,22 @@
           "spend": 2.2,
           "sales": 14.99,
           "acos": 14.68,
-          "impressions": 364,
+          "impressions": 359,
           "clicks": 2,
-          "ctr": 0.55,
+          "ctr": 0.56,
           "cvr": 50
+        },
+        {
+          "date": "2026-04-18",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 5.25,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 269,
+          "clicks": 5,
+          "ctr": 1.86,
+          "cvr": 0
         }
       ]
     }
