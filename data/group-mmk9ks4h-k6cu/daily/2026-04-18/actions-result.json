@@ -1,0 +1,49 @@
+{
+  "date": "2026-04-18",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-19T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "targetId": "195901562781901",
+      "keyword": "men gym shorts",
+      "currentBid": 0.48,
+      "reason": "7天13clk/$7.32/0单，30天0单。4-15降bid至$0.48后仍有花费。4-19最终评估到期，暂停止损"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "173942146993352",
+      "targetId": "120794742467158",
+      "keyword": "coofandy shorts for men",
+      "currentBid": 0.6,
+      "newBid": 0.67,
+      "reason": "7天13单ACOS 8.53%超级引擎，bid仅AI 69%。整组ACOS 17.3%有7.7pp余量，放量提bid至AI 77%"
+    },
+    {
+      "id": 3,
+      "type": "budgetAdjust",
+      "priority": "P1",
+      "campaignId": "173942146993352",
+      "currentBudget": 15,
+      "newBudget": 20,
+      "reason": "EX2核心引擎7天ACOS 15.53%/19单。提bid后花费将上升，打开预算天花板防止高效投放被截断"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 1,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
