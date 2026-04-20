@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-19",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-20T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "targetId": "449409101183526",
+      "keyword": "mens beach shirts",
+      "currentBid": 1.15,
+      "newBid": 1.2,
+      "reason": "bid回调$1.10→$1.15满3天观察期，曝光均值278远低于400阈值(356→254→223持续下滑)；7d ACOS 30.56%有5.56pp缓冲空间；boost-sales目标下预算利用率仅4.6%，流量断崖是核心瓶颈"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
