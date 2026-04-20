@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-19",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-20T08:15:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b00i84bbsa"
+      ],
+      "reason": "30天3clk/$1.20零转化，7天3clk全在本周花费加速"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b07yf5cr2x"
+      ],
+      "reason": "30天4clk/$1.55零转化，7天2clk仍活跃"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0fcfkd63j"
+      ],
+      "reason": "30天5clk/$1.85零转化，30天累计最高"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0cgmbwxnq"
+      ],
+      "reason": "30天4clk/$1.45零转化"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 4
+  }
+}
