@@ -1,0 +1,44 @@
+{
+  "date": "2026-04-20",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-21T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "412274885856417",
+      "keyword": "polo long sleeve shirts for men",
+      "matchType": "exact",
+      "currentBid": 0.55,
+      "reason": "观察期到期，7天$2.32/4clk/0单，降bid后仍连续0单确认废词"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "targetId": "504129401834266",
+      "keyword": "coofandy long sleeve polo",
+      "matchType": "exact",
+      "currentBid": 0.63,
+      "newBid": 0.7,
+      "reason": "核心引擎7天7单ACOS 10.95%远低于约束线，bid仅AI推荐79%，boost-sales目标下放量冲单量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
