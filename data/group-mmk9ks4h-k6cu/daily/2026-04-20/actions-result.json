@@ -1,0 +1,32 @@
+{
+  "date": "2026-04-20",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-21T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "groupId": "169542372364427",
+      "targetId": "122434207834542",
+      "keyword": "workout shorts men",
+      "matchType": "精确",
+      "currentBid": 0.77,
+      "newBid": 0.7,
+      "reason": "7天28clk/$21.71/3单/ACOS 28.96%，连续4个窗口28-30%超约束不收敛，占整组花费29.4%。CPC恒等bid，降bid直接降花费。降幅9.1%安全范围内"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
