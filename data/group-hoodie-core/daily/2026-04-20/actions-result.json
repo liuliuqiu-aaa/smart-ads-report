@@ -1,0 +1,51 @@
+{
+  "date": "2026-04-20",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-21T08:00:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "298759975782609",
+      "keyword": "slim fit hoodies for men",
+      "currentBid": 0.55,
+      "reason": "降bid至$0.55后7天39展现/0clk/0单，流量断崖确认死亡。此词历史0转化，暂停清理。"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00i84bbsa"
+      ],
+      "reason": "COMPLEMENTS碎片ASIN。30天3clk/$1.20零转化，7天3clk全在本周=花费加速。上期标注下期否定。"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0cgmbwxnq"
+      ],
+      "reason": "COMPLEMENTS碎片ASIN。30天4clk/$1.45零转化，与已否定的b07yf5cr2x（4clk）同级别。上期标注下期否定。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 3
+  }
+}
