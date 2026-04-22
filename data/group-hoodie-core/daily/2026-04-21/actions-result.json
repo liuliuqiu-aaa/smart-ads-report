@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-21",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-22T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "reasoning": "4条操作在观察期（4-19否定2条今日出窗确认生效，4-20否定2条至4-23出窗）。控制变量纪律下不叠加新操作。下一候选b0dcjrws9t等4-23出窗后执行。增长瓶颈在产品/listing侧，广告操作空间已到极限。"
+}
