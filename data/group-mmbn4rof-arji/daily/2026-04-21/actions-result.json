@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-21",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-22T08:27:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "matchType": "broad",
+      "currentBid": 0.55,
+      "newBid": 0.62,
+      "reason": "7天10单ACOS 7.39% CVR 43.48%，4-21爆发8单ACOS 3.90%，距约束线20%有12.6pp余量，bid仅AI推荐$0.74的74%，boost-sales目标下必须放量"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "targetId": "547498706455364",
+      "keyword": "mens long sleeve shirt",
+      "matchType": "broad",
+      "currentBid": 0.45,
+      "newBid": 0.52,
+      "reason": "7天7单(11qty) ACOS 4.51%，4-21当天7单ACOS 2.50%，bid仅AI推荐$0.86的52%严重限制曝光，搜索词100%转化已验证"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        "business casual"
+      ],
+      "negativeMatchType": "phrase",
+      "reason": "collar大词广泛触发business casual搜索词，30天$3.25/5clk/0单确认无效，持续泄漏$0.50-0.65/周预算"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "targetId": "522562610247037",
+      "keyword": "knit广告组整组",
+      "reason": "主投放mens knit polo已4-19暂停，残余5词7天合计$1.00/0单仍在花钱，knit通道全面废弃，整组暂停止血"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 4
+  }
+}
