@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-21",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-22T09:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "targetId": "122434207834542",
+      "keyword": "workout shorts men",
+      "currentBid": 0.7,
+      "newBid": 0.75,
+      "reason": "4-20降bid $0.77→$0.70后4-21 EX2整活动曝光断崖至93imp(正常2000+)，workout shorts men仅73imp。Bid/AI=73%踩红线。紧急回调至$0.75(Bid/AI=78%)恢复词位，同时比$0.77略低控制ACOS"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
