@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-21",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-22T08:44:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "linen shirts beach shirt with hood"
+      ],
+      "matchType": "negativeExact",
+      "reason": "linen方向全线无转化(10+次验证)+hood不匹配产品定位，7d 1click/$1.10/0单，确定性低效"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
