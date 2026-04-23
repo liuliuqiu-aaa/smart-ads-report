@@ -1,0 +1,51 @@
+{
+  "date": "2026-04-22",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-23T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "400641453145004",
+      "targetId": "402159692582642",
+      "keyword": "PRODUCT_COMPLEMENTS",
+      "currentBid": 0.4,
+      "newBid": 0.48,
+      "reason": "7天7单ACOS 13.14%远低于约束20%，上次$0.29→$0.40验证通过不在观察期，AI推荐$0.61当前仅66%严重限流，boost-sales目标下保守放量$0.08步进"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "targetId": "352188077374092",
+      "keyword": "sweater for men",
+      "currentBid": 0.5,
+      "reason": "7天$1.75/4clk/0单确认无效，4月sweater全面衰退已验证，collar组sweater系词合计$8.51仅1单，止血释放预算"
+    },
+    {
+      "id": 3,
+      "type": "bidDown",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "targetId": "328345245171986",
+      "keyword": "collared sweater",
+      "currentBid": 0.5,
+      "newBid": 0.43,
+      "reason": "7天$4.09/9clk/1单ACOS 27.28%超约束线7.28pp，sweater泄漏严重，降bid控制花费，如下期仍>25%则暂停"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
