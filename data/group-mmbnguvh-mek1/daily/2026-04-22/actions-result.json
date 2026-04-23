@@ -1,31 +1,29 @@
 {
   "date": "2026-04-22",
   "groupId": "group-mmbnguvh-mek1",
-  "generatedAt": "2026-04-22T08:44:00.000Z",
+  "generatedAt": "2026-04-23T08:41:00.000Z",
   "macroGoal": "boost-sales",
   "effectiveAcosConstraint": 25,
   "actions": [
     {
       "id": 1,
-      "type": "negative",
+      "type": "budgetAdjust",
       "priority": "P1",
       "campaignId": "422036852572102",
-      "groupId": "552388407079906",
-      "negativeKeywords": [
-        "linen shirts beach shirt with hood"
-      ],
-      "matchType": "negativeExact",
-      "reason": "linen方向全线无转化(10+次验证)+hood不匹配产品定位，7d 1click/$1.10/0单，确定性低效"
+      "campaignName": "ZDJ000082-123-3-CML-MT2",
+      "currentBudget": 70,
+      "newBudget": 85,
+      "reason": "bid $1.20验证成功(曝光连续4天递增222→345→401→493首次突破400)，7d ACOS 22.5%<25%约束线，预算利用率仅4.7%。boost-sales目标下放量$70→$85，避免曝光恢复后被预算卡住"
     }
   ],
   "summary": {
     "bidDown": 0,
     "bidUp": 0,
-    "budgetAdjust": 0,
+    "budgetAdjust": 1,
     "pause": 0,
     "newKeyword": 0,
     "newProductTarget": 0,
-    "negative": 1,
+    "negative": 0,
     "total": 1
   }
 }
