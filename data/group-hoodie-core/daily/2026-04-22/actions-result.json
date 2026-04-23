@@ -1,0 +1,52 @@
+{
+  "date": "2026-04-22",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-23T08:06:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0bgbwxmdq"
+      ],
+      "reason": "30天4clk/$1.60零转化，7天3clk/$1.20零转化，花费加速（75%集中在7天内），从未出单"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0dc414673"
+      ],
+      "reason": "30天3clk/$1.20零转化，7天2clk/$0.80零转化，达否定门槛"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0dcjrws9t"
+      ],
+      "reason": "30天3clk/$1.10零转化，策略记忆4-21已标注'下期否定'，4-23出窗执行"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 3
+  }
+}
