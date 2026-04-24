@@ -1,0 +1,104 @@
+{
+  "date": "2026-04-23",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-24T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "targetId": "382352206856819",
+      "keyword": "long sleeve shirts for men",
+      "matchType": "精确",
+      "currentBid": 0.45,
+      "newBid": 0.6,
+      "reason": "已验证超级词（广泛通道连续多周ACOS<2%），精确投放bid$0.45仅AI推荐48%严重限曝光（7D 121imp/1clk/0单），boost-sales目标下提至$0.60放量"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "428961822453707",
+      "keyword": "men's great sweaters",
+      "matchType": "广泛",
+      "currentBid": 0.45,
+      "reason": "4月sweater全面衰退确认，7D 411imp/0clk/$0/0单，30D+无转化，清理废流量"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "379423239479144",
+      "keyword": "mens half zip sweater",
+      "matchType": "广泛",
+      "currentBid": 0.46,
+      "reason": "4月sweater全面衰退确认，7D 350imp/0clk/$0/0单，30D+无转化，清理废流量"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "287682853439757",
+      "keyword": "polo sweaters for men",
+      "matchType": "广泛",
+      "currentBid": 0.52,
+      "reason": "4月sweater衰退确认，7D 309imp/2clk/$0.91/0单，30D+无转化"
+    },
+    {
+      "id": 5,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "344491192071588",
+      "keyword": "mens long sleeve sweater polo",
+      "matchType": "广泛",
+      "currentBid": 0.5,
+      "reason": "sweater+polo组合词季节性衰退确认，7D 272imp/2clk/$0.72/0单"
+    },
+    {
+      "id": 6,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "404276296696131",
+      "keyword": "wool sweater men",
+      "matchType": "广泛",
+      "currentBid": 0.47,
+      "reason": "sweater衰退确认，7D 126imp/2clk/$0.94/0单，30D+无转化"
+    },
+    {
+      "id": 7,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "310064544722405",
+      "keyword": "casual shirts men",
+      "matchType": "广泛",
+      "currentBid": 0.42,
+      "reason": "泛词与polo/collared产品不匹配，7D 327imp/2clk/$0.84/0单确认无效"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 6,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 7
+  }
+}
