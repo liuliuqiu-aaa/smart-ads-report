@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-24",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-25T08:52:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "beach shirts for men",
+          "matchType": "EXACT"
+        }
+      ],
+      "reason": "7d ACOS 252.81%(23click/$25.23/1单)，连续2期>50%阈值(上期105.54%)，占MT2花费61.6%，30d ACOS 49.14%结构性亏损"
+    },
+    {
+      "id": 2,
+      "type": "budgetAdjust",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "currentBudget": 85,
+      "newBudget": 70,
+      "reason": "放量$70→$85验证失败：MT2 7d ACOS 74.15%远超30%回调阈值，4/24预算利用率26%首次有效消耗但全在亏损上"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 1,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
