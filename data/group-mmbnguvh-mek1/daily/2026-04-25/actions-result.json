@@ -1,0 +1,30 @@
+{
+  "date": "2026-04-25",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-26T08:44:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "targetId": "422286384083477",
+      "keyword": "mens summer shirts",
+      "currentBid": 1,
+      "newBid": 0.5,
+      "reason": "7d 9click/$9.00/0单，30d 10click/$10.00/0单，CTR 0.41%匹配度差。$10验证足够确认无转化能力，降至$0.50减烧保留观察"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
