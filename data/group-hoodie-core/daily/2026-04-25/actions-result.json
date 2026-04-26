@@ -1,0 +1,63 @@
+{
+  "date": "2026-04-25",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-26T16:04:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0bgbyjg4w"
+      ],
+      "reason": "连续三期7天零单，strategy标记最后1期观察验证完成。7天3clk/$1.20/0单，30天6clk/$2.40仅1单（旧窗口残留）"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0cj99y11y"
+      ],
+      "reason": "30天7clk/$2.65完全零转化。strategy记录有误（标记干净验证通过但实际持续吃量）。7天1clk/$0.40/0单"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0dc47gx6g"
+      ],
+      "reason": "连续两期7天3clk/$1.20/0单，30天5clk/$1.95零转化"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b004j0096m"
+      ],
+      "reason": "连续两期7天3clk/$1.20/0单，30天5clk/$1.95零转化"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 4
+  }
+}
