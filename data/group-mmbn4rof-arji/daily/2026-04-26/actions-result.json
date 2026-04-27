@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-26",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-27T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "targetId": "516312755966521",
+      "keyword": "coofandy knit polo shirts for men",
+      "currentBid": 0.5,
+      "reason": "knit通道4月全面废弃确认，4-21整组暂停但此词仍enabled漏花，7D $1.50/3clk/0单，30天无单"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "targetId": "345440998615538",
+      "keyword": "knit polo shirt men",
+      "currentBid": 0.5,
+      "reason": "knit通道废弃确认，7D $0.50/1clk/0单，仍在漏花"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
