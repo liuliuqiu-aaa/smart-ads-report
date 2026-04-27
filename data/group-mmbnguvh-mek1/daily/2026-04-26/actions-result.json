@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-26",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-27T08:44:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "mens half zip beach shirt",
+          "matchType": "EXACT"
+        }
+      ],
+      "reason": "7d 2click/$2.40/0单，half zip形态与本品button down hoodie完全不匹配，达否定阈值。散弹词中花费最高无转化词"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
