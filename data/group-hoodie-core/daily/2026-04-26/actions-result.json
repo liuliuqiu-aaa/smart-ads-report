@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-26",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-27T08:04:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "9条否定在观察期（4-25四条至4-29、4-24两条至4-28、4-22两条残留跟踪）。4-26周日零单符合周末效应（第12次验证）。无新高置信度操作候选。KEYWORD活动ACOS 17.51%在约束线内。广告侧所有可操作空间已耗尽——否定39条、非品牌KEYWORD全暂停、EXPANDED量微。下一操作窗口4-28。"
+}
