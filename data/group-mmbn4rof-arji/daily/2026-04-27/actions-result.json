@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-27",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-28T08:37:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "504129401834266",
+      "keyword": "coofandy long sleeve polo",
+      "currentBid": 0.7,
+      "newBid": 0.65,
+      "reason": "7D ACOS 23.90%，连续2期恶化（14.95%→20.24%→23.90%），超22%触发降bid条件"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "382352206856819",
+      "keyword": "long sleeve shirts for men",
+      "currentBid": 0.45,
+      "reason": "4-25降bid验证到期，7D ACOS 77.05%（$11.55/1单），CPC $0.58溢出bid，搜索词偏移不可修复，同通道词mens long sleeve shirt广泛ACOS仅11.42%"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "394319679749582",
+      "keyword": "mens shirts long sleeve",
+      "currentBid": 0.52,
+      "reason": "中长尾组废弃确认，7D组内ACOS 93.53%，本词7D $4.05/0单"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "428439853023061",
+      "keyword": "mens polo shirts",
+      "currentBid": 0.48,
+      "reason": "中长尾组废弃确认，7D $0.96/0单"
+    },
+    {
+      "id": 5,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "390856954813871",
+      "keyword": "red sweater men",
+      "currentBid": 0.51,
+      "reason": "中长尾组废弃确认，7D $0.00/0单，sweater衰退+不相关词"
+    },
+    {
+      "id": 6,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "336564207325648",
+      "keyword": "long sleeve polo for men",
+      "currentBid": 0.48,
+      "reason": "中长尾组废弃确认，7D $0.48/0单"
+    },
+    {
+      "id": 7,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "401590823090647",
+      "keyword": "mens casual sweaters",
+      "currentBid": 0.3,
+      "reason": "中长尾组废弃确认，7D $0.30/0单"
+    },
+    {
+      "id": 8,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "508055217036547",
+      "keyword": "mens casual long sleeve polo",
+      "currentBid": 0.48,
+      "reason": "中长尾组废弃确认，7D $0.00/0单"
+    },
+    {
+      "id": 9,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "426837594848391",
+      "keyword": "men knit polo shirt",
+      "currentBid": 0.5,
+      "reason": "knit通道废弃确认，7D $0.00/0单，整组废弃清扫"
+    },
+    {
+      "id": 10,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "322656623952750",
+      "keyword": "mens knit sweater",
+      "currentBid": 0.43,
+      "reason": "knit通道废弃确认，7D $0.00/0单"
+    },
+    {
+      "id": 11,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "386886131651777",
+      "keyword": "mens knit long sleeve shirt",
+      "currentBid": 0.48,
+      "reason": "knit通道废弃确认，7D $0.00/0单"
+    },
+    {
+      "id": 12,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "422847059896806",
+      "keyword": "mens knit sweater polo",
+      "currentBid": 0.48,
+      "reason": "knit通道废弃确认，7D $0.00/0单"
+    },
+    {
+      "id": 13,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "293392275903310",
+      "keyword": "knit long sleeve polo",
+      "currentBid": 0.48,
+      "reason": "knit通道废弃确认，7D $0.00/0单"
+    },
+    {
+      "id": 14,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "540772206684096",
+      "keyword": "knit polo sweater men",
+      "currentBid": 0.48,
+      "reason": "knit通道废弃确认，7D $0.00/0单"
+    },
+    {
+      "id": 15,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "547498706455364",
+      "keyword": "mens long sleeve shirt",
+      "currentBid": 0.52,
+      "newBid": 0.6,
+      "reason": "7D ACOS 11.42%（$21.68/9单/13qty），bid仅AI推荐65%，严重限曝光，boost-sales目标下放量。前置止血操作同步执行。"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 13,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 15
+  }
+}
