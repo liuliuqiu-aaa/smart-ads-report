@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-27",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-28T08:07:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b004j02bze"
+      ],
+      "reason": "第三期观察确认：30天6clk/$2.20零转化，7天3clk/$1.20零单。strategy标注条件满足。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
