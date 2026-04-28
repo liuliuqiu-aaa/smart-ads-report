@@ -1,0 +1,39 @@
+{
+  "date": "2026-04-27",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-28T09:04:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "targetId": "422286384083477",
+      "keyword": "mens summer shirts",
+      "currentBid": 0.5,
+      "reason": "降bid $1.00→$0.50后连续2天断流(4/26约22曝光/4/27仅17曝光)，30d $11/0单确认无转化价值，观察期4/28到期"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "targetId": "504050999210572",
+      "keyword": "mens summer shirts",
+      "currentBid": 0.5,
+      "reason": "同上，同一词组第二个SKU，降bid后断流，30d累计0单，观察期4/28到期"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
