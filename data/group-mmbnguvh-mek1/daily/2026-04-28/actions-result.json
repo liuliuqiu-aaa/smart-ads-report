@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-28",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-29T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "beach attire for men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "策略记忆触发：标注'再1click无单→否定'，本期7d 1click/$1.20/0单满足条件。偏泛化需求词，历史无转化"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "mens linen party shirt",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "策略记忆触发：标注'再1click无单→否定'，本期7d 1click/$1.20/0单满足条件。linen方向系统性无转化已验证"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "linen tshirts shirts for men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7d 1click/$1.20/0单，linen方向系统性无转化规律（全部已否定），tshirt与产品形态(hoodie/button-down)不符"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "beach long sleeve shirts men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7d 2click/$2.40/0单，连续无转化验证充分（超过单次click阈值）"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 4
+  }
+}
