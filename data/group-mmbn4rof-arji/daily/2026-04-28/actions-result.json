@@ -1,0 +1,70 @@
+{
+  "date": "2026-04-28",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-29T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "547498706455364",
+      "keyword": "mens long sleeve shirt",
+      "matchType": "broad",
+      "currentBid": 0.6,
+      "newBid": 0.52,
+      "reason": "4-27提bid实验失败：7D ACOS 85.41%（$32.44/2单），4-28单日花费$13.72/23clk/1单异常飙升，提bid后触发大量long sleeve polo shirts流量无转化，降回$0.52止血"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve polo shirts for men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "该词在Polo活动大词组7D花费$26.64/0单，在collar组同词7D出4单ACOS 12.56%，流量错配，词组否定引导流量至collar组"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve collared shirts for men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "7D $4.32/0单，30D $6.17/0单，持续无转化漏花，collar组有专门通道覆盖"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "38387713490957",
+      "keyword": "men long sleeve polo",
+      "matchType": "exact",
+      "currentBid": 0.6,
+      "reason": "4-18新建至今11天，7D $1.80/3clk/0单，289曝光/0转化，达到策略记忆设定的暂停条件（4-30仍0单则暂停），collar广泛已完全覆盖该词流量"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 4
+  }
+}
