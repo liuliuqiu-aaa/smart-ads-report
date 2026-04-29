@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-28",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-29T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "4-25四条否定观察期至明日4-29（b0bgbyjg4w/b0cj99y11y/b0dc47gx6g/b004j0096m），b004j02bze否定至4-30，控制变量不叠加操作。无新高置信度止血候选。AUTO活动7天ACOS 30.30%虽超约束但COMPLEMENTS碎片是结构性问题，降竞价历史验证无效。KEYWORD活动非品牌词已全部判死刑，无新候选。广告侧优化已到极限，增长需产品/listing侧突破。"
+}
