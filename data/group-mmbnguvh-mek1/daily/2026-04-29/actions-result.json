@@ -1,0 +1,31 @@
+{
+  "date": "2026-04-29",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-04-30T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "oyozone mens linen shirts casual button down shirts long sleeve roll-up sleeve summer beach shirts tops with hood"
+      ],
+      "matchType": "exact",
+      "reason": "30d 2click/$2.14/0单，竞品品牌词系统性无转化（已验证规律），立即否定"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
