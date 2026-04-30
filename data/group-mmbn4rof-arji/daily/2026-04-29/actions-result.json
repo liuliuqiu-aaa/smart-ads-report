@@ -1,0 +1,42 @@
+{
+  "date": "2026-04-29",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-04-30T08:27:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "reasoning": "今日0操作。4个操作在4-28执行，观察期至5-01不可动；coofandy polo精确4-30验证日但4-29单日0单为1D归因延迟（非真实恶化），4-28爆发5单/ACOS 10.14%是改善信号，7D 37.69%含4-23/4-24超高ACOS历史日拉高，延期至5-02判断；COMPLEMENTS 7D仅30次点击/2单，样本不足无法置信判断；collar活动7D ACOS 18.21%健康可放量但需等整组止血验证完成（5-01）后执行，不提前叠加操作。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "nextCheckDate": "2026-05-01",
+  "pendingVerifications": [
+    {
+      "item": "mens long sleeve shirt广泛 $0.60→$0.52",
+      "dueDate": "2026-05-01",
+      "successCriteria": "7D ACOS < 40%，花费稳定 < $6/天"
+    },
+    {
+      "item": "long sleeve polo shirts for men词组否定（Polo活动）",
+      "dueDate": "2026-05-01",
+      "successCriteria": "Polo活动该词7D花费减少$10+"
+    },
+    {
+      "item": "long sleeve collared shirts for men词组否定",
+      "dueDate": "2026-05-01",
+      "successCriteria": "该词曝光归零或大幅下降"
+    },
+    {
+      "item": "coofandy polo精确降bid $0.70→$0.65",
+      "dueDate": "2026-05-02",
+      "successCriteria": "7D ACOS < 28%，下降趋势"
+    }
+  ]
+}
