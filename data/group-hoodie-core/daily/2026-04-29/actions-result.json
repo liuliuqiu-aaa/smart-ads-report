@@ -1,0 +1,19 @@
+{
+  "date": "2026-04-29",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-04-30T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "4-29爆发6单/ACOS 8%，7天归因ACOS首次回落至19.4%满足约束。b004j02bze（4-27否定）观察期至4-30，控制变量。4-29单日数据极好但7天ACOS余量仅0.6pp，无放量空间。4-25四条否定今日出窗，明天验证后才能评估净化效果。无新高置信度否定候选（b004izyekk/b004j02bmw第二期观察中，b0bynsps7m数据量不足）。趋势向好不干预。"
+}
