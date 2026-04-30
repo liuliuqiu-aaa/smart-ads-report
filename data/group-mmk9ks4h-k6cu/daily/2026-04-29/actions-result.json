@@ -1,0 +1,61 @@
+{
+  "date": "2026-04-29",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-04-30T09:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "mens gym shorts",
+          "matchType": "broad"
+        }
+      ],
+      "reason": "BR单件workout shorts men广泛触发，30天4clk/$3.39/0单，完全不转化。泛品类词与3包装产品意图不匹配。"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "basketball shorts men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "跨品类词，篮球短裤≠健身短裤3包装款。7d/30d各1clk/$0.95/0单，消费者意图不匹配。"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "white shorts men 5 inch",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "颜色限定词（white），30天2clk/$1.62/0单，产品SKU颜色覆盖可能不匹配，持续不转化。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 3
+  }
+}
