@@ -1,0 +1,43 @@
+{
+  "date": "2026-04-30",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-01T08:23:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "547498706455364",
+      "keyword": "mens long sleeve shirt",
+      "matchType": "广泛",
+      "currentBid": 0.52,
+      "newBid": 0.46,
+      "reason": "4-28降bid $0.60→$0.52验证失败：4-28花费$13.72、4-29花费$10.92，均远超$5/天目标；CPC持续溢出bid（实际$0.54-0.60）；7D ACOS 39.43%，4-29单日72.85%，持续止血"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "matchType": "广泛",
+      "currentBid": 0.62,
+      "newBid": 0.68,
+      "reason": "collar活动一号引擎7D ACOS 17.25%稳定达标，AI推荐$0.84当前仅74%限流；整组预算利用率51%有扩量空间；boost-sales目标下唯一健康通道主动放量"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
