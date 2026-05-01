@@ -1,0 +1,72 @@
+{
+  "date": "2026-04-30",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-05-01T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "targetId": "122434207834542",
+      "keyword": "workout shorts men",
+      "currentBid": 0.85,
+      "newBid": 0.95,
+      "reason": "$0.85第2天(4-30)=356imp<500阈值，继$0.80失败后再次失败。AI建议$0.95，直接对齐跳过$0.88避免再多一轮失败循环。断崖第12天，必须提到Bid/AI=100%"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "mens gym shorts",
+          "matchType": "broad"
+        }
+      ],
+      "reason": "30天4clk/$3.39/0单，泛品类词买家意图不匹配3包装款产品，清理无效花费"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "basketball shorts men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "跨品类词，篮球短裤≠健身短裤，1clk/$0.95/0单，消费者意图不匹配"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "white shorts men 5 inch",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "颜色限定词，30天2clk/$1.62/0单，产品SKU未必覆盖白色款，清理"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 4
+  }
+}
