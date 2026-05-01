@@ -1,0 +1,91 @@
+{
+  "date": "2026-04-30",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-05-01T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "vacation button up shirts for men"
+      ],
+      "matchType": "exact",
+      "reason": "策略记忆规则到期：7d 1click/$1.20/0单，广泛匹配触发无转化确认"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "pool shirts for men"
+      ],
+      "matchType": "exact",
+      "reason": "策略记忆规则到期：7d 1click/$1.20/0单，广泛触发无转化确认"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "white beach shirt men"
+      ],
+      "matchType": "exact",
+      "reason": "策略记忆规则到期：7d 1click/$1.20/0单，颜色词无出单"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens swim cover up shirt"
+      ],
+      "matchType": "exact",
+      "reason": "7d 1click/$1.20/0单，swim=泳装需求与产品(button down beach shirt)品类错位"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "swim cover up for men"
+      ],
+      "matchType": "exact",
+      "reason": "7d 1click/$1.20/0单，swim方向系统性不匹配产品"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "men's swimsuit cover up"
+      ],
+      "matchType": "exact",
+      "reason": "7d 1click/$1.20/0单，swimsuit方向产品完全不匹配"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 6,
+    "total": 6
+  }
+}
