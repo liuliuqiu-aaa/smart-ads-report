@@ -1,0 +1,63 @@
+{
+  "date": "2026-04-30",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-01T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "475852026707354",
+      "keyword": "coofandy hoodies",
+      "currentBid": 0.3,
+      "newBid": 0.45,
+      "reason": "7天ACOS 2.73%（约束20%），bid $0.30仅AI推荐$0.50的60%，7天曝光仅61次严重受限。品牌核心词十八期验证高效，增长目标下必须释放流量。"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "targetId": "369997404229739",
+      "keyword": "PRODUCT_COMPLEMENTS",
+      "currentBid": 0.4,
+      "newBid": 0.45,
+      "reason": "context.md预设条件：4-30 ACOS<18%则启动提竞价实验。当前7天ACOS 16.1%满足条件，余量3.9pp，小幅提价$0.40→$0.45试水，预期订单量提升15-20%。"
+    },
+    {
+      "id": 3,
+      "type": "bidDown",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "targetId": "394998719971854",
+      "keyword": "mens hooded sweatshirts pullover",
+      "currentBid": 0.65,
+      "newBid": 0.45,
+      "reason": "bid $0.65高于AI推荐$0.57，7天1clk/0单，历史持续零转化。降至$0.45减少无效竞价支出，下期仍零单则暂停。"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "476971790430984",
+      "targetId": null,
+      "keyword": "EXPANDED活动整体暂停",
+      "currentBid": null,
+      "newBid": null,
+      "reason": "7天5clk/0单/花费$2.25，16个商品ASIN全部零转化，B0CD1N325S连续九期零单。strategy标注名存实亡但本期实际消耗$2.25，与增长目标矛盾，止血。"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 4
+  }
+}
