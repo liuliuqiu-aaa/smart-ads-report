@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-01",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-05-02T08:45:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "7d ACOS 50.0%超约束线25pp，整组处于止血观察阶段。bid $1.20曝光稳定（MT2 502曝光/天），无断流信号不加bid；boost-sales目标下不降bid。预算瓶颈在竞价非预算，不动$70预算。新散弹词均为首次出现（1click/0单），策略规则要求再1次无单才否定，不操作。coverup独立投放启动阈值<35%，当前50%未达。4/29-4/30否定词批量仍在观察期（5/2到期）。5/2是关键验证+决策日。"
+}
