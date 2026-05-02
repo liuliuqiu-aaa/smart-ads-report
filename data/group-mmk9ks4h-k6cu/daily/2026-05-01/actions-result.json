@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-01",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-05-02T09:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "targetId": "378494136804616",
+      "keyword": "7 inch inseam shorts men",
+      "currentBid": 0.75,
+      "newBid": null,
+      "reason": "产品是5inch，7inch是不同尺寸搜索意图，7d 25imp/0clk/0单，30d同样0转化。已验证规律：7inch词在本产品上完全不转化，暂停清理无效投放"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
