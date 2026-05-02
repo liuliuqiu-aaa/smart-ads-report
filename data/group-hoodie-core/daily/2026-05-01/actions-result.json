@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-01",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-02T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "noActionReason": "4-30执行三条操作（coofandy hoodies bidUp、COMPLEMENTS bidUp、mens hooded sweatshirts bidDown）均在观察期至5-03，控制变量不叠加。5-01仅1单但1d ACOS 49.5%为归因回填问题，7d整体ACOS 17.9%健康。等5-03出窗验证效果后决策。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
