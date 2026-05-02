@@ -1,0 +1,17 @@
+{
+  "date": "2026-05-01",
+  "orders": 10,
+  "spend": 22.57,
+  "sales": 165.89,
+  "acos": 13.6,
+  "actions_total": 27,
+  "actions_success": 21,
+  "actions_failed": 6,
+  "files": {
+    "analysis": "analysis.md",
+    "playbook": "playbook.md",
+    "search_term_report": "search-term-report.md",
+    "actions_result": "actions-result.json",
+    "operations_log": "operations-log.md"
+  }
+}
