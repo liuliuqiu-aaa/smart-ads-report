@@ -1,62 +1,47 @@
 {
   "date": "2026-05-02",
   "groupId": "group-mmbn4rof-arji",
-  "generatedAt": "2026-05-03T08:23:00.000Z",
+  "generatedAt": "2026-05-03T08:32:00.000Z",
   "macroGoal": "boost-sales",
   "effectiveAcosConstraint": 20,
   "actions": [
     {
       "id": 1,
-      "type": "pause",
+      "type": "negative",
       "priority": "P0",
-      "campaignId": "400641453145004",
-      "targetId": "402159692582642",
-      "keyword": "PRODUCT_COMPLEMENTS",
-      "currentBid": 0.4,
-      "reason": "3周以上连续0转化确认通道失效：7D 20点击/$7.82/0单，历史$0.40→$0.48→$0.40三轮bid均无转化，每天$1.20-2.00无效花费"
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve polo shirts for men",
+          "matchType": "EXACT"
+        }
+      ],
+      "reason": "Polo活动大词组广泛匹配触发此搜索词7D花费$30.28/3单/ACOS 67%（超目标47pp）；同词在MT-属性活动7D $11.31/4单/ACOS 15%，流量让渡给MT-属性活动可节省$4-5/天，Polo活动ACOS预计从26%降至~18%"
     },
     {
       "id": 2,
-      "type": "newKeyword",
+      "type": "negative",
       "priority": "P1",
-      "campaignId": "550212093559706",
-      "groupId": "434908423303404",
-      "keyword": "polo shirts for men long sleeve",
-      "matchType": "exact",
-      "newBid": 0.55,
-      "reason": "collar活动广泛匹配下7D 3单ACOS 2.71%，高转化验证，新建精确锁定流量"
-    },
-    {
-      "id": 3,
-      "type": "newKeyword",
-      "priority": "P1",
-      "campaignId": "550212093559706",
-      "groupId": "434908423303404",
-      "keyword": "men's long sleeve polo shirts",
-      "matchType": "exact",
-      "newBid": 0.55,
-      "reason": "collar活动广泛匹配下7D 3单ACOS 2.76%，高转化验证，新建精确锁定流量"
-    },
-    {
-      "id": 4,
-      "type": "newKeyword",
-      "priority": "P1",
-      "campaignId": "550212093559706",
-      "groupId": "434908423303404",
-      "keyword": "mens long sleeve polo shirts",
-      "matchType": "exact",
-      "newBid": 0.55,
-      "reason": "collar活动广泛匹配下7D 4单ACOS 5.18%，多单验证，新建精确锁定高效流量"
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "polo shirts for men",
+          "matchType": "EXACT"
+        }
+      ],
+      "reason": "Polo活动大词组广泛匹配下此搜索词路径7D $5.28/0单，MT-属性活动同词已有2单/ACOS 12%；精确否定不影响大词组中已有的同名精确词正常投放"
     }
   ],
   "summary": {
     "bidDown": 0,
     "bidUp": 0,
     "budgetAdjust": 0,
-    "pause": 1,
-    "newKeyword": 3,
+    "pause": 0,
+    "newKeyword": 0,
     "newProductTarget": 0,
-    "negative": 0,
-    "total": 4
+    "negative": 2,
+    "total": 2
   }
 }
