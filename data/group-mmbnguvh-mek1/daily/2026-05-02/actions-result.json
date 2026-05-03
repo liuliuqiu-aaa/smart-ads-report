@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-02",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-05-03T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens swim top cover up"
+      ],
+      "matchType": "exact",
+      "reason": "swim品类错位+连续2次(5/1+5/2)1click/$1.20/0单，达策略记忆矩阵B触发条件"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens beach attire"
+      ],
+      "matchType": "exact",
+      "reason": "泛化词+连续2次(5/1+5/2)1click/$1.20/0单，历史同类词(beach attire for men)4/29否定验证通过"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        "mens pullover beach shirt"
+      ],
+      "matchType": "exact",
+      "reason": "7d 2click/$2.37/0单，30d 3click/$3.00/0单，pullover套头衫与button down hoodie定位不匹配"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 3
+  }
+}
