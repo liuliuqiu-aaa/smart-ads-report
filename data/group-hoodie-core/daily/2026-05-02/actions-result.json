@@ -1,0 +1,80 @@
+{
+  "date": "2026-05-02",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-03T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "394998719971854",
+      "keyword": "mens hooded sweatshirts pullover",
+      "currentBid": 0.45,
+      "newBid": null,
+      "reason": "bidDown $0.65→$0.45后7d 1clk/0单，曝光40次极低，KEYWORD大词非品牌词历史判死刑，观察期3天出窗结论：无效确认，暂停止血"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetId": "302579491004539",
+      "keyword": "coofandy hoodies for men",
+      "negativeKeywords": [
+        "coofandy hoodies for men"
+      ],
+      "matchType": "exact",
+      "currentBid": 0.45,
+      "reason": "第三期完整7d（4-26~5-02）：6clk/$2.68/0单。策略记忆预设'下期若零单则否定'，连续三期无稳定出单，累计$7+消耗0单，否定条件满足"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [],
+      "negativeAsins": [
+        "b004izyekk"
+      ],
+      "reason": "搜索词报告第三期到期验证：7d花费$2.40/6clk/0单，30d花费$3.20/8clk/0单，策略记忆标注第二期观察到期，否定条件满足"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [],
+      "negativeAsins": [
+        "b004j02bmw"
+      ],
+      "reason": "搜索词报告第二期连续零单：7d花费$0.40/1clk/0单，策略记忆标注第二期观察到期，否定条件满足"
+    },
+    {
+      "id": 5,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "475852026707354",
+      "keyword": "coofandy hoodies",
+      "currentBid": 0.45,
+      "newBid": 0.55,
+      "reason": "4-30提bid出窗验证大成功：7d 7单/ACOS 1.89%，曝光745（vs提价前61）。整组ACOS 13.5%，余量6.5pp充裕。当前bid=AI推荐71%，提至$0.55（87%推荐值）放量。观察期至5-06"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 5
+  }
+}
