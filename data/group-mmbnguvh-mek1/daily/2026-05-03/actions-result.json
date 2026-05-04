@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-03",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-05-04T08:42:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "reasoning": "5/3今日无操作。原因：(1) 5/2否定词3个在2天观察期内(到期5/4)，不在观察期内动词；(2) 5/3 MT2仅4click，无散弹词触发连续2次1click否定阈值；(3) bid $1.20曝光581稳定，无断流信号；(4) 7d ACOS 70%是窗口统计噪音非真实恶化；(5) coverup启动条件ACOS<35%未满足。5/5是真正决策节点：若ACOS<35%立即启动coverup独立投放。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
