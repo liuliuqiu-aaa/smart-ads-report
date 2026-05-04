@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-03",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-04T08:10:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b004izvfde"
+      ],
+      "matchType": "exact",
+      "targetType": "ASIN",
+      "reason": "7d 3clk/$1.20/0单，30d 4clk/$1.60/0单，两期连续零转化，5-02搜索词报告建议否定，5-03操作遗漏，今日补执行"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "targetId": "325846588151383",
+      "keyword": "navy blue hoodie",
+      "currentBid": 0.06,
+      "reason": "bid $0.06 远低于AI推荐$0.64，7d/30d完全无点击无流量，僵尸投放"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "targetId": "389154078092876",
+      "keyword": "dark gray hoodie men",
+      "currentBid": 0.15,
+      "reason": "7d 0clk/0单，历史零转化，bid低于竞争门槛，清理杂音"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "targetId": "430850765098249",
+      "keyword": "fashion hoodies",
+      "currentBid": 0.02,
+      "reason": "bid $0.02 事实上不参与竞价，7d 0曝光/0点击/0单，僵尸投放"
+    },
+    {
+      "id": 5,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "targetId": "368644764950644",
+      "keyword": "waffle hoodie men",
+      "currentBid": 0.3,
+      "reason": "7d 1clk/$0.30/0单，30d仅1clk/0单，场景词与产品匹配度低，历史无正向记录"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 4,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 5
+  }
+}
