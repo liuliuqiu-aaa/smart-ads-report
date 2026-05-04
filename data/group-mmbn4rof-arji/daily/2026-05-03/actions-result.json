@@ -1,0 +1,39 @@
+{
+  "date": "2026-05-03",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-04T08:22:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "447748344452110",
+      "keyword": "mens polo",
+      "currentBid": 0.44,
+      "reason": "7D 10点击/$4.33/0单，泛词搜索意图错配（短袖polo vs 本品long sleeve polo sweater），无转化记录，节省无效花费"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "365281193802978",
+      "keyword": "camisas polo para hombre",
+      "currentBid": 0.45,
+      "reason": "西班牙语词，7D 5点击/$2.25/0单，英语listing对西语搜索者转化率极低，不可修复型流量错配"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
