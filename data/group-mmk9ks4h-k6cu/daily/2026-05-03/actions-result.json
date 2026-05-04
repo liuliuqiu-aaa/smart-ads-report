@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-03",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-05-04T09:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "173942146993352",
+      "targetId": "120794742467158",
+      "keyword": "coofandy shorts for men",
+      "currentBid": 0.67,
+      "newBid": 0.75,
+      "reason": "EX2精确连锁恢复滞后，5-03 1d=1imp/7d=16imp，连续<10imp/天触发提bid条件（context.md预设）。bid=$0.67/AI=$0.87/Bid/AI=77%不够，提至$0.75(Bid/AI=86%)。历史出单ACOS 8.53%，是高效引擎，需要打开曝光"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "456563888390401",
+      "targetId": "468212566042622",
+      "keyword": "mens gym shorts",
+      "currentBid": 0.7,
+      "newBid": null,
+      "reason": "30天$4.34/0单确定性亏损词。4-30广泛否定已执行，但投放词本身仍有直接出价路径。7d=33imp/$0，暂停无流量损失，彻底止血"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "456563888390401",
+      "groupId": "358992516166306",
+      "negativeKeywords": [
+        {
+          "keyword": "9 inch inseam",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告：9 inch inseam尺寸词7d 1clk/$0.95/0单，产品是5inch，尺寸不匹配。历史规律已证明7inch+词在本产品不转化，9inch同理。词组否定覆盖全部9inch变体"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 3
+  }
+}
