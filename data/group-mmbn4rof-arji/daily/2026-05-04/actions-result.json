@@ -1,0 +1,44 @@
+{
+  "date": "2026-05-04",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-05T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve polo shirts for men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "mens long sleeve shirt广泛在Polo活动触发该词7D $28.76/4单/ACOS 63.95%（CVR仅7.3%），同词在collar活动ACOS 18.48%/CVR 24%，效率差3.3倍，结构性流量错配，精确否定让流量回归collar活动"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "306524140972646",
+      "keyword": "mens knit shirt",
+      "currentBid": 0.46,
+      "newBid": 0.6,
+      "reason": "7D ACOS 1.93%（$2.76/8单），30D ACOS 1.80%（双窗口稳定确认），AI推荐$0.86当前仅53%，每天仅34曝光严重低配，提bid+30%释放超高效流量，ACOS天花板极高无止血风险"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
