@@ -1,0 +1,84 @@
+{
+  "date": "2026-05-04",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-05-05T08:42:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [
+    {
+      "id": 1,
+      "type": "newKeyword",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "keyword": "mens sun pool beach coverup",
+      "matchType": "exact",
+      "bid": 1.2,
+      "reason": "coverup方向金词，历史1click/2单/ACOS 2.17%，止血完成后最高优先级启动，5/4 1d ACOS 32.02%达到35%启动阈值"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "keyword": "mens pool coverup",
+      "matchType": "exact",
+      "bid": 1.2,
+      "reason": "coverup方向金词，历史1click/1单/ACOS 8.01%，与id1同批启动，测试转化稳定性"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P0",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "keyword": "mens upf 50+ uv beach cover shirt",
+      "matchType": "exact",
+      "bid": 1.2,
+      "reason": "spf/upf防晒方向金词，历史1click/2单/ACOS 4.00%，与coverup方向协同，多次验证高转化"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "mens hooded beach shirt",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "5/3确认第2次1click/$1.20/0单，hood方向历史系统性低效（已有多次否定验证），策略记忆规则触发"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "422036852572102",
+      "groupId": "552388407079906",
+      "negativeKeywords": [
+        {
+          "keyword": "comfy beach shirt men",
+          "matchType": "exact"
+        },
+        {
+          "keyword": "pink beach shirt men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "comfy为泛化词，pink为颜色限定词，两者均5/3确认1click/0单，历史同类词已多次验证否定有效"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 3,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 5
+  }
+}
