@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-05",
+  "groupId": "group-mmbnguvh-mek1",
+  "generatedAt": "2026-05-06T08:43:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "reasoning": "所有5/4操作（否定3词+新增coverup词×3）均在观察期内。5/5曝光异常萎缩（323 vs 正常500+）为孤立数据点，单日数据不足以决策。1d ACOS 11.6%健康，无止血需求。bid $1.20经验证有效，维持不动。等5/7评估：coverup词D+3信号 + 5/4否定词验证。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
