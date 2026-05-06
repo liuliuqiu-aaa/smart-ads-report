@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-05",
+  "groupId": "group-mmk9ks4h-k6cu",
+  "generatedAt": "2026-05-06T09:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 25,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "EX2主词workout shorts men精确5-05曝光361imp（vs 5-04的865imp），下滑58%，出现潜在断崖信号。AI建议从$0.96升至$0.98。在主词稳定性未确认前，不执行任何操作（包括连锁词coofandy shorts for men提bid）。等待5-06数据：>800imp继续正常流程，<500imp立即提bid至$0.98止血。"
+}
