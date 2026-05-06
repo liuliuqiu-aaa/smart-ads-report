@@ -1,0 +1,144 @@
+{
+  "date": "2026-05-05",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-06T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "475852026707354",
+      "keyword": "coofandy hoodies",
+      "currentBid": 0.55,
+      "newBid": 0.6,
+      "reason": "5-03提bid $0.45→$0.55出窗验证成功：7d 24clk/$11.79/14单/ACOS 4.21%，连续两轮提bid均有效。AI推荐$0.63，提至$0.60（95%推荐值）继续放量。增长目标下4.3单/天远低于7-9单目标，必须主动放量。"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jum2v8i"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30天8clk/$3.30/0单，b00jum系列漏网ASIN，COMPLEMENTS命中持续零转化，清池止血。"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b01b9k2jb2"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30天8clk/$3.25/0单。历史有否定记录但搜索词报告5-05仍出现，参考b0dcjyqs74追加否定案例，追加确认执行。"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jum31f0"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30天4clk/$1.70/0单，b00jum系列漏网，统一清理。"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jum2v4w"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30天4clk/$1.65/0单，b00jum系列漏网，统一清理。"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0drlj4hxf"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30天4clk/$1.65/0单，COMPLEMENTS命中持续无转化。"
+    },
+    {
+      "id": 7,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b07yf4cvn2"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30天3clk/$1.30/0单，COMPLEMENTS命中零转化。"
+    },
+    {
+      "id": 8,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0ckywqgw2"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30天3clk/$1.30/0单，独立ASIN，COMPLEMENTS命中零转化。"
+    },
+    {
+      "id": 9,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "coofandy hoodie"
+      ],
+      "negativeType": "KEYWORD_EXACT",
+      "reason": "7d 6clk/$3.10/0单，30d同。通过coofandy hoodies广泛匹配触发的无效变体词，精确否定不影响品牌词本身及其他变体正常投放。"
+    },
+    {
+      "id": 10,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "waffle hoodie men"
+      ],
+      "negativeType": "KEYWORD_EXACT",
+      "reason": "7d 2clk/$1.10/0单，非品牌词，通过coofandy hoodies广泛匹配误触发，完全无转化关联，精确否定清理。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 9,
+    "total": 10
+  },
+  "pendingNextSession": [
+    "b0ckywzj1s ASIN否定（30d 3clk/$1.30/0单）",
+    "b0bjddgc48 ASIN否定（30d 2clk/$0.90/0单，置信度略低）",
+    "coofandy hoodie for men 关键词精确否定（7d 2clk/$1.00/0单）",
+    "b0d62vfzqx超级ASIN评估：确认是否在AUTO活动否定列表中，若不在则保持自然命中；考虑下期添加为独立PRODUCT投放目标"
+  ]
+}
