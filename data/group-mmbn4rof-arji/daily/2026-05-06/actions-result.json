@@ -1,0 +1,123 @@
+{
+  "date": "2026-05-06",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-06T08:27:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "matchType": "广泛",
+      "currentBid": 0.68,
+      "newBid": 0.62,
+      "reason": "7D ACOS 28.86%（上期21.11%），连续2期恶化超7pp，超目标8.86pp，触发降bid条件；泄漏词：golf polo shirts/slim fit词合计$4+/0单"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "525687076267052",
+      "keyword": "coofandy polo",
+      "matchType": "精确",
+      "currentBid": 0.55,
+      "newBid": 0.45,
+      "reason": "7D ACOS 38.52%，CVR 7.14%远低于品牌词应有水平，5-04单日6clk/0单；触发词含大量品牌变体无转化路径，降bid限制CPC"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "319527965462085",
+      "keyword": "polo shirts for men long sleeve",
+      "matchType": "精确",
+      "currentBid": 0.55,
+      "reason": "7D $2.20/4次点击/0单，连续2周零转化；collar活动广泛通道同词3单/ACOS 1.4%已覆盖需求，大词组路径结构性无效"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "283953720848895",
+      "keyword": "collared sweaters for men",
+      "matchType": "广泛",
+      "currentBid": 0.49,
+      "reason": "7D $3.43/7次点击/0单，30D同样0单；sweater季节性衰退4月全面确认，长期无转化"
+    },
+    {
+      "id": 5,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "307384850273180",
+      "keyword": "collared shirts for men",
+      "matchType": "精确",
+      "currentBid": 0.49,
+      "reason": "7D $1.96/4次点击/0单；collared shirts正装意图与本品polo定位错配，长期0转化确认"
+    },
+    {
+      "id": 6,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "500427101102605",
+      "keyword": "mens black collared sweater",
+      "matchType": "精确",
+      "currentBid": 0.49,
+      "reason": "7D $1.22/3次点击/0单；黑色sweater颜色词过窄，sweater通道已全面废弃"
+    },
+    {
+      "id": 7,
+      "type": "negative",
+      "priority": "P3",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve golf polo shirts for men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "collar活动大词广泛触发，7D $2.04/0单；高尔夫方向搜索意图不匹配本品，精确否定阻断"
+    },
+    {
+      "id": 8,
+      "type": "negative",
+      "priority": "P3",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve polo shirts for men slim fit",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "collar活动大词广泛触发，7D $2.04/0单；slim fit版型词本品不主打，搜索意图错配"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 4,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 8
+  }
+}
