@@ -1,0 +1,44 @@
+{
+  "date": "2026-05-06",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-07T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0ckywzj1s"
+      ],
+      "reason": "30天3clk/$1.30/0单，COMPLEMENTS命中零转化，strategy标记待处理，5-05执行时遗漏（b0ckywqgw2已否定，本条漏掉）"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeType": "negativeKeyword",
+      "negativeKeywords": [
+        "coofandy hoodie for men"
+      ],
+      "matchType": "negative_exact",
+      "reason": "7d 2clk/$1.00/0单，30d同，广泛词触发无关品牌变体，strategy和搜索词报告均标记待处理，5-05执行时遗漏"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
