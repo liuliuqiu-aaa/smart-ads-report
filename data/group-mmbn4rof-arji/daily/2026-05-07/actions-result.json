@@ -1,0 +1,97 @@
+{
+  "date": "2026-05-07",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-08T08:36:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "306524140972646",
+      "keyword": "mens knit shirt",
+      "currentBid": 0.6,
+      "newBid": 0.72,
+      "reason": "策略记忆双期验证通过（7D ACOS 3.47%/CVR 84.62%），5-08为明确提bid节点，ACOS安全边际16.5pp，放量"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "395008267424275",
+      "keyword": "polo shirts for men",
+      "currentBid": 0.44,
+      "reason": "7D $4.35/10clk/0单，短袖polo意图错配本品长袖，连续零转化确认无效"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "503327956171639",
+      "keyword": "long sleeve polo shirts for men",
+      "currentBid": 0.45,
+      "reason": "7D $4.05/9clk/0单，collar活动同词ACOS 1.4%已完全覆盖，大词组精确词应关闭导流至collar"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "polo shirts for men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告7D $3.08/7clk/0单，短袖polo意图持续错配，collar活动大词广泛泄漏，词组否定阻断"
+    },
+    {
+      "id": 5,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "keyword": "polo long sleeve shirts for men",
+      "matchType": "exact",
+      "bid": 0.55,
+      "reason": "搜索词报告7D 4单/ACOS 4.5%，语序不同于已有精确词，高效流量独立入口，collar词矩阵扩充"
+    },
+    {
+      "id": 6,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "keyword": "long sleeve polo shirts for men big and tall",
+      "matchType": "exact",
+      "bid": 0.55,
+      "reason": "搜索词报告7D 3单/6clk/CVR 50%/ACOS 6.1%，大尺码长尾精准词，竞争低转化高"
+    },
+    {
+      "id": 7,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "keyword": "long sleeve knit shirts for men",
+      "matchType": "exact",
+      "bid": 0.55,
+      "reason": "搜索词报告7D 2单/ACOS 2.7%，mens knit shirt广泛触发的高效长尾词，精确词锁定"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 3,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 7
+  }
+}
