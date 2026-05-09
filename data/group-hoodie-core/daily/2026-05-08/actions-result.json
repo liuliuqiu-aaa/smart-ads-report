@@ -1,0 +1,45 @@
+{
+  "date": "2026-05-08",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-09T08:05:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "475852026707354",
+      "keyword": "coofandy hoodies",
+      "currentBid": 0.6,
+      "newBid": 0.62,
+      "reason": "第三轮$0.55→$0.60出窗验证成功（7d 16单/ACOS 4.81%/5059曝光），连续三轮提bid均验证成功，小步提至$0.62继续放量；增长目标下KEYWORD ACOS 5.24%余量充裕，AI推荐范围$0.57-$0.63"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "b0cgm7rwv7",
+          "matchType": "negativeExact",
+          "valueType": "asin"
+        }
+      ],
+      "reason": "搜索词报告5-06数据：7d 14clk/$6.30/1单/ACOS 31.52%，超目标20%约58%；30d ACOS 20.80%勉强合格但7d趋势恶化，近期转化率下降。COMPLEMENTS自然命中，否定后节省~$6/7d无效花费"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
