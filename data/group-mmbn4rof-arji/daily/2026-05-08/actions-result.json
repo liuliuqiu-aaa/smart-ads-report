@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-08",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-09T08:23:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "525687076267052",
+      "groupId": "399535604020521",
+      "keyword": "coofandy polo",
+      "currentBid": 0.45,
+      "reason": "7D ACOS 36.52%，5-06降bid $0.55→$0.45观察到期无改善；历史两档bid均失败；意图错配（短袖polo品牌变体词），结构性问题无法修复"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
