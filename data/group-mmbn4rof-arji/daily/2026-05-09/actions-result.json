@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-09",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-10T08:22:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "1) collar大词降bid($0.68→$0.62, 5-06执行)效果仍在渗透，5-11完整7D才看结论；2) 5-08共8个操作全在观察期(到5-11/5-15)，不提前干预；3) 5-09为周六EDT，单日数据不可靠；4) 无新止血紧急信号。下一操作窗口：5-11。"
+}
