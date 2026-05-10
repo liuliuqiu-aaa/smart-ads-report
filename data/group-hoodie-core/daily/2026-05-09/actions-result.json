@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-09",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-10T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0dc414673"
+      ],
+      "reason": "4-22首次否定4-30出窗有效，搜索词报告（5-08）显示7d仍有花费，符合COMPLEMENTS否定后ASIN重新被命中规律（b0dcjyqs74/b01b9k2jb2案例验证）；30d 0单完全无转化价值，追加精确否定"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0bjddgc48"
+      ],
+      "reason": "30d 2clk/$0.90/0单，strategy-memory观察期至5-10今日截止，搜索词报告确认0单，与已否定ASIN同级别表现，结案否定"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
