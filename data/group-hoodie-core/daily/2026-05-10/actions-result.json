@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-10",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-11T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0cgmbfy2k"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 13clk/$5.60/0单，彻底无转化，strategy-memory观察期到期条件达成"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "coofandy hoodie"
+      ],
+      "negativeMatchType": "exact",
+      "reason": "搜索词报告7d 4clk/$2.25/0单，30d $3.70/0单，由coofandy hoodies广泛匹配泄漏触发，已有精确词直投，重复浪费"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "coofandy mens hoodie",
+      "matchType": "exact",
+      "newBid": 0.58,
+      "reason": "搜索词报告30d 4clk/5单/$89.95/ACOS 1.67%，超高置信度品牌长尾词，当前靠广泛承接流量不稳定，独立精确投放稳定捕获"
+    },
+    {
+      "id": 4,
+      "type": "newProductTarget",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "asin": "b0f6p7z5sp",
+      "newBid": 0.45,
+      "reason": "搜索词报告7d 1clk/4销量/$71.96/ACOS 0.63%，新晋超级ASIN，1clk带4单，独立投放主动控制曝光量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 1,
+    "negative": 2,
+    "total": 4
+  }
+}
