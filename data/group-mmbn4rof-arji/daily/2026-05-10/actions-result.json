@@ -1,0 +1,77 @@
+{
+  "date": "2026-05-10",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-11T08:24:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "currentBid": 0.62,
+      "newBid": 0.58,
+      "reason": "5-06降bid到$0.62效果验证（7D到期）：7D ACOS 25.78%，较上期28.86%降3.08pp但仍超约束线5.78pp；继续降bid至$0.58（降6.5%）加速止血"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "targetId": "306524140972646",
+      "keyword": "mens knit shirt",
+      "currentBid": 0.72,
+      "newBid": 0.6,
+      "reason": "5-08提bid $0.60→$0.72实验失败（观察期今日到期）：提bid后5-08/5-09/5-10连续3天0单，7D ACOS从18.69%升至26.50%（+7.81pp），撤回至$0.60"
+    },
+    {
+      "id": 3,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "targetId": "247741520010523",
+      "keyword": "mens long sleeve polo shirts",
+      "currentBid": 0.55,
+      "newBid": 0.65,
+      "reason": "7D ACOS 9.78%（3单/$4.40），CVR 37.50%，距约束线10.22pp大余量；bid仅AI推荐$0.87的63%，曝光受限（7D 985次）；5-02新建已验证通过，boost-sales目标下放量"
+    },
+    {
+      "id": 4,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "targetId": "131086786880636",
+      "keyword": "men's long sleeve polo shirts",
+      "currentBid": 0.55,
+      "newBid": 0.62,
+      "reason": "7D ACOS 16.51%（2单/$4.95），CVR 22.22%，距约束线3.49pp；bid仅AI推荐$0.87的63%，曝光受限（7D 601次）；5-02新建已验证，保守提bid放量"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve collared shirts for men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "搜索词报告：7D $9.63/1单/ACOS 64.2%，亏$6.61；collar大词广泛持续触发正装衬衫意图词，与polo产品错配，精确否定堵住泄漏"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 5
+  }
+}
