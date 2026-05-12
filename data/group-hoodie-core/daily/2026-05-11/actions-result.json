@@ -1,0 +1,79 @@
+{
+  "date": "2026-05-11",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-12T08:07:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "b0dcjyqs74",
+          "matchType": "negativeExact",
+          "valueType": "ASIN"
+        }
+      ],
+      "reason": "30d 9clk/$3.70/0单，历史4-18否定→5-09追加→已知COMPLEMENTS否定后重新被命中规律，strategy-memory标注5-12后若未清零追加否定，今日7d $0.90仍有花费，条件达成",
+      "expectedSaving": "$0.45/7d"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "mens western hoodies",
+      "matchType": "exact",
+      "bid": 0.58,
+      "reason": "30d 2clk/$1.15/3单/ACOS 2.05%，7d 1clk/3单/ACOS 1.07%，连续两期验证，品牌长尾词极高效，当前仅广泛触发，新建精确稳定捕获"
+    },
+    {
+      "id": 3,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "477287543703637",
+      "keyword": "coofandy hoodie",
+      "currentBid": 0.35,
+      "newBid": 0.45,
+      "reason": "7d 3clk/1单/ACOS 5.25%，bid $0.35仅为AI推荐$0.58的60%，增长目标下ACOS余量充裕（约束20%），提bid放量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 3
+  },
+  "outWindowVerifications": {
+    "2026-05-12": [
+      {
+        "operation": "coofandy hoodies bidUp $0.60→$0.62",
+        "executedDate": "2026-05-08",
+        "result": "⚠️ 第四轮偏弱：7d 7单/ACOS 8.65%（对比第三轮16单/4.81%），5-11低谷日干扰，AI推荐仍$0.62，维持不动延长至5-19再判断",
+        "verdict": "维持$0.62，5-19再评估"
+      },
+      {
+        "operation": "b0ckywzj1s否定",
+        "executedDate": "2026-05-06",
+        "result": "✅ 出窗确认，无新花费记录",
+        "verdict": "生效"
+      },
+      {
+        "operation": "coofandy hoodie for men否定",
+        "executedDate": "2026-05-06",
+        "result": "✅ 出窗确认，搜索词记录清零",
+        "verdict": "生效"
+      }
+    ]
+  }
+}
