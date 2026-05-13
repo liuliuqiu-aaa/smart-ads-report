@@ -1,0 +1,90 @@
+{
+  "date": "2026-05-12",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-13T08:10:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b004j0096m"
+      ],
+      "negativeType": "ASIN",
+      "reason": "4-25已否定4-30出窗确认，5-12搜索词报告30d 6clk/$2.50/0单仍有花费，符合COMPLEMENTS重新命中规律（同b0dcjyqs74案例），追加否定"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b004izvfde"
+      ],
+      "negativeType": "ASIN",
+      "reason": "5-03否定后5-08出窗，5-12搜索词报告30d 6clk/$2.50/0单仍有花费，COMPLEMENTS重新命中，追加否定"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0fjl9k6r5"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 5clk/$2.15/0单，无否定记录，满足30d 3+click 0单否定标准"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0dt9lc4pb"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 4clk/$1.65/0单，首次发现，满足否定标准"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b07yf4ty8k"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 4clk/$1.65/0单，首次发现，满足否定标准"
+    },
+    {
+      "id": 6,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "dark grey hoodie coofandy",
+      "matchType": "exact",
+      "newBid": 0.55,
+      "reason": "搜索词报告7d 1clk/2单/ACOS 0.7%，品牌颜色词组合，符合历史品牌长尾超级词规律，样本小但低风险高收益，新建精确$0.55捕获"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 5,
+    "total": 6
+  }
+}
