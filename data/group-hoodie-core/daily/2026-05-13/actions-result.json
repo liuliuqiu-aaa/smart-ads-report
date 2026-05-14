@@ -1,0 +1,29 @@
+{
+  "date": "2026-05-13",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-14T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "targetId": "477018009170107",
+      "keyword": "mens hooded pullover sweatshirt",
+      "currentBid": 0.02,
+      "reason": "bid $0.02远低于AI推荐$0.58，7d仅3展现/0点击/0花费，完全僵尸投放，结构清理"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
