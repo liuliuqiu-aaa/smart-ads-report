@@ -1,0 +1,52 @@
+{
+  "date": "2026-05-13",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-13T08:28:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "men's zip shirts sweaters cotton",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "henley sweater men",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "sweater men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告显示这3个词走mens knit shirt广泛通道，sweater/zip意图错配本品长袖polo，消耗无转化；sweater通道全组已确认废弃"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "keyword": "long sleeve polo shirts for men",
+      "matchType": "exact",
+      "newBid": 0.58,
+      "reason": "搜索词报告7D $5.58/5单/ACOS 7.4%，30D 17单/ACOS 13%，全组最高效搜索词之一；当前走collar大词广泛未有精确保护，collar大词bid降至$0.58后流量可能流失，加精确词锁定"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
