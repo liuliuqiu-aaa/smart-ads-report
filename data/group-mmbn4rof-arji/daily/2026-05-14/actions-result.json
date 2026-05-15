@@ -1,0 +1,53 @@
+{
+  "date": "2026-05-14",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-15T08:27:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "247741520010523",
+      "keyword": "mens long sleeve polo shirts",
+      "currentBid": 0.65,
+      "newBid": 0.5,
+      "reason": "7D 0单/$23.95/37点击确认废词，30D ACOS 51.9%历史极差；5-14降bid操作可能未生效（bid仍显示$0.65），执行激进止血$0.65→$0.50跳过$0.55档位"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "reason": "mens long sleeve shirt广泛触发意图错配废词：polo shirts for men long sleeve/full zip/turtleneck，7D均0单有花费，精确否定止血约$3-5/7D",
+      "negativeKeywords": [
+        {
+          "keyword": "polo shirts for men long sleeve",
+          "matchType": "exact"
+        },
+        {
+          "keyword": "full zip polo shirts for men",
+          "matchType": "exact"
+        },
+        {
+          "keyword": "turtleneck shirts for men",
+          "matchType": "exact"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  },
+  "notes": "操作一需先确认当前bid是否已降至$0.55（5-14操作可能延迟）。如已为$0.55则改为$0.55→$0.50或维持观察至5-17。多个关键操作处于验证窗口期（5-16至5-17），今日操作保持克制。"
+}
