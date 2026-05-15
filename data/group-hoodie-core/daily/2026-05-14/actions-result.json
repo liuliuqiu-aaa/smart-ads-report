@@ -1,0 +1,31 @@
+{
+  "date": "2026-05-14",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-15T08:07:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0cgm7rwv7"
+      ],
+      "reason": "5-08首次否定今日出窗，7d仍花费$1.35/3clk/0单；30d ACOS 42.3%；COMPLEMENTS重新命中规律已验证，追加阻断"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
