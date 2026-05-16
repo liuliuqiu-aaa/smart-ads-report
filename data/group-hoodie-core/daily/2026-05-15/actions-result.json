@@ -1,0 +1,54 @@
+{
+  "date": "2026-05-15",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-16T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [],
+      "negativeAsins": [
+        "b0bgbyjg4w"
+      ],
+      "reason": "30d数据更新为0单/$3.35/8clk，否定条件达成。之前标注观察是基于5-14数据（1单），5-15报告已更新为0单。7d仍$0.45/1clk/0单，活跃无效花费，止血。"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "hoodies for men"
+      ],
+      "negativeAsins": [],
+      "reason": "搜索词报告7d花费$2.83/5clk/0单，30d同样0转化。coofandy hoodies广泛匹配泄漏命中大泛词，历史无转化，与已否定的同类词（coofandy hoodie for men 5-10、coofandy hoodies for men 5-02）处理逻辑一致。"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "coofandy sweaters for men",
+      "matchType": "exact",
+      "bid": 0.55,
+      "reason": "搜索词报告7d 1clk/3单/$39.98/ACOS 1.55%，品牌跨品类超级词。广泛组被动命中不稳定，独立精确投放稳定捕获。与coofandy mens hoodie（5-10验证成功）逻辑一致。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 3
+  }
+}
