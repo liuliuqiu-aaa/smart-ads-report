@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-15",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-16T08:28:56.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "247741520010523",
+      "keyword": "mens long sleeve polo shirts",
+      "currentBid": 0.5,
+      "reason": "7D 42点击/$26.45/0单，历史三档bid（$0.65/$0.55/$0.50）全部验证失败，意图错配结构性无转化，占整组花费15%"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeType": "negativeKeyword",
+      "negativeKeywords": [
+        "sweatshirts for men",
+        "mens polo shirt pullover"
+      ],
+      "reason": "5-13否定废词验证到期确认不充分，mens knit shirt广泛仍泄漏：sweatshirts for men 7D $1.20/0单 + pullover $1.10/0单"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
