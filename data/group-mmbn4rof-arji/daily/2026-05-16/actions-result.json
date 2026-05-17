@@ -1,0 +1,48 @@
+{
+  "date": "2026-05-16",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-17T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve collared shirts for men",
+          "matchType": "exact"
+        },
+        {
+          "keyword": "long sleeve collared shirts for men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "30D 33点击/$20.22/2单ACOS 67.4%，正装衬衫意图错配本品polo，结构性泄漏词，精确+词组双重否定"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "504129401834266",
+      "keyword": "coofandy long sleeve polo",
+      "currentBid": 0.55,
+      "newBid": 0.6,
+      "reason": "7D ACOS 19.81%验证通过，1D(5-16)爆发6单/CVR 60%/ACOS 5.54%，bid仅AI推荐58%严重限流，boost-sales目标保守放量+$0.05，5-20验证"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
