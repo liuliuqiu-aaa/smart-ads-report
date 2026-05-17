@@ -1,0 +1,46 @@
+{
+  "date": "2026-05-16",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-17T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "b0cgmbfy2k",
+          "matchType": "exact",
+          "targetType": "ASIN"
+        }
+      ],
+      "reason": "b0cgmbfy2k第三次重新命中：5-10首次否定已出窗，搜索词报告7d仍726曝光/7clk/$3.15/0单；符合COMPLEMENTS否定后持续重新命中规律（同b0dcjyqs74/b0cgm7rwv7），30d确认0单零转化价值"
+    }
+  ],
+  "pendingVerification": [
+    {
+      "note": "coofandy mens hoodie 新建精确词（5-10操作）：latest.json和搜索词报告均无记录，疑似未生效，需人工核查EIP操作记录",
+      "originalDate": "2026-05-10",
+      "campaignId": "333903452360072"
+    },
+    {
+      "note": "b0f6p7z5sp 新建PRODUCT独立投放（5-10操作）：同上，完全无数据，疑似未生效，需重新提交",
+      "originalDate": "2026-05-10",
+      "campaignId": "510273719211911"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
