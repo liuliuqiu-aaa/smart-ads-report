@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-17",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-18T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "decisionReason": "5-19最大批次出窗在即（7条否定+coofandy hoodies第四轮验证），今日操作会叠加变量干扰验证。5-17回暖信号明确（3单，1d ACOS 20.1%），等趋势稳定再加码。ACOS超标根本原因是出窗延迟，不是结构问题，5-19出窗可自然改善。最近操作5-17 b0cgmbfy2k否定在观察期，控制变量纪律要求不动。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
