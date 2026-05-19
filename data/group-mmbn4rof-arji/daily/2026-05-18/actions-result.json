@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-18",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-19T08:28:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "434908423303404",
+      "keyword": "polo long sleeve shirts for men",
+      "matchType": "exact",
+      "newBid": 0.58,
+      "reason": "搜索词报告30D 17单/ACOS 4.66%，全组30D最优搜索词之一，通过广泛流入缺乏精确保护"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "keyword": "knit polo men",
+      "matchType": "exact",
+      "newBid": 0.6,
+      "reason": "搜索词报告7D 3单/ACOS 1.33%，30D 5单/ACOS 2.97%，高转化短词无精确保护"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "30D $10.44/1单/ACOS 69.65%，泛polo意图错配，通过大词组广泛泄漏"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 2,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 3
+  }
+}
