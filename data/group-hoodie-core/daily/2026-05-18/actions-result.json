@@ -1,0 +1,30 @@
+{
+  "date": "2026-05-18",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-19T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "477287543703637",
+      "keyword": "coofandy hoodie",
+      "currentBid": 0.45,
+      "newBid": 0.52,
+      "reason": "5-12提bid出窗验证大成功：7d 4clk/3单/ACOS 2.01%/转化率75%，约束余量18pp；AI推荐$0.53，当前低$0.08可能限制曝光（7d仅217曝光），提至$0.52接近推荐值放量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
