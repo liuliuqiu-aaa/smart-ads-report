@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-19",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-20T08:02:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "B004J0096M",
+          "matchType": "EXACT",
+          "valueType": "ASIN"
+        }
+      ],
+      "reason": "COMPLEMENTS第三次重新命中：5-13第二次否定出窗后搜索词报告(5-18)仍出现7d $0.45/2clk/0单；同b0dcjyqs74/b0cgmbfy2k规律，COMPLEMENTS机制持续命中已否定ASIN，需第三次追加阻断"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "targetId": "476902670181704",
+      "keyword": "mens cotton hoodie",
+      "currentBid": 0.3,
+      "reason": "7d 5clk/$1.50/0单，CTR 4.59%确认点击无问题，30d同样0单，负面数据充分积累，止血$1.50/7d无效花费"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "hoodie coofandy",
+      "matchType": "EXACT",
+      "bid": 0.52,
+      "reason": "搜索词报告7d $0.45/2clk/2单/$67.98/ACOS 0.66%，极高效品牌词；当前仅广泛被动覆盖不稳定；符合品牌长尾词独立精确投放规律（同coofandy hoodie $0.52已验证大成功）"
+    },
+    {
+      "id": 4,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "brown hoodie men",
+      "matchType": "EXACT",
+      "bid": 0.55,
+      "reason": "搜索词报告7d $1.24/2clk/1单/$24.99/ACOS 5.0%；颜色词转化力验证；bid $0.55参考同类颜色词设置；样本量偏小但逻辑清晰"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 2,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 4
+  }
+}
