@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-19",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-20T08:23:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "所有活跃操作均在观察期内（最早5-21到期）。coofandy精确bidUp验证通过维持$0.60无需调整；men's LS polo shirts精确降bid需等5-21验证；3个5-19新操作至5-26。整组ACOS尚未降至约束线，放量条件未触发。废词窗口余孽5-20~5-21自然滚出，下一操作窗口：5-21。"
+}
