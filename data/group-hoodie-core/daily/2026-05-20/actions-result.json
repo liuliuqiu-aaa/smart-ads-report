@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-20",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-21T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "所有活跃操作均在观察期内（最近操作5-20，4条）；5-22 b0cgm7rwv7出窗在即，控制变量；KEYWORD侧coofandy hoodie/$0.52和coofandy hoodies/$0.62均在5-26出窗期内；搜索词报告中问题ASIN已全部进入否定队列；无新的高置信度操作候选。"
+}
