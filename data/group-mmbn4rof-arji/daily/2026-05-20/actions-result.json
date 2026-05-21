@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-20",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-21T08:22:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "422088402352027",
+      "keyword": "men long sleeve polo",
+      "currentBid": 0.45,
+      "newBid": 0.55,
+      "reason": "7D ACOS 6.76%（2单/CVR 66.67%），bid仅AI推荐52%严重限曝光，距约束线13.24pp余量充裕，boost-sales目标下放量"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "519611822403592",
+      "keyword": "mens military sweater",
+      "currentBid": 0.65,
+      "newBid": null,
+      "reason": "7D $0.65/1clk/0单，military sweater意图错配polo产品，sweater季节性衰退已多次确认，collar组最高bid却零转化"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "289761655097715",
+      "keyword": "black collared sweater men",
+      "currentBid": 0.49,
+      "newBid": null,
+      "reason": "7D $2.94/6clk/0单，sweater+颜色词双重意图错配，collar组sweater余孽清理，同类词已于5-06批量暂停"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
