@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-21",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-22T08:23:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "547498706455364",
+      "keyword": "mens long sleeve shirt",
+      "matchType": "广泛",
+      "currentBid": 0.46,
+      "reason": "7D 32clk/$14.68/0单，历史三档bid（$0.60/$0.52/$0.46）全部验证失败，bid已在下限无法再降，结构性废词永久暂停"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "mens dress clothes",
+          "matchType": "精确"
+        },
+        {
+          "keyword": "classic men's quarter zip for work",
+          "matchType": "精确"
+        }
+      ],
+      "reason": "搜索词报告7D各3clk/$1.38/0单，mens dress clothes=着装意图错配，quarter zip=拉链衫意图错配，本品polo无拉链/非正装"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 3
+  }
+}
