@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-22",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-23T08:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        {
+          "keyword": "coofandy hoodie poly",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7d 2clk/$1.04/0单，30d同，语义偏差词（poly不是正常搜索词），由coofandy hoodie广泛匹配触发，无转化价值，精确否定止血"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
