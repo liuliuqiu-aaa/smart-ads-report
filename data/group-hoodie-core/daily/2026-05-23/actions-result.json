@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-23",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-24T08:02:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "5-23已执行coofandy hoodie poly精确否定（观察期至5-30）；整组7d ACOS 21.3%仅超约束1.3pp，非紧急；KEYWORD侧10.11%健康；COMPLEMENTS 35.56%超标但历史验证降竞价无效；coofandy hoodies $0.62已回血3单/11.1%不符合降价前提；5-26是下一个关键出窗节点，等待再决策。"
+}
