@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-23",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-24T08:23:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "5-23执行了7个操作（bidDown/暂停/否定/新建），全部在观察期内（最早5-25到期，主要5-26到期）。数据窗口未更新，整组ACOS 20.7%超约束0.7pp但正在改善，MT-属性活动已达标（18.83%）。变量控制原则：等待5-26窗口到期后统一评估效果，避免叠加操作导致无法归因。下一操作窗口：2026-05-26。"
+}
