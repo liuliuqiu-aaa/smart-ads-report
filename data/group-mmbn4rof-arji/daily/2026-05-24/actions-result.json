@@ -1,0 +1,105 @@
+{
+  "date": "2026-05-24",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-25T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "504129401834266",
+      "keyword": "coofandy long sleeve polo",
+      "matchType": "exact",
+      "currentBid": 0.6,
+      "newBid": 0.5,
+      "reason": "7D $11.02/19clk/0单，连续7天0单确认，排除归因延迟。历史$0.60多次验证通过为品牌核心词，本周阶段性衰退，降bid止血等待转化恢复。不暂停理由：历史基本面健康。"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "422088402352027",
+      "keyword": "men long sleeve polo",
+      "matchType": "exact",
+      "currentBid": 0.55,
+      "newBid": 0.45,
+      "reason": "5-21 bidUp $0.45→$0.55实验，7D结果：$10.77/20clk/0单，提bid实验明确失败（已运行4天超出归因延迟范围）。按规则回降至提bid前水平$0.45。"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "men's long sleeve polo",
+          "matchType": "exact",
+          "reason": "搜索词报告7D $1.74/0单，带撇号变体应流向collar组精确词，中长尾组广泛触发流量错配"
+        }
+      ],
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens knit polo sweater",
+          "matchType": "phrase",
+          "reason": "搜索词报告7D $1.42/0单，sweater意图错配，词组否定覆盖所有sweater变体"
+        }
+      ],
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "men's pullover shirts",
+          "matchType": "exact",
+          "reason": "搜索词报告7D $1.20/0单，pullover意图错配polo/knit产品"
+        }
+      ],
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "negativeKeywords": [
+        {
+          "keyword": "golf long sleeve shirts for men",
+          "matchType": "exact",
+          "reason": "搜索词报告7D $1.16/0单，高尔夫意图错配，历史golf词全部无效"
+        }
+      ],
+      "groupId": "399535604020521"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 6
+  }
+}
