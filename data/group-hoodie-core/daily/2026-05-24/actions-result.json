@@ -1,0 +1,76 @@
+{
+  "date": "2026-05-24",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-25T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "477287543703637",
+      "keyword": "coofandy hoodie",
+      "currentBid": 0.52,
+      "newBid": 0.57,
+      "reason": "5-26出窗验证通过：7d 5clk/$2.60/2单/ACOS 4.91%/转化率40%；AI推荐$0.57 vs 当前$0.52，对齐推荐值；增长目标下ACOS余量充裕，主动提bid放量"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "coofandy waffle knit hoodies",
+      "matchType": "exact",
+      "bid": 0.62,
+      "reason": "搜索词报告（5-23）：1clk/$0.62/3单/$74.97/ACOS 0.83%，首次命中即爆发，品牌长尾词独立精确投放规律，稳定捕获超级词流量"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "b0cgmbcgq7",
+          "matchType": "exact",
+          "targetType": "ASIN"
+        }
+      ],
+      "reason": "COMPLEMENTS命中竞品ASIN；7d 3clk/$1.35/0单；30d 7clk/$3.15/0单；完全无转化，满足否定标准（30d≥5clk/0单）"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        {
+          "value": "coofandy brand hoodies",
+          "matchType": "exact",
+          "targetType": "KEYWORD"
+        },
+        {
+          "value": "coofandy brand textured hoodies",
+          "matchType": "exact",
+          "targetType": "KEYWORD"
+        }
+      ],
+      "reason": "coofandy hoodies广泛匹配泄漏无效变体词；合计7d 5clk/$3.10/0单；与已否定coofandy hoodie poly处理逻辑一致"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 4
+  }
+}
