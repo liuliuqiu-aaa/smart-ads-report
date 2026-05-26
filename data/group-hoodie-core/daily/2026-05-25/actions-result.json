@@ -1,0 +1,74 @@
+{
+  "date": "2026-05-25",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-26T08:06:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeAsins": [
+        "b0cgmbcgq7"
+      ],
+      "reason": "5-25已否定但搜索词报告仍有7d 2clk/$0.90/0单，疑似未生效或COMPLEMENTS重新命中（同b0dcjyqs74/b0cgmbfy2k顽固规律）。30d 7clk/$3.15/0单，追加第二次否定止血",
+      "expectedImpact": "止血$0.90/7d，6-02出窗确认"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "keyword": "coofandy brand hoodies",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "5-25已精确否定，搜索词报告仍显示7d 4clk/$2.48/0单（30d数据与7d完全一致，全部在近期），否定可能未生效。广泛匹配泄漏词，品牌变体，0转化，追加第二次否定止血",
+      "expectedImpact": "止血$2.48/7d，6-02出窗确认"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        {
+          "keyword": "coofandy mens hoodies pullover",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "搜索词报告30d 3clk/$1.79/0单，达到否定门槛。coofandy hoodies广泛匹配泄漏词，与历史已否定的同类词（coofandy hoodies for men、coofandy brand hoodies等）规律一致，语义偏移无转化",
+      "expectedImpact": "止血$1.79/30d，节省无效曝光"
+    },
+    {
+      "id": 4,
+      "type": "newProductTarget",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "targetAsin": "b0cgmc4wdg",
+      "suggestedBid": 0.45,
+      "reason": "搜索词报告30d 1clk/$0.45/3单/$74.97/ACOS 0.60%，超级ASIN，当前仅COMPLEMENTS自然命中，不稳定。独立PRODUCT投放主动扩量，与b0f6p7z5sp超级ASIN同类模式，bid $0.45对齐COMPLEMENTS竞价",
+      "expectedImpact": "每周额外1-3单，ACOS预计<10%"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 1,
+    "negative": 3,
+    "total": 4
+  },
+  "notes": "5-27出窗预告：b004j0096m否定、hoodie coofandy精确词、brown hoodie men精确词、mens western hoodies精确词。5-25 5条操作全在观察期至6-01。AUTO 7d ACOS 23.05%超约束但5-25周日异常拖累，减去异常日估算约16.6%，不对COMPLEMENTS竞价做调整。"
+}
