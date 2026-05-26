@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-25",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-26T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts",
+          "matchType": "negativeExact"
+        }
+      ],
+      "reason": "collared广泛通道该词7D $8.12/1单/ACOS 47.8%，vs精确通道$3.90/2单/ACOS 8.4%，广泛效率是精确5.7倍差距，流量错配止血"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "polo long sleeve shirts for men",
+          "matchType": "negativePhrase"
+        }
+      ],
+      "reason": "collared广泛该词7D $1.74/0单，精确通道（92113）已3单/ACOS 2.07%覆盖，广泛纯出血止血"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "collared long sleeve shirts for men",
+          "matchType": "negativeExact"
+        }
+      ],
+      "reason": "搜索词报告7D $1.74/0单，正装衬衫意图历史多次验证对本品无效，止血$1.74/7D"
+    },
+    {
+      "id": 4,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "keyword": "quarter zip shirts for men",
+      "matchType": "exact",
+      "newBid": 0.55,
+      "reason": "搜索词报告7D $1.20/2单/ACOS 4.0%，30D一致，由mens knit shirt广泛触发，knit意图高度匹配，精确锁定拓量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 4
+  }
+}
