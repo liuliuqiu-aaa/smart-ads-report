@@ -1,0 +1,42 @@
+{
+  "date": "2026-05-26",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-27T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "399535604020521",
+      "targetId": "504129401834266",
+      "keyword": "coofandy long sleeve polo",
+      "currentBid": 0.5,
+      "reason": "7D $8.62/0单，5-25已降$0.60→$0.50无效，30D转化崩塌（前23天40单→近7天0单），结构性废词止血"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "targetId": "92113239030243",
+      "keyword": "polo long sleeve shirts for men",
+      "currentBid": 0.55,
+      "newBid": 0.65,
+      "reason": "全组效率王：7D ACOS 2.07%/CVR 100%，30D 12单/4.8%，bid仅AI推荐62%，MT-属性活动ACOS 15.64%有4.36pp余量，boost-sales目标下放量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
