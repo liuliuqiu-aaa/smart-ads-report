@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-26",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-27T08:20:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "keywordText": "mens hoodie",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "30d 4clk/$2.04/0单，大泛词由AUTO广泛匹配泄漏，与历史处理逻辑一致（hoodies for men 5-16/coofandy hoodies for men 5-03）"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeAsins": [
+        "b0cj98nvrx"
+      ],
+      "reason": "30d 4clk/$1.80/0单，COMPLEMENTS自然命中无转化，首次否定，达否定门槛"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeAsins": [
+        "b0f1zmrm6d"
+      ],
+      "reason": "30d 4clk/$1.75/0单，COMPLEMENTS持续无效命中，首次否定"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeAsins": [
+        "b0f9yn7fgk"
+      ],
+      "reason": "30d 3clk/$1.35/0单，刚达否定门槛，COMPLEMENTS无转化命中"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 4
+  }
+}
