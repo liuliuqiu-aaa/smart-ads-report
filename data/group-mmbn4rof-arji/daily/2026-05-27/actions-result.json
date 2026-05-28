@@ -1,0 +1,101 @@
+{
+  "date": "2026-05-27",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-28T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "422088402352027",
+      "keyword": "men long sleeve polo",
+      "matchType": "broad",
+      "currentBid": 0.45,
+      "reason": "5-28验证节点：7D $12.22/1单/ACOS 38.2%，bid已是历史验证上限（$0.55提bid实验4天0单明确失败），搜索词持续错配（big and tall/sweater/navy blue等），结构性废词止血"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "广泛通道(467786)触发此词7D $6.38/1单/ACOS 37.55%，精确通道(131086)同词7D $2.06/1单/ACOS 6.44%，效率差5.8倍，否定广泛通道将流量导向精确（复用5-26 collar广泛否定成功路径）"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve polo shirts for men big and tall",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7D $2.65/0单，30D同样0单，大码意图错配本品标准码polo，无历史转化"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens knit polo sweater long sleeve",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "7D $1.42/0单，30D同，sweater意图错配已多次验证（5月sweater全面衰退），词组否定覆盖变体"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens polo shirts long sleeve",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7D $1.16/0单，30D $4.20/0单，长期无转化确认，collar广泛泄漏词止血"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "european mens clothing",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7D $0.60/0单，mens knit shirt广泛触发，欧洲男装意图明显错配polo产品，广泛漂移止血"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 5,
+    "total": 6
+  }
+}
