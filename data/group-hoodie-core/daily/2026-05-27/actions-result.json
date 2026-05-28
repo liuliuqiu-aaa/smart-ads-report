@@ -1,0 +1,92 @@
+{
+  "date": "2026-05-27",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-28T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b07yf4cvn2"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 4clk/$1.80/0单，COMPLEMENTS重新命中第二次（历史5-13首次否定），与b0dcjyqs74/b0cgmbfy2k规律完全一致，持续漏血追加阻断"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0drlj4hxf"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 4clk/$1.80/0单，COMPLEMENTS重新命中第二次（历史5-13首次否定），与b07yf4cvn2同批追加"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0cgm98y12"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 6clk/$2.70/0单，strategy-memory观察期到5-29，提前决断：$2.70超止血阈值（3clk/$1.35即可），无任何转化信号，不值得等"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "coofandy fleece hoodie for men"
+      ],
+      "negativeType": "KEYWORD",
+      "matchType": "exact",
+      "reason": "30d 3clk/$1.71/0单（全部集中在7d内），由coofandy hoodie广泛匹配触发，品牌+fleece变体词无转化，与历史同类处理逻辑一致"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b01b9k2jb2"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 3clk/$1.30/0单，历史否定（5-05），COMPLEMENTS重新命中，追加第二次"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b00jum2v4w"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 3clk/$1.35/0单，历史否定（5-05，b00jum系列清洗），COMPLEMENTS重新命中，追加第二次。注意：本ASIN与超级ASIN b00jum2vaq不同，确认区分"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 6,
+    "total": 6
+  }
+}
