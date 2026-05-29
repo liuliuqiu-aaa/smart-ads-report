@@ -1,0 +1,49 @@
+{
+  "date": "2026-05-28",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-29T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "b0cgmbcgq7",
+          "matchType": "exact",
+          "targetType": "asin"
+        }
+      ],
+      "reason": "顽固ASIN，历史已否定2次（5-25、5-26）均疑似重新命中，7d $0.90/2clk/0单，30d $3.60/8clk/0单，与b0dcjyqs74、b0cgmbfy2k同规律，第三次追加强制阻断"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "b0cgm9cgkt",
+          "matchType": "exact",
+          "targetType": "asin"
+        }
+      ],
+      "reason": "新增无效ASIN，7d $0.90/2clk/0单，30d $1.35/0单，无转化历史，首次否定"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
