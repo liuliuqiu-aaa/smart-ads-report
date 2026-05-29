@@ -1,0 +1,19 @@
+{
+  "date": "2026-05-28",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-29T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "5-28已执行6个操作（422088暂停+5个否定词），全部观察期至5-31。5-29验证节点核查：targeting_daily显示collar广泛5-28花费$0，否定词已生效，无需补操作。新词机会（amazon henley shirt 1clk/2单）数据量不足，不建立精确词。下一操作窗口：5-30（131086验证）、5-31（collar广泛效果核查+knit polo men核查）。"
+}
