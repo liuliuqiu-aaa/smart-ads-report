@@ -1,0 +1,43 @@
+{
+  "date": "2026-05-29",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-30T08:24:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "131086786880636",
+      "keyword": "men's long sleeve polo shirts",
+      "matchType": "exact",
+      "currentBid": 0.48,
+      "reason": "7D验证节点到期：$1.44/0单。30D ACOS 34.24%/$31.23/5单严重超线。精确通道远差于广泛通道（广泛7D ACOS 19.02%），确认失败，永久暂停止血"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "groupId": "434908423303404",
+      "keyword": "amazon men long sleeve collared henley shirt",
+      "matchType": "exact",
+      "newBid": 0.58,
+      "reason": "搜索词报告7D 1clk/$0.58/2单/ACOS 1.01%，由collar广泛触发，品类意图精准契合，精确保护高效流量"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
