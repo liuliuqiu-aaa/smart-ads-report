@@ -1,0 +1,66 @@
+{
+  "date": "2026-05-30",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-05-31T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0ckywqgw2"
+      ],
+      "reason": "COMPLEMENTS重新命中，历史5-05已否定，5-30搜索词30d 7clk/$3.60/0单仍活跃，零转化最高花费ASIN，追加止血"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0drljp1nc"
+      ],
+      "reason": "首次否定，7d 2clk/$0.90/0单，30d 4clk/$1.80/0单，全程零转化，达否定标准"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "mens sweatshirt"
+      ],
+      "reason": "广泛匹配泄漏词，7d 3clk/$1.47/0单，hoodie广泛触发sweatshirt语义偏差，历史无转化，精确否定止血"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b075jnl9t3",
+        "b075kspn7j",
+        "b0cd1n325s",
+        "b0fmjfwqsy"
+      ],
+      "reason": "批量否定4条ASIN，各30d 3clk/$1.35/0单，均达否定标准，合计止血$5.40/30d"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 4
+  }
+}
