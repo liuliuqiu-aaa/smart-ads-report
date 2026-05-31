@@ -1,0 +1,41 @@
+{
+  "date": "2026-05-30",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-05-31T08:22:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "currentBid": 0.58,
+      "newBid": 0.5,
+      "reason": "7D ACOS 61.75%（$18.52/32clk/1单），超约束线3倍，全组最大单一亏损点；5-28否定5词效果有限，广泛本身CVR仅3.1%（历史20-40%），需降bid止血"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "33266780667685",
+      "keyword": "knit polo men",
+      "currentBid": 0.6,
+      "newBid": 0.5,
+      "reason": "7D 3clk/$1.80/0单，策略记忆确认30D整体0单（结构性无转化），5-31高优核查节点到期"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
