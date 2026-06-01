@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-31",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-01T08:27:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "306524140972646",
+      "keyword": "mens knit shirt",
+      "matchType": "广泛",
+      "currentBid": 0.6,
+      "newBid": 0.5,
+      "reason": "7D $6.56/11clk/0单，超$5无转化阈值；历史bid上限$0.60两次验证均已到上限；当前$0.60档位失效，降至$0.50止血观察3天"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  },
+  "notes": "6-02确定执行：polo long sleeve shirts for men精确（92113）bidUp $0.65→$0.75（效率王放量，今日分析产出但明日执行节点）"
+}
