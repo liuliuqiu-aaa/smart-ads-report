@@ -1,0 +1,67 @@
+{
+  "date": "2026-05-31",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-01T08:07:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0drlhgdt5"
+      ],
+      "reason": "30d 4clk/$1.80/0单，COMPLEMENTS首次否定，达否定标准，止血$1.80/30d",
+      "observeUntil": "2026-06-08"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0ckyxgklb"
+      ],
+      "reason": "30d 3clk/$1.35/0单，COMPLEMENTS首次否定，达否定标准，止血$1.35/30d",
+      "observeUntil": "2026-06-08"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0d4qlqxtb"
+      ],
+      "reason": "30d 3clk/$1.29/0单，COMPLEMENTS首次否定，达否定标准，止血$1.29/30d",
+      "observeUntil": "2026-06-08"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0ckyyt36g"
+      ],
+      "reason": "30d 2clk/$0.90/0单，7d同样2clk/$0.90/0单，两期连续无转化，止血$0.90/30d",
+      "observeUntil": "2026-06-08"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 4
+  }
+}
