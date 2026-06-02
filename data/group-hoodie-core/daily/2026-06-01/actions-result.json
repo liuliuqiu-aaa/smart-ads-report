@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-01",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-02T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0cj98sxqp"
+      ],
+      "reason": "30d 3clk/$1.35/0单，COMPLEMENTS自然命中竞品ASIN，首次否定，达标准，止血$1.35/30d"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
