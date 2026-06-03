@@ -1,0 +1,135 @@
+{
+  "date": "2026-06-02",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-03T08:10:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0ckywqgw2"
+      ],
+      "matchType": "negativeExact",
+      "targetType": "ASIN",
+      "note": "追加第三次否定",
+      "reason": "5-31第二次否定EIP疑似未生效，7d仍$0.90/2clk/0单，30d 0单，COMPLEMENTS重新命中顽固ASIN，止血$0.90/7d"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b075jnl9t3"
+      ],
+      "matchType": "negativeExact",
+      "targetType": "ASIN",
+      "note": "追加第二次否定",
+      "reason": "5-31首次否定EIP疑似未生效，7d仍$1.35/3clk/0单，30d 0单，止血$1.35/7d"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0drljp1nc"
+      ],
+      "matchType": "negativeExact",
+      "targetType": "ASIN",
+      "note": "追加第二次否定",
+      "reason": "5-31首次否定EIP疑似未生效，7d仍$0.45/1clk/0单，30d 0单，止血$0.45/7d"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b075kspn7j"
+      ],
+      "matchType": "negativeExact",
+      "targetType": "ASIN",
+      "note": "追加第二次否定",
+      "reason": "5-31首次否定EIP疑似未生效，7d仍$0.45/1clk/0单，30d 0单，止血$0.45/7d"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0cd1n325s"
+      ],
+      "matchType": "negativeExact",
+      "targetType": "ASIN",
+      "note": "追加第二次否定",
+      "reason": "5-31首次否定EIP疑似未生效，7d仍$0.45/1clk/0单，30d 0单，止血$0.45/7d"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0fmjfwqsy"
+      ],
+      "matchType": "negativeExact",
+      "targetType": "ASIN",
+      "note": "追加第二次否定",
+      "reason": "5-31首次否定EIP疑似未生效，7d仍$0.45/1clk/0单，30d 0单，止血$0.45/7d"
+    },
+    {
+      "id": 7,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        "mens sweatshirt"
+      ],
+      "matchType": "negativePhrase",
+      "targetType": "KEYWORD",
+      "note": "广泛否定（补加，精确否定已有）",
+      "reason": "5-31精确否定不能拦截coofandy hoodie广泛匹配泄漏，7d仍7clk/$3.43/0单全组最高无效词，补加广泛否定彻底阻断"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 7,
+    "total": 7
+  },
+  "notOperating": [
+    {
+      "item": "coofandy hoodie bid $0.57",
+      "reason": "7d 13clk/0单但归因延迟未排除，CTR 1.64%正常，品牌词历史极高效，6-03再评"
+    },
+    {
+      "item": "coofandy hoodies bid $0.62",
+      "reason": "7d ACOS 15.07%在约束线内，止血期唯一KEYWORD出单词，不降"
+    },
+    {
+      "item": "COMPLEMENTS bid $0.45",
+      "reason": "历史多次验证降竞价无效，ASIN池质量是瓶颈"
+    },
+    {
+      "item": "b0ckyznj41/b0d454kd55 否定",
+      "reason": "等6-04批次8条出窗验证后统一处理"
+    }
+  ]
+}
