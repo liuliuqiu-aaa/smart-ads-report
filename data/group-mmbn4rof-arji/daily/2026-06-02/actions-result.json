@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-02",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-03T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "matchType": "广泛",
+      "currentBid": 0.5,
+      "newBid": 0.55,
+      "reason": "6-03验证节点到期：collar广泛5-31降bid至$0.50后7D ACOS 13.81%（30D $12.25/22clk/4单），符合策略记忆要求'若≤20%立即提bid$0.55放量'。全组一号属性引擎，ACOS余量6.19pp。"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "522562610247037",
+      "targetId": "33266780667685",
+      "keyword": "knit polo men",
+      "matchType": "精确",
+      "currentBid": 0.5,
+      "newBid": null,
+      "reason": "6-03验证节点到期：5-31降bid $0.60→$0.50后7D仍2clk/$1.20/0单，多周累积确认无转化。策略记忆明确指令'若6-03仍0单则暂停'。knit通道应走广泛（427419）而非此精确词。"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens shirts with stand up collar",
+          "matchType": "词组否定",
+          "reason": "立领意图错配polo，7D 1clk/$0.58/0单"
+        },
+        {
+          "keyword": "long sleeve collared dress for men",
+          "matchType": "词组否定",
+          "reason": "dress意图错配休闲polo，7D 1clk/$0.48/0单"
+        },
+        {
+          "keyword": "mens bottom band shirt",
+          "matchType": "词组否定",
+          "reason": "意图不明确，非目标产品，7D 1clk/$0.58/0单"
+        },
+        {
+          "keyword": "mens pullover long sleeve collared shirt",
+          "matchType": "词组否定",
+          "reason": "pullover意图偏移且与已有精确词重叠，7D 1clk/$0.48/0单"
+        }
+      ],
+      "reason": "collar广泛（467786）触发的废词，意图偏移或重叠，4条共花费约$2.0/7D/0单止血"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 3
+  }
+}
