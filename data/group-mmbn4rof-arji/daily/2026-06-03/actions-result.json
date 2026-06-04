@@ -1,0 +1,95 @@
+{
+  "date": "2026-06-03",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-04T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "33266780667685",
+      "keyword": "knit polo men",
+      "matchType": "精确",
+      "currentBid": 0.5,
+      "reason": "6-03已决策永久暂停但未执行。补执行：7D 2clk/$1.20/0单，30D多次0转化，$0.60/$0.50两档验证全失败（5-19~6-03约3周），策略记忆确认结构性废词"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "306524140972646",
+      "keyword": "mens knit shirt",
+      "matchType": "广泛",
+      "currentBid": 0.5,
+      "newBid": 0.65,
+      "reason": "6-04验证节点到期（6-01 bidDown操作）：7D ACOS 6.40%/2单/$4.22，大超目标；6-02爆发2单CVR 100%；bid仅AI推荐52%，曝光低配；boost-sales目标提bid至AI推荐67%放量"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts with collar",
+          "matchType": "词组"
+        },
+        {
+          "keyword": "mens long sleeve collared shirts",
+          "matchType": "词组"
+        }
+      ],
+      "reason": "搜索词报告发现collar广泛漏出的废词路径：mens long sleeve polo shirts with collar（30D $3.52/0单）+ mens long sleeve collared shirts（30D $2.32/0单），均意图错配（衬衫/领口意图），词组否定止血约$5.84/30D"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 3
+  },
+  "verificationNodes": {
+    "today_6_04": [
+      {
+        "targetId": "306524140972646",
+        "keyword": "mens knit shirt [广泛]",
+        "operation": "6-01 bidDown $0.60→$0.50",
+        "result": "✅ 通过：7D ACOS 6.40%/2单，今日提bid$0.65",
+        "nextCheck": "2026-06-11"
+      }
+    ],
+    "upcoming_6_05": [
+      {
+        "targetId": "494991829332619",
+        "keyword": "mens long sleeve polos with collar [精确]",
+        "operation": "6-02 bidDown $0.46→$0.38",
+        "note": "6-05验证"
+      }
+    ],
+    "upcoming_6_09": [
+      {
+        "targetId": "92113239030243",
+        "keyword": "polo long sleeve shirts for men [精确]",
+        "operation": "6-02 bidUp $0.65→$0.75",
+        "note": "6-09验证（bid提后7天）"
+      }
+    ],
+    "upcoming_6_10": [
+      {
+        "targetId": "467786693180141",
+        "keyword": "men's long sleeve collared shirts [广泛]",
+        "operation": "6-03 bidUp $0.50→$0.55",
+        "note": "6-10验证（collar广泛一号引擎）"
+      }
+    ]
+  }
+}
