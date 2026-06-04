@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-03",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-04T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "6-03已执行7条操作（全部在观察期至6-09）；6-04是5-28批次8条的关键出窗节点，等待验证；coofandy hoodie评估推迟至6-05；整组7d ACOS 35.6%超约束15.6pp，止血观察期，无高置信度新候选；控制变量不叠加。"
+}
