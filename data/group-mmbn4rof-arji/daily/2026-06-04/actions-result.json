@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-04",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-05T08:35:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "newKeyword",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "keyword": "men's knit shirts heather",
+      "matchType": "exact",
+      "newBid": 0.55,
+      "reason": "搜索词报告30D 3clk/$1.74/2单/ACOS 2.6%；7D 1clk/$0.50/2单/ACOS 0.76%，双周期出单，knit广泛触发，无精确保护，锁定高效流量"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens knit polo",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "30D 4clk/$2.62/0单，7D 2clk/$1.30/0单，由mens knit shirt广泛触发，polo意图错配knit shirt产品，止血$2.62/30D"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens sweaters and pullovers",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "30D 3clk/$1.85/0单，sweater意图错配，策略记忆已确认sweater类词全面废弃，止血$1.85/30D"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 3
+  }
+}
