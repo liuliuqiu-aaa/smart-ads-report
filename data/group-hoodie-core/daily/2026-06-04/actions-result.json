@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-04",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-05T08:11:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "decisionNote": "今日不操作。理由：①6-04出窗8条否定刚全部清零，需7天窗口吸收效果，立即操作违反单变量原则；②6-07出窗批次（7条）仅3天后，控制变量；③coofandy hoodie $0.57虽连续0单但等否定清池环境更纯净后再评；④无新高置信度否定候选（现有候选等6-07批次出窗后执行）；⑤COMPLEMENTS降竞价历史验证无效，不做无效操作。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
