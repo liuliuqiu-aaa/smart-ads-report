@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-05",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-06T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "reasoning": "今日0操作。原因：①6-03执行7条否定均在观察期（6-09出窗），②6-07是预定综合评估节点（coofandy hoodie bid处置 + 5-31批次验证），③降低COMPLEMENTS竞价历史验证无效，④b0fcyljh34等候选均放入6-07队列，今日提前操作无增量信息支持，止血效果由否定批次时间推移自然体现。"
+}
