@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-05",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-06T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "keyword": "amazon men long sleeve collared henley shirt",
+      "matchType": "exact",
+      "currentBid": 0.58,
+      "newBid": 0.7,
+      "reason": "6-06验证节点到期：5-30新建bid$0.58，7D整个collar组数据中未见该词任何花费/曝光，判断bid低配导致0竞价。原始搜索词7D ACOS 1.01%（2单/1clk）意图极精准，提bid$0.70（约AI推荐75-80%档位）激活竞价"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "336337695663539",
+      "keyword": "mens long sleeve polo shirt",
+      "matchType": "broad",
+      "currentBid": 0.46,
+      "newBid": 0.6,
+      "reason": "7D 1单/5clk/$1.90/ACOS 6.79%/CVR 20%，效率优秀。bid$0.46仅AI推荐$0.93的49%严重低配，策略记忆明确指令'第2单出现后提bid$0.60'，本周7D确认1单，条件达成。boost-sales目标下提bid放量"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P3",
+      "campaignId": "415285089257642",
+      "adGroupId": "399535604020521",
+      "targetId": "520405181736617",
+      "keyword": "golf polos for men",
+      "matchType": "exact",
+      "currentBid": 0.45,
+      "reason": "高尔夫意图词确认废词：7D 0单/1clk/$0.45，策略记忆记录'golf意图对本品类无效（5-23已全面清扫）'，大词组实际已废弃，清扫残余废词止血"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
