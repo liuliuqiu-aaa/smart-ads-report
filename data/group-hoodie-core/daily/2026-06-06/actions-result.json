@@ -1,0 +1,86 @@
+{
+  "date": "2026-06-06",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-07T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "type": "asin",
+          "value": "b0fcyljh34",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "本品ASIN展示在自己旁边，7d 4clk/$1.80/0单，纯损耗无任何转化价值，止血$1.80/7d"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "targetId": "477287543703637",
+      "keyword": "coofandy hoodie",
+      "currentBid": 0.57,
+      "newBid": 0.5,
+      "reason": "6-07关键评估节点：7d归因17clk/$8.96/0单，出窗期完整确认真实无转化；广泛匹配被mens sweatshirt等词污染；降bid减少污染环境下虚花费，等6-09出窗环境纯化后再评"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        {
+          "type": "keyword",
+          "value": "mens hooded sweatshirt",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7d 6clk/$3.02/0单，30d同，非品牌词由coofandy hoodies广泛泄漏，无否定记录，止血$3.02/7d；与6-03 mens sweatshirt广泛否定语义不同不重叠"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "type": "keyword",
+          "value": "hoodies for men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "5-16首次否定5-23出窗清零后重新泄漏，7d 3clk/$1.86/0单，30d 8clk/$4.96/0单，第二次追加否定止血"
+    },
+    {
+      "id": 5,
+      "type": "bidUp",
+      "priority": "P3",
+      "campaignId": "333903452360072",
+      "targetId": "204499278962942",
+      "keyword": "mens western hoodies",
+      "currentBid": 0.58,
+      "newBid": 0.68,
+      "reason": "30d 4单/ACOS 1.51%极高效词，AI推荐$0.71，当前bid $0.58导致7d仅3次曝光；提至$0.68（AI推荐的95.8%）放量捕获高效流量"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 5
+  }
+}
