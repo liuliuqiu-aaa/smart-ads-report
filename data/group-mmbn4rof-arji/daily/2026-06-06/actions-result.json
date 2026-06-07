@@ -1,0 +1,45 @@
+{
+  "date": "2026-06-06",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-07T08:23:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "matchType": "broad",
+      "currentBid": 0.5,
+      "newBid": 0.55,
+      "reason": "6-03操作日志记录提bid$0.50→$0.55，但latest.json确认bid仍为$0.50未写入，今日补执行。6-06单日ACOS 12%趋势向好，7D 31.80%受6-05异常日(47%)拖累。$0.55是历史验证通过档位。"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "500443922336468",
+      "keyword": "long sleeve mens polo shirts",
+      "matchType": "exact",
+      "currentBid": 0.46,
+      "newBid": 0.65,
+      "reason": "6-06 1D 1clk/2单CVR 200%，7D 3单/ACOS 3.23%/CVR 66.67%，全组当前最高效词。bid $0.46仅AI推荐$0.80的58%，严重限制曝光(7D仅113曝光)。boost-sales目标下ACOS 3.23%离约束线16.77pp余量，立即放量。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 2
+  }
+}
