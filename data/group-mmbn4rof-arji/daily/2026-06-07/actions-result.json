@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-07",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-08T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts with collar",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "30D $4.40/8clk/0单，全组最大无转化泄漏词，collar广泛持续触发意图错配，历史累计浪费最多"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "black polo long sleeve men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "30D $1.70/3clk/0单，颜色前缀词历史确认无效，与策略记忆颜色词废词规律一致"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "groupId": "522562610247037",
+      "keyword": "quarter zip men",
+      "matchType": "exact",
+      "newBid": 0.55,
+      "reason": "搜索词报告30D 2clk/2单/ACOS 2.78%，7D 1单/ACOS 2.17%，双周期验证有效，knit广泛触发，精确保护高效流量；验证节点2026-06-14"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 3
+  }
+}
