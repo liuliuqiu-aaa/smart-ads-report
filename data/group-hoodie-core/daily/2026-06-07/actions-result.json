@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-07",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-08T08:10:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b0bjdffkq6"
+      ],
+      "reason": "搜索词报告（6-06数据）7d 2clk/$0.90/0单，30d同，新命中ASIN无历史转化，达到否定门槛，止血$0.90/7d"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        "b07yf5cr4v"
+      ],
+      "reason": "搜索词报告（6-06数据）7d 2clk/$0.90/0单，30d同，新命中ASIN无历史转化，与操作1同批，止血$0.90/7d"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  },
+  "notes": "6-07执行的5条操作均在观察期内（至6-14），不再操作。6-08出窗5条验证完成（b0ckyxgklb/b0d4qlqxtb/b0ckyyt36g已清零，b0cj98sxqp/b0drlhgdt5待6-09搜索词报告最终确认）。coofandy sweatshirt否定和b0d454kd55否定延迟至6-09大批次出窗后执行。"
+}
