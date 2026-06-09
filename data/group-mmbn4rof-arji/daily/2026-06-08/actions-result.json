@@ -1,0 +1,52 @@
+{
+  "date": "2026-06-08",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-09T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "currentBid": 0.55,
+      "newBid": 0.45,
+      "reason": "7D 25clk/$13.00/0单，等同于ACOS无穷大；触发止损线（$10+花费0单）；历史最优档$0.50-$0.55，降至$0.45低配减少无效花费；观察期至6-12"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "targetId": "92113239030243",
+      "keyword": "polo long sleeve shirts for men",
+      "currentBid": 0.75,
+      "newBid": 0.85,
+      "reason": "6-09验证节点到期，7D仅3clk/0单样本不足，历史30D 11单/ACOS 6%优质词；$0.75仍低于竞价胜出阈值（AI推荐$1.06），提至$0.85达80%激活竞价；观察期至6-16"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "keyword": "long sleeve polo shirts for men cotton",
+      "matchType": "exact",
+      "bid": 0.65,
+      "reason": "搜索词报告7D 4单/$56.96/ACOS 1.14%（30D同量级），由long sleeve mens polo shirts广泛触发；cotton材质意图精准匹配本品SKU；精确保护高效搜索路径；观察期至6-16"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 3
+  }
+}
