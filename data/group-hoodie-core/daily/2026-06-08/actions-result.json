@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-08",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-09T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "keyword": "coofandy sweatshirt",
+          "matchType": "EXACT"
+        }
+      ],
+      "reason": "30d 7clk/$3.15/0单，COMPLEMENTS命中竞品品牌词，历史从未否定，30d零单，达否定门槛3倍以上，立即止血$3.15/30d"
+    },
+    {
+      "id": 2,
+      "type": "newProductTarget",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "asin": "B0DNWCWM6F",
+      "bid": 0.45,
+      "reason": "双期验证通过（6-03/6-07搜索词报告各1clk/$0.45/1单/ACOS 1.80%），确认优质ASIN，独立PRODUCT投放稳定捕获，与历史b0fvllxfgt等规律一致"
+    },
+    {
+      "id": 3,
+      "type": "newProductTarget",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "asin": "B097TD3VNT",
+      "bid": 0.45,
+      "reason": "双期验证通过（6-03/6-07搜索词报告各1clk/$0.45/1单/ACOS 3.00%），确认优质ASIN，独立PRODUCT投放稳定捕获"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 2,
+    "negative": 1,
+    "total": 3
+  }
+}
