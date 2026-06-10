@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-09",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-10T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "336337695663539",
+      "keyword": "mens long sleeve polo shirt",
+      "matchType": "exact",
+      "currentBid": 0.6,
+      "newBid": 0.45,
+      "reason": "7D ACOS 50.37%（$4.78/1单/9clk），超约束线2.5倍；搜索词报告30D 1单/ACOS 53%双窗口确认；策略记忆标高风险，当前数据提前确认超线，降bid止血"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "collared shirt men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告30D 6clk/$3.34/1单/ACOS 23.5%，超约束线；正装衬衫意图错配polo产品，历史规律确认；止血约$3.3/30D"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 2
+  }
+}
