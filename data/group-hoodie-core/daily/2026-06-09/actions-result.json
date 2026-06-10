@@ -1,0 +1,103 @@
+{
+  "date": "2026-06-09",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-10T08:30:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "keyword": "sudaderas para hombre",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "西班牙语词，与英语男士hoodie产品完全不匹配，7D 1clk/$0.62/0单，明显语义偏差无保留价值"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "keyword": "mens coofandy hoodie",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "7D 3clk/$1.71/0单，30D同样0单，达否定门槛，strategy-memory列为待处理候选"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeAsins": [
+        {
+          "asin": "b0ckyznj41",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "COMPLEMENTS ASIN，30D 4clk/$1.80/0单，首次否定，达标准，止血$1.80/30D"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeAsins": [
+        {
+          "asin": "b0ckyywpsf",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "COMPLEMENTS ASIN，30D 4clk/$1.80/0单，首次否定，达标准，止血$1.80/30D"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeAsins": [
+        {
+          "asin": "b0dc3tvb95",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "COMPLEMENTS ASIN，30D 3clk/$1.35/0单，首次否定，达门槛下限，止血$1.35/30D"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "negativeKeywords": [
+        {
+          "keyword": "hoodies for men",
+          "matchType": "broad"
+        }
+      ],
+      "reason": "6-07精确否定后广泛匹配仍泄漏，7D 5clk/$3.10/0单，精确否定无法阻断广泛路径，追加广泛否定封堵，止血$3.10/7D"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 6,
+    "total": 6
+  }
+}
