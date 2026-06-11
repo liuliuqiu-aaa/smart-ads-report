@@ -1,0 +1,47 @@
+{
+  "date": "2026-06-10",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-11T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "333903452360072",
+      "groupId": "287645154677094",
+      "keyword": "mens hoodies",
+      "negativeKeywords": [
+        {
+          "keyword": "mens hoodies",
+          "matchType": "broad"
+        }
+      ],
+      "reason": "7D 6clk/$3.72/0单，通用大泛词，历史同类词均已否定（hoodies for men/mens hooded sweatshirt/mens sweatshirt），今日新发现漏网词，止血$3.72/7D"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "keyword": "b0drlj4hxf",
+      "negativeType": "negativeProduct",
+      "negativeAsins": [
+        "b0drlj4hxf"
+      ],
+      "reason": "5-28第二次否定6-04出窗确认清零后，COMPLEMENTS再次重新命中，7D 1clk/$0.45/0单，顽固ASIN追加第三次否定，与b0dcjyqs74/b004j0096m规律一致"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 2
+  }
+}
