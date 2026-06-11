@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-10",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-11T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "428767562688252",
+      "keyword": "collared sweater men",
+      "matchType": "exact",
+      "currentBid": 0.4,
+      "newBid": 0.6,
+      "reason": "7D ACOS 11.24%/CVR 25%/bid仅AI推荐41%（$0.40/$0.98）严重低配；collar组唯一出单精确词，collar广泛止损期间激活此词补MT活动量"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "groupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "golf long sleeve shirts for men",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "polo dress shirts for men long sleeve",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "men's clothing",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "mens top",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告确认collar广泛7D触发4个意图严重漂移词（高尔夫/正装/泛类目），合计消耗约$2.20/0单，词组否定预防bid恢复后复发"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "搜索词报告：mens knit shirt广泛（306524）触发该词7D $3.90/0单，同词在500443精确通道已16单/ACOS 15.86%完全覆盖，精确否定止血双触发浪费"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "sweaters clearance",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "knitted cardigan",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告：knit广泛触发意图不符词（清仓sweater/开衫外套），小额止血+阻断废词路径"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 7,
+    "total": 8
+  },
+  "pendingWatchlist": [
+    {
+      "date": "2026-06-12",
+      "item": "collar广泛（467786）7D止损效果核查",
+      "action": "若7D ACOS仍>40%且1D正常，属窗口虚高继续观察；若1D也超标则考虑进一步操作"
+    },
+    {
+      "date": "2026-06-12",
+      "item": "336337 mens long sleeve polo shirt精确bidDown效果",
+      "action": "若7D仍>40%且bid已降至$0.45，考虑暂停"
+    },
+    {
+      "date": "2026-06-12",
+      "item": "306524 mens knit shirt广泛验证节点（延期）",
+      "action": "7D ACOS 23.76%，1D 12.36%，结合今日新数据判断是否提至$0.72"
+    },
+    {
+      "date": "2026-06-13",
+      "item": "500443 long sleeve mens polo shirts精确正式验证",
+      "action": "7D ACOS<20%则提bid $0.65→$0.75"
+    },
+    {
+      "date": "2026-06-14",
+      "item": "428767 collared sweater men提bid效果",
+      "action": "若7D 2-3单/ACOS<20%则继续；若0单则回降$0.40"
+    },
+    {
+      "date": "2026-06-14",
+      "item": "238730 quarter zip men精确验证",
+      "action": "7D仍0单则暂停"
+    },
+    {
+      "date": "2026-06-16",
+      "item": "92113 polo long sleeve shirts for men精确验证",
+      "action": "30D 14单/ACOS 6.5%历史支撑，若7D出单则验证通过；若仍0单则降bid"
+    }
+  ]
+}
