@@ -1,0 +1,71 @@
+{
+  "date": "2026-06-11",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-12T08:27:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "500443922336468",
+      "keyword": "long sleeve mens polo shirts",
+      "matchType": "精确",
+      "currentBid": 0.65,
+      "newBid": 0.75,
+      "reason": "7D ACOS 17.81%/<20%约束，16单/CVR 22.86%，全组核心引擎；bid仅AI推荐85%，boost-sales目标提量；6-13验证节点提前1天确认"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "533585421638996",
+      "keyword": "mens sweater",
+      "matchType": "精确",
+      "currentBid": 0.75,
+      "newBid": 0.9,
+      "reason": "7D ACOS 5.18%/CVR 100%/3单，1D(6-11)2单/ACOS 7.9%爆发确认；bid仅AI推荐$0.94的79.8%严重低配；余量14.82pp，立即放量"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "522562610247037",
+      "targetId": "238730498730151",
+      "keyword": "quarter zip men",
+      "matchType": "精确",
+      "currentBid": 0.55,
+      "newBid": null,
+      "reason": "7D 21clk/$11.49/0单，连续无转化；quarter zip拉链衫意图错配polo collared产品；日均$1.64出血，6-14验证到期但不等，立即止血"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "336337695663539",
+      "keyword": "mens long sleeve polo shirt",
+      "matchType": "精确",
+      "currentBid": 0.45,
+      "newBid": null,
+      "reason": "7D ACOS 42.78%/1单，超约束2.14倍；6-10降bid$0.45后6-11已0曝光，废词确认；30D历史ACOS 53%双窗口，结构性高风险词止损"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 4
+  }
+}
