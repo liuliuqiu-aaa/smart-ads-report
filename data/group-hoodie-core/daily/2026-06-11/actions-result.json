@@ -1,0 +1,21 @@
+{
+  "date": "2026-06-11",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-12T08:04:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "noActionReason": "整组7D ACOS 19.9%处于临界状态（余量0.1pp）；6-11/6-10/6-09批次操作均在观察期内；距6-14预定放量节点仅2天，届时KEYWORD历史窗口消退后预计ACOS降至18%，可安全执行预算提升+bid调整+新建投放组合包；今日提前操作无增量价值且引入变量干扰",
+  "nextActionDate": "2026-06-14",
+  "nextActionPlan": "若6-14整组7D ACOS≤20%：①AUTO预算$1→$10②AUTO bid $0.45→$0.52(可错后1-2天)③新建PRODUCT独立投放b0d4qn1fzw/b0bgby99l3/b09fy9sdqq各$0.45",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
