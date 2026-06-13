@@ -1,0 +1,58 @@
+{
+  "date": "2026-06-12",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-13T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "budgetAdjust",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "currentBudget": 1,
+      "newBudget": 10,
+      "reason": "AUTO预算$1/天每天耗尽（6-12实际花费$1.35，serving_status显示超出预算），广告完全无法放量；AUTO 7D ACOS 15.15%健康，余量4.85pp，是结构性瓶颈，必须解除"
+    },
+    {
+      "id": 2,
+      "type": "newProductTarget",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "asin": "b0d4qn1fzw",
+      "bid": 0.45,
+      "reason": "搜索词报告6-12：1clk/$0.45/1单/$31.99/ACOS 1.41%，首次出单验证通过；已在6-14放量候选名单，首次验证提前执行；与已验证优质ASIN建立独立投放规律一致"
+    },
+    {
+      "id": 3,
+      "type": "newProductTarget",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "asin": "b09fy9sdqq",
+      "bid": 0.45,
+      "reason": "搜索词报告6-12：1clk/$0.45/1单/$24.99/ACOS 1.80%，首次出单验证通过；已在6-14放量候选名单，首次验证提前执行"
+    },
+    {
+      "id": 4,
+      "type": "newProductTarget",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "asin": "b0fcxxb83w",
+      "bid": 0.45,
+      "reason": "搜索词报告确认二次验证通过（上期首次出单，本期6-12再次出单验证）；符合策略规律：连续两期验证后建立独立投放"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 1,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 3,
+    "negative": 0,
+    "total": 4
+  }
+}
