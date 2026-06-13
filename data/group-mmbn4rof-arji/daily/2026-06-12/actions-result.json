@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-12",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-13T08:22:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "92113239030243",
+      "keyword": "polo long sleeve shirts for men",
+      "currentBid": 0.85,
+      "newBid": 0.55,
+      "reason": "7D 0单/$9.81/12clk，近7天性能断崖。6-09提bid$0.85激活失败，维持高bid浪费$9.81/7D。30D历史3单/ACOS 13.99%说明意图没问题，collar广泛止损期间连带失效，降bid止损等collar恢复后重新评估"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 1
+  }
+}
