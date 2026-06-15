@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-14",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-15T08:02:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "AUTO ACOS 53.98%超约束线34pp，但可操作空间已耗尽：①AUTO-COMPLEMENTS bid $0.45 = AI推荐$0.44（无提bid空间）；②6-12放量包（3个独立PRODUCT投放）疑似EIP未生效，在生效状态确认前不追加操作；③当前否定批次全在观察期；④KEYWORD活动重启条件未成熟（整组7D ACOS 60.9%）。今日为周六数据，周末效应适用。优先事项：调度session人工核查EIP投放生效状态（P0紧急）。"
+}
