@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-14",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-15T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "budgetAdjust",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "currentBudget": 25,
+      "newBudget": 40,
+      "reason": "6-14花费$26.27超出预算$25，预算触顶截断放量；boost-sales目标下500443单日10单爆发，需给够预算支撑核心引擎"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "targetId": "428767562688252",
+      "keyword": "collared sweater men",
+      "currentBid": 0.6,
+      "newBid": 0.72,
+      "reason": "6-11 bidUp验证通过：7D 4单/ACOS 10.40%/CVR 30.77%，双窗口达标；bid $0.60仅AI推荐$0.87的69%，严重低配；提至83%档位放量"
+    },
+    {
+      "id": 3,
+      "type": "bidDown",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "306524140972646",
+      "keyword": "mens knit shirt",
+      "currentBid": 0.65,
+      "newBid": 0.5,
+      "reason": "7D 23clk/$14.85/2单/ACOS 37.38%，持续超线2倍；6-11否定3词后仅改善1.59pp，bid降档止血；历史$0.65档位验证失败"
+    },
+    {
+      "id": 4,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "targetId": "270843887032480",
+      "keyword": "long sleeve polo shirts for men cotton",
+      "currentBid": 0.65,
+      "newBid": 0.78,
+      "reason": "cotton搜索词7D CVR 400%/ACOS 1.14%被广泛触发，精确词270843因bid低于AI推荐($0.78)7D仅49曝光未激活；提bid到AI推荐值激活精确保护"
+    },
+    {
+      "id": 5,
+      "type": "newKeyword",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "keyword": "coofandy polo shirts for men",
+      "matchType": "exact",
+      "newBid": 0.65,
+      "reason": "搜索词报告：1clk/2单/ACOS 2.28%，品牌词高CVR由500443广泛触发无精确保护；新建精确防被竞争者截流"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts",
+          "matchType": "phrase",
+          "applyToTargetId": "306524140972646",
+          "reason": "306524广泛触发该词5clk/$3.25/0单；500443精确已16-26单覆盖，双触发纯浪费，词组否定截断306524路径"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "polo shirts for men",
+          "matchType": "exact",
+          "reason": "500443触发3clk/$1.95/0单，30D确认废词，泛意图错配"
+        },
+        {
+          "keyword": "men's long sleeve polo shirts",
+          "matchType": "exact",
+          "reason": "500443触发3clk/$1.92/0单，词序变体无转化，精确否定止血$1.92/7D"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 2,
+    "budgetAdjust": 1,
+    "pause": 0,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 7
+  }
+}
