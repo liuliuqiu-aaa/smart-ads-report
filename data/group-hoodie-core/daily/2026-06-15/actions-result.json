@@ -1,0 +1,55 @@
+{
+  "date": "2026-06-15",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-16T08:30:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeAsins": [
+        "b075jnl9t3"
+      ],
+      "reason": "COMPLEMENTS顽固ASIN第三次重新命中：6-03执行第二次否定，6-10出窗清零，本次搜索词报告7d 1clk/$0.45/0单，30d 4clk/$1.80/0单，止血$1.80/30d。与b0cgmbcgq7/b0dcjyqs74等规律一致。"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeAsins": [
+        "b0cd1n325s"
+      ],
+      "reason": "COMPLEMENTS顽固ASIN第三次重新命中：6-03执行第二次否定，6-10出窗清零，本次搜索词报告7d 1clk/$0.45/0单，止血$0.45/7d。"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeAsins": [
+        "b075jwcqsx"
+      ],
+      "reason": "COMPLEMENTS ASIN首次否定：strategy-memory无否定记录，7d 1clk/$0.45/0单，30d 2clk/$0.90/0单，连续0转化，达否定门槛，止血$0.90/30d。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 3
+  }
+}
