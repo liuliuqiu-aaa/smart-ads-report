@@ -1,0 +1,96 @@
+{
+  "date": "2026-06-15",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-16T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "92113239030243",
+      "keyword": "polo long sleeve shirts for men",
+      "currentBid": 0.55,
+      "reason": "6-13降bid$0.85→$0.55观察期到期，7D 0单/$8.31/10clk，CPC $0.83远超bid $0.55（疑bid未生效），历史明确废词确认，暂停止损",
+      "groupId": "434908423303404"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "polo long sleeve shirts for men",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "coofandy long sleeve polo",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "long sleeve collared shirts for men",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "mens sweater polo long sleeve",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "500443广泛7D触发4条废词路径共$14/0单：polo LS shirts（$5.15/0单，双触发）、coofandy LS polo（$3.00/0单，历史废词）、LS collared shirts（$2.90/0单，正装意图）、sweater polo LS（$2.95/0单，意图错配）；止血约$14/7D，ACOS从29%降至约22%",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 3,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "keyword": "long sleeve polo",
+      "matchType": "exact",
+      "newBid": 0.7,
+      "reason": "搜索词报告7D 6clk/8单/ACOS 3.86%/CVR 133%，全组最高效搜索词，由500443广泛触发，无精确保护；建精确词$0.70保护高效流量，预期7D 4-8单/ACOS<8%",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 4,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "keyword": "mens long sleeve polo shirts",
+      "matchType": "exact",
+      "newBid": 0.78,
+      "reason": "搜索词报告7D 16clk/5单/ACOS 13.0%，30D 25clk/9单/ACOS 10.5%，双周期验证由500443广泛触发；语序与500443精确词不同，是独立意图；bid $0.78约AI推荐90%档位，预期7D 3-5单/ACOS 13-15%",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 5,
+      "type": "bidUp",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "currentBid": 0.45,
+      "newBid": 0.55,
+      "reason": "6-09降bid$0.45止损节点到期（6-16核查），7D $0/0单/74曝光，止损有效但$0.45仅AI推荐$0.83的54%几乎无流量；collar广泛历史最优档$0.55已多次验证通过，否定词清洗到位，回调$0.55恢复流量",
+      "groupId": "434908423303404"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 2,
+    "newProductTarget": 0,
+    "negative": 4,
+    "total": 8
+  }
+}
