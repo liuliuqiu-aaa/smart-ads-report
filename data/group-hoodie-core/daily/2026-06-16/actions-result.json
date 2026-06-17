@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-16",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-17T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "noActionReason": "①2天内执行了3条否定（b075jnl9t3第三次/b0cd1n325s第三次/b075jwcqsx首次，观察期至6-23），不叠加操作；②KEYWORD活动暂停中，7d ACOS 31.03%超约束11pp，重启条件未达；③COMPLEMENTS bid $0.45已对齐AI推荐$0.46，竞价调整无增量；④b0d4ql1jqv新ASIN候选仅30d 1单样本不足，待二次验证；⑤放量关键路径是EIP修复（b097td3vnt/b0d4qn1fzw/b09fy9sdqq/b0fcxxb83w四条未生效，非广告操作范畴）。今日不操作是纪律而非放弃增长目标。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "pendingForNextRun": [
+    {
+      "type": "eip_manual",
+      "priority": "P0",
+      "description": "EIP核查并重建独立PRODUCT投放",
+      "targets": [
+        "b097td3vnt",
+        "b0d4qn1fzw",
+        "b09fy9sdqq",
+        "b0fcxxb83w"
+      ],
+      "note": "四条优质ASIN投放均EIP未生效，修复后预计每周+4-8单，ACOS<5%，是当前最高ROI的放量机会"
+    },
+    {
+      "type": "monitor",
+      "priority": "P1",
+      "description": "b0d4ql1jqv二次验证",
+      "note": "30d 1clk/1单/ACOS 1.80%，样本偏小，下次搜索词报告更新后评估是否新建独立PRODUCT投放$0.45"
+    },
+    {
+      "type": "monitor",
+      "priority": "P1",
+      "description": "KEYWORD重启时机监控",
+      "note": "7d ACOS需回落至≤20%才可重启，当前31.03%，预计5-7天后自然消退"
+    },
+    {
+      "type": "verify",
+      "priority": "P2",
+      "description": "6-23出窗验证",
+      "targets": [
+        "b075jnl9t3第三次否定",
+        "b0cd1n325s第三次否定",
+        "b075jwcqsx首次否定"
+      ],
+      "note": "6-23出窗后验证花费是否清零（顽固ASIN第三次，按历史规律需特别关注是否再次重新命中）"
+    }
+  ]
+}
