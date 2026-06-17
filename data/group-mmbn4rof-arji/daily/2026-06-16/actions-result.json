@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-16",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-17T08:25:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "reasoning": "今日无操作。所有主要投放在2天内均有操作处于观察期（500443广泛否定4词/467786 bidUp/92113暂停/276598新建 均为6-16执行；428767 bidUp/306524 bidDown 为6-15执行，6-18核查）。当前ACOS 28.85%超标，但止血操作已于6-16执行，需等待7D窗口滚动（预计6-19见效）。不在ACOS超标期间提预算或新增放量操作。",
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
