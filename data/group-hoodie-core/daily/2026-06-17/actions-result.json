@@ -1,0 +1,63 @@
+{
+  "date": "2026-06-17",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-18T08:03:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "keywordText": "lightweight cotton hoodies for men",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "搜索词报告6-16数据：7d 5clk/$2.25/0单，COMPLEMENTS命中的类目竞品泛词，与本品coofandy无品牌关联，历史从未转化，止血$2.25/7d"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "keywordText": "b0cgm98y12",
+          "matchType": "exact",
+          "valueType": "asin"
+        }
+      ],
+      "reason": "顽固ASIN第二次重新命中：5-28首次否定6-04出窗清零，本期搜索词报告7d 1clk/$0.45/0单、30d 2clk/$0.90/0单，COMPLEMENTS机制再命中，与b075jnl9t3/b0cd1n325s同规律，止血$0.45/7d"
+    },
+    {
+      "id": 3,
+      "type": "newProductTarget",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "asin": "b0d4ql1jqv",
+      "bid": 0.45,
+      "reason": "二次验证通过：搜索词报告6-15/6-16连续两期命中，均1clk/$0.45/1单/ACOS 1.80%，极高效ASIN，历史新建独立PRODUCT投放规律（b0dnwcwm6f/b097td3vnt同级），预计+1-2单/7d。注意：EIP生效状态需调度session核查确认"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 1,
+    "negative": 2,
+    "total": 3
+  },
+  "notes": [
+    "P0遗留：EIP核查重建 b0d4qn1fzw/b09fy9sdqq/b0fcxxb83w/b097td3vnt（6-12批次，均未生效），修复后预计+4-8单/周",
+    "KEYWORD重启监控：7d ACOS 23.31%，差3.31pp，预计2-3天内可评估重启",
+    "6-23出窗验证：b075jnl9t3/b0cd1n325s/b075jwcqsx"
+  ]
+}
