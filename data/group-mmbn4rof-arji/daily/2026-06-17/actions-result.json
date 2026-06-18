@@ -1,0 +1,99 @@
+{
+  "date": "2026-06-17",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-18T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve polo men",
+          "matchType": "phrase",
+          "reason": "7D 11clk/$8.25/0单，30D仅1单/ACOS 78%，历史确认废词，6-16否定4词时遗漏的漏网之鱼"
+        }
+      ],
+      "reason": "搜索词报告7D 11clk/$8.25/0单，500443广泛持续触发此废词路径，直接浪费止血预算，需立即阻断"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "polo long sleeve shirts for men",
+          "matchType": "phrase",
+          "reason": "7D 7clk/$5.25/0单，30D广泛通道0单，精确通道92113已暂停，该路径无价值"
+        }
+      ],
+      "reason": "搜索词报告7D 7clk/$5.25/0单，无转化废词，止血约$5/7D"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve collared shirts for men",
+          "matchType": "phrase",
+          "reason": "7D 5clk/$3.65/0单，30D 0单，正装衬衫意图错配polo产品，策略记忆废词清单已有记录"
+        }
+      ],
+      "reason": "搜索词报告7D 5clk/$3.65/0单，衬衫意图错配，止血约$3.5/7D"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "polo shirts for men long sleeve",
+          "matchType": "phrase",
+          "reason": "7D 4clk/$2.77/0单，30D 0单，短袖polo意图混入，历史确认废词"
+        }
+      ],
+      "reason": "搜索词报告7D 4clk/$2.77/0单，废词止血约$2.7/7D"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "long sleeve polo",
+          "matchType": "exact",
+          "reason": "广泛500443触发7D 9单/ACOS 4.68%，应归精确词276598（6-16新建）专属，精确否定后引导流量走精确通道"
+        }
+      ],
+      "reason": "搜索词报告广泛500443抢占精确词276598流量，精确否定后276598将独立承接此关键词高效流量（来源CVR 133%历史验证）"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 5,
+    "total": 5
+  }
+}
