@@ -1,0 +1,93 @@
+{
+  "date": "2026-06-21",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-22T08:35:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "524423812132140",
+      "keyword": "mens long sleeve polo sweater",
+      "currentBid": 0.44,
+      "newBid": 0.65,
+      "reason": "7D 3单/ACOS 0.74%/bid$0.44仅AI推荐$1.01的44%，严重低配黑马词，boost-sales目标下立即放量"
+    },
+    {
+      "id": 2,
+      "type": "pause",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "306524140972646",
+      "keyword": "mens knit shirt",
+      "currentBid": 0.5,
+      "newBid": null,
+      "reason": "6-22验证到期，7D 0单/$3.39/7clk，bid从$0.72/$0.65/$0.50三档均验证失败，历史确认结构性废词"
+    },
+    {
+      "id": 3,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "500443922336468",
+      "keyword": "long sleeve mens polo shirts",
+      "currentBid": 0.75,
+      "newBid": 0.82,
+      "reason": "7D 25单/ACOS 18.35%首次达标，废词止血成功，boost-sales放量，AI推荐$0.86提至95%扩大竞价"
+    },
+    {
+      "id": 4,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "467786693180141",
+      "keyword": "men's long sleeve collared shirts",
+      "currentBid": 0.55,
+      "newBid": 0.68,
+      "reason": "6-16回调$0.55后验证通过（7D 2单/ACOS 8.21%），AI推荐$0.88当前62%低配，提至77%恢复放量"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "sweater polo men",
+          "matchType": "negativePhrase"
+        }
+      ],
+      "reason": "搜索词报告7D $4.32/0单/6clk，由428767(collared sweater men广泛)触发，废词清单已确认，止血"
+    },
+    {
+      "id": 6,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "270843887032480",
+      "keyword": "long sleeve polo shirts for men cotton",
+      "currentBid": 0.78,
+      "newBid": null,
+      "reason": "6-22验证到期，7D 7clk/$5.46/0单，bid$0.78已到AI推荐位（$0.79）排除低配，确认0转化废词"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 3,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 6
+  }
+}
