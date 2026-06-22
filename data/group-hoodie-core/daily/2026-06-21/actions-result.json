@@ -1,0 +1,66 @@
+{
+  "date": "2026-06-21",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-22T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeType": "negativeProduct",
+      "negativeKeywords": [
+        {
+          "keyword": "b0drljp1nc",
+          "valueType": "asin"
+        }
+      ],
+      "reason": "COMPLEMENTS 顽固 ASIN 第三次重新命中：6-03 第二次否定→6-09 出窗清零确认，6-21 搜索词报告再次出现 7d 3clk/$1.35/0单，与 b075jnl9t3/b0ckywqgw2 同规律。止血 $1.35/7d。"
+    }
+  ],
+  "pendingManualActions": [
+    {
+      "id": "M1",
+      "type": "campaignStatusChange",
+      "priority": "P1",
+      "campaignId": "333903452360072",
+      "action": "enable",
+      "reason": "KEYWORD 活动重启：7d ACOS 16.61% 低于约束 20%，余量 3.39pp；6-20/6-21 连续 2 日花费接近 $0，与增长目标矛盾；最近操作 6-18 距今 4 天，数据环境稳定。重启可恢复 coofandy hoodie/mens western hoodies 等历史高效词投放。",
+      "note": "此操作超出 actions.json 当前 type 范围，由调度 session 通过 EIP API 执行"
+    },
+    {
+      "id": "M2",
+      "type": "eipRepair",
+      "priority": "P0",
+      "targets": [
+        "b0d4ql1jqv",
+        "b0d4qn1fzw",
+        "b09fy9sdqq",
+        "b0fcxxb83w",
+        "b097td3vnt"
+      ],
+      "reason": "EIP 系统性未生效，5 条独立 PRODUCT 投放均无法通过 latest.json 或搜索词报告确认生效。修复后预计每周+5-10 单，ACOS<5%，是当前最高 ROI 放量机会。"
+    },
+    {
+      "id": "M3",
+      "type": "newProductTarget",
+      "priority": "P1",
+      "target": "b0bgbvxz7n",
+      "bid": 0.45,
+      "reason": "两期连续验证：6-17（1单/ACOS 2.73%）+ 6-21（1单/ACOS 2.73%），7d 2clk/$0.90/1单，符合独立投放升级条件。待 EIP 问题修复后执行，避免重蹈未生效覆辙。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  }
+}
