@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-06-22T08:14:53.473Z",
-  "data_date": "2026-06-21",
+  "updated_at": "2026-06-23T08:21:13.153Z",
+  "data_date": "2026-06-22",
   "group": {
     "id": "group-hoodie-core",
     "name": "AMJ010095智能托管组",
@@ -9,25 +9,13 @@
   },
   "days": [
     {
-      "date": "2026-06-15",
-      "orders": 3,
-      "salesVolume": 3,
-      "spend": 6.3,
-      "sales": 82.97,
-      "acos": 7.6,
-      "impressions": 3266,
-      "clicks": 14,
-      "ctr": 0.43,
-      "cvr": 21.43
-    },
-    {
       "date": "2026-06-16",
       "orders": 0,
       "salesVolume": 0,
       "spend": 4.05,
       "sales": 0,
       "acos": 0,
-      "impressions": 4382,
+      "impressions": 4380,
       "clicks": 9,
       "ctr": 0.21,
       "cvr": 0
@@ -75,7 +63,7 @@
       "spend": 0.45,
       "sales": 0,
       "acos": 0,
-      "impressions": 546,
+      "impressions": 545,
       "clicks": 1,
       "ctr": 0.18,
       "cvr": 0
@@ -84,12 +72,24 @@
       "date": "2026-06-21",
       "orders": 0,
       "salesVolume": 0,
+      "spend": 0,
+      "sales": 0,
+      "acos": 0,
+      "impressions": 422,
+      "clicks": 0,
+      "ctr": 0,
+      "cvr": 0
+    },
+    {
+      "date": "2026-06-22",
+      "orders": 0,
+      "salesVolume": 0,
       "spend": 0.45,
       "sales": 0,
       "acos": 0,
-      "impressions": 393,
+      "impressions": 889,
       "clicks": 1,
-      "ctr": 0.25,
+      "ctr": 0.11,
       "cvr": 0
     }
   ],
@@ -99,18 +99,6 @@
       "type": "手动投放",
       "budget": 27,
       "days": [
-        {
-          "date": "2026-06-15",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 0,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-06-16",
           "orders": 0,
@@ -182,6 +170,18 @@
           "clicks": 0,
           "ctr": 0,
           "cvr": 0
+        },
+        {
+          "date": "2026-06-22",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
         }
       ]
     },
@@ -191,25 +191,13 @@
       "budget": 10,
       "days": [
         {
-          "date": "2026-06-15",
-          "orders": 3,
-          "salesVolume": 3,
-          "spend": 6.3,
-          "sales": 82.97,
-          "acos": 7.59,
-          "impressions": 3266,
-          "clicks": 14,
-          "ctr": 0.43,
-          "cvr": 21.43
-        },
-        {
           "date": "2026-06-16",
           "orders": 0,
           "salesVolume": 0,
           "spend": 4.05,
           "sales": 0,
           "acos": 0,
-          "impressions": 4382,
+          "impressions": 4380,
           "clicks": 9,
           "ctr": 0.21,
           "cvr": 0
@@ -257,7 +245,7 @@
           "spend": 0.45,
           "sales": 0,
           "acos": 0,
-          "impressions": 546,
+          "impressions": 545,
           "clicks": 1,
           "ctr": 0.18,
           "cvr": 0
@@ -266,12 +254,24 @@
           "date": "2026-06-21",
           "orders": 0,
           "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 422,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-06-22",
+          "orders": 0,
+          "salesVolume": 0,
           "spend": 0.45,
           "sales": 0,
           "acos": 0,
-          "impressions": 393,
+          "impressions": 889,
           "clicks": 1,
-          "ctr": 0.25,
+          "ctr": 0.11,
           "cvr": 0
         }
       ]
@@ -281,18 +281,6 @@
       "type": "手动投放",
       "budget": 10.8,
       "days": [
-        {
-          "date": "2026-06-15",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 0,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
         {
           "date": "2026-06-16",
           "orders": 0,
@@ -355,6 +343,18 @@
         },
         {
           "date": "2026-06-21",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-06-22",
           "orders": 0,
           "salesVolume": 0,
           "spend": 0,
@@ -373,18 +373,6 @@
       "budget": 1,
       "days": [
         {
-          "date": "2026-06-15",
-          "orders": 0,
-          "salesVolume": 0,
-          "spend": 0,
-          "sales": 0,
-          "acos": 0,
-          "impressions": 0,
-          "clicks": 0,
-          "ctr": 0,
-          "cvr": 0
-        },
-        {
           "date": "2026-06-16",
           "orders": 0,
           "salesVolume": 0,
@@ -446,6 +434,18 @@
         },
         {
           "date": "2026-06-21",
+          "orders": 0,
+          "salesVolume": 0,
+          "spend": 0,
+          "sales": 0,
+          "acos": 0,
+          "impressions": 0,
+          "clicks": 0,
+          "ctr": 0,
+          "cvr": 0
+        },
+        {
+          "date": "2026-06-22",
           "orders": 0,
           "salesVolume": 0,
           "spend": 0,

@@ -1,0 +1,36 @@
+{
+  "date": "2026-06-22",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-23T08:11:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "6-22批次（b0drljp1nc否定 + KEYWORD重启）均在2天观察期内，不叠加操作。无新止血候选达到否定门槛（b07yf4cvn2重新命中仅1clk不足，b0cjcj6wk3仅2clk/30d不足）。COMPLEMENTS竞价$0.45对齐AI推荐$0.46，历史验证降竞价无效。实质放量动作（EIP修复 + b0ff9jls3d新建投放）属人工介入范畴，委托调度session执行P0任务。",
+  "delegatedTasks": [
+    {
+      "priority": "P0",
+      "task": "核查KEYWORD活动（333903452360072）重启状态",
+      "detail": "6-22操作疑似未生效，6-22全天0花费/0曝光。立即确认EIP执行记录，若未生效重新执行重启。"
+    },
+    {
+      "priority": "P0",
+      "task": "EIP修复5条未生效PRODUCT投放",
+      "detail": "b097td3vnt（6-09）/b0d4qn1fzw（6-12）/b09fy9sdqq（6-12）/b0fcxxb83w（6-12）/b0d4ql1jqv（6-18）。在AUTO活动（510273719211911）广告组（383049740033873）下核查并重建，bid均$0.45。"
+    },
+    {
+      "priority": "P0",
+      "task": "新建 b0ff9jls3d 独立PRODUCT投放 $0.45",
+      "detail": "连续两期验证通过（7d各1单，ACOS 4.50%），符合升级条件。在AUTO活动广告组下新建，观察期至6-30。"
+    }
+  ]
+}
