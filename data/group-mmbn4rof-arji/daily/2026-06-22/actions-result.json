@@ -1,0 +1,121 @@
+{
+  "date": "2026-06-22",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-23T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "348759948425567",
+      "keyword": "men sweater",
+      "matchType": "exact",
+      "currentBid": 0.05,
+      "newBid": 0.65,
+      "reason": "7D 1单/ACOS 0.70%/CVR 50%，sweater意图高效词。bid=$0.05是历史遗留极端低价，AI推荐$0.89，当前仅5.6%严重低配，完全依赖动态加成触发。提至$0.65与524423同档位，激活正常竞价。"
+    },
+    {
+      "id": 2,
+      "type": "bidUp",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "494991829332619",
+      "keyword": "mens long sleeve polos with collar",
+      "matchType": "exact",
+      "currentBid": 0.38,
+      "newBid": 0.68,
+      "reason": "7D 4clk/$1.52/2单/ACOS 5.34%/CVR 50%，超优质词。bid=$0.38仅AI推荐$1.04的36%，严重限制曝光。提至$0.68（AI推荐65%）放量，与467786collar广泛同档。"
+    },
+    {
+      "id": 3,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "492648767398130",
+      "keyword": "men long sleeve shirt",
+      "matchType": "exact",
+      "currentBid": 0.45,
+      "reason": "7D 6clk/$2.70/0单，泛意图词。策略记忆记录同类型词mens long sleeve shirt广泛历史多轮验证全部失败已永久暂停，确认废词止血。"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "456375041368385",
+      "keyword": "long sleeve collar shirts for men",
+      "matchType": "broad",
+      "currentBid": 0.48,
+      "reason": "7D 3clk/$1.44/0单，正装衬衫意图词，策略记忆历史多次否定+暂停确认废词，止血$1.44/7D。"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "polo shirts for men long sleeve",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "搜索词报告7D $6.66/9clk/0单，30D $8.71/12clk/0单，双窗口零转化。短袖polo意图错配，由500443广泛触发，精确否定止血。"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "500443922336468",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts with collar",
+          "matchType": "exact"
+        }
+      ],
+      "reason": "搜索词报告7D $6.00/8clk/0单，collared意图对本品（无扣子款）历史确认无效，由500443广泛触发，精确否定止血。"
+    },
+    {
+      "id": 7,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "keyword": "coofandy long sleeve polo",
+      "matchType": "exact",
+      "bid": 0.75,
+      "reason": "搜索词报告7D 2clk/4单/ACOS 1.3%，品牌词极高CVR（CVR 200%）。品牌词必须精确保护，防竞品截流。注意：建立后需核查是否需在广泛词加精确否定。"
+    },
+    {
+      "id": 8,
+      "type": "newKeyword",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "keyword": "mens sweater polo long sleeve",
+      "matchType": "exact",
+      "bid": 0.65,
+      "reason": "搜索词报告7D $2.19/3clk/3单/ACOS 5.0%，30D ACOS 11.8%，双期验证。sweater族高效词家族成员（533585/524423均已验证通过），无精确保护，建立精确锁定高效流量。"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 2,
+    "budgetAdjust": 0,
+    "pause": 2,
+    "newKeyword": 2,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 8
+  }
+}
