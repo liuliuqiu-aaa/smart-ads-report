@@ -1,0 +1,112 @@
+{
+  "date": "2026-06-23",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-24T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "348759948425567",
+      "keyword": "men sweater",
+      "matchType": "exact",
+      "currentBid": 0.65,
+      "newBid": 0.45,
+      "reason": "6-23提bid $0.05→$0.65后单日即烧$40.05/62clk/5单/ACOS 51%，泛词触发大量非精准sweater意图流量，远超20%约束线，紧急降bid止血"
+    },
+    {
+      "id": 2,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "428767562688252",
+      "keyword": "collared sweater men",
+      "matchType": "broad",
+      "currentBid": 0.72,
+      "newBid": 0.55,
+      "reason": "7D 36clk/$25.01/1单/ACOS 175.63%，全组最大单一出血点，本期效率断崖（上期7D 10单/ACOS 16.05%→本期1单/175%），止血优先于观察期"
+    },
+    {
+      "id": 3,
+      "type": "budgetAdjust",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "currentBudget": 40,
+      "newBudget": 80,
+      "reason": "6-23单日花费$80.30，预算$40触顶超出100%，系统建议预算$80，活动停投导致下午高峰时段广告中断，影响销量目标"
+    },
+    {
+      "id": 4,
+      "type": "pause",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "276598471440276",
+      "keyword": "long sleeve polo",
+      "matchType": "exact",
+      "currentBid": 0.7,
+      "reason": "7D 3clk/$2.10/0单，30D 5clk/$3.50/0单，6-16新建精确词延期至6-25首评仍0单，废词确认，永久暂停"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "groupId": "529964884794759",
+      "targetId": "500443922336468",
+      "keyword": "long sleeve mens polo shirts（广泛词，对其添加词组否定）",
+      "negativeKeywords": [
+        {
+          "keyword": "mens long sleeve polo shirts with collar",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "polo shirts for men long sleeve",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "shirts for men",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "mens long sleeve shirt",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告4条废词：'mens long sleeve polo shirts with collar'(7D $6.00/0单)、'polo shirts for men long sleeve'(7D $4.64/0单)、'shirts for men'(7D $3.07/0单)、'mens long sleeve shirt'(7D $3.00/0单)，合计止血$19.71/7D，双周期确认废词"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "groupId": "434908423303404",
+      "targetId": "428767562688252",
+      "keyword": "collared sweater men（广泛词，对其添加词组否定）",
+      "negativeKeywords": [
+        {
+          "keyword": "sweater polo men",
+          "matchType": "phrase"
+        }
+      ],
+      "reason": "搜索词报告：'sweater polo men'通过428767广泛触发7D $4.06/0单 | 30D $4.78/0单，策略记忆已标注永久废词，补否定止血"
+    }
+  ],
+  "summary": {
+    "bidDown": 2,
+    "bidUp": 0,
+    "budgetAdjust": 1,
+    "pause": 1,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 6
+  }
+}
