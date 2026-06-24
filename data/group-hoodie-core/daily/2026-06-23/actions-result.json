@@ -1,0 +1,53 @@
+{
+  "date": "2026-06-23",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-24T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        {
+          "value": "b0d4qlqxtb",
+          "matchType": "TARGETING_EXPRESSION"
+        }
+      ],
+      "reason": "6-01首次否定6-08出窗清零，6-23搜索词报告再次出现（7d 1clk/$0.27/0单，30d 2clk/$0.66/0单），COMPLEMENTS顽固重新命中规律，历史30d累计0单，追加第二次否定止血$0.66/30d"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 1,
+    "total": 1
+  },
+  "delegatedToScheduler": [
+    {
+      "priority": "P0",
+      "task": "KEYWORD活动333903452360072重启确认",
+      "detail": "已连续3天paused未生效，立即人工核查并手动重启，验证：24h内曝光恢复>500次",
+      "deadline": "2026-06-24 ASAP"
+    },
+    {
+      "priority": "P0",
+      "task": "EIP修复5条独立PRODUCT投放",
+      "detail": "b0d4qn1fzw(6-12)/b09fy9sdqq(6-12)/b0fcxxb83w(6-12)/b097td3vnt(6-09)/b0d4ql1jqv(6-18) 均EIP未生效，修复后预计每周+5-10单 ACOS<5%",
+      "deadline": "2026-06-24"
+    },
+    {
+      "priority": "P0",
+      "task": "b0ff9jls3d新建独立PRODUCT投放$0.45",
+      "detail": "6-23已委托，确认EIP是否生效，观察期至6-30",
+      "deadline": "2026-06-24 确认状态"
+    }
+  ]
+}
