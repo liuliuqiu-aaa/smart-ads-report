@@ -1,0 +1,41 @@
+{
+  "date": "2026-06-24",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-25T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "decisionReason": "今日无广告侧可执行操作。①否定方面：b0fjl5xpk5仅7d 3clk/0单、b0fjl9k6r5仅1clk/0单，均未达7clk否定门槛；②新建投放方面：b0ff9jls3d/b0bgbvxz7n虽连续两期验证通过，但历史6条类似操作中5条EIP未生效，故障未修复前新建大概率失败，委托调度session在修复EIP时一并新建；③竞价方面：COMPLEMENTS $0.45历史验证降竞价无效不操作，KEYWORD全paused无法调整；④KEYWORD重启是P0紧急任务，已连续委托调度session超3天未确认执行。",
+  "pendingSchedulerTasks": [
+    {
+      "priority": "P0",
+      "task": "核查并重启KEYWORD活动333903452360072（连续3+天paused）",
+      "expectedImpact": "每天恢复3-8单机会"
+    },
+    {
+      "priority": "P0",
+      "task": "EIP修复5条未生效PRODUCT投放：b0d4ql1jqv/b0d4qn1fzw/b09fy9sdqq/b0fcxxb83w/b097td3vnt",
+      "expectedImpact": "修复后预计每周+5-10单，ACOS<5%"
+    },
+    {
+      "priority": "P0",
+      "task": "同步新建b0ff9jls3d独立PRODUCT投放 $0.45（连续两期验证通过）",
+      "expectedImpact": "预期每周加1-2单，ACOS<5%"
+    },
+    {
+      "priority": "P1",
+      "task": "新建b0bgbvxz7n独立PRODUCT投放 $0.45（30d积累验证通过）",
+      "expectedImpact": "预期每周加1单，ACOS<6%"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
