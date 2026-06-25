@@ -1,0 +1,43 @@
+{
+  "date": "2026-06-24",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-25T08:30:00+08:00",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "reasoning": {
+    "noActions": true,
+    "reasons": [
+      "428767（collared sweater men）+ 348759（men sweater）于6-24执行降bid，观察期至6-28，2天内不再操作",
+      "6-25验证节点：524423（ACOS 4.91%✅）/ 467786（ACOS 9.37%✅）/ 500443（ACOS 20.86%，微超但维持）均无需调整",
+      "整组7D ACOS 21.74%超标，不满足放量提bid条件",
+      "止血效果已显现（428767今日$1.82、348759今日ACOS 11.99%），无需追加操作",
+      "494991（7D ACOS 42.84%）已知窗口虚高，等6-26正式验证",
+      "6-23新建词（coofandy精确/sweater polo精确）需调度session核查写入状态，不计入今日actions"
+    ],
+    "nextWindows": [
+      {
+        "date": "2026-06-26",
+        "action": "494991 mens long sleeve polos with collar验证，评估是否继续放量或降bid"
+      },
+      {
+        "date": "2026-06-28",
+        "action": "428767/348759降bid验证节点，核查7D ACOS是否回落≤20%"
+      },
+      {
+        "date": "整组ACOS≤20%时",
+        "action": "524423 mens long sleeve polo sweater提bid $0.65→$0.78放量"
+      }
+    ]
+  },
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  }
+}
