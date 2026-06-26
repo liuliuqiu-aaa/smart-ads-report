@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-25",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-26T08:05:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 0,
+    "total": 0
+  },
+  "noActionReason": "所有否定候选均未达门槛（b0ckywqgw2第四次命中但本期花费仅$0.45已衰减；b0fjl5xpk5仅3clk未达5clk门槛；b0d4qlqxtb正常窗口残留）；放量操作（KEYWORD重启/EIP修复独立投放）均属P0调度session任务；COMPLEMENTS竞价提升历史验证无效且当前ACOS 53%超标；AUTO提预算会放大亏损。广告侧置信度不足，今日不操作。",
+  "delegatedTasks": [
+    {
+      "priority": "P0",
+      "type": "EIP操作",
+      "title": "KEYWORD活动333903452360072强制重启",
+      "detail": "6-22重启未生效，连续5天paused，每天损失约0.5单，立即人工核查并强制enabled",
+      "verifyBy": "重启后24h确认impressions>0"
+    },
+    {
+      "priority": "P0",
+      "type": "EIP操作",
+      "title": "修复5条EIP未生效独立PRODUCT投放",
+      "detail": "b0d4ql1jqv/b0d4qn1fzw/b09fy9sdqq/b0fcxxb83w/b097td3vnt，均bid $0.45，验证通过高效ASIN，修复后预计每周+3-8单",
+      "verifyBy": "修复后3天确认searchterm有对应ASIN记录"
+    },
+    {
+      "priority": "P1",
+      "type": "EIP操作",
+      "title": "新建b0ff9jls3d独立PRODUCT投放 $0.45",
+      "detail": "连续3期出单，7d ACOS 2.25%，30d ACOS 4.50%，已超两期验证标准，EIP修复时一并执行",
+      "verifyBy": "7-03出窗验证7d单量"
+    },
+    {
+      "priority": "P1",
+      "type": "EIP操作",
+      "title": "新建b0bgbvxz7n独立PRODUCT投放 $0.45",
+      "detail": "30d 4clk/$1.80/1单/ACOS 5.46%，连续两期验证，EIP修复时一并执行",
+      "verifyBy": "7-03出窗验证7d单量"
+    }
+  ]
+}
