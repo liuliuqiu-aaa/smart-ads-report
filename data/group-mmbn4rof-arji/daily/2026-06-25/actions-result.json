@@ -1,0 +1,143 @@
+{
+  "date": "2026-06-25",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-26T08:30:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "bidDown",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "targetId": "494991829332619",
+      "keyword": "mens long sleeve polos with collar",
+      "matchType": "broad",
+      "currentBid": 0.68,
+      "newBid": 0.45,
+      "reason": "6-26验证节点：7D ACOS 45.22%，提bid后6-23单日花费$10.68/0单，验证失败。主触发词mens long sleeve polo 7D ACOS 39%，效率远低于预期5.34%。回退至过渡档$0.45",
+      "groupId": "434908423303404"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens quarter zip sweater",
+          "matchType": "phrase"
+        }
+      ],
+      "targetingKeyword": "men sweater",
+      "targetId": "348759948425567",
+      "reason": "7D $13.04/22clk/0单，全组最大废词路径。men sweater广泛触发quarter zip意图，30D无单。词组否定堵住变体",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P0",
+      "campaignId": "550212093559706",
+      "adGroupId": "434908423303404",
+      "negativeKeywords": [
+        {
+          "keyword": "sweater polo men",
+          "matchType": "phrase"
+        }
+      ],
+      "targetingKeyword": "collared sweater men",
+      "targetId": "428767562688252",
+      "reason": "7D $5.49/8clk/0单，历史多次否定仍漏触发，sweater polo men词组否定覆盖排列变体",
+      "groupId": "434908423303404"
+    },
+    {
+      "id": 4,
+      "type": "bidUp",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "524423812132140",
+      "keyword": "mens long sleeve polo sweater",
+      "matchType": "broad",
+      "currentBid": 0.65,
+      "newBid": 0.78,
+      "reason": "整组7D ACOS 19.4%首次达标触发策略记忆预案。524423 ACOS 8.3%/CVR 26.67%全组最高效词，AI推荐$0.99，$0.78为79%合理放量档。6-22验证大成功后等待执行",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "mens cardigan sweater",
+          "matchType": "phrase"
+        },
+        {
+          "keyword": "suter para hombre",
+          "matchType": "phrase"
+        }
+      ],
+      "targetingKeyword": "men sweater",
+      "targetId": "348759948425567",
+      "reason": "mens cardigan sweater 7D $4.15/7clk/0单（开衫意图错配）；suter para hombre 7D $3.05/5clk/0单（西语sweater意图错配），均为men sweater广泛触发废词路径",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 6,
+      "type": "negative",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "negativeKeywords": [
+        {
+          "keyword": "pullover polo shirt men long sleeve",
+          "matchType": "phrase"
+        }
+      ],
+      "targetingKeyword": "long sleeve mens polo shirts",
+      "targetId": "500443922336468",
+      "reason": "7D $3.28/4clk/0单，pullover意图错配polo shirt产品，30D无单，对500443广泛词组否定",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 7,
+      "type": "pause",
+      "priority": "P2",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "targetId": "270843887032480",
+      "keyword": "long sleeve polo shirts for men cotton",
+      "matchType": "exact",
+      "reason": "策略记忆6-22验证失败确认废词：7D $3.12/4clk/0单，bid $0.78已在AI推荐80%位排除低配，结构性0转化废词。今日确认仍active，立即暂停",
+      "groupId": "529964884794759"
+    },
+    {
+      "id": 8,
+      "type": "newKeyword",
+      "priority": "P3",
+      "campaignId": "415285089257642",
+      "adGroupId": "529964884794759",
+      "keyword": "full sleeve polo shirts for men",
+      "matchType": "exact",
+      "bid": 0.75,
+      "reason": "搜索词报告7D 4单/ACOS 0.34%/CVR极高（来源500443广泛），30D同，全组最优质搜索词信号，无精确保护需新建",
+      "groupId": "529964884794759"
+    }
+  ],
+  "summary": {
+    "bidDown": 1,
+    "bidUp": 1,
+    "budgetAdjust": 0,
+    "pause": 1,
+    "newKeyword": 1,
+    "newProductTarget": 0,
+    "negative": 3,
+    "total": 7
+  }
+}
