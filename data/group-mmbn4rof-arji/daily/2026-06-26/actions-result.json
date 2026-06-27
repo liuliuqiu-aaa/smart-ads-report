@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-26",
+  "groupId": "group-mmbn4rof-arji",
+  "generatedAt": "2026-06-27T08:35:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "newKeyword",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "keyword": "full sleeve polo shirts for men",
+      "matchType": "exact",
+      "newBid": 0.75,
+      "reason": "搜索词7D 2clk/$1.57/4单/$465.75/ACOS 0.34%，全组信号级词；6-26已新建但latest.json确认未写入，补执行",
+      "observationEndDate": "2026-07-03"
+    },
+    {
+      "id": 2,
+      "type": "newKeyword",
+      "priority": "P0",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "keyword": "mens long sleeve collared shirts",
+      "matchType": "exact",
+      "newBid": 0.65,
+      "reason": "搜索词7D 2clk/$1.57/6单/$88.74/ACOS 1.77%，全组近期最优质搜索词之一，无精确保护",
+      "observationEndDate": "2026-07-03"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        "mens quarter zip sweater"
+      ],
+      "negativeMatchType": "phrase",
+      "targetIds": [
+        "348759948425567",
+        "524423812132140"
+      ],
+      "reason": "7D 合计$16.22/0单，拉链衫意图结构性错配本品，6-26已否定但latest.json无否定词记录，补执行"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "415285089257642",
+      "groupId": "529964884794759",
+      "negativeKeywords": [
+        "mens long sleeve polo shirts with collar"
+      ],
+      "negativeMatchType": "phrase",
+      "targetIds": [
+        "500443922336468"
+      ],
+      "reason": "7D 15clk/$11.88/0单，via 500443广泛，历史多次精确否定仍漏，词组否定覆盖变体"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 2,
+    "newProductTarget": 0,
+    "negative": 2,
+    "total": 4
+  }
+}
