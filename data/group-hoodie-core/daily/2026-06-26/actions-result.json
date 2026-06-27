@@ -1,0 +1,85 @@
+{
+  "date": "2026-06-26",
+  "groupId": "group-hoodie-core",
+  "generatedAt": "2026-06-27T08:10:00.000Z",
+  "macroGoal": "boost-sales",
+  "effectiveAcosConstraint": 20,
+  "actions": [
+    {
+      "id": 1,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0fjl5xpk5"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 3clk/$1.35/0单，7d 2clk/$0.90/0单，首次否定，COMPLEMENTS命中无转化记录，止血$1.35/30d"
+    },
+    {
+      "id": 2,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0fg6qs768"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 3clk/$1.35/0单，首次否定，COMPLEMENTS命中无转化记录，止血$1.35/30d"
+    },
+    {
+      "id": 3,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0cjcj6wk3"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 3clk/$1.35/0单，首次否定，COMPLEMENTS命中无转化记录，止血$1.35/30d"
+    },
+    {
+      "id": 4,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0dc43jy4r"
+      ],
+      "negativeType": "ASIN",
+      "reason": "30d 3clk/$1.32/0单，7d 2clk/$0.90/0单，首次否定，活跃花费止血，止血$1.35/30d"
+    },
+    {
+      "id": 5,
+      "type": "negative",
+      "priority": "P1",
+      "campaignId": "510273719211911",
+      "groupId": "383049740033873",
+      "negativeKeywords": [
+        "b0ckywqgw2"
+      ],
+      "negativeType": "ASIN",
+      "reason": "第四次否定。历史三次否定均清零后COMPLEMENTS顽固重新命中，6-26 7d $0.45/1clk/0单，花费已从历史峰值$3.60衰减至$0.45，持续追加止血"
+    }
+  ],
+  "summary": {
+    "bidDown": 0,
+    "bidUp": 0,
+    "budgetAdjust": 0,
+    "pause": 0,
+    "newKeyword": 0,
+    "newProductTarget": 0,
+    "negative": 5,
+    "total": 5
+  },
+  "p0CommitToScheduler": [
+    "KEYWORD活动333903452360072 人工强制重启（第10天paused，日损3-8单）",
+    "EIP新建 b0ff9jls3d 独立PRODUCT投放 $0.45（三期验证ACOS 2.25%，P0最高优先）",
+    "EIP修复/重建5条历史未生效投放：b0d4ql1jqv/b0d4qn1fzw/b09fy9sdqq/b0fcxxb83w/b097td3vnt",
+    "EIP新建 b0bgbvxz7n 独立PRODUCT投放 $0.45（两期验证ACOS 2.73%，P1）"
+  ]
+}
